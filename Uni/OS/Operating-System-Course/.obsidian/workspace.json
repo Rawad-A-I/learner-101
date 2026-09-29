@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "ded906a729ea0ed5",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1044b5d530cd844",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45fd02cb04d22aee",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7ac0246c68808576",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf5cbb4545d28bab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "251aa94e7819b986",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "07db1eab1d07aa8d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5a6e4ec0bcefadf9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b8a15c5a42e1b3cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c9b02b9af4b2c90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1cf2d9baafb3830e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Chapter 1 - Computer System Overview/nodes/Processor Evolution.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "58b34f2a425477f9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Chapter 1 - Computer System Overview/nodes/Processor Evolution.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "0403583bffff516c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "70d330474a044886",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "4f2d82610acf5375",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Chapter 1 - Computer System Overview/nodes/Processor Evolution.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "d9d05b275b515c96",
+            "type": "leaf",
+            "state": {
+              "type": "agent-client-chat-view",
+              "state": {
+                "initialAgentId": "claude-code-acp"
+              },
+              "icon": "bot-message-square",
+              "title": "New session"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "agent-client:Open agent client": false
+    }
+  },
+  "active": "45fd02cb04d22aee",
+  "lastOpenFiles": [
+    "Chapter 1 - Computer System Overview/nodes/Programmed IO.md.tmp.12504.58fd3f21da14",
+    "Chapter 1 - Computer System Overview/nodes/Cache Design Elements.md.tmp.12504.71769951afff",
+    "Chapter 1 - Computer System Overview/nodes/Instruction Cycle Fetch and Execute.md.tmp.12504.e4ede75a882f",
+    "Chapter 1 - Computer System Overview/sessions/Session-1.md",
+    "Chapter 1 - Computer System Overview/_exam_brief.md",
+    "Chapter 1 - Computer System Overview/_exam_brief.md.tmp.12504.e308a098eb1a",
+    "Chapter 1 - Computer System Overview/_map.md.tmp.12504.d25bf85662ef",
+    "Chapter 1 - Computer System Overview/nodes/Memory Hierarchy Design Tradeoffs.md.tmp.12504.24cd83893f45",
+    "Chapter 1 - Computer System Overview/_map.md.tmp.20736.6cea72f89908",
+    "Chapter 1 - Computer System Overview/nodes/sedFatfkD",
+    "Chapter 1 - Computer System Overview/nodes/sedn7OqOa",
+    "Chapter 1 - Computer System Overview/nodes/sedD40wuM",
+    "Chapter 1 - Computer System Overview/nodes/sedTiWUo6",
+    "Chapter 1 - Computer System Overview/sessions/Exam-1.md",
+    "Chapter 1 - Computer System Overview/_brief.md",
+    "Chapter 1 - Computer System Overview/_map.md",
+    "Chapter 1 - Computer System Overview/nodes/Multicore Computers.md",
+    "Chapter 1 - Computer System Overview/nodes/Symmetric Multiprocessors.md",
+    "Chapter 1 - Computer System Overview/nodes/Direct Memory Access.md",
+    "Chapter 1 - Computer System Overview/nodes/Interrupt-Driven IO.md",
+    "Chapter 1 - Computer System Overview/nodes/Programmed IO.md",
+    "Chapter 1 - Computer System Overview/nodes/Cache Design Elements.md",
+    "Chapter 1 - Computer System Overview/nodes/Cache Memory Principles.md",
+    "Chapter 1 - Computer System Overview/nodes/Secondary Memory.md",
+    "Chapter 1 - Computer System Overview/nodes/Locality of Reference.md",
+    "Chapter 1 - Computer System Overview/nodes/Memory Hierarchy Design Tradeoffs.md",
+    "Chapter 1 - Computer System Overview/nodes/Multiple Interrupts.md",
+    "Chapter 1 - Computer System Overview/nodes/Interrupt Processing Mechanics.md",
+    "Chapter 1 - Computer System Overview/nodes/Interrupt Timing and Processor Utilization.md",
+    "Chapter 1 - Computer System Overview/nodes/Instruction Cycle with Interrupts.md",
+    "Chapter 1 - Computer System Overview/nodes/Interrupt Flow of Control.md",
+    "Chapter 1 - Computer System Overview/nodes/Purpose and Classes of Interrupts.md",
+    "Chapter 1 - Computer System Overview/nodes/Instruction Cycle Worked Example.md",
+    "Chapter 1 - Computer System Overview/nodes/Instruction Cycle Fetch and Execute.md",
+    "Chapter 1 - Computer System Overview/nodes/DSPs and System on a Chip.md",
+    "Chapter 1 - Computer System Overview/nodes/Microprocessors and GPUs.md"
+  ]
+}

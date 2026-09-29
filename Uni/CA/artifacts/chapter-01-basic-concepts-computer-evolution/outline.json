@@ -1,0 +1,174 @@
+[
+  {
+    "slide": 1,
+    "heading": "Basic Concepts & Computer Evolution"
+  },
+  {
+    "slide": 2,
+    "heading": "Architecture and Organization"
+  },
+  {
+    "slide": 3,
+    "heading": "Architecture and Organization"
+  },
+  {
+    "slide": 4,
+    "heading": "Instruction Set Architecture (ISA)"
+  },
+  {
+    "slide": 5,
+    "heading": "Structure and Function"
+  },
+  {
+    "slide": 6,
+    "heading": "Function"
+  },
+  {
+    "slide": 7,
+    "heading": "Structure"
+  },
+  {
+    "slide": 8,
+    "heading": "Computer Components"
+  },
+  {
+    "slide": 9,
+    "heading": "CPU Components"
+  },
+  {
+    "slide": 10,
+    "heading": "Multicore Computer Structure"
+  },
+  {
+    "slide": 11,
+    "heading": "ENIAC - Background"
+  },
+  {
+    "slide": 12,
+    "heading": "Two early programmers (Gloria Ruth Gordon [Bolotsky] and Esther Gerston) at work on the ENIAC"
+  },
+  {
+    "slide": 13,
+    "heading": "ENIAC - Details"
+  },
+  {
+    "slide": 14,
+    "heading": "Von Neumann / Turing"
+  },
+  {
+    "slide": 15,
+    "heading": "IAS - Details"
+  },
+  {
+    "slide": 16,
+    "heading": "IAS - Details"
+  },
+  {
+    "slide": 17,
+    "heading": "Example:"
+  },
+  {
+    "slide": 18,
+    "heading": "IAS"
+  },
+  {
+    "slide": 19,
+    "heading": "Problem 1.2"
+  },
+  {
+    "slide": 20,
+    "heading": "Solution"
+  },
+  {
+    "slide": 21,
+    "heading": "Problem 1.4 (from previous book edition)"
+  },
+  {
+    "slide": 22,
+    "heading": "Solution"
+  },
+  {
+    "slide": 23,
+    "heading": "Commercial Computers"
+  },
+  {
+    "slide": 24,
+    "heading": "IBM"
+  },
+  {
+    "slide": 25,
+    "heading": "Transistors"
+  },
+  {
+    "slide": 26,
+    "heading": "Transistor Based Computers"
+  },
+  {
+    "slide": 27,
+    "heading": "Microelectronics"
+  },
+  {
+    "slide": 28,
+    "heading": "Generations of Computers"
+  },
+  {
+    "slide": 29,
+    "heading": "Moore's Law"
+  },
+  {
+    "slide": 30,
+    "heading": "Slide 30 (figure)"
+  },
+  {
+    "slide": 31,
+    "heading": "IBM 360 Series"
+  },
+  {
+    "slide": 32,
+    "heading": "DEC PDP-8"
+  },
+  {
+    "slide": 33,
+    "heading": "Semiconductor Memory"
+  },
+  {
+    "slide": 34,
+    "heading": "Intel"
+  },
+  {
+    "slide": 35,
+    "heading": "CISC vs RISC"
+  },
+  {
+    "slide": 36,
+    "heading": "Evolution of the Intel x86 Architecture"
+  },
+  {
+    "slide": 37,
+    "heading": "Evolution of the Intel x86 Architecture"
+  },
+  {
+    "slide": 38,
+    "heading": "Evolution of the Intel x86 Architecture"
+  },
+  {
+    "slide": 39,
+    "heading": "Embedded Systems"
+  },
+  {
+    "slide": 40,
+    "heading": "Possible Organization of an Embedded System"
+  },
+  {
+    "slide": 41,
+    "heading": "Microprocessors vs Microcontrollers"
+  },
+  {
+    "slide": 42,
+    "heading": "ARM Architecture"
+  },
+  {
+    "slide": 43,
+    "heading": "Cloud Computing"
+  }
+]

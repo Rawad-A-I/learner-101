@@ -1,0 +1,154 @@
+[
+  {
+    "slide": 1,
+    "heading": "Performance Issues"
+  },
+  {
+    "slide": 2,
+    "heading": "Designing for Performance"
+  },
+  {
+    "slide": 3,
+    "heading": "Some of the Applications Made Possible"
+  },
+  {
+    "slide": 4,
+    "heading": "Speeding it up"
+  },
+  {
+    "slide": 5,
+    "heading": "Performance Mismatch"
+  },
+  {
+    "slide": 6,
+    "heading": "Solutions"
+  },
+  {
+    "slide": 7,
+    "heading": "Improvements in Chip Organization and Architecture"
+  },
+  {
+    "slide": 8,
+    "heading": "Problems with Clock Speed and Logic Density"
+  },
+  {
+    "slide": 9,
+    "heading": "Multicore, MICs, GPGPUs"
+  },
+  {
+    "slide": 10,
+    "heading": "Performance"
+  },
+  {
+    "slide": 11,
+    "heading": "Performance and Execution Time"
+  },
+  {
+    "slide": 12,
+    "heading": "Performance and Execution Time"
+  },
+  {
+    "slide": 13,
+    "heading": "Relative Performance"
+  },
+  {
+    "slide": 14,
+    "heading": "Measuring Performance"
+  },
+  {
+    "slide": 15,
+    "heading": "Clock Cycles"
+  },
+  {
+    "slide": 16,
+    "heading": "CPU Time"
+  },
+  {
+    "slide": 17,
+    "heading": "Improving Performance"
+  },
+  {
+    "slide": 18,
+    "heading": "Solution"
+  },
+  {
+    "slide": 19,
+    "heading": "Instruction Performance"
+  },
+  {
+    "slide": 20,
+    "heading": "Example"
+  },
+  {
+    "slide": 21,
+    "heading": "Solution"
+  },
+  {
+    "slide": 22,
+    "heading": "CPU Performance Equation"
+  },
+  {
+    "slide": 23,
+    "heading": "CPI in More Detail"
+  },
+  {
+    "slide": 24,
+    "heading": "Comparing Code Segments"
+  },
+  {
+    "slide": 25,
+    "heading": "Solution"
+  },
+  {
+    "slide": 26,
+    "heading": "The Big Picture"
+  },
+  {
+    "slide": 27,
+    "heading": "MIPS and MFLOPs"
+  },
+  {
+    "slide": 28,
+    "heading": "MIPS Example"
+  },
+  {
+    "slide": 29,
+    "heading": "Amdahl's Law"
+  },
+  {
+    "slide": 30,
+    "heading": "Amdahl's Law"
+  },
+  {
+    "slide": 31,
+    "heading": "Amdahl's Law - Example"
+  },
+  {
+    "slide": 32,
+    "heading": "Amdahl's Law - Speedup"
+  },
+  {
+    "slide": 33,
+    "heading": "Speedup Example"
+  },
+  {
+    "slide": 34,
+    "heading": "Benchmarks"
+  },
+  {
+    "slide": 35,
+    "heading": "System Performance Evaluation Corporation (SPEC)"
+  },
+  {
+    "slide": 36,
+    "heading": "SPEC CPU2017 Benchmarks"
+  },
+  {
+    "slide": 37,
+    "heading": "SPEC CPU2017 Integer Benchmarks"
+  },
+  {
+    "slide": 38,
+    "heading": "SPEC CPU2017 Floating Point Benchmarks"
+  }
+]

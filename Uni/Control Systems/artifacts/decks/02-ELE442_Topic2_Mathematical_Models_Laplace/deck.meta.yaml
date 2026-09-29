@@ -1,0 +1,21 @@
+topic: 2
+slug: "02-ELE442_Topic2_Mathematical_Models_Laplace"
+title: "Mathematical Models & Laplace Transform"
+source_file: "ELE442_Topic2_Mathematical_Models_Laplace_Transform (2).pptx"
+artifact_path: "decks/02-ELE442_Topic2_Mathematical_Models_Laplace"
+source_sha256: "8385093946447499bcca59d4b508657d51cfeea7645510678df0bd8d764b42bc"
+source_bytes: 4688796
+slide_count: 56
+notes_count: 11
+media_count: 115
+unique_media_files: 104
+extracted_at: "2026-09-19T18:24:32.289954+00:00"
+completeness:
+  empty_text_slides:
+
+  figure_only_slides:
+
+  notes_without_slide_match:
+
+  slides_with_notes_count: 11
+  slides_without_notes_count: 45

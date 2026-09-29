@@ -1,0 +1,184 @@
+{
+  "presetAgents": {
+    "claude-code-acp": {
+      "id": "claude-code-acp",
+      "displayName": "Claude Code",
+      "apiKeySecretId": "",
+      "command": "C:\\Users\\rawad\\AppData\\Roaming\\npm\\claude-agent-acp",
+      "args": [],
+      "env": [],
+      "enabled": true
+    },
+    "codex-acp": {
+      "id": "codex-acp",
+      "displayName": "Codex",
+      "apiKeySecretId": "",
+      "command": "codex-acp",
+      "args": [],
+      "env": [],
+      "enabled": true
+    },
+    "gemini-cli": {
+      "id": "gemini-cli",
+      "displayName": "Gemini CLI",
+      "apiKeySecretId": "",
+      "command": "C:\\Users\\rawad\\AppData\\Roaming\\npm\\gemini",
+      "args": [
+        "--experimental-acp"
+      ],
+      "env": [],
+      "enabled": true
+    },
+    "mistral-vibe": {
+      "id": "mistral-vibe",
+      "displayName": "Mistral Vibe",
+      "apiKeySecretId": "",
+      "command": "vibe-acp",
+      "args": [],
+      "env": [],
+      "enabled": true
+    },
+    "opencode": {
+      "id": "opencode",
+      "displayName": "OpenCode",
+      "apiKeySecretId": "",
+      "command": "opencode",
+      "args": [
+        "acp"
+      ],
+      "env": [],
+      "enabled": true
+    },
+    "kiro-cli": {
+      "id": "kiro-cli",
+      "displayName": "Kiro",
+      "apiKeySecretId": "",
+      "command": "kiro-cli",
+      "args": [
+        "acp"
+      ],
+      "env": [],
+      "enabled": true
+    },
+    "hermes-agent": {
+      "id": "hermes-agent",
+      "displayName": "Hermes Agent",
+      "apiKeySecretId": "",
+      "command": "hermes",
+      "args": [
+        "acp"
+      ],
+      "env": [],
+      "enabled": true
+    },
+    "pi-acp": {
+      "id": "pi-acp",
+      "displayName": "Pi",
+      "apiKeySecretId": "",
+      "command": "pi-acp",
+      "args": [],
+      "env": [],
+      "enabled": true
+    },
+    "grok-build": {
+      "id": "grok-build",
+      "displayName": "Grok Build",
+      "apiKeySecretId": "",
+      "command": "grok",
+      "args": [
+        "agent",
+        "stdio"
+      ],
+      "env": [],
+      "enabled": true
+    }
+  },
+  "customAgents": [],
+  "defaultAgentId": "claude-code-acp",
+  "autoAllowPermissions": true,
+  "autoMentionActiveNote": true,
+  "expandWikilinkContext": true,
+  "enableSystemNotifications": true,
+  "promptInjection": {
+    "enabled": true,
+    "latex": true,
+    "wikiLinks": true,
+    "tables": true
+  },
+  "debugMode": false,
+  "nodePath": "",
+  "exportSettings": {
+    "defaultFolder": "Agent Client",
+    "filenameTemplate": "agent_client_{date}_{time}",
+    "autoExportOnNewChat": false,
+    "autoExportOnCloseChat": false,
+    "openFileAfterExport": true,
+    "includeImages": true,
+    "imageLocation": "obsidian",
+    "imageCustomFolder": "Agent Client",
+    "includeAudios": true,
+    "audioLocation": "obsidian",
+    "audioCustomFolder": "Agent Client",
+    "frontmatterTag": "agent-client"
+  },
+  "windowsWslMode": false,
+  "sendMessageShortcut": "enter",
+  "chatViewLocation": "right-tab",
+  "displaySettings": {
+    "autoCollapseDiffs": false,
+    "diffCollapseThreshold": 10,
+    "maxNoteLength": 10000,
+    "maxSelectionLength": 10000,
+    "showEmojis": true,
+    "fontSize": null
+  },
+  "savedSessions": [
+    {
+      "sessionId": "e3db0add-d1aa-4460-85ea-ee0f24b9a1c1",
+      "agentId": "claude-code-acp",
+      "cwd": "C:\\Users\\rawad\\Desktop\\Learning\\Learning Hub\\Uni\\CA\\Computer Architecture",
+      "title": "please create a graph from each chapter's mind-map",
+      "createdAt": "2026-09-26T11:51:22.858Z",
+      "updatedAt": "2026-09-26T12:19:36.616Z"
+    },
+    {
+      "sessionId": "fb025906-9ae5-4589-8945-e48994bd3ad6",
+      "agentId": "claude-code-acp",
+      "cwd": "C:\\Users\\rawad\\Desktop\\Learning\\Learning Hub\\Uni\\CA\\Computer Architecture",
+      "title": "please move these into the vault",
+      "createdAt": "2026-09-26T11:35:17.447Z",
+      "updatedAt": "2026-09-26T11:49:28.323Z"
+    },
+    {
+      "sessionId": "2aae848e-4919-4595-9082-080c3247590e",
+      "agentId": "claude-code-acp",
+      "cwd": "C:\\Users\\rawad\\Desktop\\Learning\\Learning Hub\\Uni\\CA\\Computer Architecture",
+      "title": "/mcp",
+      "createdAt": "2026-09-26T11:21:23.805Z",
+      "updatedAt": "2026-09-26T11:33:04.747Z"
+    },
+    {
+      "sessionId": "7f263372-3d91-4325-b762-c317b248e372",
+      "agentId": "claude-code-acp",
+      "cwd": "C:\\Users\\rawad\\Desktop\\Learning\\Learning Hub\\Uni\\CA\\Computer Architecture",
+      "title": "Hi",
+      "createdAt": "2026-09-26T11:00:47.092Z",
+      "updatedAt": "2026-09-26T11:05:40.010Z"
+    }
+  ],
+  "lastUsedModels": {},
+  "lastUsedModes": {},
+  "lastUsedConfigOptions": {},
+  "sessionHistoryFilters": {
+    "currentVaultOnly": true,
+    "hideNonLocal": false
+  },
+  "enableFloatingChat": false,
+  "floatingButtonImage": "",
+  "floatingWindowSize": {
+    "width": 400,
+    "height": 500
+  },
+  "floatingWindowPosition": null,
+  "floatingButtonPosition": null
+}

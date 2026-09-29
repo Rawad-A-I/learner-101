@@ -1,0 +1,14 @@
+{"concept": "Laplace transform", "slide_ids": ["t01-s013"], "count": 1}
+{"concept": "actuator", "slide_ids": ["t01-s006"], "count": 1}
+{"concept": "block diagram", "slide_ids": ["t01-s013"], "count": 1}
+{"concept": "closed-loop control", "slide_ids": ["t01-s005", "t01-s009", "t01-s010", "t01-s011"], "count": 4}
+{"concept": "controller", "slide_ids": ["t01-s009", "t01-s012", "t01-s013"], "count": 3}
+{"concept": "electrical systems", "slide_ids": ["t01-s013"], "count": 1}
+{"concept": "error signal", "slide_ids": ["t01-s009"], "count": 1}
+{"concept": "feedback", "slide_ids": ["t01-s006", "t01-s010"], "count": 2}
+{"concept": "mechanical systems", "slide_ids": ["t01-s013"], "count": 1}
+{"concept": "open-loop control", "slide_ids": ["t01-s005", "t01-s006", "t01-s007", "t01-s008"], "count": 4}
+{"concept": "plant/process", "slide_ids": ["t01-s002", "t01-s007", "t01-s012", "t01-s013"], "count": 4}
+{"concept": "stability", "slide_ids": ["t01-s013"], "count": 1}
+{"concept": "step response", "slide_ids": ["t01-s013"], "count": 1}
+{"concept": "transfer function", "slide_ids": ["t01-s013"], "count": 1}

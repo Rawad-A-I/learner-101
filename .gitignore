@@ -1,0 +1,10 @@
+.env
+state/
+logs/
+dist/
+chapters/*
+!chapters/.gitkeep
+__pycache__/
+.openvisio/
+.benchmarks/
+.pytest_cache/

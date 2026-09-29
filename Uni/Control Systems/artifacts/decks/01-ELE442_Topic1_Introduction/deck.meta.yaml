@@ -1,0 +1,25 @@
+topic: 1
+slug: "01-ELE442_Topic1_Introduction"
+title: "Introduction"
+source_file: "ELE442_Topic1_Introduction.pptx"
+artifact_path: "decks/01-ELE442_Topic1_Introduction"
+source_sha256: "c9bb13db91e04bb5fbebf8761ce62f877fb87af8c5ba1512d818dc93da5d812e"
+source_bytes: 3242110
+slide_count: 13
+notes_count: 1
+media_count: 13
+unique_media_files: 9
+extracted_at: "2026-09-19T18:24:32.054040+00:00"
+visual_mind:
+  - name: "Topic 1 diagram"
+    path: "visual-mind/Topic 1 diagram.json"
+    format: visual_mind_agent_draw
+completeness:
+  empty_text_slides:
+
+  figure_only_slides:
+
+  notes_without_slide_match:
+
+  slides_with_notes_count: 1
+  slides_without_notes_count: 12

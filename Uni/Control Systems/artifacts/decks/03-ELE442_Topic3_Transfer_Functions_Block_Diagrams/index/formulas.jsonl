@@ -1,0 +1,592 @@
+{"id": "f-t03-s002-0001", "expression": "𝑇𝐹=𝐺(𝑠)=(ℒ(𝑜𝑢𝑡𝑝𝑢𝑡))/(ℒ(𝑖𝑛𝑝𝑢𝑡)) 𝐼𝐶=0", "slide_id": "t03-s002", "topic": 3, "title_context": "𝑇𝐹=𝐺(𝑠)=(ℒ(𝑜𝑢𝑡𝑝𝑢𝑡))/(ℒ(𝑖𝑛𝑝𝑢𝑡))          𝐼𝐶=0 𝑇𝐹=𝐺(𝑠)=(ℒ(𝑜𝑢𝑡𝑝𝑢𝑡))/(ℒ(𝑖𝑛𝑝𝑢𝑡))          𝐼𝐶=0"}
+{"id": "f-t03-s002-0002", "expression": "𝑀𝑠^{2}𝑌(𝑠)+𝑏𝑠𝑌(𝑠)+𝑘𝑌(𝑠)=𝑅(𝑠)", "slide_id": "t03-s002", "topic": 3, "title_context": "𝑇𝐹=𝐺(𝑠)=(ℒ(𝑜𝑢𝑡𝑝𝑢𝑡))/(ℒ(𝑖𝑛𝑝𝑢𝑡))          𝐼𝐶=0 𝑇𝐹=𝐺(𝑠)=(ℒ(𝑜𝑢𝑡𝑝𝑢𝑡))/(ℒ(𝑖𝑛𝑝𝑢𝑡))          𝐼𝐶=0"}
+{"id": "f-t03-s002-0003", "expression": "𝐺(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(1)/(𝑀𝑠^{2}+𝑏𝑠+𝑘)", "slide_id": "t03-s002", "topic": 3, "title_context": "𝑇𝐹=𝐺(𝑠)=(ℒ(𝑜𝑢𝑡𝑝𝑢𝑡))/(ℒ(𝑖𝑛𝑝𝑢𝑡))          𝐼𝐶=0 𝑇𝐹=𝐺(𝑠)=(ℒ(𝑜𝑢𝑡𝑝𝑢𝑡))/(ℒ(𝑖𝑛𝑝𝑢𝑡))          𝐼𝐶=0"}
+{"id": "f-t03-s002-0004", "expression": "𝑇𝐹=𝐺(𝑠)=(ℒ(𝑜𝑢𝑡𝑝𝑢𝑡))/(ℒ(𝑖𝑛𝑝𝑢𝑡))          𝐼𝐶=0 𝑇𝐹=𝐺(𝑠)=(ℒ(𝑜𝑢𝑡𝑝𝑢𝑡))/(ℒ(𝑖𝑛𝑝𝑢𝑡))          𝐼𝐶=0", "slide_id": "t03-s002", "topic": 3, "title_context": "𝑇𝐹=𝐺(𝑠)=(ℒ(𝑜𝑢𝑡𝑝𝑢𝑡))/(ℒ(𝑖𝑛𝑝𝑢𝑡))          𝐼𝐶=0 𝑇𝐹=𝐺(𝑠)=(ℒ(𝑜𝑢𝑡𝑝𝑢𝑡))/(ℒ(𝑖𝑛𝑝𝑢𝑡))          𝐼𝐶=0"}
+{"id": "f-t03-s002-0005", "expression": "𝑀𝑠^{2}𝑌(𝑠)+𝑏𝑠𝑌(𝑠)+𝑘𝑌(𝑠)=𝑅(𝑠)𝑀𝑠^{2}𝑌(𝑠)+𝑏𝑠𝑌(𝑠)+𝑘𝑌(𝑠)=𝑅(𝑠)", "slide_id": "t03-s002", "topic": 3, "title_context": "𝑇𝐹=𝐺(𝑠)=(ℒ(𝑜𝑢𝑡𝑝𝑢𝑡))/(ℒ(𝑖𝑛𝑝𝑢𝑡))          𝐼𝐶=0 𝑇𝐹=𝐺(𝑠)=(ℒ(𝑜𝑢𝑡𝑝𝑢𝑡))/(ℒ(𝑖𝑛𝑝𝑢𝑡))          𝐼𝐶=0"}
+{"id": "f-t03-s002-0006", "expression": "is 𝐺(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(1)/(𝑀𝑠^{2}+𝑏𝑠+𝑘)", "slide_id": "t03-s002", "topic": 3, "title_context": "𝑇𝐹=𝐺(𝑠)=(ℒ(𝑜𝑢𝑡𝑝𝑢𝑡))/(ℒ(𝑖𝑛𝑝𝑢𝑡))          𝐼𝐶=0 𝑇𝐹=𝐺(𝑠)=(ℒ(𝑜𝑢𝑡𝑝𝑢𝑡))/(ℒ(𝑖𝑛𝑝𝑢𝑡))          𝐼𝐶=0"}
+{"id": "f-t03-s003-0007", "expression": "𝐺(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))", "slide_id": "t03-s003", "topic": 3, "title_context": "Transfer Function"}
+{"id": "f-t03-s003-0008", "expression": "𝐺(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))𝐺(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))", "slide_id": "t03-s003", "topic": 3, "title_context": "Transfer Function"}
+{"id": "f-t03-s003-0009", "expression": "G(s)", "slide_id": "t03-s003", "topic": 3, "title_context": "Transfer Function"}
+{"id": "f-t03-s003-0010", "expression": "R(s)", "slide_id": "t03-s003", "topic": 3, "title_context": "Transfer Function"}
+{"id": "f-t03-s003-0011", "expression": "Y(s)", "slide_id": "t03-s003", "topic": 3, "title_context": "Transfer Function"}
+{"id": "f-t03-s004-0012", "expression": "(𝑑^{𝑛}𝑦(𝑡))/(𝑑𝑡^{𝑛})+𝑞_{𝑛−1}(𝑑^{𝑛−1}𝑦(𝑡))/(𝑑𝑡^{𝑛−1})+…+𝑞_{0}𝑦(𝑡)", "slide_id": "t03-s004", "topic": 3, "title_context": "Given the ODE:"}
+{"id": "f-t03-s004-0013", "expression": "=𝑝_{𝑛−1}(𝑑^{𝑛−1}𝑟(𝑡))/(𝑑𝑡^{𝑛−1})+𝑝_{𝑛−2}(𝑑^{𝑛−2}𝑟(𝑡))/(𝑑𝑡^{𝑛−2})+…+𝑝_{0}𝑟(𝑡)", "slide_id": "t03-s004", "topic": 3, "title_context": "Given the ODE:"}
+{"id": "f-t03-s004-0014", "expression": "𝐼𝐶=0", "slide_id": "t03-s004", "topic": 3, "title_context": "Given the ODE:"}
+{"id": "f-t03-s004-0015", "expression": "𝐺(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(𝑝(𝑠))/(𝑞(𝑠))=(𝑝_{𝑛−1}𝑠^{𝑛−1}+𝑝_{𝑛−2}𝑠^{𝑛−2}+…+𝑝_{0})/(𝑠^{𝑛}+𝑞_{𝑛−1}𝑠^{𝑛−1}+…+𝑞_{0})", "slide_id": "t03-s004", "topic": 3, "title_context": "Given the ODE:"}
+{"id": "f-t03-s004-0016", "expression": "=𝑝_{𝑛−1}(𝑑^{𝑛−1}𝑟(𝑡))/(𝑑𝑡^{𝑛−1})+𝑝_{𝑛−2}(𝑑^{𝑛−2}𝑟(𝑡))/(𝑑𝑡^{𝑛−2})+…+𝑝_{0}𝑟(𝑡)=𝑝_{𝑛−1}(𝑑^{𝑛−1}𝑟(𝑡))/(𝑑𝑡^{𝑛−1})+𝑝_{𝑛−2}(𝑑^{𝑛−2}𝑟(𝑡))/(𝑑𝑡^{𝑛−2})+…+𝑝_{0}𝑟(𝑡)", "slide_id": "t03-s004", "topic": 3, "title_context": "Given the ODE:"}
+{"id": "f-t03-s004-0017", "expression": "If 𝐼𝐶=0  𝐺(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(𝑝(𝑠))/(𝑞(𝑠))=(𝑝_{𝑛−1}𝑠^{𝑛−1}+𝑝_{𝑛−2}𝑠^{𝑛−2}+…+𝑝_{0})/(𝑠^{𝑛}+𝑞_{𝑛−1}𝑠^{𝑛−1}+…+𝑞_{0})", "slide_id": "t03-s004", "topic": 3, "title_context": "Given the ODE:"}
+{"id": "f-t03-s005-0018", "expression": "𝑌(𝑠)=(𝑚(𝑠))/(𝑞(𝑠))+(𝑝(𝑠))/(𝑞(𝑠))𝑅(𝑠)", "slide_id": "t03-s005", "topic": 3, "title_context": "Output response = natural response (determined by the initial conditions) + forced response (determined by the input)"}
+{"id": "f-t03-s005-0019", "expression": "Output response = natural response (determined by the initial conditions) + forced response (determined by the input)", "slide_id": "t03-s005", "topic": 3, "title_context": "Output response = natural response (determined by the initial conditions) + forced response (determined by the input)"}
+{"id": "f-t03-s005-0020", "expression": "𝑌(𝑠)=(𝑚(𝑠))/(𝑞(𝑠))+(𝑝(𝑠))/(𝑞(𝑠))𝑅(𝑠)𝑌(𝑠)=(𝑚(𝑠))/(𝑞(𝑠))+(𝑝(𝑠))/(𝑞(𝑠))𝑅(𝑠)", "slide_id": "t03-s005", "topic": 3, "title_context": "Output response = natural response (determined by the initial conditions) + forced response (determined by the input)"}
+{"id": "f-t03-s006-0021", "expression": "𝑅(𝑠)=(𝑛(𝑠))/(𝑑(𝑠))", "slide_id": "t03-s006", "topic": 3, "title_context": "If 𝑅(𝑠)=(𝑛(𝑠))/(𝑑(𝑠)) then 𝑌(𝑠)=(𝑚(𝑠))/(𝑞(𝑠))+(𝑝(𝑠))/(𝑞(𝑠))(𝑛(𝑠))/(𝑑(𝑠))=𝑌_{1}(𝑠)+𝑌_{2}(𝑠)+𝑌_{3}(𝑠)"}
+{"id": "f-t03-s006-0022", "expression": "𝑌(𝑠)=(𝑚(𝑠))/(𝑞(𝑠))+(𝑝(𝑠))/(𝑞(𝑠))(𝑛(𝑠))/(𝑑(𝑠))=𝑌_{1}(𝑠)+𝑌_{2}(𝑠)+𝑌_{3}(𝑠)", "slide_id": "t03-s006", "topic": 3, "title_context": "If 𝑅(𝑠)=(𝑛(𝑠))/(𝑑(𝑠)) then 𝑌(𝑠)=(𝑚(𝑠))/(𝑞(𝑠))+(𝑝(𝑠))/(𝑞(𝑠))(𝑛(𝑠))/(𝑑(𝑠))=𝑌_{1}(𝑠)+𝑌_{2}(𝑠)+𝑌_{3}(𝑠)"}
+{"id": "f-t03-s006-0023", "expression": "𝑌_{1}(𝑠)", "slide_id": "t03-s006", "topic": 3, "title_context": "If 𝑅(𝑠)=(𝑛(𝑠))/(𝑑(𝑠)) then 𝑌(𝑠)=(𝑚(𝑠))/(𝑞(𝑠))+(𝑝(𝑠))/(𝑞(𝑠))(𝑛(𝑠))/(𝑑(𝑠))=𝑌_{1}(𝑠)+𝑌_{2}(𝑠)+𝑌_{3}(𝑠)"}
+{"id": "f-t03-s006-0024", "expression": "𝑌_{2}(𝑠)", "slide_id": "t03-s006", "topic": 3, "title_context": "If 𝑅(𝑠)=(𝑛(𝑠))/(𝑑(𝑠)) then 𝑌(𝑠)=(𝑚(𝑠))/(𝑞(𝑠))+(𝑝(𝑠))/(𝑞(𝑠))(𝑛(𝑠))/(𝑑(𝑠))=𝑌_{1}(𝑠)+𝑌_{2}(𝑠)+𝑌_{3}(𝑠)"}
+{"id": "f-t03-s006-0025", "expression": "𝑞(𝑠)", "slide_id": "t03-s006", "topic": 3, "title_context": "If 𝑅(𝑠)=(𝑛(𝑠))/(𝑑(𝑠)) then 𝑌(𝑠)=(𝑚(𝑠))/(𝑞(𝑠))+(𝑝(𝑠))/(𝑞(𝑠))(𝑛(𝑠))/(𝑑(𝑠))=𝑌_{1}(𝑠)+𝑌_{2}(𝑠)+𝑌_{3}(𝑠)"}
+{"id": "f-t03-s006-0026", "expression": "𝑌_{3}(𝑠)", "slide_id": "t03-s006", "topic": 3, "title_context": "If 𝑅(𝑠)=(𝑛(𝑠))/(𝑑(𝑠)) then 𝑌(𝑠)=(𝑚(𝑠))/(𝑞(𝑠))+(𝑝(𝑠))/(𝑞(𝑠))(𝑛(𝑠))/(𝑑(𝑠))=𝑌_{1}(𝑠)+𝑌_{2}(𝑠)+𝑌_{3}(𝑠)"}
+{"id": "f-t03-s006-0027", "expression": "𝑑(𝑠)", "slide_id": "t03-s006", "topic": 3, "title_context": "If 𝑅(𝑠)=(𝑛(𝑠))/(𝑑(𝑠)) then 𝑌(𝑠)=(𝑚(𝑠))/(𝑞(𝑠))+(𝑝(𝑠))/(𝑞(𝑠))(𝑛(𝑠))/(𝑑(𝑠))=𝑌_{1}(𝑠)+𝑌_{2}(𝑠)+𝑌_{3}(𝑠)"}
+{"id": "f-t03-s006-0028", "expression": "ℒ^{−1}", "slide_id": "t03-s006", "topic": 3, "title_context": "If 𝑅(𝑠)=(𝑛(𝑠))/(𝑑(𝑠)) then 𝑌(𝑠)=(𝑚(𝑠))/(𝑞(𝑠))+(𝑝(𝑠))/(𝑞(𝑠))(𝑛(𝑠))/(𝑑(𝑠))=𝑌_{1}(𝑠)+𝑌_{2}(𝑠)+𝑌_{3}(𝑠)"}
+{"id": "f-t03-s006-0029", "expression": "𝑦(𝑡)=𝑦_{1}(𝑡)+𝑦_{2}(𝑡)+𝑦_{3}(𝑡)", "slide_id": "t03-s006", "topic": 3, "title_context": "If 𝑅(𝑠)=(𝑛(𝑠))/(𝑑(𝑠)) then 𝑌(𝑠)=(𝑚(𝑠))/(𝑞(𝑠))+(𝑝(𝑠))/(𝑞(𝑠))(𝑛(𝑠))/(𝑑(𝑠))=𝑌_{1}(𝑠)+𝑌_{2}(𝑠)+𝑌_{3}(𝑠)"}
+{"id": "f-t03-s006-0030", "expression": "If 𝑅(𝑠)=(𝑛(𝑠))/(𝑑(𝑠)) then 𝑌(𝑠)=(𝑚(𝑠))/(𝑞(𝑠))+(𝑝(𝑠))/(𝑞(𝑠))(𝑛(𝑠))/(𝑑(𝑠))=𝑌_{1}(𝑠)+𝑌_{2}(𝑠)+𝑌_{3}(𝑠)", "slide_id": "t03-s006", "topic": 3, "title_context": "If 𝑅(𝑠)=(𝑛(𝑠))/(𝑑(𝑠)) then 𝑌(𝑠)=(𝑚(𝑠))/(𝑞(𝑠))+(𝑝(𝑠))/(𝑞(𝑠))(𝑛(𝑠))/(𝑑(𝑠))=𝑌_{1}(𝑠)+𝑌_{2}(𝑠)+𝑌_{3}(𝑠)"}
+{"id": "f-t03-s006-0031", "expression": "ℒ^{−1}  𝑦(𝑡)=𝑦_{1}(𝑡)+𝑦_{2}(𝑡)+𝑦_{3}(𝑡)", "slide_id": "t03-s006", "topic": 3, "title_context": "If 𝑅(𝑠)=(𝑛(𝑠))/(𝑑(𝑠)) then 𝑌(𝑠)=(𝑚(𝑠))/(𝑞(𝑠))+(𝑝(𝑠))/(𝑞(𝑠))(𝑛(𝑠))/(𝑑(𝑠))=𝑌_{1}(𝑠)+𝑌_{2}(𝑠)+𝑌_{3}(𝑠)"}
+{"id": "f-t03-s007-0032", "expression": "(𝑑^{2}𝑦(𝑡))/(𝑑𝑡^{2})+4(𝑑𝑦(𝑡))/(𝑑𝑡)+3𝑦(𝑡)=2𝑟(𝑡)", "slide_id": "t03-s007", "topic": 3, "title_context": "Given the ODE: (𝑑^{2}𝑦(𝑡))/(𝑑𝑡^{2})+4(𝑑𝑦(𝑡))/(𝑑𝑡)+3𝑦(𝑡)=2𝑟(𝑡)"}
+{"id": "f-t03-s007-0033", "expression": "𝑦(0)=1, (𝑑𝑦)/(𝑑𝑡)(0)=0, 𝑟(𝑡)=1, 𝑡≥0", "slide_id": "t03-s007", "topic": 3, "title_context": "Given the ODE: (𝑑^{2}𝑦(𝑡))/(𝑑𝑡^{2})+4(𝑑𝑦(𝑡))/(𝑑𝑡)+3𝑦(𝑡)=2𝑟(𝑡)"}
+{"id": "f-t03-s007-0034", "expression": "(𝑠^{2}𝑌(𝑠)−𝑠𝑦(0))+4(𝑠𝑌(𝑠)−𝑦(0))+3𝑌(𝑠)=2𝑅(𝑠)", "slide_id": "t03-s007", "topic": 3, "title_context": "Given the ODE: (𝑑^{2}𝑦(𝑡))/(𝑑𝑡^{2})+4(𝑑𝑦(𝑡))/(𝑑𝑡)+3𝑦(𝑡)=2𝑟(𝑡)"}
+{"id": "f-t03-s007-0035", "expression": "𝑌(𝑠)=(𝑠+4)/(𝑠^{2}+4𝑠+3)+(2)/(𝑠(𝑠^{2}+4𝑠+3))", "slide_id": "t03-s007", "topic": 3, "title_context": "Given the ODE: (𝑑^{2}𝑦(𝑡))/(𝑑𝑡^{2})+4(𝑑𝑦(𝑡))/(𝑑𝑡)+3𝑦(𝑡)=2𝑟(𝑡)"}
+{"id": "f-t03-s007-0036", "expression": "Given the ODE: (𝑑^{2}𝑦(𝑡))/(𝑑𝑡^{2})+4(𝑑𝑦(𝑡))/(𝑑𝑡)+3𝑦(𝑡)=2𝑟(𝑡)", "slide_id": "t03-s007", "topic": 3, "title_context": "Given the ODE: (𝑑^{2}𝑦(𝑡))/(𝑑𝑡^{2})+4(𝑑𝑦(𝑡))/(𝑑𝑡)+3𝑦(𝑡)=2𝑟(𝑡)"}
+{"id": "f-t03-s007-0037", "expression": "With Initial Conditions: 𝑦(0)=1,   (𝑑𝑦)/(𝑑𝑡)(0)=0,    𝑟(𝑡)=1,    𝑡≥0", "slide_id": "t03-s007", "topic": 3, "title_context": "Given the ODE: (𝑑^{2}𝑦(𝑡))/(𝑑𝑡^{2})+4(𝑑𝑦(𝑡))/(𝑑𝑡)+3𝑦(𝑡)=2𝑟(𝑡)"}
+{"id": "f-t03-s007-0038", "expression": "(𝑠^{2}𝑌(𝑠)−𝑠𝑦(0))+4(𝑠𝑌(𝑠)−𝑦(0))+3𝑌(𝑠)=2𝑅(𝑠)(𝑠^{2}𝑌(𝑠)−𝑠𝑦(0))+4(𝑠𝑌(𝑠)−𝑦(0))+3𝑌(𝑠)=2𝑅(𝑠)", "slide_id": "t03-s007", "topic": 3, "title_context": "Given the ODE: (𝑑^{2}𝑦(𝑡))/(𝑑𝑡^{2})+4(𝑑𝑦(𝑡))/(𝑑𝑡)+3𝑦(𝑡)=2𝑟(𝑡)"}
+{"id": "f-t03-s007-0039", "expression": "𝑌(𝑠)=(𝑠+4)/(𝑠^{2}+4𝑠+3)+(2)/(𝑠(𝑠^{2}+4𝑠+3))𝑌(𝑠)=(𝑠+4)/(𝑠^{2}+4𝑠+3)+(2)/(𝑠(𝑠^{2}+4𝑠+3))", "slide_id": "t03-s007", "topic": 3, "title_context": "Given the ODE: (𝑑^{2}𝑦(𝑡))/(𝑑𝑡^{2})+4(𝑑𝑦(𝑡))/(𝑑𝑡)+3𝑦(𝑡)=2𝑟(𝑡)"}
+{"id": "f-t03-s008-0040", "expression": "(𝑠^{2}𝑌(𝑠)−𝑠𝑦(0))+4(𝑠𝑌(𝑠)−𝑦(0))+3𝑌(𝑠)=2𝑅(𝑠)", "slide_id": "t03-s008", "topic": 3, "title_context": "Laplace Transform:"}
+{"id": "f-t03-s008-0041", "expression": "𝑌(𝑠)=(𝑠+4)/(𝑠^{2}+4𝑠+3)+(2)/(𝑠(𝑠^{2}+4𝑠+3))", "slide_id": "t03-s008", "topic": 3, "title_context": "Laplace Transform:"}
+{"id": "f-t03-s008-0042", "expression": "𝑞(𝑠)=𝑠^{2}+4𝑠+3=(𝑠+1)(𝑠+3)=0", "slide_id": "t03-s008", "topic": 3, "title_context": "Laplace Transform:"}
+{"id": "f-t03-s008-0043", "expression": "𝑑(𝑠)", "slide_id": "t03-s008", "topic": 3, "title_context": "Laplace Transform:"}
+{"id": "f-t03-s008-0044", "expression": "𝑌(𝑠)=(𝑚(𝑠))/(𝑞(𝑠))+(𝑝(𝑠))/(𝑞(𝑠))(𝑛(𝑠))/(𝑑(𝑠))=𝑌_{1}(𝑠)+𝑌_{2}(𝑠)+𝑌_{3}(𝑠)", "slide_id": "t03-s008", "topic": 3, "title_context": "Laplace Transform:"}
+{"id": "f-t03-s008-0045", "expression": "(𝑠^{2}𝑌(𝑠)−𝑠𝑦(0))+4(𝑠𝑌(𝑠)−𝑦(0))+3𝑌(𝑠)=2𝑅(𝑠)(𝑠^{2}𝑌(𝑠)−𝑠𝑦(0))+4(𝑠𝑌(𝑠)−𝑦(0))+3𝑌(𝑠)=2𝑅(𝑠)", "slide_id": "t03-s008", "topic": 3, "title_context": "Laplace Transform:"}
+{"id": "f-t03-s008-0046", "expression": "𝑌(𝑠)=(𝑠+4)/(𝑠^{2}+4𝑠+3)+(2)/(𝑠(𝑠^{2}+4𝑠+3))𝑌(𝑠)=(𝑠+4)/(𝑠^{2}+4𝑠+3)+(2)/(𝑠(𝑠^{2}+4𝑠+3))", "slide_id": "t03-s008", "topic": 3, "title_context": "Laplace Transform:"}
+{"id": "f-t03-s008-0047", "expression": "Where 𝑞(𝑠)=𝑠^{2}+4𝑠+3=(𝑠+1)(𝑠+3)=0 is the characteristic equation", "slide_id": "t03-s008", "topic": 3, "title_context": "Laplace Transform:"}
+{"id": "f-t03-s008-0048", "expression": "𝑌(𝑠)=(𝑚(𝑠))/(𝑞(𝑠))+(𝑝(𝑠))/(𝑞(𝑠))(𝑛(𝑠))/(𝑑(𝑠))=𝑌_{1}(𝑠)+𝑌_{2}(𝑠)+𝑌_{3}(𝑠)𝑌(𝑠)=(𝑚(𝑠))/(𝑞(𝑠))+(𝑝(𝑠))/(𝑞(𝑠))(𝑛(𝑠))/(𝑑(𝑠))=𝑌_{1}(𝑠)+𝑌_{2}(𝑠)+𝑌_{3}(𝑠)", "slide_id": "t03-s008", "topic": 3, "title_context": "Laplace Transform:"}
+{"id": "f-t03-s009-0049", "expression": "𝑌(𝑠)=((3/2)/(𝑠+1)+(−1/2)/(𝑠+3))+((−1)/(𝑠+1)+(1/3)/(𝑠+3))+(2/3)/(𝑠)=𝑌_{1}(𝑠)+𝑌_{2}(𝑠)+𝑌_{3}(𝑠)", "slide_id": "t03-s009", "topic": 3, "title_context": "Partial Fraction Expansion"}
+{"id": "f-t03-s009-0050", "expression": "𝑦(𝑡)=((3)/(2)𝑒^{−𝑡}−(1)/(2)𝑒^{−3𝑡})+(−1𝑒^{−𝑡}+(1)/(3)𝑒^{−3𝑡})+(2)/(3)", "slide_id": "t03-s009", "topic": 3, "title_context": "Partial Fraction Expansion"}
+{"id": "f-t03-s009-0051", "expression": "lim𝑡→∞(𝑦(𝑡)=(2)/(3))", "slide_id": "t03-s009", "topic": 3, "title_context": "Partial Fraction Expansion"}
+{"id": "f-t03-s009-0052", "expression": "𝑌(𝑠)=((3/2)/(𝑠+1)+(−1/2)/(𝑠+3))+((−1)/(𝑠+1)+(1/3)/(𝑠+3))+(2/3)/(𝑠)=𝑌_{1}(𝑠)+𝑌_{2}(𝑠)+𝑌_{3}(𝑠)𝑌(𝑠)=((3/2)/(𝑠+1)+(−1/2)/(𝑠+3))+((−1)/(𝑠+1)+(1/3)/(𝑠+3))+(2/3)/(𝑠)=𝑌_{1}(𝑠)+𝑌_{2}(𝑠)+𝑌_{3}(𝑠)", "slide_id": "t03-s009", "topic": 3, "title_context": "Partial Fraction Expansion"}
+{"id": "f-t03-s009-0053", "expression": "The response: 𝑦(𝑡)=((3)/(2)𝑒^{−𝑡}−(1)/(2)𝑒^{−3𝑡})+(−1𝑒^{−𝑡}+(1)/(3)𝑒^{−3𝑡})+(2)/(3)", "slide_id": "t03-s009", "topic": 3, "title_context": "Partial Fraction Expansion"}
+{"id": "f-t03-s009-0054", "expression": "Steady-state response: lim𝑡→∞(𝑦(𝑡)=(2)/(3))", "slide_id": "t03-s009", "topic": 3, "title_context": "Partial Fraction Expansion"}
+{"id": "f-t03-s010-0055", "expression": "𝑣_{1}=𝑣_{2}=0, 𝑖_{1}=0", "slide_id": "t03-s010", "topic": 3, "title_context": "I deal op-amp  𝑣_{1}=𝑣_{2}=0,    𝑖_{1}=0"}
+{"id": "f-t03-s010-0056", "expression": "𝑣_{𝑖𝑛}", "slide_id": "t03-s010", "topic": 3, "title_context": "I deal op-amp  𝑣_{1}=𝑣_{2}=0,    𝑖_{1}=0"}
+{"id": "f-t03-s010-0057", "expression": "𝑣_{𝑜}", "slide_id": "t03-s010", "topic": 3, "title_context": "I deal op-amp  𝑣_{1}=𝑣_{2}=0,    𝑖_{1}=0"}
+{"id": "f-t03-s010-0058", "expression": "𝑣_{1}", "slide_id": "t03-s010", "topic": 3, "title_context": "I deal op-amp  𝑣_{1}=𝑣_{2}=0,    𝑖_{1}=0"}
+{"id": "f-t03-s010-0059", "expression": "(𝑣_{𝑖𝑛}−𝑣_{1})/(𝑅_{1})=(𝑣_{1}−𝑣_{𝑜})/(𝑅_{2})", "slide_id": "t03-s010", "topic": 3, "title_context": "I deal op-amp  𝑣_{1}=𝑣_{2}=0,    𝑖_{1}=0"}
+{"id": "f-t03-s010-0060", "expression": "𝑣_{1}=𝑣_{2}=0", "slide_id": "t03-s010", "topic": 3, "title_context": "I deal op-amp  𝑣_{1}=𝑣_{2}=0,    𝑖_{1}=0"}
+{"id": "f-t03-s010-0061", "expression": "(𝑣_{𝑜})/(𝑣_{𝑖𝑛})=−(𝑅_{2})/(𝑅_{1})", "slide_id": "t03-s010", "topic": 3, "title_context": "I deal op-amp  𝑣_{1}=𝑣_{2}=0,    𝑖_{1}=0"}
+{"id": "f-t03-s010-0062", "expression": "I deal op-amp  𝑣_{1}=𝑣_{2}=0,    𝑖_{1}=0", "slide_id": "t03-s010", "topic": 3, "title_context": "I deal op-amp  𝑣_{1}=𝑣_{2}=0,    𝑖_{1}=0"}
+{"id": "f-t03-s010-0063", "expression": "(𝑣_{𝑖𝑛}−𝑣_{1})/(𝑅_{1})=(𝑣_{1}−𝑣_{𝑜})/(𝑅_{2})(𝑣_{𝑖𝑛}−𝑣_{1})/(𝑅_{1})=(𝑣_{1}−𝑣_{𝑜})/(𝑅_{2})", "slide_id": "t03-s010", "topic": 3, "title_context": "I deal op-amp  𝑣_{1}=𝑣_{2}=0,    𝑖_{1}=0"}
+{"id": "f-t03-s010-0064", "expression": "𝑣_{1}=𝑣_{2}=0 (𝑣_{𝑜})/(𝑣_{𝑖𝑛})=−(𝑅_{2})/(𝑅_{1})", "slide_id": "t03-s010", "topic": 3, "title_context": "I deal op-amp  𝑣_{1}=𝑣_{2}=0,    𝑖_{1}=0"}
+{"id": "f-t03-s011-0065", "expression": "𝐹/2", "slide_id": "t03-s011", "topic": 3, "title_context": "Small jets (A-A) or (B-B) apply reaction forces to rotate the body"}
+{"id": "f-t03-s011-0066", "expression": "𝜏(𝑡)= 𝐹𝑙", "slide_id": "t03-s011", "topic": 3, "title_context": "Small jets (A-A) or (B-B) apply reaction forces to rotate the body"}
+{"id": "f-t03-s011-0067", "expression": "𝐽", "slide_id": "t03-s011", "topic": 3, "title_context": "Small jets (A-A) or (B-B) apply reaction forces to rotate the body"}
+{"id": "f-t03-s011-0068", "expression": "Jet thrust is 𝐹/2 and Torque 𝜏(𝑡)= 𝐹𝑙", "slide_id": "t03-s011", "topic": 3, "title_context": "Small jets (A-A) or (B-B) apply reaction forces to rotate the body"}
+{"id": "f-t03-s012-0069", "expression": "𝜏(𝑡)", "slide_id": "t03-s012", "topic": 3, "title_context": "Find: the TF of this system given that Torque 𝜏(𝑡) is the input and the angular displacement 𝜃(𝑡) is the output"}
+{"id": "f-t03-s012-0070", "expression": "𝜃(𝑡)", "slide_id": "t03-s012", "topic": 3, "title_context": "Find: the TF of this system given that Torque 𝜏(𝑡) is the input and the angular displacement 𝜃(𝑡) is the output"}
+{"id": "f-t03-s013-0071", "expression": "𝐽(𝑑𝜃^{2})/(𝑑𝑡^{2})=𝜏", "slide_id": "t03-s013", "topic": 3, "title_context": "Solution"}
+{"id": "f-t03-s013-0072", "expression": "𝐽𝑠^{2}Θ(𝑠)=Τ(𝑠)", "slide_id": "t03-s013", "topic": 3, "title_context": "Solution"}
+{"id": "f-t03-s013-0073", "expression": "Write the differential equation of the system 𝐽(𝑑𝜃^{2})/(𝑑𝑡^{2})=𝜏", "slide_id": "t03-s013", "topic": 3, "title_context": "Solution"}
+{"id": "f-t03-s013-0074", "expression": "Take the Laplace Transform of the differential equation given all ICs are 0 𝐽𝑠^{2}Θ(𝑠)=Τ(𝑠)", "slide_id": "t03-s013", "topic": 3, "title_context": "Solution"}
+{"id": "f-t03-s014-0075", "expression": "Θ(𝑠)", "slide_id": "t03-s014", "topic": 3, "title_context": "Solution"}
+{"id": "f-t03-s014-0076", "expression": "Τ(𝑠)", "slide_id": "t03-s014", "topic": 3, "title_context": "Solution"}
+{"id": "f-t03-s014-0077", "expression": "(Θ(𝑠))/(Τ(𝑠))=(1)/(𝐽𝑠^{2})", "slide_id": "t03-s014", "topic": 3, "title_context": "Solution"}
+{"id": "f-t03-s014-0078", "expression": "Transfer Function: (Θ(𝑠))/(Τ(𝑠))=(1)/(𝐽𝑠^{2})", "slide_id": "t03-s014", "topic": 3, "title_context": "Solution"}
+{"id": "f-t03-s022-0079", "expression": "𝜙(𝑡)", "slide_id": "t03-s022", "topic": 3, "title_context": "The input voltage may be applied to the field or armature terminals."}
+{"id": "f-t03-s022-0080", "expression": "𝜙(𝑡)=𝐾_{𝑓}𝑖_{𝑓}(𝑡)", "slide_id": "t03-s022", "topic": 3, "title_context": "The input voltage may be applied to the field or armature terminals."}
+{"id": "f-t03-s022-0081", "expression": "𝑇_{𝑚}(𝑡)=𝐾_{1}𝜙(𝑡)𝑖_{𝑎}(𝑡)=𝐾_{1}𝐾_{𝑓}𝑖_{𝑓}(𝑡)𝑖_{𝑎}(𝑡)", "slide_id": "t03-s022", "topic": 3, "title_context": "The input voltage may be applied to the field or armature terminals."}
+{"id": "f-t03-s022-0082", "expression": "𝜙(𝑡)=𝐾_{𝑓}𝑖_{𝑓}(𝑡)𝜙(𝑡)=𝐾_{𝑓}𝑖_{𝑓}(𝑡)", "slide_id": "t03-s022", "topic": 3, "title_context": "The input voltage may be applied to the field or armature terminals."}
+{"id": "f-t03-s022-0083", "expression": "𝑇_{𝑚}(𝑡)=𝐾_{1}𝜙(𝑡)𝑖_{𝑎}(𝑡)=𝐾_{1}𝐾_{𝑓}𝑖_{𝑓}(𝑡)𝑖_{𝑎}(𝑡)𝑇_{𝑚}(𝑡)=𝐾_{1}𝜙(𝑡)𝑖_{𝑎}(𝑡)=𝐾_{1}𝐾_{𝑓}𝑖_{𝑓}(𝑡)𝑖_{𝑎}(𝑡)", "slide_id": "t03-s022", "topic": 3, "title_context": "The input voltage may be applied to the field or armature terminals."}
+{"id": "f-t03-s023-0084", "expression": "𝑇_{𝑚}(𝑠)=(𝐾_{1}𝐾_{𝑓}𝐼_{𝑎})𝐼_{𝑓}(𝑠)=𝐾_{𝑚}𝐼_{𝑓}(𝑠)", "slide_id": "t03-s023", "topic": 3, "title_context": "Laplace Transform"}
+{"id": "f-t03-s023-0085", "expression": "𝑉_{𝑓}(𝑠)=(𝑅_{𝑓}+𝐿_{𝑓}𝑠)𝐼_{𝑓}(𝑠)", "slide_id": "t03-s023", "topic": 3, "title_context": "Laplace Transform"}
+{"id": "f-t03-s023-0086", "expression": "𝑇_{𝑚}(𝑠)=𝑇_{𝐿}(𝑠)+𝑇_{𝑑}(𝑠)", "slide_id": "t03-s023", "topic": 3, "title_context": "Laplace Transform"}
+{"id": "f-t03-s023-0087", "expression": "𝑇_{𝑚}(𝑠)=(𝐾_{1}𝐾_{𝑓}𝐼_{𝑎})𝐼_{𝑓}(𝑠)=𝐾_{𝑚}𝐼_{𝑓}(𝑠)𝑇_{𝑚}(𝑠)=(𝐾_{1}𝐾_{𝑓}𝐼_{𝑎})𝐼_{𝑓}(𝑠)=𝐾_{𝑚}𝐼_{𝑓}(𝑠)", "slide_id": "t03-s023", "topic": 3, "title_context": "Laplace Transform"}
+{"id": "f-t03-s023-0088", "expression": "𝑉_{𝑓}(𝑠)=(𝑅_{𝑓}+𝐿_{𝑓}𝑠)𝐼_{𝑓}(𝑠)𝑉_{𝑓}(𝑠)=(𝑅_{𝑓}+𝐿_{𝑓}𝑠)𝐼_{𝑓}(𝑠)", "slide_id": "t03-s023", "topic": 3, "title_context": "Laplace Transform"}
+{"id": "f-t03-s023-0089", "expression": "𝑇_{𝑚}(𝑠)=𝑇_{𝐿}(𝑠)+𝑇_{𝑑}(𝑠)𝑇_{𝑚}(𝑠)=𝑇_{𝐿}(𝑠)+𝑇_{𝑑}(𝑠)", "slide_id": "t03-s023", "topic": 3, "title_context": "Laplace Transform"}
+{"id": "f-t03-s024-0090", "expression": "𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=(𝐽𝑠^{2}+𝑏𝑠)𝜃(𝑠)", "slide_id": "t03-s024", "topic": 3, "title_context": "Load torque for rotating inertia"}
+{"id": "f-t03-s024-0091", "expression": "𝑇_{𝐿}(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)", "slide_id": "t03-s024", "topic": 3, "title_context": "Load torque for rotating inertia"}
+{"id": "f-t03-s024-0092", "expression": "𝑇_{𝑚}(𝑠)=𝐾_{𝑚}𝐼_{𝑓}(𝑠)=𝑇_{𝐿}(𝑠)", "slide_id": "t03-s024", "topic": 3, "title_context": "Load torque for rotating inertia"}
+{"id": "f-t03-s024-0093", "expression": "𝐼_{𝑓}(𝑠)=(𝑉_{𝑓}(𝑠))/(𝑅_{𝑓}+𝐿_{𝑓}𝑠)", "slide_id": "t03-s024", "topic": 3, "title_context": "Load torque for rotating inertia"}
+{"id": "f-t03-s024-0094", "expression": "𝐾_{𝑚}(𝑉_{𝑓}(𝑠))/(𝑅_{𝑓}+𝐿_{𝑓}𝑠)=(𝐽𝑠^{2}+𝑏𝑠)𝜃(𝑠)", "slide_id": "t03-s024", "topic": 3, "title_context": "Load torque for rotating inertia"}
+{"id": "f-t03-s024-0095", "expression": "𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=(𝐽𝑠^{2}+𝑏𝑠)𝜃(𝑠)𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=(𝐽𝑠^{2}+𝑏𝑠)𝜃(𝑠)", "slide_id": "t03-s024", "topic": 3, "title_context": "Load torque for rotating inertia"}
+{"id": "f-t03-s024-0096", "expression": "𝑇_{𝐿}(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)𝑇_{𝐿}(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)", "slide_id": "t03-s024", "topic": 3, "title_context": "Load torque for rotating inertia"}
+{"id": "f-t03-s024-0097", "expression": "𝑇_{𝑚}(𝑠)=𝐾_{𝑚}𝐼_{𝑓}(𝑠)=𝑇_{𝐿}(𝑠)𝑇_{𝑚}(𝑠)=𝐾_{𝑚}𝐼_{𝑓}(𝑠)=𝑇_{𝐿}(𝑠)", "slide_id": "t03-s024", "topic": 3, "title_context": "Load torque for rotating inertia"}
+{"id": "f-t03-s024-0098", "expression": "𝐼_{𝑓}(𝑠)=(𝑉_{𝑓}(𝑠))/(𝑅_{𝑓}+𝐿_{𝑓}𝑠)𝐼_{𝑓}(𝑠)=(𝑉_{𝑓}(𝑠))/(𝑅_{𝑓}+𝐿_{𝑓}𝑠)", "slide_id": "t03-s024", "topic": 3, "title_context": "Load torque for rotating inertia"}
+{"id": "f-t03-s024-0099", "expression": "𝐾_{𝑚}(𝑉_{𝑓}(𝑠))/(𝑅_{𝑓}+𝐿_{𝑓}𝑠)=(𝐽𝑠^{2}+𝑏𝑠)𝜃(𝑠)𝐾_{𝑚}(𝑉_{𝑓}(𝑠))/(𝑅_{𝑓}+𝐿_{𝑓}𝑠)=(𝐽𝑠^{2}+𝑏𝑠)𝜃(𝑠)", "slide_id": "t03-s024", "topic": 3, "title_context": "Load torque for rotating inertia"}
+{"id": "f-t03-s025-0100", "expression": "𝐾_{𝑚}(𝑉_{𝑓}(𝑠))/(𝑅_{𝑓}+𝐿_{𝑓}𝑠)=(𝐽𝑠^{2}+𝑏𝑠)𝜃(𝑠)", "slide_id": "t03-s025", "topic": 3, "title_context": "𝐾_{𝑚}(𝑉_{𝑓}(𝑠))/(𝑅_{𝑓}+𝐿_{𝑓}𝑠)=(𝐽𝑠^{2}+𝑏𝑠)𝜃(𝑠)𝐾_{𝑚}(𝑉_{𝑓}(𝑠))/(𝑅_{𝑓}+𝐿_{𝑓}𝑠)=(𝐽𝑠^{2}+𝑏𝑠)𝜃(𝑠)"}
+{"id": "f-t03-s025-0101", "expression": "(𝜃(𝑠))/(𝑉_{𝑓}(𝑠))=(𝐾_{𝑚})/(𝑠(𝐽𝑠+𝑏)(𝐿_{𝑓}𝑠+𝑅_{𝑓}))=(𝐾_{𝑚}/(𝐽𝐿_{𝑓}))/(𝑠(𝑠+𝑏/𝐽)(𝑠+𝑅_{𝑓}/𝐿_{𝑓}))", "slide_id": "t03-s025", "topic": 3, "title_context": "𝐾_{𝑚}(𝑉_{𝑓}(𝑠))/(𝑅_{𝑓}+𝐿_{𝑓}𝑠)=(𝐽𝑠^{2}+𝑏𝑠)𝜃(𝑠)𝐾_{𝑚}(𝑉_{𝑓}(𝑠))/(𝑅_{𝑓}+𝐿_{𝑓}𝑠)=(𝐽𝑠^{2}+𝑏𝑠)𝜃(𝑠)"}
+{"id": "f-t03-s025-0102", "expression": "𝐾_{𝑚}(𝑉_{𝑓}(𝑠))/(𝑅_{𝑓}+𝐿_{𝑓}𝑠)=(𝐽𝑠^{2}+𝑏𝑠)𝜃(𝑠)𝐾_{𝑚}(𝑉_{𝑓}(𝑠))/(𝑅_{𝑓}+𝐿_{𝑓}𝑠)=(𝐽𝑠^{2}+𝑏𝑠)𝜃(𝑠)", "slide_id": "t03-s025", "topic": 3, "title_context": "𝐾_{𝑚}(𝑉_{𝑓}(𝑠))/(𝑅_{𝑓}+𝐿_{𝑓}𝑠)=(𝐽𝑠^{2}+𝑏𝑠)𝜃(𝑠)𝐾_{𝑚}(𝑉_{𝑓}(𝑠))/(𝑅_{𝑓}+𝐿_{𝑓}𝑠)=(𝐽𝑠^{2}+𝑏𝑠)𝜃(𝑠)"}
+{"id": "f-t03-s025-0103", "expression": "(𝜃(𝑠))/(𝑉_{𝑓}(𝑠))=(𝐾_{𝑚})/(𝑠(𝐽𝑠+𝑏)(𝐿_{𝑓}𝑠+𝑅_{𝑓}))=(𝐾_{𝑚}/(𝐽𝐿_{𝑓}))/(𝑠(𝑠+𝑏/𝐽)(𝑠+𝑅_{𝑓}/𝐿_{𝑓}))(𝜃(𝑠))/(𝑉_{𝑓}(𝑠))=(𝐾_{𝑚})/(𝑠(𝐽𝑠+𝑏)(𝐿_{𝑓}𝑠+𝑅_{𝑓}))=(𝐾_{𝑚}/(𝐽𝐿_{𝑓}))/(𝑠(𝑠+𝑏/𝐽)(𝑠+𝑅_{𝑓}/𝐿_{𝑓}))", "slide_id": "t03-s025", "topic": 3, "title_context": "𝐾_{𝑚}(𝑉_{𝑓}(𝑠))/(𝑅_{𝑓}+𝐿_{𝑓}𝑠)=(𝐽𝑠^{2}+𝑏𝑠)𝜃(𝑠)𝐾_{𝑚}(𝑉_{𝑓}(𝑠))/(𝑅_{𝑓}+𝐿_{𝑓}𝑠)=(𝐽𝑠^{2}+𝑏𝑠)𝜃(𝑠)"}
+{"id": "f-t03-s026-0104", "expression": "(𝜃(𝑠))/(𝑉_{𝑓}(𝑠))=(𝐾_{𝑚})/(𝑠(𝐽𝑠+𝑏)(𝐿_{𝑓}𝑠+𝑅_{𝑓}))=(𝐾_{𝑚}/(𝐽𝐿_{𝑓}))/(𝑠(𝑠+𝑏/𝐽)(𝑠+𝑅_{𝑓}/𝐿_{𝑓}))", "slide_id": "t03-s026", "topic": 3, "title_context": "Transfer Function"}
+{"id": "f-t03-s026-0105", "expression": "(𝜃(𝑠))/(𝑉_{𝑓}(𝑠))=(𝐾_{𝑚})/(𝑠(𝐽𝑠+𝑏)(𝐿_{𝑓}𝑠+𝑅_{𝑓}))=(𝐾_{𝑚}/(𝐽𝐿_{𝑓}))/(𝑠(𝑠+𝑏/𝐽)(𝑠+𝑅_{𝑓}/𝐿_{𝑓}))(𝜃(𝑠))/(𝑉_{𝑓}(𝑠))=(𝐾_{𝑚})/(𝑠(𝐽𝑠+𝑏)(𝐿_{𝑓}𝑠+𝑅_{𝑓}))=(𝐾_{𝑚}/(𝐽𝐿_{𝑓}))/(𝑠(𝑠+𝑏/𝐽)(𝑠+𝑅_{𝑓}/𝐿_{𝑓}))", "slide_id": "t03-s026", "topic": 3, "title_context": "Transfer Function"}
+{"id": "f-t03-s027-0106", "expression": "𝑖_{𝑎}", "slide_id": "t03-s027", "topic": 3, "title_context": "The armature-controlled DC motor uses the armature current 𝑖_{𝑎} as the control variable."}
+{"id": "f-t03-s027-0107", "expression": "𝑇_{𝑚}(𝑠)=(𝐾_{1}𝐾_{𝑓}𝐼_{𝑓})𝐼_{𝑎}(𝑠)=𝐾_{𝑚}𝐼_{𝑎}(𝑠)", "slide_id": "t03-s027", "topic": 3, "title_context": "The armature-controlled DC motor uses the armature current 𝑖_{𝑎} as the control variable."}
+{"id": "f-t03-s027-0108", "expression": "𝑇_{𝑚}(𝑠)=(𝐾_{1}𝐾_{𝑓}𝐼_{𝑓})𝐼_{𝑎}(𝑠)=𝐾_{𝑚}𝐼_{𝑎}(𝑠)𝑇_{𝑚}(𝑠)=(𝐾_{1}𝐾_{𝑓}𝐼_{𝑓})𝐼_{𝑎}(𝑠)=𝐾_{𝑚}𝐼_{𝑎}(𝑠)", "slide_id": "t03-s027", "topic": 3, "title_context": "The armature-controlled DC motor uses the armature current 𝑖_{𝑎} as the control variable."}
+{"id": "f-t03-s028-0109", "expression": "𝑇_{𝑚}(𝑠)=𝐾_{𝑚}𝐼_{𝑎}(𝑠)", "slide_id": "t03-s028", "topic": 3, "title_context": "When a permanent magnet is used, we have"}
+{"id": "f-t03-s028-0110", "expression": "𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)", "slide_id": "t03-s028", "topic": 3, "title_context": "When a permanent magnet is used, we have"}
+{"id": "f-t03-s028-0111", "expression": "𝑉_{𝑏}(𝑠)=𝐾_{𝑏}𝜔(𝑠)=𝐾_{𝑏}𝑠𝜃(𝑠)", "slide_id": "t03-s028", "topic": 3, "title_context": "When a permanent magnet is used, we have"}
+{"id": "f-t03-s028-0112", "expression": "𝑇_{𝑚}(𝑠)=𝐾_{𝑚}𝐼_{𝑎}(𝑠)𝑇_{𝑚}(𝑠)=𝐾_{𝑚}𝐼_{𝑎}(𝑠)", "slide_id": "t03-s028", "topic": 3, "title_context": "When a permanent magnet is used, we have"}
+{"id": "f-t03-s028-0113", "expression": "𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)", "slide_id": "t03-s028", "topic": 3, "title_context": "When a permanent magnet is used, we have"}
+{"id": "f-t03-s028-0114", "expression": "𝑉_{𝑏}(𝑠)=𝐾_{𝑏}𝜔(𝑠)=𝐾_{𝑏}𝑠𝜃(𝑠)𝑉_{𝑏}(𝑠)=𝐾_{𝑏}𝜔(𝑠)=𝐾_{𝑏}𝑠𝜃(𝑠)", "slide_id": "t03-s028", "topic": 3, "title_context": "When a permanent magnet is used, we have"}
+{"id": "f-t03-s029-0115", "expression": "𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)", "slide_id": "t03-s029", "topic": 3, "title_context": "𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)"}
+{"id": "f-t03-s029-0116", "expression": "𝑉_{𝑏}(𝑠)=𝐾_{𝑏}𝜔(𝑠)=𝐾_{𝑏}𝑠𝜃(𝑠)", "slide_id": "t03-s029", "topic": 3, "title_context": "𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)"}
+{"id": "f-t03-s029-0117", "expression": "𝐼_{𝑎}(𝑠)=(𝑉_{𝑎}(𝑠)−𝐾_{𝑏}𝑠𝜃(𝑠))/(𝑅_{𝑎}+𝐿_{𝑎}𝑠)", "slide_id": "t03-s029", "topic": 3, "title_context": "𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)"}
+{"id": "f-t03-s029-0118", "expression": "𝑇_{𝐿}(𝑠)", "slide_id": "t03-s029", "topic": 3, "title_context": "𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)"}
+{"id": "f-t03-s029-0119", "expression": "𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)", "slide_id": "t03-s029", "topic": 3, "title_context": "𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)"}
+{"id": "f-t03-s029-0120", "expression": "𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)", "slide_id": "t03-s029", "topic": 3, "title_context": "𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)"}
+{"id": "f-t03-s029-0121", "expression": "𝑉_{𝑏}(𝑠)=𝐾_{𝑏}𝜔(𝑠)=𝐾_{𝑏}𝑠𝜃(𝑠)𝑉_{𝑏}(𝑠)=𝐾_{𝑏}𝜔(𝑠)=𝐾_{𝑏}𝑠𝜃(𝑠)", "slide_id": "t03-s029", "topic": 3, "title_context": "𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)"}
+{"id": "f-t03-s029-0122", "expression": "𝐼_{𝑎}(𝑠)=(𝑉_{𝑎}(𝑠)−𝐾_{𝑏}𝑠𝜃(𝑠))/(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}(𝑠)=(𝑉_{𝑎}(𝑠)−𝐾_{𝑏}𝑠𝜃(𝑠))/(𝑅_{𝑎}+𝐿_{𝑎}𝑠)", "slide_id": "t03-s029", "topic": 3, "title_context": "𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)"}
+{"id": "f-t03-s029-0123", "expression": "𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)", "slide_id": "t03-s029", "topic": 3, "title_context": "𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)𝑉_{𝑎}(𝑠)=(𝑅_{𝑎}+𝐿_{𝑎}𝑠)𝐼_{𝑎}+𝑉_{𝑏}(𝑠)"}
+{"id": "f-t03-s030-0124", "expression": "𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)", "slide_id": "t03-s030", "topic": 3, "title_context": "𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)"}
+{"id": "f-t03-s030-0125", "expression": "𝐾_{𝑚}𝐼_{𝑎}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)", "slide_id": "t03-s030", "topic": 3, "title_context": "𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)"}
+{"id": "f-t03-s030-0126", "expression": "𝐾_{𝑚}(𝑉_{𝑎}(𝑠)−𝐾_{𝑏}𝑠𝜃(𝑠))/(𝑅_{𝑎}+𝐿_{𝑎}𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)", "slide_id": "t03-s030", "topic": 3, "title_context": "𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)"}
+{"id": "f-t03-s030-0127", "expression": "𝐺(𝑠)=(𝜃(𝑠))/(𝑉_{𝑎}(𝑠))=(𝐾_{𝑚})/(𝑠((𝑅_{𝑎}+𝐿_{𝑎}𝑠)(𝐽𝑠+𝑏)+𝐾_{𝑏}𝐾_{𝑚}))", "slide_id": "t03-s030", "topic": 3, "title_context": "𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)"}
+{"id": "f-t03-s030-0128", "expression": "𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)", "slide_id": "t03-s030", "topic": 3, "title_context": "𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)"}
+{"id": "f-t03-s030-0129", "expression": "𝐾_{𝑚}𝐼_{𝑎}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)𝐾_{𝑚}𝐼_{𝑎}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)", "slide_id": "t03-s030", "topic": 3, "title_context": "𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)"}
+{"id": "f-t03-s030-0130", "expression": "𝐾_{𝑚}(𝑉_{𝑎}(𝑠)−𝐾_{𝑏}𝑠𝜃(𝑠))/(𝑅_{𝑎}+𝐿_{𝑎}𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)𝐾_{𝑚}(𝑉_{𝑎}(𝑠)−𝐾_{𝑏}𝑠𝜃(𝑠))/(𝑅_{𝑎}+𝐿_{𝑎}𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)", "slide_id": "t03-s030", "topic": 3, "title_context": "𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)"}
+{"id": "f-t03-s030-0131", "expression": "𝐺(𝑠)=(𝜃(𝑠))/(𝑉_{𝑎}(𝑠))=(𝐾_{𝑚})/(𝑠((𝑅_{𝑎}+𝐿_{𝑎}𝑠)(𝐽𝑠+𝑏)+𝐾_{𝑏}𝐾_{𝑚}))𝐺(𝑠)=(𝜃(𝑠))/(𝑉_{𝑎}(𝑠))=(𝐾_{𝑚})/(𝑠((𝑅_{𝑎}+𝐿_{𝑎}𝑠)(𝐽𝑠+𝑏)+𝐾_{𝑏}𝐾_{𝑚}))", "slide_id": "t03-s030", "topic": 3, "title_context": "𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)𝑇_{𝐿}(𝑠)=𝐽𝑠^{2}𝜃(𝑠)+𝑏𝑠𝜃(𝑠)=𝑇_{𝑚}(𝑠)−𝑇_{𝑑}(𝑠)"}
+{"id": "f-t03-s031-0132", "expression": "𝐺(𝑠)=(𝜃(𝑠))/(𝑉_{𝑎}(𝑠))=(𝐾_{𝑚})/(𝑠((𝑅_{𝑎}+𝐿_{𝑎}𝑠)(𝐽𝑠+𝑏)+𝐾_{𝑏}𝐾_{𝑚}))", "slide_id": "t03-s031", "topic": 3, "title_context": "Transfer function"}
+{"id": "f-t03-s031-0133", "expression": "𝐺(𝑠)=(𝜃(𝑠))/(𝑉_{𝑎}(𝑠))=(𝐾_{𝑚})/(𝑠((𝑅_{𝑎}+𝐿_{𝑎}𝑠)(𝐽𝑠+𝑏)+𝐾_{𝑏}𝐾_{𝑚}))𝐺(𝑠)=(𝜃(𝑠))/(𝑉_{𝑎}(𝑠))=(𝐾_{𝑚})/(𝑠((𝑅_{𝑎}+𝐿_{𝑎}𝑠)(𝐽𝑠+𝑏)+𝐾_{𝑏}𝐾_{𝑚}))", "slide_id": "t03-s031", "topic": 3, "title_context": "Transfer function"}
+{"id": "f-t03-s032-0134", "expression": "𝑇_{𝐿}", "slide_id": "t03-s032", "topic": 3, "title_context": "DC Motor Model"}
+{"id": "f-t03-s032-0135", "expression": "𝐽", "slide_id": "t03-s032", "topic": 3, "title_context": "DC Motor Model"}
+{"id": "f-t03-s032-0136", "expression": "𝐵", "slide_id": "t03-s032", "topic": 3, "title_context": "DC Motor Model"}
+{"id": "f-t03-s032-0137", "expression": "𝜃", "slide_id": "t03-s032", "topic": 3, "title_context": "DC Motor Model"}
+{"id": "f-t03-s032-0138", "expression": "𝜔", "slide_id": "t03-s032", "topic": 3, "title_context": "DC Motor Model"}
+{"id": "f-t03-s032-0139", "expression": "𝑉_{𝑎}", "slide_id": "t03-s032", "topic": 3, "title_context": "DC Motor Model"}
+{"id": "f-t03-s032-0140", "expression": "𝑖_{𝑎}", "slide_id": "t03-s032", "topic": 3, "title_context": "DC Motor Model"}
+{"id": "f-t03-s032-0141", "expression": "𝑉_{𝑏}", "slide_id": "t03-s032", "topic": 3, "title_context": "DC Motor Model"}
+{"id": "f-t03-s032-0142", "expression": "V_{b}", "slide_id": "t03-s032", "topic": 3, "title_context": "DC Motor Model"}
+{"id": "f-t03-s033-0143", "expression": "Transfer Function G(s)", "slide_id": "t03-s033", "topic": 3, "title_context": "(untitled slide 33)"}
+{"id": "f-t03-s033-0144", "expression": "Signal out = Signal in G(s)", "slide_id": "t03-s033", "topic": 3, "title_context": "(untitled slide 33)"}
+{"id": "f-t03-s034-0145", "expression": "𝐺(𝑠)", "slide_id": "t03-s034", "topic": 3, "title_context": "Block diagrams for a system are not unique."}
+{"id": "f-t03-s034-0146", "expression": "𝑅(𝑠)", "slide_id": "t03-s034", "topic": 3, "title_context": "Block diagrams for a system are not unique."}
+{"id": "f-t03-s034-0147", "expression": "𝑌(𝑠)", "slide_id": "t03-s034", "topic": 3, "title_context": "Block diagrams for a system are not unique."}
+{"id": "f-t03-s034-0148", "expression": "𝐸(𝑠)", "slide_id": "t03-s034", "topic": 3, "title_context": "Block diagrams for a system are not unique."}
+{"id": "f-t03-s035-0149", "expression": "𝑎", "slide_id": "t03-s035", "topic": 3, "title_context": "A Summing point is a point at which two or more inputs are added or subtracted."}
+{"id": "f-t03-s035-0150", "expression": "𝑎−𝑏", "slide_id": "t03-s035", "topic": 3, "title_context": "A Summing point is a point at which two or more inputs are added or subtracted."}
+{"id": "f-t03-s035-0151", "expression": "𝑏", "slide_id": "t03-s035", "topic": 3, "title_context": "A Summing point is a point at which two or more inputs are added or subtracted."}
+{"id": "f-t03-s036-0152", "expression": "𝑅(𝑠)", "slide_id": "t03-s036", "topic": 3, "title_context": "Reference 𝑅(𝑠), output 𝑌(𝑠), actuating error 𝐸(𝑠), and transfer function 𝐺(𝑠)."}
+{"id": "f-t03-s036-0153", "expression": "𝑌(𝑠)", "slide_id": "t03-s036", "topic": 3, "title_context": "Reference 𝑅(𝑠), output 𝑌(𝑠), actuating error 𝐸(𝑠), and transfer function 𝐺(𝑠)."}
+{"id": "f-t03-s036-0154", "expression": "𝐸(𝑠)", "slide_id": "t03-s036", "topic": 3, "title_context": "Reference 𝑅(𝑠), output 𝑌(𝑠), actuating error 𝐸(𝑠), and transfer function 𝐺(𝑠)."}
+{"id": "f-t03-s036-0155", "expression": "𝐺(𝑠)", "slide_id": "t03-s036", "topic": 3, "title_context": "Reference 𝑅(𝑠), output 𝑌(𝑠), actuating error 𝐸(𝑠), and transfer function 𝐺(𝑠)."}
+{"id": "f-t03-s037-0156", "expression": "𝑌(𝑠)", "slide_id": "t03-s037", "topic": 3, "title_context": "(untitled slide 37)"}
+{"id": "f-t03-s037-0157", "expression": "𝑅(𝑠)", "slide_id": "t03-s037", "topic": 3, "title_context": "(untitled slide 37)"}
+{"id": "f-t03-s037-0158", "expression": "𝐻(𝑠)", "slide_id": "t03-s037", "topic": 3, "title_context": "(untitled slide 37)"}
+{"id": "f-t03-s037-0159", "expression": "𝐵(𝑠)=𝐻(𝑠)𝑌(𝑠)", "slide_id": "t03-s037", "topic": 3, "title_context": "(untitled slide 37)"}
+{"id": "f-t03-s037-0160", "expression": "𝐻(𝑠)=1", "slide_id": "t03-s037", "topic": 3, "title_context": "(untitled slide 37)"}
+{"id": "f-t03-s037-0161", "expression": "𝐸(𝑠)", "slide_id": "t03-s037", "topic": 3, "title_context": "(untitled slide 37)"}
+{"id": "f-t03-s037-0162", "expression": "𝐺(𝑠)", "slide_id": "t03-s037", "topic": 3, "title_context": "(untitled slide 37)"}
+{"id": "f-t03-s037-0163", "expression": "𝐵(𝑠)", "slide_id": "t03-s037", "topic": 3, "title_context": "(untitled slide 37)"}
+{"id": "f-t03-s037-0164", "expression": "This is done by using a feedback element with a transfer function 𝐻(𝑠) to get 𝐵(𝑠)=𝐻(𝑠)𝑌(𝑠).", "slide_id": "t03-s037", "topic": 3, "title_context": "(untitled slide 37)"}
+{"id": "f-t03-s037-0165", "expression": "In cases where 𝐻(𝑠)=1, the system is called a unity feedback system and 𝐸(𝑠) is called the error signal.", "slide_id": "t03-s037", "topic": 3, "title_context": "(untitled slide 37)"}
+{"id": "f-t03-s038-0166", "expression": "𝐵(𝑠)", "slide_id": "t03-s038", "topic": 3, "title_context": "The Open loop transfer function is the ratio of the feedback signal 𝐵(𝑠) to the actuating error signal 𝐸(𝑠)."}
+{"id": "f-t03-s038-0167", "expression": "𝐸(𝑠)", "slide_id": "t03-s038", "topic": 3, "title_context": "The Open loop transfer function is the ratio of the feedback signal 𝐵(𝑠) to the actuating error signal 𝐸(𝑠)."}
+{"id": "f-t03-s038-0168", "expression": "𝑂𝐿𝑇𝐹=(𝐵(𝑠))/(𝐸(𝑠))=𝐺(𝑠)𝐻(𝑠)", "slide_id": "t03-s038", "topic": 3, "title_context": "The Open loop transfer function is the ratio of the feedback signal 𝐵(𝑠) to the actuating error signal 𝐸(𝑠)."}
+{"id": "f-t03-s038-0169", "expression": "𝐺(𝑠)", "slide_id": "t03-s038", "topic": 3, "title_context": "The Open loop transfer function is the ratio of the feedback signal 𝐵(𝑠) to the actuating error signal 𝐸(𝑠)."}
+{"id": "f-t03-s038-0170", "expression": "𝑅(𝑠)", "slide_id": "t03-s038", "topic": 3, "title_context": "The Open loop transfer function is the ratio of the feedback signal 𝐵(𝑠) to the actuating error signal 𝐸(𝑠)."}
+{"id": "f-t03-s038-0171", "expression": "𝑌(𝑠)", "slide_id": "t03-s038", "topic": 3, "title_context": "The Open loop transfer function is the ratio of the feedback signal 𝐵(𝑠) to the actuating error signal 𝐸(𝑠)."}
+{"id": "f-t03-s038-0172", "expression": "𝐻(𝑠)", "slide_id": "t03-s038", "topic": 3, "title_context": "The Open loop transfer function is the ratio of the feedback signal 𝐵(𝑠) to the actuating error signal 𝐸(𝑠)."}
+{"id": "f-t03-s038-0173", "expression": "𝑂𝐿𝑇𝐹=(𝐵(𝑠))/(𝐸(𝑠))=𝐺(𝑠)𝐻(𝑠)𝑂𝐿𝑇𝐹=(𝐵(𝑠))/(𝐸(𝑠))=𝐺(𝑠)𝐻(𝑠)", "slide_id": "t03-s038", "topic": 3, "title_context": "The Open loop transfer function is the ratio of the feedback signal 𝐵(𝑠) to the actuating error signal 𝐸(𝑠)."}
+{"id": "f-t03-s039-0174", "expression": "𝑌(𝑠)", "slide_id": "t03-s039", "topic": 3, "title_context": "The feed-forward transfer function is the ratio of the output signal 𝑌(𝑠) to the actuating error signal 𝐸(𝑠)."}
+{"id": "f-t03-s039-0175", "expression": "𝐸(𝑠)", "slide_id": "t03-s039", "topic": 3, "title_context": "The feed-forward transfer function is the ratio of the output signal 𝑌(𝑠) to the actuating error signal 𝐸(𝑠)."}
+{"id": "f-t03-s039-0176", "expression": "=(𝑌(𝑠))/(𝐸(𝑠))=𝐺(𝑠)", "slide_id": "t03-s039", "topic": 3, "title_context": "The feed-forward transfer function is the ratio of the output signal 𝑌(𝑠) to the actuating error signal 𝐸(𝑠)."}
+{"id": "f-t03-s039-0177", "expression": "𝐺(𝑠)", "slide_id": "t03-s039", "topic": 3, "title_context": "The feed-forward transfer function is the ratio of the output signal 𝑌(𝑠) to the actuating error signal 𝐸(𝑠)."}
+{"id": "f-t03-s039-0178", "expression": "𝑅(𝑠)", "slide_id": "t03-s039", "topic": 3, "title_context": "The feed-forward transfer function is the ratio of the output signal 𝑌(𝑠) to the actuating error signal 𝐸(𝑠)."}
+{"id": "f-t03-s039-0179", "expression": "𝐵(𝑠)", "slide_id": "t03-s039", "topic": 3, "title_context": "The feed-forward transfer function is the ratio of the output signal 𝑌(𝑠) to the actuating error signal 𝐸(𝑠)."}
+{"id": "f-t03-s039-0180", "expression": "𝐻(𝑠)", "slide_id": "t03-s039", "topic": 3, "title_context": "The feed-forward transfer function is the ratio of the output signal 𝑌(𝑠) to the actuating error signal 𝐸(𝑠)."}
+{"id": "f-t03-s039-0181", "expression": "Feed-forward TF=(𝑌(𝑠))/(𝐸(𝑠))=𝐺(𝑠)", "slide_id": "t03-s039", "topic": 3, "title_context": "The feed-forward transfer function is the ratio of the output signal 𝑌(𝑠) to the actuating error signal 𝐸(𝑠)."}
+{"id": "f-t03-s040-0182", "expression": "𝑌(𝑠)", "slide_id": "t03-s040", "topic": 3, "title_context": "The closed-loop transfer function is the transfer function relating the output signal 𝑌(𝑠) to the reference signal 𝑅(𝑠)."}
+{"id": "f-t03-s040-0183", "expression": "𝑅(𝑠)", "slide_id": "t03-s040", "topic": 3, "title_context": "The closed-loop transfer function is the transfer function relating the output signal 𝑌(𝑠) to the reference signal 𝑅(𝑠)."}
+{"id": "f-t03-s040-0184", "expression": "=(𝑌(𝑠))/(𝑅(𝑠))", "slide_id": "t03-s040", "topic": 3, "title_context": "The closed-loop transfer function is the transfer function relating the output signal 𝑌(𝑠) to the reference signal 𝑅(𝑠)."}
+{"id": "f-t03-s040-0185", "expression": "𝐺(𝑠)", "slide_id": "t03-s040", "topic": 3, "title_context": "The closed-loop transfer function is the transfer function relating the output signal 𝑌(𝑠) to the reference signal 𝑅(𝑠)."}
+{"id": "f-t03-s040-0186", "expression": "𝐸(𝑠)", "slide_id": "t03-s040", "topic": 3, "title_context": "The closed-loop transfer function is the transfer function relating the output signal 𝑌(𝑠) to the reference signal 𝑅(𝑠)."}
+{"id": "f-t03-s040-0187", "expression": "𝐵(𝑠)", "slide_id": "t03-s040", "topic": 3, "title_context": "The closed-loop transfer function is the transfer function relating the output signal 𝑌(𝑠) to the reference signal 𝑅(𝑠)."}
+{"id": "f-t03-s040-0188", "expression": "𝐻(𝑠)", "slide_id": "t03-s040", "topic": 3, "title_context": "The closed-loop transfer function is the transfer function relating the output signal 𝑌(𝑠) to the reference signal 𝑅(𝑠)."}
+{"id": "f-t03-s040-0189", "expression": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))", "slide_id": "t03-s040", "topic": 3, "title_context": "The closed-loop transfer function is the transfer function relating the output signal 𝑌(𝑠) to the reference signal 𝑅(𝑠)."}
+{"id": "f-t03-s041-0190", "expression": "=(𝑌(𝑠))/(𝑅(𝑠))", "slide_id": "t03-s041", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s041-0191", "expression": "𝑌(𝑠)=𝐺(𝑠)𝐸(𝑠)", "slide_id": "t03-s041", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s041-0192", "expression": "𝐺(𝑠)", "slide_id": "t03-s041", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s041-0193", "expression": "𝑅(𝑠)", "slide_id": "t03-s041", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s041-0194", "expression": "𝑌(𝑠)", "slide_id": "t03-s041", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s041-0195", "expression": "𝐸(𝑠)", "slide_id": "t03-s041", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s041-0196", "expression": "𝐵(𝑠)", "slide_id": "t03-s041", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s041-0197", "expression": "𝐻(𝑠)", "slide_id": "t03-s041", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s041-0198", "expression": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))", "slide_id": "t03-s041", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s041-0199", "expression": "𝑌(𝑠)=𝐺(𝑠)𝐸(𝑠)𝑌(𝑠)=𝐺(𝑠)𝐸(𝑠)", "slide_id": "t03-s041", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s042-0200", "expression": "=(𝑌(𝑠))/(𝑅(𝑠))", "slide_id": "t03-s042", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s042-0201", "expression": "𝑌(𝑠)=𝐺(𝑠)𝐸(𝑠)", "slide_id": "t03-s042", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s042-0202", "expression": "𝐸(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝑌(𝑠)𝐻(𝑠)", "slide_id": "t03-s042", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s042-0203", "expression": "𝐺(𝑠)", "slide_id": "t03-s042", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s042-0204", "expression": "𝑅(𝑠)", "slide_id": "t03-s042", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s042-0205", "expression": "𝑌(𝑠)", "slide_id": "t03-s042", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s042-0206", "expression": "𝐸(𝑠)", "slide_id": "t03-s042", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s042-0207", "expression": "𝐵(𝑠)", "slide_id": "t03-s042", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s042-0208", "expression": "𝐻(𝑠)", "slide_id": "t03-s042", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s042-0209", "expression": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))", "slide_id": "t03-s042", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s042-0210", "expression": "𝑌(𝑠)=𝐺(𝑠)𝐸(𝑠)𝐸(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝑌(𝑠)𝐻(𝑠)𝑌(𝑠)=𝐺(𝑠)𝐸(𝑠)𝐸(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝑌(𝑠)𝐻(𝑠)", "slide_id": "t03-s042", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s043-0211", "expression": "=(𝑌(𝑠))/(𝑅(𝑠))", "slide_id": "t03-s043", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s043-0212", "expression": "𝑌(𝑠)=𝐺(𝑠)𝐸(𝑠)", "slide_id": "t03-s043", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s043-0213", "expression": "𝐸(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝑌(𝑠)𝐻(𝑠)", "slide_id": "t03-s043", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s043-0214", "expression": "𝑌(𝑠)=𝐺(𝑠)(𝑅(𝑠)−𝑌(𝑠)𝐻(𝑠))", "slide_id": "t03-s043", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s043-0215", "expression": "𝐺(𝑠)", "slide_id": "t03-s043", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s043-0216", "expression": "𝑅(𝑠)", "slide_id": "t03-s043", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s043-0217", "expression": "𝑌(𝑠)", "slide_id": "t03-s043", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s043-0218", "expression": "𝐸(𝑠)", "slide_id": "t03-s043", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s043-0219", "expression": "𝐵(𝑠)", "slide_id": "t03-s043", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s043-0220", "expression": "𝐻(𝑠)", "slide_id": "t03-s043", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s043-0221", "expression": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))", "slide_id": "t03-s043", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s043-0222", "expression": "𝑌(𝑠)=𝐺(𝑠)𝐸(𝑠)𝐸(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝑌(𝑠)𝐻(𝑠)𝑌(𝑠)=𝐺(𝑠)(𝑅(𝑠)−𝑌(𝑠)𝐻(𝑠))𝑌(𝑠)=𝐺(𝑠)𝐸(𝑠)𝐸(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝑌(𝑠)𝐻(𝑠)𝑌(𝑠)=𝐺(𝑠)(𝑅(𝑠)−𝑌(𝑠)𝐻(𝑠))", "slide_id": "t03-s043", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s044-0223", "expression": "=(𝑌(𝑠))/(𝑅(𝑠))", "slide_id": "t03-s044", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s044-0224", "expression": "𝑌(𝑠)=𝐺(𝑠)𝐸(𝑠)", "slide_id": "t03-s044", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s044-0225", "expression": "𝐸(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝑌(𝑠)𝐻(𝑠)", "slide_id": "t03-s044", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s044-0226", "expression": "𝑌(𝑠)=𝐺(𝑠)(𝑅(𝑠)−𝑌(𝑠)𝐻(𝑠))", "slide_id": "t03-s044", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s044-0227", "expression": "𝑌(𝑠)(1+𝐺(𝑠)𝐻(𝑠))=𝐺(𝑠)𝑅(𝑠)", "slide_id": "t03-s044", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s044-0228", "expression": "𝐺(𝑠)", "slide_id": "t03-s044", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s044-0229", "expression": "𝑅(𝑠)", "slide_id": "t03-s044", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s044-0230", "expression": "𝑌(𝑠)", "slide_id": "t03-s044", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s044-0231", "expression": "𝐸(𝑠)", "slide_id": "t03-s044", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s044-0232", "expression": "𝐵(𝑠)", "slide_id": "t03-s044", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s044-0233", "expression": "𝐻(𝑠)", "slide_id": "t03-s044", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s044-0234", "expression": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))", "slide_id": "t03-s044", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s044-0235", "expression": "𝑌(𝑠)=𝐺(𝑠)𝐸(𝑠)𝐸(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝑌(𝑠)𝐻(𝑠)𝑌(𝑠)=𝐺(𝑠)(𝑅(𝑠)−𝑌(𝑠)𝐻(𝑠))𝑌(𝑠)(1+𝐺(𝑠)𝐻(𝑠))=𝐺(𝑠)𝑅(𝑠)𝑌(𝑠)=𝐺(𝑠)𝐸(𝑠)𝐸(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝑌(𝑠)𝐻(𝑠)𝑌(𝑠)=𝐺(𝑠)(𝑅(𝑠)−𝑌(𝑠)𝐻(𝑠))𝑌(𝑠)(1+𝐺(𝑠)𝐻(𝑠))=𝐺(𝑠)𝑅(𝑠)", "slide_id": "t03-s044", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s045-0236", "expression": "=(𝑌(𝑠))/(𝑅(𝑠))", "slide_id": "t03-s045", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s045-0237", "expression": "𝑌(𝑠)(1+𝐺(𝑠)𝐻(𝑠))=𝐺(𝑠)𝑅(𝑠)", "slide_id": "t03-s045", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s045-0238", "expression": "CLTF=(𝑌(𝑠))/(𝑅(𝑠))=(𝐺(𝑠))/(1+𝐺(𝑠)𝐻(𝑠))", "slide_id": "t03-s045", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s045-0239", "expression": "𝐺(𝑠)", "slide_id": "t03-s045", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s045-0240", "expression": "𝑅(𝑠)", "slide_id": "t03-s045", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s045-0241", "expression": "𝑌(𝑠)", "slide_id": "t03-s045", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s045-0242", "expression": "𝐸(𝑠)", "slide_id": "t03-s045", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s045-0243", "expression": "𝐵(𝑠)", "slide_id": "t03-s045", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s045-0244", "expression": "𝐻(𝑠)", "slide_id": "t03-s045", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s045-0245", "expression": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))", "slide_id": "t03-s045", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s045-0246", "expression": "𝑌(𝑠)(1+𝐺(𝑠)𝐻(𝑠))=𝐺(𝑠)𝑅(𝑠)CLTF=(𝑌(𝑠))/(𝑅(𝑠))=(𝐺(𝑠))/(1+𝐺(𝑠)𝐻(𝑠))𝑌(𝑠)(1+𝐺(𝑠)𝐻(𝑠))=𝐺(𝑠)𝑅(𝑠)CLTF=(𝑌(𝑠))/(𝑅(𝑠))=(𝐺(𝑠))/(1+𝐺(𝑠)𝐻(𝑠))", "slide_id": "t03-s045", "topic": 3, "title_context": "Closed-loop TF=(𝑌(𝑠))/(𝑅(𝑠))"}
+{"id": "f-t03-s046-0247", "expression": "𝑌_{1}(𝑠)=𝐺_{11}(𝑠)𝑅_{1}(𝑠)+𝐺_{12}(𝑠)𝑅_{2}(𝑠)", "slide_id": "t03-s046", "topic": 3, "title_context": "Multiple-Input Multiple-Output(MIMO) Systems"}
+{"id": "f-t03-s046-0248", "expression": "𝑌_{2}(𝑠)=𝐺_{21}(𝑠)𝑅_{1}(𝑠)+𝐺_{22}(𝑠)𝑅_{2}(𝑠)", "slide_id": "t03-s046", "topic": 3, "title_context": "Multiple-Input Multiple-Output(MIMO) Systems"}
+{"id": "f-t03-s046-0249", "expression": "(𝑌_{1}(𝑠)𝑌_{2}(𝑠))=(𝐺_{11}(𝑠)𝐺_{12}(𝑠)𝐺_{21}(𝑠)𝐺_{22}(𝑠))(𝑅_{1}(𝑠)𝑅_{2}(𝑠)) 𝒀(𝑠)=𝑮(𝑠)𝑹(𝑠)", "slide_id": "t03-s046", "topic": 3, "title_context": "Multiple-Input Multiple-Output(MIMO) Systems"}
+{"id": "f-t03-s046-0250", "expression": "𝑌_{1}(𝑠)=𝐺_{11}(𝑠)𝑅_{1}(𝑠)+𝐺_{12}(𝑠)𝑅_{2}(𝑠) 𝑌_{2}(𝑠)=𝐺_{21}(𝑠)𝑅_{1}(𝑠)+𝐺_{22}(𝑠)𝑅_{2}(𝑠)", "slide_id": "t03-s046", "topic": 3, "title_context": "Multiple-Input Multiple-Output(MIMO) Systems"}
+{"id": "f-t03-s046-0251", "expression": "(𝑌_{1}(𝑠)𝑌_{2}(𝑠))=(𝐺_{11}(𝑠)𝐺_{12}(𝑠)𝐺_{21}(𝑠)𝐺_{22}(𝑠))(𝑅_{1}(𝑠)𝑅_{2}(𝑠))            𝒀(𝑠)=𝑮(𝑠)𝑹(𝑠)(𝑌_{1}(𝑠)𝑌_{2}(𝑠))=(𝐺_{11}(𝑠)𝐺_{12}(𝑠)𝐺_{21}(𝑠)𝐺_{22}(𝑠))(𝑅_{1}(𝑠)𝑅_{2}(𝑠))            𝒀(𝑠)=𝑮(𝑠)𝑹(𝑠)", "slide_id": "t03-s046", "topic": 3, "title_context": "Multiple-Input Multiple-Output(MIMO) Systems"}
+{"id": "f-t03-s048-0252", "expression": "𝑋_{3}=𝐺_{1}𝐺_{2}𝑋_{1}", "slide_id": "t03-s048", "topic": 3, "title_context": "𝑋_{3}=𝐺_{1}𝐺_{2}𝑋_{1}𝑋_{3}=𝐺_{1}𝐺_{2}𝑋_{1}"}
+{"id": "f-t03-s048-0253", "expression": "𝑋_{3}=(𝑋_{1}±𝑋_{2})𝐺", "slide_id": "t03-s048", "topic": 3, "title_context": "𝑋_{3}=𝐺_{1}𝐺_{2}𝑋_{1}𝑋_{3}=𝐺_{1}𝐺_{2}𝑋_{1}"}
+{"id": "f-t03-s048-0254", "expression": "𝑋_{2}=𝑋_{1}𝐺", "slide_id": "t03-s048", "topic": 3, "title_context": "𝑋_{3}=𝐺_{1}𝐺_{2}𝑋_{1}𝑋_{3}=𝐺_{1}𝐺_{2}𝑋_{1}"}
+{"id": "f-t03-s048-0255", "expression": "𝑋_{3}=𝐺_{1}𝐺_{2}𝑋_{1}𝑋_{3}=𝐺_{1}𝐺_{2}𝑋_{1}", "slide_id": "t03-s048", "topic": 3, "title_context": "𝑋_{3}=𝐺_{1}𝐺_{2}𝑋_{1}𝑋_{3}=𝐺_{1}𝐺_{2}𝑋_{1}"}
+{"id": "f-t03-s048-0256", "expression": "𝑋_{3}=(𝑋_{1}±𝑋_{2})𝐺 𝑋_{3}=(𝑋_{1}±𝑋_{2})𝐺", "slide_id": "t03-s048", "topic": 3, "title_context": "𝑋_{3}=𝐺_{1}𝐺_{2}𝑋_{1}𝑋_{3}=𝐺_{1}𝐺_{2}𝑋_{1}"}
+{"id": "f-t03-s048-0257", "expression": "𝑋_{2}=𝑋_{1}𝐺 𝑋_{2}=𝑋_{1}𝐺", "slide_id": "t03-s048", "topic": 3, "title_context": "𝑋_{3}=𝐺_{1}𝐺_{2}𝑋_{1}𝑋_{3}=𝐺_{1}𝐺_{2}𝑋_{1}"}
+{"id": "f-t03-s049-0258", "expression": "𝑋_{2}=𝑋_{1}𝐺", "slide_id": "t03-s049", "topic": 3, "title_context": "𝑋_{2}=𝑋_{1}𝐺 𝑋_{2}=𝑋_{1}𝐺"}
+{"id": "f-t03-s049-0259", "expression": "𝑋_{3}=𝑋_{1}𝐺±𝑋_{2}", "slide_id": "t03-s049", "topic": 3, "title_context": "𝑋_{2}=𝑋_{1}𝐺 𝑋_{2}=𝑋_{1}𝐺"}
+{"id": "f-t03-s049-0260", "expression": "𝑋_{2}=(𝐺)/(1±𝐺𝐻)𝑋_{1}", "slide_id": "t03-s049", "topic": 3, "title_context": "𝑋_{2}=𝑋_{1}𝐺 𝑋_{2}=𝑋_{1}𝐺"}
+{"id": "f-t03-s049-0261", "expression": "𝑋_{2}=𝑋_{1}𝐺 𝑋_{2}=𝑋_{1}𝐺", "slide_id": "t03-s049", "topic": 3, "title_context": "𝑋_{2}=𝑋_{1}𝐺 𝑋_{2}=𝑋_{1}𝐺"}
+{"id": "f-t03-s049-0262", "expression": "𝑋_{3}=𝑋_{1}𝐺±𝑋_{2}𝑋_{3}=𝑋_{1}𝐺±𝑋_{2}", "slide_id": "t03-s049", "topic": 3, "title_context": "𝑋_{2}=𝑋_{1}𝐺 𝑋_{2}=𝑋_{1}𝐺"}
+{"id": "f-t03-s049-0263", "expression": "𝑋_{2}=(𝐺)/(1±𝐺𝐻)𝑋_{1}𝑋_{2}=(𝐺)/(1±𝐺𝐻)𝑋_{1}", "slide_id": "t03-s049", "topic": 3, "title_context": "𝑋_{2}=𝑋_{1}𝐺 𝑋_{2}=𝑋_{1}𝐺"}
+{"id": "f-t03-s050-0264", "expression": "𝐸_{𝑎}(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠)", "slide_id": "t03-s050", "topic": 3, "title_context": "𝐸_{𝑎}(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠)𝐸_{𝑎}(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠)"}
+{"id": "f-t03-s050-0265", "expression": "𝑌(𝑠)=𝐺(𝑠)𝑈(𝑠)=𝐺(𝑠)𝐺_{𝑎}(𝑠)𝑍(𝑠)=𝐺(𝑠)𝐺_{𝑎}(𝑠)𝐺_{𝑐}(𝑠)𝐸_{𝑎}(𝑠)", "slide_id": "t03-s050", "topic": 3, "title_context": "𝐸_{𝑎}(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠)𝐸_{𝑎}(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠)"}
+{"id": "f-t03-s050-0266", "expression": "𝑌(𝑠)=𝐺(𝑠)𝐺_{𝑎}(𝑠)𝐺_{𝑐}(𝑠)(𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠))", "slide_id": "t03-s050", "topic": 3, "title_context": "𝐸_{𝑎}(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠)𝐸_{𝑎}(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠)"}
+{"id": "f-t03-s050-0267", "expression": "𝑌(𝑠)+𝐺(𝑠)𝐺_{𝑎}(𝑠)𝐺_{𝑐}(𝑠)𝐻(𝑠)𝑌(𝑠)=𝐺(𝑠)𝐺_{𝑎}(𝑠)𝐺_{𝑐}(𝑠)𝑅(𝑠)", "slide_id": "t03-s050", "topic": 3, "title_context": "𝐸_{𝑎}(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠)𝐸_{𝑎}(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠)"}
+{"id": "f-t03-s050-0268", "expression": "𝐸_{𝑎}(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠)𝐸_{𝑎}(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠)", "slide_id": "t03-s050", "topic": 3, "title_context": "𝐸_{𝑎}(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠)𝐸_{𝑎}(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠)"}
+{"id": "f-t03-s050-0269", "expression": "𝑌(𝑠)=𝐺(𝑠)𝑈(𝑠)=𝐺(𝑠)𝐺_{𝑎}(𝑠)𝑍(𝑠)=𝐺(𝑠)𝐺_{𝑎}(𝑠)𝐺_{𝑐}(𝑠)𝐸_{𝑎}(𝑠)𝑌(𝑠)=𝐺(𝑠)𝑈(𝑠)=𝐺(𝑠)𝐺_{𝑎}(𝑠)𝑍(𝑠)=𝐺(𝑠)𝐺_{𝑎}(𝑠)𝐺_{𝑐}(𝑠)𝐸_{𝑎}(𝑠)", "slide_id": "t03-s050", "topic": 3, "title_context": "𝐸_{𝑎}(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠)𝐸_{𝑎}(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠)"}
+{"id": "f-t03-s050-0270", "expression": "𝑌(𝑠)=𝐺(𝑠)𝐺_{𝑎}(𝑠)𝐺_{𝑐}(𝑠)(𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠))𝑌(𝑠)=𝐺(𝑠)𝐺_{𝑎}(𝑠)𝐺_{𝑐}(𝑠)(𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠))", "slide_id": "t03-s050", "topic": 3, "title_context": "𝐸_{𝑎}(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠)𝐸_{𝑎}(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠)"}
+{"id": "f-t03-s050-0271", "expression": "𝑌(𝑠)+𝐺(𝑠)𝐺_{𝑎}(𝑠)𝐺_{𝑐}(𝑠)𝐻(𝑠)𝑌(𝑠)=𝐺(𝑠)𝐺_{𝑎}(𝑠)𝐺_{𝑐}(𝑠)𝑅(𝑠)𝑌(𝑠)+𝐺(𝑠)𝐺_{𝑎}(𝑠)𝐺_{𝑐}(𝑠)𝐻(𝑠)𝑌(𝑠)=𝐺(𝑠)𝐺_{𝑎}(𝑠)𝐺_{𝑐}(𝑠)𝑅(𝑠)", "slide_id": "t03-s050", "topic": 3, "title_context": "𝐸_{𝑎}(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠)𝐸_{𝑎}(𝑠)=𝑅(𝑠)−𝐵(𝑠)=𝑅(𝑠)−𝐻(𝑠)𝑌(𝑠)"}
+{"id": "f-t03-s051-0272", "expression": "(𝑌(𝑠))/(𝑅(𝑠))=(𝐺(𝑠)𝐺_{𝑎}(𝑠)𝐺_{𝑐}(𝑠))/(1+𝐺(𝑠)𝐺_{𝑎}(𝑠)𝐺_{𝑐}(𝑠)𝐻(𝑠))", "slide_id": "t03-s051", "topic": 3, "title_context": "(untitled slide 51)"}
+{"id": "f-t03-s051-0273", "expression": "(𝑌(𝑠))/(𝑅(𝑠))=(𝐺(𝑠)𝐺_{𝑎}(𝑠)𝐺_{𝑐}(𝑠))/(1+𝐺(𝑠)𝐺_{𝑎}(𝑠)𝐺_{𝑐}(𝑠)𝐻(𝑠))(𝑌(𝑠))/(𝑅(𝑠))=(𝐺(𝑠)𝐺_{𝑎}(𝑠)𝐺_{𝑐}(𝑠))/(1+𝐺(𝑠)𝐺_{𝑎}(𝑠)𝐺_{𝑐}(𝑠)𝐻(𝑠))", "slide_id": "t03-s051", "topic": 3, "title_context": "(untitled slide 51)"}
+{"id": "f-t03-s054-0274", "expression": "𝐸𝑞𝑢𝑖𝑣𝑎𝑙𝑒𝑛𝑡 𝑇𝐹=(𝐺_{2}(𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1}))/(1+(𝐺_{2}𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1})(𝐻_{2})/(𝐺_{4}))=((𝐺_{2}𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1}))/(1+(𝐺_{2}𝐺_{3}𝐻_{2})/(1−𝐺_{3}𝐺_{4}𝐻_{1}))", "slide_id": "t03-s054", "topic": 3, "title_context": "(untitled slide 54)"}
+{"id": "f-t03-s054-0275", "expression": "=(𝐺_{2}𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1}+𝐺_{2}𝐺_{3}𝐻_{2})", "slide_id": "t03-s054", "topic": 3, "title_context": "(untitled slide 54)"}
+{"id": "f-t03-s054-0276", "expression": "𝐸𝑞𝑢𝑖𝑣𝑎𝑙𝑒𝑛𝑡 𝑇𝐹=(𝐺_{2}(𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1}))/(1+(𝐺_{2}𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1})(𝐻_{2})/(𝐺_{4}))=((𝐺_{2}𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1}))/(1+(𝐺_{2}𝐺_{3}𝐻_{2})/(1−𝐺_{3}𝐺_{4}𝐻_{1}))𝐸𝑞𝑢𝑖𝑣𝑎𝑙𝑒𝑛𝑡 𝑇𝐹=(𝐺_{2}(𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1}))/(1+(𝐺_{2}𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1})(𝐻_{2})/(𝐺_{4}))=((𝐺_{2}𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1}))/(1+(𝐺_{2}𝐺_{3}𝐻_{2})/(1−𝐺_{3}𝐺_{4}𝐻_{1}))", "slide_id": "t03-s054", "topic": 3, "title_context": "(untitled slide 54)"}
+{"id": "f-t03-s054-0277", "expression": "=(𝐺_{2}𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1}+𝐺_{2}𝐺_{3}𝐻_{2})=(𝐺_{2}𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1}+𝐺_{2}𝐺_{3}𝐻_{2})", "slide_id": "t03-s054", "topic": 3, "title_context": "(untitled slide 54)"}
+{"id": "f-t03-s055-0278", "expression": "(𝑌(𝑠))/(𝑅(𝑠))=((𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1}+𝐺_{2}𝐺_{3}𝐻_{2}))/(1+(𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐻_{3})/(1−𝐺_{3}𝐺_{4}𝐻_{1}+𝐺_{2}𝐺_{3}𝐻_{2}))=(𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1}+𝐺_{2}𝐺_{3}𝐻_{2}+𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐻_{3})", "slide_id": "t03-s055", "topic": 3, "title_context": "(untitled slide 55)"}
+{"id": "f-t03-s055-0279", "expression": "(𝑌(𝑠))/(𝑅(𝑠))=((𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1}+𝐺_{2}𝐺_{3}𝐻_{2}))/(1+(𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐻_{3})/(1−𝐺_{3}𝐺_{4}𝐻_{1}+𝐺_{2}𝐺_{3}𝐻_{2}))=(𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1}+𝐺_{2}𝐺_{3}𝐻_{2}+𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐻_{3})(𝑌(𝑠))/(𝑅(𝑠))=((𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1}+𝐺_{2}𝐺_{3}𝐻_{2}))/(1+(𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐻_{3})/(1−𝐺_{3}𝐺_{4}𝐻_{1}+𝐺_{2}𝐺_{3}𝐻_{2}))=(𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1}+𝐺_{2}𝐺_{3}𝐻_{2}+𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐻_{3})", "slide_id": "t03-s055", "topic": 3, "title_context": "(untitled slide 55)"}
+{"id": "f-t03-s056-0280", "expression": "(𝑌(𝑠))/(𝑅(𝑠))=(𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1}+𝐺_{2}𝐺_{3}𝐻_{2}+𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐻_{3})", "slide_id": "t03-s056", "topic": 3, "title_context": "Overall Transfer Function"}
+{"id": "f-t03-s056-0281", "expression": "(𝑌(𝑠))/(𝑅(𝑠))=(𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1}+𝐺_{2}𝐺_{3}𝐻_{2}+𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐻_{3})(𝑌(𝑠))/(𝑅(𝑠))=(𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4})/(1−𝐺_{3}𝐺_{4}𝐻_{1}+𝐺_{2}𝐺_{3}𝐻_{2}+𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐻_{3})", "slide_id": "t03-s056", "topic": 3, "title_context": "Overall Transfer Function"}
+{"id": "f-t03-s057-0282", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s057", "topic": 3, "title_context": "Given a Block Diagram or a Signal-Flow Graph"}
+{"id": "f-t03-s057-0283", "expression": "𝑃_{𝑖}", "slide_id": "t03-s057", "topic": 3, "title_context": "Given a Block Diagram or a Signal-Flow Graph"}
+{"id": "f-t03-s057-0284", "expression": "Δ=1−", "slide_id": "t03-s057", "topic": 3, "title_context": "Given a Block Diagram or a Signal-Flow Graph"}
+{"id": "f-t03-s057-0285", "expression": "Δ_{𝑖}", "slide_id": "t03-s057", "topic": 3, "title_context": "Given a Block Diagram or a Signal-Flow Graph"}
+{"id": "f-t03-s057-0286", "expression": "Δ", "slide_id": "t03-s057", "topic": 3, "title_context": "Given a Block Diagram or a Signal-Flow Graph"}
+{"id": "f-t03-s057-0287", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s057", "topic": 3, "title_context": "Given a Block Diagram or a Signal-Flow Graph"}
+{"id": "f-t03-s057-0288", "expression": "Δ=1−(sum of all individual loop gains) + (sum of gain products of all possible 2 non-touching loops) – (sum of gain products of all possible 3 non- touching loops) + …", "slide_id": "t03-s057", "topic": 3, "title_context": "Given a Block Diagram or a Signal-Flow Graph"}
+{"id": "f-t03-s058-0289", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s058", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s058-0290", "expression": "Δ_{𝑖}", "slide_id": "t03-s058", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s058-0291", "expression": "Δ", "slide_id": "t03-s058", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s058-0292", "expression": "𝑇(𝑠)", "slide_id": "t03-s058", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s058-0293", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s058", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s059-0294", "expression": "𝑁=1", "slide_id": "t03-s059", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s059-0295", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s059", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s059-0296", "expression": "𝐺𝑎𝑖𝑛 𝑃_{1}=𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}", "slide_id": "t03-s059", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s059-0297", "expression": "Number of forward paths: 𝑁=1", "slide_id": "t03-s059", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s059-0298", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s059", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s059-0299", "expression": "𝐺𝑎𝑖𝑛 𝑃_{1}=𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺𝑎𝑖𝑛 𝑃_{1}=𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}", "slide_id": "t03-s059", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s060-0300", "expression": "𝐿=3", "slide_id": "t03-s060", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s060-0301", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s060", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s060-0302", "expression": "𝐺𝑎𝑖𝑛 𝐿_{1}=−𝐺_{2}𝐺_{3}𝐻_{2}", "slide_id": "t03-s060", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s060-0303", "expression": "𝐺𝑎𝑖𝑛 𝐿_{2}=𝐺_{3}𝐺_{4}𝐻_{1}", "slide_id": "t03-s060", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s060-0304", "expression": "𝐺𝑎𝑖𝑛 𝐿_{3}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐻_{3}", "slide_id": "t03-s060", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s060-0305", "expression": "Number of individual loops: 𝐿=3", "slide_id": "t03-s060", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s060-0306", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s060", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s060-0307", "expression": "𝐺𝑎𝑖𝑛 𝐿_{1}=−𝐺_{2}𝐺_{3}𝐻_{2}𝐺𝑎𝑖𝑛 𝐿_{1}=−𝐺_{2}𝐺_{3}𝐻_{2}", "slide_id": "t03-s060", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s060-0308", "expression": "𝐺𝑎𝑖𝑛 𝐿_{2}=𝐺_{3}𝐺_{4}𝐻_{1}𝐺𝑎𝑖𝑛 𝐿_{2}=𝐺_{3}𝐺_{4}𝐻_{1}", "slide_id": "t03-s060", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s060-0309", "expression": "𝐺𝑎𝑖𝑛 𝐿_{3}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐻_{3}𝐺𝑎𝑖𝑛 𝐿_{3}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐻_{3}", "slide_id": "t03-s060", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s061-0310", "expression": "𝑃_{1}", "slide_id": "t03-s061", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s061-0311", "expression": "Δ_{1}=1", "slide_id": "t03-s061", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s061-0312", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s061", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s061-0313", "expression": "The forward path 𝑃_{1} touches all the loops so Δ_{1}=1", "slide_id": "t03-s061", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s061-0314", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s061", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s062-0315", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(𝑃_{1}(𝑠)Δ_{1}(𝑠))/(1−𝐿_{1}(𝑠)−𝐿_{2}(𝑠)−𝐿_{3}(𝑠))", "slide_id": "t03-s062", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s062-0316", "expression": "𝑇(𝑠)=(𝐺_{1}(𝑠)𝐺_{2}(𝑠)𝐺_{3}(𝑠)𝐺_{4}(𝑠))/(1+𝐺_{2}(𝑠)𝐺_{3}(𝑠)𝐻_{2}(𝑠)−𝐺_{3}(𝑠)𝐺_{4}(𝑠)𝐻_{1}(𝑠)+𝐺_{1}(𝑠)𝐺_{2}(𝑠)𝐺_{3}(𝑠)𝐺_{4}(𝑠)𝐻_{3}(𝑠))", "slide_id": "t03-s062", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s062-0317", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s062", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s062-0318", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(𝑃_{1}(𝑠)Δ_{1}(𝑠))/(1−𝐿_{1}(𝑠)−𝐿_{2}(𝑠)−𝐿_{3}(𝑠))𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(𝑃_{1}(𝑠)Δ_{1}(𝑠))/(1−𝐿_{1}(𝑠)−𝐿_{2}(𝑠)−𝐿_{3}(𝑠))", "slide_id": "t03-s062", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s062-0319", "expression": "𝑇(𝑠)=(𝐺_{1}(𝑠)𝐺_{2}(𝑠)𝐺_{3}(𝑠)𝐺_{4}(𝑠))/(1+𝐺_{2}(𝑠)𝐺_{3}(𝑠)𝐻_{2}(𝑠)−𝐺_{3}(𝑠)𝐺_{4}(𝑠)𝐻_{1}(𝑠)+𝐺_{1}(𝑠)𝐺_{2}(𝑠)𝐺_{3}(𝑠)𝐺_{4}(𝑠)𝐻_{3}(𝑠))𝑇(𝑠)=(𝐺_{1}(𝑠)𝐺_{2}(𝑠)𝐺_{3}(𝑠)𝐺_{4}(𝑠))/(1+𝐺_{2}(𝑠)𝐺_{3}(𝑠)𝐻_{2}(𝑠)−𝐺_{3}(𝑠)𝐺_{4}(𝑠)𝐻_{1}(𝑠)+𝐺_{1}(𝑠)𝐺_{2}(𝑠)𝐺_{3}(𝑠)𝐺_{4}(𝑠)𝐻_{3}(𝑠))", "slide_id": "t03-s062", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s062-0320", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s062", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s063-0321", "expression": "𝑇(𝑠)=(𝐺_{1}(𝑠)𝐺_{2}(𝑠)𝐺_{3}(𝑠)𝐺_{4}(𝑠))/(1+𝐺_{2}(𝑠)𝐺_{3}(𝑠)𝐻_{2}(𝑠)−𝐺_{3}(𝑠)𝐺_{4}(𝑠)𝐻_{1}(𝑠)+𝐺_{1}(𝑠)𝐺_{2}(𝑠)𝐺_{3}(𝑠)𝐺_{4}(𝑠)𝐻_{3}(𝑠))", "slide_id": "t03-s063", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s063-0322", "expression": "𝑇(𝑠)=(𝐺_{1}(𝑠)𝐺_{2}(𝑠)𝐺_{3}(𝑠)𝐺_{4}(𝑠))/(1+𝐺_{2}(𝑠)𝐺_{3}(𝑠)𝐻_{2}(𝑠)−𝐺_{3}(𝑠)𝐺_{4}(𝑠)𝐻_{1}(𝑠)+𝐺_{1}(𝑠)𝐺_{2}(𝑠)𝐺_{3}(𝑠)𝐺_{4}(𝑠)𝐻_{3}(𝑠))𝑇(𝑠)=(𝐺_{1}(𝑠)𝐺_{2}(𝑠)𝐺_{3}(𝑠)𝐺_{4}(𝑠))/(1+𝐺_{2}(𝑠)𝐺_{3}(𝑠)𝐻_{2}(𝑠)−𝐺_{3}(𝑠)𝐺_{4}(𝑠)𝐻_{1}(𝑠)+𝐺_{1}(𝑠)𝐺_{2}(𝑠)𝐺_{3}(𝑠)𝐺_{4}(𝑠)𝐻_{3}(𝑠))", "slide_id": "t03-s063", "topic": 3, "title_context": "Example 1:"}
+{"id": "f-t03-s064-0323", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s064", "topic": 3, "title_context": "Example 2: Find the TF of the Signal-Flow Graph below"}
+{"id": "f-t03-s064-0324", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s064", "topic": 3, "title_context": "Example 2: Find the TF of the Signal-Flow Graph below"}
+{"id": "f-t03-s065-0325", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s065", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s065-0326", "expression": "Δ_{𝑖}", "slide_id": "t03-s065", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s065-0327", "expression": "Δ", "slide_id": "t03-s065", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s065-0328", "expression": "𝑇(𝑠)", "slide_id": "t03-s065", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s065-0329", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s065", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s066-0330", "expression": "𝑁=2", "slide_id": "t03-s066", "topic": 3, "title_context": "Number of forward paths: 𝑁=2"}
+{"id": "f-t03-s066-0331", "expression": "𝑁_{1}:𝑦_{1}−𝑦_{2}−𝑦_{3}−𝑦_{4}−𝑦_{5}−𝑦_{6}", "slide_id": "t03-s066", "topic": 3, "title_context": "Number of forward paths: 𝑁=2"}
+{"id": "f-t03-s066-0332", "expression": "𝑃_{1}=𝑎𝑏𝑐𝑑𝑒", "slide_id": "t03-s066", "topic": 3, "title_context": "Number of forward paths: 𝑁=2"}
+{"id": "f-t03-s066-0333", "expression": "𝑁_{2}:𝑦_{1}−𝑦_{2}−𝑦_{3}−𝑦_{5}−𝑦_{6}", "slide_id": "t03-s066", "topic": 3, "title_context": "Number of forward paths: 𝑁=2"}
+{"id": "f-t03-s066-0334", "expression": "𝑃_{2}=𝑎𝑏𝑔𝑒", "slide_id": "t03-s066", "topic": 3, "title_context": "Number of forward paths: 𝑁=2"}
+{"id": "f-t03-s066-0335", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s066", "topic": 3, "title_context": "Number of forward paths: 𝑁=2"}
+{"id": "f-t03-s066-0336", "expression": "Number of forward paths: 𝑁=2", "slide_id": "t03-s066", "topic": 3, "title_context": "Number of forward paths: 𝑁=2"}
+{"id": "f-t03-s066-0337", "expression": "𝑁_{1}:𝑦_{1}−𝑦_{2}−𝑦_{3}−𝑦_{4}−𝑦_{5}−𝑦_{6} Gain 𝑃_{1}=𝑎𝑏𝑐𝑑𝑒", "slide_id": "t03-s066", "topic": 3, "title_context": "Number of forward paths: 𝑁=2"}
+{"id": "f-t03-s066-0338", "expression": "𝑁_{2}:𝑦_{1}−𝑦_{2}−𝑦_{3}−𝑦_{5}−𝑦_{6} Gain 𝑃_{2}=𝑎𝑏𝑔𝑒", "slide_id": "t03-s066", "topic": 3, "title_context": "Number of forward paths: 𝑁=2"}
+{"id": "f-t03-s066-0339", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s066", "topic": 3, "title_context": "Number of forward paths: 𝑁=2"}
+{"id": "f-t03-s067-0340", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s067", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s067-0341", "expression": "Δ_{𝑖}", "slide_id": "t03-s067", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s067-0342", "expression": "Δ", "slide_id": "t03-s067", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s067-0343", "expression": "𝑇(𝑠)", "slide_id": "t03-s067", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s067-0344", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s067", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s068-0345", "expression": "𝐿=5", "slide_id": "t03-s068", "topic": 3, "title_context": "Number of individual loops: 𝐿=5"}
+{"id": "f-t03-s068-0346", "expression": "𝐿_{1}:𝑦_{2}−𝑦_{3}−𝑦_{2}", "slide_id": "t03-s068", "topic": 3, "title_context": "Number of individual loops: 𝐿=5"}
+{"id": "f-t03-s068-0347", "expression": "𝑙_{1}=𝑏𝑗", "slide_id": "t03-s068", "topic": 3, "title_context": "Number of individual loops: 𝐿=5"}
+{"id": "f-t03-s068-0348", "expression": "𝐿_{2}:𝑦_{3}−𝑦_{5}−𝑦_{3}", "slide_id": "t03-s068", "topic": 3, "title_context": "Number of individual loops: 𝐿=5"}
+{"id": "f-t03-s068-0349", "expression": "𝑙_{2}=𝑔h", "slide_id": "t03-s068", "topic": 3, "title_context": "Number of individual loops: 𝐿=5"}
+{"id": "f-t03-s068-0350", "expression": "𝐿_{3}:𝑦_{3}−𝑦_{4}−𝑦_{5}−𝑦_{3}", "slide_id": "t03-s068", "topic": 3, "title_context": "Number of individual loops: 𝐿=5"}
+{"id": "f-t03-s068-0351", "expression": "𝑙_{3}=𝑐𝑑h", "slide_id": "t03-s068", "topic": 3, "title_context": "Number of individual loops: 𝐿=5"}
+{"id": "f-t03-s068-0352", "expression": "𝐿_{4}:𝑦_{4}−𝑦_{5}−𝑦_{4}", "slide_id": "t03-s068", "topic": 3, "title_context": "Number of individual loops: 𝐿=5"}
+{"id": "f-t03-s068-0353", "expression": "𝑙_{4}=𝑑𝑖", "slide_id": "t03-s068", "topic": 3, "title_context": "Number of individual loops: 𝐿=5"}
+{"id": "f-t03-s068-0354", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s068", "topic": 3, "title_context": "Number of individual loops: 𝐿=5"}
+{"id": "f-t03-s068-0355", "expression": "𝐿_{5}:𝑦_{5}−𝑦_{5} Gain 𝑙_{5}=𝑓", "slide_id": "t03-s068", "topic": 3, "title_context": "Number of individual loops: 𝐿=5"}
+{"id": "f-t03-s068-0356", "expression": "Number of individual loops: 𝐿=5", "slide_id": "t03-s068", "topic": 3, "title_context": "Number of individual loops: 𝐿=5"}
+{"id": "f-t03-s068-0357", "expression": "𝐿_{1}:𝑦_{2}−𝑦_{3}−𝑦_{2} Gain 𝑙_{1}=𝑏𝑗", "slide_id": "t03-s068", "topic": 3, "title_context": "Number of individual loops: 𝐿=5"}
+{"id": "f-t03-s068-0358", "expression": "𝐿_{2}:𝑦_{3}−𝑦_{5}−𝑦_{3} Gain 𝑙_{2}=𝑔h", "slide_id": "t03-s068", "topic": 3, "title_context": "Number of individual loops: 𝐿=5"}
+{"id": "f-t03-s068-0359", "expression": "𝐿_{3}:𝑦_{3}−𝑦_{4}−𝑦_{5}−𝑦_{3} Gain 𝑙_{3}=𝑐𝑑h", "slide_id": "t03-s068", "topic": 3, "title_context": "Number of individual loops: 𝐿=5"}
+{"id": "f-t03-s068-0360", "expression": "𝐿_{4}:𝑦_{4}−𝑦_{5}−𝑦_{4} Gain 𝑙_{4}=𝑑𝑖", "slide_id": "t03-s068", "topic": 3, "title_context": "Number of individual loops: 𝐿=5"}
+{"id": "f-t03-s068-0361", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s068", "topic": 3, "title_context": "Number of individual loops: 𝐿=5"}
+{"id": "f-t03-s068-0362", "expression": "𝐿_{5}:𝑦_{5}−𝑦_{5}              Gain 𝑙_{5}=𝑓 𝐿_{5}:𝑦_{5}−𝑦_{5}              Gain 𝑙_{5}=𝑓", "slide_id": "t03-s068", "topic": 3, "title_context": "Number of individual loops: 𝐿=5"}
+{"id": "f-t03-s069-0363", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s069", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s069-0364", "expression": "Δ_{𝑖}", "slide_id": "t03-s069", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s069-0365", "expression": "Δ", "slide_id": "t03-s069", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s069-0366", "expression": "𝑇(𝑠)", "slide_id": "t03-s069", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s069-0367", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s069", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s070-0368", "expression": "𝑁_{𝑝𝑎𝑖𝑟𝑠}=2", "slide_id": "t03-s070", "topic": 3, "title_context": "Number of 2 non-touching loops: 𝑁_{𝑝𝑎𝑖𝑟𝑠}=2"}
+{"id": "f-t03-s070-0369", "expression": "𝑃𝑎𝑖𝑟1(𝐿_{1}𝑎𝑛𝑑 𝐿_{4}):𝑦_{2}−𝑦_{3}−𝑦_{2} 𝑎𝑛𝑑 𝑦_{4}−𝑦_{5}−𝑦_{4}", "slide_id": "t03-s070", "topic": 3, "title_context": "Number of 2 non-touching loops: 𝑁_{𝑝𝑎𝑖𝑟𝑠}=2"}
+{"id": "f-t03-s070-0370", "expression": "𝑃𝑎𝑖𝑟1=𝑏𝑗∙𝑑𝑖", "slide_id": "t03-s070", "topic": 3, "title_context": "Number of 2 non-touching loops: 𝑁_{𝑝𝑎𝑖𝑟𝑠}=2"}
+{"id": "f-t03-s070-0371", "expression": "𝑃𝑎𝑖𝑟2 (𝐿_{1}𝑎𝑛𝑑 𝐿_{5}):𝑦_{2}−𝑦_{3}−𝑦_{2} 𝑎𝑛𝑑 𝑦_{5}−𝑦_{5}", "slide_id": "t03-s070", "topic": 3, "title_context": "Number of 2 non-touching loops: 𝑁_{𝑝𝑎𝑖𝑟𝑠}=2"}
+{"id": "f-t03-s070-0372", "expression": "𝑃𝑎𝑖𝑟2=𝑏𝑗∙𝑓", "slide_id": "t03-s070", "topic": 3, "title_context": "Number of 2 non-touching loops: 𝑁_{𝑝𝑎𝑖𝑟𝑠}=2"}
+{"id": "f-t03-s070-0373", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s070", "topic": 3, "title_context": "Number of 2 non-touching loops: 𝑁_{𝑝𝑎𝑖𝑟𝑠}=2"}
+{"id": "f-t03-s070-0374", "expression": "Number of 2 non-touching loops: 𝑁_{𝑝𝑎𝑖𝑟𝑠}=2", "slide_id": "t03-s070", "topic": 3, "title_context": "Number of 2 non-touching loops: 𝑁_{𝑝𝑎𝑖𝑟𝑠}=2"}
+{"id": "f-t03-s070-0375", "expression": "𝑃𝑎𝑖𝑟1(𝐿_{1}𝑎𝑛𝑑 𝐿_{4}):𝑦_{2}−𝑦_{3}−𝑦_{2} 𝑎𝑛𝑑 𝑦_{4}−𝑦_{5}−𝑦_{4} Gain 𝑃𝑎𝑖𝑟1=𝑏𝑗∙𝑑𝑖", "slide_id": "t03-s070", "topic": 3, "title_context": "Number of 2 non-touching loops: 𝑁_{𝑝𝑎𝑖𝑟𝑠}=2"}
+{"id": "f-t03-s070-0376", "expression": "𝑃𝑎𝑖𝑟2 (𝐿_{1}𝑎𝑛𝑑 𝐿_{5}):𝑦_{2}−𝑦_{3}−𝑦_{2} 𝑎𝑛𝑑 𝑦_{5}−𝑦_{5} Gain 𝑃𝑎𝑖𝑟2=𝑏𝑗∙𝑓", "slide_id": "t03-s070", "topic": 3, "title_context": "Number of 2 non-touching loops: 𝑁_{𝑝𝑎𝑖𝑟𝑠}=2"}
+{"id": "f-t03-s070-0377", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s070", "topic": 3, "title_context": "Number of 2 non-touching loops: 𝑁_{𝑝𝑎𝑖𝑟𝑠}=2"}
+{"id": "f-t03-s071-0378", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s071", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s071-0379", "expression": "Δ_{𝑖}", "slide_id": "t03-s071", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s071-0380", "expression": "Δ", "slide_id": "t03-s071", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s071-0381", "expression": "𝑇(𝑠)", "slide_id": "t03-s071", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s071-0382", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s071", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s072-0383", "expression": "𝑁_{𝑡𝑟𝑖𝑝𝑙𝑒𝑡𝑠}=0", "slide_id": "t03-s072", "topic": 3, "title_context": "Number of 3 non-touching loops: 𝑁_{𝑡𝑟𝑖𝑝𝑙𝑒𝑡𝑠}=0"}
+{"id": "f-t03-s072-0384", "expression": "Δ 𝑎𝑛𝑑 Δ_{𝑖}", "slide_id": "t03-s072", "topic": 3, "title_context": "Number of 3 non-touching loops: 𝑁_{𝑡𝑟𝑖𝑝𝑙𝑒𝑡𝑠}=0"}
+{"id": "f-t03-s072-0385", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s072", "topic": 3, "title_context": "Number of 3 non-touching loops: 𝑁_{𝑡𝑟𝑖𝑝𝑙𝑒𝑡𝑠}=0"}
+{"id": "f-t03-s072-0386", "expression": "Number of 3 non-touching loops: 𝑁_{𝑡𝑟𝑖𝑝𝑙𝑒𝑡𝑠}=0", "slide_id": "t03-s072", "topic": 3, "title_context": "Number of 3 non-touching loops: 𝑁_{𝑡𝑟𝑖𝑝𝑙𝑒𝑡𝑠}=0"}
+{"id": "f-t03-s072-0387", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s072", "topic": 3, "title_context": "Number of 3 non-touching loops: 𝑁_{𝑡𝑟𝑖𝑝𝑙𝑒𝑡𝑠}=0"}
+{"id": "f-t03-s073-0388", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s073", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s073-0389", "expression": "Δ_{𝑖}", "slide_id": "t03-s073", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s073-0390", "expression": "Δ", "slide_id": "t03-s073", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s073-0391", "expression": "𝑇(𝑠)", "slide_id": "t03-s073", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s073-0392", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s073", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s074-0393", "expression": "Δ=1−", "slide_id": "t03-s074", "topic": 3, "title_context": "(untitled slide 74)"}
+{"id": "f-t03-s074-0394", "expression": "Δ=1−(𝑙_{1}+𝑙_{2}+𝑙_{3}+𝑙_{4}+𝑙_{5})+((𝑙_{1}∙𝑙_{4})+(𝑙_{1}∙𝑙_{5}))+0", "slide_id": "t03-s074", "topic": 3, "title_context": "(untitled slide 74)"}
+{"id": "f-t03-s074-0395", "expression": "Δ=1−(𝑏𝑗+𝑔h+𝑐𝑑h+𝑑𝑖+𝑓)+(𝑏𝑗𝑑𝑖+𝑏𝑗𝑓)", "slide_id": "t03-s074", "topic": 3, "title_context": "(untitled slide 74)"}
+{"id": "f-t03-s074-0396", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s074", "topic": 3, "title_context": "(untitled slide 74)"}
+{"id": "f-t03-s074-0397", "expression": "Δ=1−(sum of all individual loop gains) + (sum of gain products of all possible 2 non-touching loops) – (sum of gain products of all possible 3 non- touching loops) + …", "slide_id": "t03-s074", "topic": 3, "title_context": "(untitled slide 74)"}
+{"id": "f-t03-s074-0398", "expression": "Δ=1−(𝑙_{1}+𝑙_{2}+𝑙_{3}+𝑙_{4}+𝑙_{5})+((𝑙_{1}∙𝑙_{4})+(𝑙_{1}∙𝑙_{5}))+0 Δ=1−(𝑙_{1}+𝑙_{2}+𝑙_{3}+𝑙_{4}+𝑙_{5})+((𝑙_{1}∙𝑙_{4})+(𝑙_{1}∙𝑙_{5}))+0", "slide_id": "t03-s074", "topic": 3, "title_context": "(untitled slide 74)"}
+{"id": "f-t03-s074-0399", "expression": "Δ=1−(𝑏𝑗+𝑔h+𝑐𝑑h+𝑑𝑖+𝑓)+(𝑏𝑗𝑑𝑖+𝑏𝑗𝑓)Δ=1−(𝑏𝑗+𝑔h+𝑐𝑑h+𝑑𝑖+𝑓)+(𝑏𝑗𝑑𝑖+𝑏𝑗𝑓)", "slide_id": "t03-s074", "topic": 3, "title_context": "(untitled slide 74)"}
+{"id": "f-t03-s074-0400", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s074", "topic": 3, "title_context": "(untitled slide 74)"}
+{"id": "f-t03-s075-0401", "expression": "Δ_{1}=1 Δ_{2}=1", "slide_id": "t03-s075", "topic": 3, "title_context": "All loops touch all forward paths"}
+{"id": "f-t03-s075-0402", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s075", "topic": 3, "title_context": "All loops touch all forward paths"}
+{"id": "f-t03-s075-0403", "expression": "Δ_{1}=1        Δ_{2}=1 Δ_{1}=1        Δ_{2}=1", "slide_id": "t03-s075", "topic": 3, "title_context": "All loops touch all forward paths"}
+{"id": "f-t03-s075-0404", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s075", "topic": 3, "title_context": "All loops touch all forward paths"}
+{"id": "f-t03-s076-0405", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s076", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s076-0406", "expression": "Δ_{𝑖}", "slide_id": "t03-s076", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s076-0407", "expression": "Δ", "slide_id": "t03-s076", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s076-0408", "expression": "𝑇(𝑠)", "slide_id": "t03-s076", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s076-0409", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s076", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s077-0410", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)=(𝑃_{1}Δ_{1})/(Δ)+(𝑃_{2}Δ_{2})/(Δ)=(𝑎𝑏𝑐𝑑𝑒+𝑎𝑏𝑔𝑒)/(1−(𝑏𝑗+𝑔h+𝑐𝑑h+𝑑𝑖+𝑓)+(𝑏𝑗𝑑𝑖+𝑏𝑗𝑓))", "slide_id": "t03-s077", "topic": 3, "title_context": "Apply Mason’s Rule:"}
+{"id": "f-t03-s077-0411", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s077", "topic": 3, "title_context": "Apply Mason’s Rule:"}
+{"id": "f-t03-s077-0412", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)=(𝑃_{1}Δ_{1})/(Δ)+(𝑃_{2}Δ_{2})/(Δ)=(𝑎𝑏𝑐𝑑𝑒+𝑎𝑏𝑔𝑒)/(1−(𝑏𝑗+𝑔h+𝑐𝑑h+𝑑𝑖+𝑓)+(𝑏𝑗𝑑𝑖+𝑏𝑗𝑓))𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)=(𝑃_{1}Δ_{1})/(Δ)+(𝑃_{2}Δ_{2})/(Δ)=(𝑎𝑏𝑐𝑑𝑒+𝑎𝑏𝑔𝑒)/(1−(𝑏𝑗+𝑔h+𝑐𝑑h+𝑑𝑖+𝑓)+(𝑏𝑗𝑑𝑖+𝑏𝑗𝑓))", "slide_id": "t03-s077", "topic": 3, "title_context": "Apply Mason’s Rule:"}
+{"id": "f-t03-s077-0413", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s077", "topic": 3, "title_context": "Apply Mason’s Rule:"}
+{"id": "f-t03-s078-0414", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s078", "topic": 3, "title_context": "Example 3: Find the TF of the Signal-Flow Graph below"}
+{"id": "f-t03-s078-0415", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s078", "topic": 3, "title_context": "Example 3: Find the TF of the Signal-Flow Graph below"}
+{"id": "f-t03-s079-0416", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s079", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s079-0417", "expression": "Δ_{𝑖}", "slide_id": "t03-s079", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s079-0418", "expression": "Δ", "slide_id": "t03-s079", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s079-0419", "expression": "𝑇(𝑠)", "slide_id": "t03-s079", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s079-0420", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s079", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s080-0421", "expression": "𝑁=3", "slide_id": "t03-s080", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s080-0422", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s080", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s080-0423", "expression": "𝐺𝑎𝑖𝑛 𝑁_{1}=𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐺_{6}", "slide_id": "t03-s080", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s080-0424", "expression": "𝐺𝑎𝑖𝑛 𝑁_{2}=𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}", "slide_id": "t03-s080", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s080-0425", "expression": "𝐺𝑎𝑖𝑛 𝑁_{3}=𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{8}", "slide_id": "t03-s080", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s080-0426", "expression": "Number of forward paths: 𝑁=3", "slide_id": "t03-s080", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s080-0427", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s080", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s080-0428", "expression": "𝐺𝑎𝑖𝑛 𝑁_{1}=𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐺_{6}𝐺𝑎𝑖𝑛 𝑁_{1}=𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐺_{6}", "slide_id": "t03-s080", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s080-0429", "expression": "𝐺𝑎𝑖𝑛 𝑁_{2}=𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}𝐺𝑎𝑖𝑛 𝑁_{2}=𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}", "slide_id": "t03-s080", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s080-0430", "expression": "𝐺𝑎𝑖𝑛 𝑁_{3}=𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{8}𝐺𝑎𝑖𝑛 𝑁_{3}=𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{8}", "slide_id": "t03-s080", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s081-0431", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s081", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s081-0432", "expression": "Δ_{𝑖}", "slide_id": "t03-s081", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s081-0433", "expression": "Δ", "slide_id": "t03-s081", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s081-0434", "expression": "𝑇(𝑠)", "slide_id": "t03-s081", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s081-0435", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s081", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s082-0436", "expression": "𝐿=8", "slide_id": "t03-s082", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s082-0437", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s082", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s082-0438", "expression": "𝐿_{1}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐺_{6}𝐻_{3}", "slide_id": "t03-s082", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s082-0439", "expression": "𝐿_{2}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{8}𝐻_{3}", "slide_id": "t03-s082", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s082-0440", "expression": "𝐿_{3}=−𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}𝐻_{3}", "slide_id": "t03-s082", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s082-0441", "expression": "𝐿_{4}=−𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐻_{2}", "slide_id": "t03-s082", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s082-0442", "expression": "𝐿_{5}=−𝐺_{2}𝐺_{7}𝐻_{2}", "slide_id": "t03-s082", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s082-0443", "expression": "𝐿_{6}=−𝐺_{4}𝐻_{4}", "slide_id": "t03-s082", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s082-0444", "expression": "𝐿_{7}=−𝐺_{5}𝐺_{6}𝐻_{1}", "slide_id": "t03-s082", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s082-0445", "expression": "𝐿_{8}=−𝐺_{8}𝐻_{1}", "slide_id": "t03-s082", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s082-0446", "expression": "Number of individual loops: 𝐿=8", "slide_id": "t03-s082", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s082-0447", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s082", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s082-0448", "expression": "𝐿_{1}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐺_{6}𝐻_{3}𝐿_{1}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐺_{6}𝐻_{3}", "slide_id": "t03-s082", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s082-0449", "expression": "𝐿_{2}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{8}𝐻_{3}𝐿_{2}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{8}𝐻_{3}", "slide_id": "t03-s082", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s082-0450", "expression": "𝐿_{3}=−𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}𝐻_{3}𝐿_{3}=−𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}𝐻_{3}", "slide_id": "t03-s082", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s082-0451", "expression": "𝐿_{4}=−𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐻_{2}𝐿_{4}=−𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐻_{2}", "slide_id": "t03-s082", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s082-0452", "expression": "𝐿_{5}=−𝐺_{2}𝐺_{7}𝐻_{2}𝐿_{5}=−𝐺_{2}𝐺_{7}𝐻_{2}", "slide_id": "t03-s082", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s082-0453", "expression": "𝐿_{6}=−𝐺_{4}𝐻_{4}𝐿_{6}=−𝐺_{4}𝐻_{4}", "slide_id": "t03-s082", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s082-0454", "expression": "𝐿_{7}=−𝐺_{5}𝐺_{6}𝐻_{1}𝐿_{7}=−𝐺_{5}𝐺_{6}𝐻_{1}", "slide_id": "t03-s082", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s082-0455", "expression": "𝐿_{8}=−𝐺_{8}𝐻_{1}𝐿_{8}=−𝐺_{8}𝐻_{1}", "slide_id": "t03-s082", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s083-0456", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s083", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s083-0457", "expression": "Δ_{𝑖}", "slide_id": "t03-s083", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s083-0458", "expression": "Δ", "slide_id": "t03-s083", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s083-0459", "expression": "𝑇(𝑠)", "slide_id": "t03-s083", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s083-0460", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s083", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s084-0461", "expression": "𝑁_{𝑝𝑎𝑖𝑟𝑠}=", "slide_id": "t03-s084", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s084-0462", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s084", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s084-0463", "expression": "𝐿_{1}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐺_{6}𝐻_{3}", "slide_id": "t03-s084", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s084-0464", "expression": "𝐿_{2}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{8}𝐻_{3}", "slide_id": "t03-s084", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s084-0465", "expression": "𝐿_{3}=−𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}𝐻_{3}", "slide_id": "t03-s084", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s084-0466", "expression": "𝐿_{4}=−𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐻_{2}", "slide_id": "t03-s084", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s084-0467", "expression": "𝐿_{5}=−𝐺_{2}𝐺_{7}𝐻_{2}", "slide_id": "t03-s084", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s084-0468", "expression": "𝐿_{6}=−𝐺_{4}𝐻_{4}", "slide_id": "t03-s084", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s084-0469", "expression": "𝐿_{7}=−𝐺_{5}𝐺_{6}𝐻_{1}", "slide_id": "t03-s084", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s084-0470", "expression": "𝐿_{8}=−𝐺_{8}𝐻_{1}", "slide_id": "t03-s084", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s084-0471", "expression": "Number of 2 non-touching loops: 𝑁_{𝑝𝑎𝑖𝑟𝑠}= ?", "slide_id": "t03-s084", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s084-0472", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s084", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s084-0473", "expression": "𝐿_{1}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐺_{6}𝐻_{3}𝐿_{1}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐺_{6}𝐻_{3}", "slide_id": "t03-s084", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s084-0474", "expression": "𝐿_{2}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{8}𝐻_{3}𝐿_{2}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{8}𝐻_{3}", "slide_id": "t03-s084", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s084-0475", "expression": "𝐿_{3}=−𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}𝐻_{3}𝐿_{3}=−𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}𝐻_{3}", "slide_id": "t03-s084", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s084-0476", "expression": "𝐿_{4}=−𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐻_{2}𝐿_{4}=−𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐻_{2}", "slide_id": "t03-s084", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s084-0477", "expression": "𝐿_{5}=−𝐺_{2}𝐺_{7}𝐻_{2}𝐿_{5}=−𝐺_{2}𝐺_{7}𝐻_{2}", "slide_id": "t03-s084", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s084-0478", "expression": "𝐿_{6}=−𝐺_{4}𝐻_{4}𝐿_{6}=−𝐺_{4}𝐻_{4}", "slide_id": "t03-s084", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s084-0479", "expression": "𝐿_{7}=−𝐺_{5}𝐺_{6}𝐻_{1}𝐿_{7}=−𝐺_{5}𝐺_{6}𝐻_{1}", "slide_id": "t03-s084", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s084-0480", "expression": "𝐿_{8}=−𝐺_{8}𝐻_{1}𝐿_{8}=−𝐺_{8}𝐻_{1}", "slide_id": "t03-s084", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s085-0481", "expression": "𝑁_{𝑝𝑎𝑖𝑟𝑠}=", "slide_id": "t03-s085", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s085-0482", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s085", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s085-0483", "expression": "𝐿_{1}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐺_{6}𝐻_{3}", "slide_id": "t03-s085", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s085-0484", "expression": "𝐿_{2}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{8}𝐻_{3}", "slide_id": "t03-s085", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s085-0485", "expression": "𝐿_{3}=−𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}𝐻_{3}", "slide_id": "t03-s085", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s085-0486", "expression": "𝐿_{4}=−𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐻_{2}", "slide_id": "t03-s085", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s085-0487", "expression": "𝐿_{5}=−𝐺_{2}𝐺_{7}𝐻_{2}", "slide_id": "t03-s085", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s085-0488", "expression": "𝐿_{6}=−𝐺_{4}𝐻_{4}", "slide_id": "t03-s085", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s085-0489", "expression": "𝐿_{7}=−𝐺_{5}𝐺_{6}𝐻_{1}", "slide_id": "t03-s085", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s085-0490", "expression": "𝐿_{8}=−𝐺_{8}𝐻_{1}", "slide_id": "t03-s085", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s085-0491", "expression": "Number of 2 non-touching loops: 𝑁_{𝑝𝑎𝑖𝑟𝑠}= ?", "slide_id": "t03-s085", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s085-0492", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s085", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s085-0493", "expression": "𝐿_{1}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐺_{6}𝐻_{3}𝐿_{1}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐺_{6}𝐻_{3}", "slide_id": "t03-s085", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s085-0494", "expression": "𝐿_{2}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{8}𝐻_{3}𝐿_{2}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{8}𝐻_{3}", "slide_id": "t03-s085", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s085-0495", "expression": "𝐿_{3}=−𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}𝐻_{3}𝐿_{3}=−𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}𝐻_{3}", "slide_id": "t03-s085", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s085-0496", "expression": "𝐿_{4}=−𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐻_{2}𝐿_{4}=−𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐻_{2}", "slide_id": "t03-s085", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s085-0497", "expression": "𝐿_{5}=−𝐺_{2}𝐺_{7}𝐻_{2}𝐿_{5}=−𝐺_{2}𝐺_{7}𝐻_{2}", "slide_id": "t03-s085", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s085-0498", "expression": "𝐿_{6}=−𝐺_{4}𝐻_{4}𝐿_{6}=−𝐺_{4}𝐻_{4}", "slide_id": "t03-s085", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s085-0499", "expression": "𝐿_{7}=−𝐺_{5}𝐺_{6}𝐻_{1}𝐿_{7}=−𝐺_{5}𝐺_{6}𝐻_{1}", "slide_id": "t03-s085", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s085-0500", "expression": "𝐿_{8}=−𝐺_{8}𝐻_{1}𝐿_{8}=−𝐺_{8}𝐻_{1}", "slide_id": "t03-s085", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s086-0501", "expression": "𝑁_{𝑝𝑎𝑖𝑟𝑠}=", "slide_id": "t03-s086", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s086-0502", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s086", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s086-0503", "expression": "𝐿_{1}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐺_{6}𝐻_{3}", "slide_id": "t03-s086", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s086-0504", "expression": "𝐿_{2}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{8}𝐻_{3}", "slide_id": "t03-s086", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s086-0505", "expression": "𝐿_{3}=−𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}𝐻_{3}", "slide_id": "t03-s086", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s086-0506", "expression": "𝐿_{4}=−𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐻_{2}", "slide_id": "t03-s086", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s086-0507", "expression": "𝐿_{5}=−𝐺_{2}𝐺_{7}𝐻_{2}", "slide_id": "t03-s086", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s086-0508", "expression": "𝐿_{6}=−𝐺_{4}𝐻_{4}", "slide_id": "t03-s086", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s086-0509", "expression": "𝐿_{7}=−𝐺_{5}𝐺_{6}𝐻_{1}", "slide_id": "t03-s086", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s086-0510", "expression": "𝐿_{8}=−𝐺_{8}𝐻_{1}", "slide_id": "t03-s086", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s086-0511", "expression": "Number of 2 non-touching loops: 𝑁_{𝑝𝑎𝑖𝑟𝑠}= ?", "slide_id": "t03-s086", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s086-0512", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s086", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s086-0513", "expression": "𝐿_{1}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐺_{6}𝐻_{3}𝐿_{1}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐺_{6}𝐻_{3}", "slide_id": "t03-s086", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s086-0514", "expression": "𝐿_{2}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{8}𝐻_{3}𝐿_{2}=−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{8}𝐻_{3}", "slide_id": "t03-s086", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s086-0515", "expression": "𝐿_{3}=−𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}𝐻_{3}𝐿_{3}=−𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}𝐻_{3}", "slide_id": "t03-s086", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s086-0516", "expression": "𝐿_{4}=−𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐻_{2}𝐿_{4}=−𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐻_{2}", "slide_id": "t03-s086", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s086-0517", "expression": "𝐿_{5}=−𝐺_{2}𝐺_{7}𝐻_{2}𝐿_{5}=−𝐺_{2}𝐺_{7}𝐻_{2}", "slide_id": "t03-s086", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s086-0518", "expression": "𝐿_{6}=−𝐺_{4}𝐻_{4}𝐿_{6}=−𝐺_{4}𝐻_{4}", "slide_id": "t03-s086", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s086-0519", "expression": "𝐿_{7}=−𝐺_{5}𝐺_{6}𝐻_{1}𝐿_{7}=−𝐺_{5}𝐺_{6}𝐻_{1}", "slide_id": "t03-s086", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s086-0520", "expression": "𝐿_{8}=−𝐺_{8}𝐻_{1}𝐿_{8}=−𝐺_{8}𝐻_{1}", "slide_id": "t03-s086", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s087-0521", "expression": "𝑁_{𝑝𝑎𝑖𝑟𝑠}=", "slide_id": "t03-s087", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s087-0522", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s087", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s087-0523", "expression": "𝐿_{3}=−𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}𝐻_{3}", "slide_id": "t03-s087", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s087-0524", "expression": "𝐿_{5}=−𝐺_{2}𝐺_{7}𝐻_{2}", "slide_id": "t03-s087", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s087-0525", "expression": "𝐿_{6}=−𝐺_{4}𝐻_{4}", "slide_id": "t03-s087", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s087-0526", "expression": "𝐿_{8}=−𝐺_{8}𝐻_{1}", "slide_id": "t03-s087", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s087-0527", "expression": "𝐺𝑎𝑖𝑛_{𝐿_{5},𝐿_{6}}=𝐺_{2}𝐺_{4}𝐺_{7}𝐻_{2}𝐻_{4}", "slide_id": "t03-s087", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s087-0528", "expression": "𝐺𝑎𝑖𝑛_{𝐿_{5},𝐿_{8}}=𝐺_{2}𝐺_{7}𝐺_{8}𝐻_{1}𝐻_{2}", "slide_id": "t03-s087", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s087-0529", "expression": "𝐺𝑎𝑖𝑛_{𝐿_{3},𝐿_{6}}=𝐺_{1}𝐺_{2}𝐺_{4}𝐺_{7}𝐺_{6}𝐻_{3}𝐻_{4}", "slide_id": "t03-s087", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s087-0530", "expression": "Number of 2 non-touching loops: 𝑁_{𝑝𝑎𝑖𝑟𝑠}= 3", "slide_id": "t03-s087", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s087-0531", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s087", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s087-0532", "expression": "𝐿_{3}=−𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}𝐻_{3}𝐿_{3}=−𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}𝐻_{3}", "slide_id": "t03-s087", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s087-0533", "expression": "𝐿_{5}=−𝐺_{2}𝐺_{7}𝐻_{2}𝐿_{5}=−𝐺_{2}𝐺_{7}𝐻_{2}", "slide_id": "t03-s087", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s087-0534", "expression": "𝐿_{6}=−𝐺_{4}𝐻_{4}𝐿_{6}=−𝐺_{4}𝐻_{4}", "slide_id": "t03-s087", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s087-0535", "expression": "𝐿_{8}=−𝐺_{8}𝐻_{1}𝐿_{8}=−𝐺_{8}𝐻_{1}", "slide_id": "t03-s087", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s087-0536", "expression": "𝐿_{5}=−𝐺_{2}𝐺_{7}𝐻_{2}𝐿_{5}=−𝐺_{2}𝐺_{7}𝐻_{2}", "slide_id": "t03-s087", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s087-0537", "expression": "𝐿_{6}=−𝐺_{4}𝐻_{4}𝐿_{6}=−𝐺_{4}𝐻_{4}", "slide_id": "t03-s087", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s087-0538", "expression": "𝐺𝑎𝑖𝑛_{𝐿_{5},𝐿_{6}}=𝐺_{2}𝐺_{4}𝐺_{7}𝐻_{2}𝐻_{4}𝐺𝑎𝑖𝑛_{𝐿_{5},𝐿_{6}}=𝐺_{2}𝐺_{4}𝐺_{7}𝐻_{2}𝐻_{4}", "slide_id": "t03-s087", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s087-0539", "expression": "𝐺𝑎𝑖𝑛_{𝐿_{5},𝐿_{8}}=𝐺_{2}𝐺_{7}𝐺_{8}𝐻_{1}𝐻_{2}𝐺𝑎𝑖𝑛_{𝐿_{5},𝐿_{8}}=𝐺_{2}𝐺_{7}𝐺_{8}𝐻_{1}𝐻_{2}", "slide_id": "t03-s087", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s087-0540", "expression": "𝐺𝑎𝑖𝑛_{𝐿_{3},𝐿_{6}}=𝐺_{1}𝐺_{2}𝐺_{4}𝐺_{7}𝐺_{6}𝐻_{3}𝐻_{4}𝐺𝑎𝑖𝑛_{𝐿_{3},𝐿_{6}}=𝐺_{1}𝐺_{2}𝐺_{4}𝐺_{7}𝐺_{6}𝐻_{3}𝐻_{4}", "slide_id": "t03-s087", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s088-0541", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s088", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s088-0542", "expression": "Δ_{𝑖}", "slide_id": "t03-s088", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s088-0543", "expression": "Δ", "slide_id": "t03-s088", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s088-0544", "expression": "𝑇(𝑠)", "slide_id": "t03-s088", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s088-0545", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s088", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s089-0546", "expression": "𝑁_{𝑡𝑟𝑖𝑝𝑙𝑒𝑡𝑠}=0", "slide_id": "t03-s089", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s089-0547", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s089", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s089-0548", "expression": "Number of 3 non-touching loops: 𝑁_{𝑡𝑟𝑖𝑝𝑙𝑒𝑡𝑠}=0", "slide_id": "t03-s089", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s089-0549", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s089", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s090-0550", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s090", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s090-0551", "expression": "Δ_{𝑖}", "slide_id": "t03-s090", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s090-0552", "expression": "Δ", "slide_id": "t03-s090", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s090-0553", "expression": "𝑇(𝑠)", "slide_id": "t03-s090", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s090-0554", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s090", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s091-0555", "expression": "Δ=1−", "slide_id": "t03-s091", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s091-0556", "expression": "Δ=1−(−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐺_{6}𝐻_{3}−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{8}𝐻_{3}−𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}𝐻_{3}−𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐻_{2}−𝐺_{2}𝐺_{7}𝐻_{2}− 𝐺_{4}𝐻_{4}−𝐺_{5}𝐺_{6}𝐻_{1}−𝐺_{8}𝐻_{1})+(𝐺_{2}𝐺_{4}𝐺_{7}𝐻_{2}𝐻_{4}+𝐺_{2}𝐺_{7}𝐺_{8}𝐻_{1}𝐻_{2}+𝐺_{1}𝐺_{2}𝐺_{4}𝐺_{7}𝐺_{6}𝐻_{3}𝐻_{4})+0", "slide_id": "t03-s091", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s091-0557", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s091", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s091-0558", "expression": "Δ=1−(sum of all individual loop gains) + (sum of gain products of all possible 2 non-touching loops) – (sum of gain products of all possible 3 non- touching loops) + …", "slide_id": "t03-s091", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s091-0559", "expression": "Δ=1−(−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐺_{6}𝐻_{3}−𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{8}𝐻_{3}−𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}𝐻_{3}−𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐻_{2}−𝐺_{2}𝐺_{7}𝐻_{2}−                  𝐺_{4}𝐻_{4}−𝐺_{5}𝐺_{6}𝐻_{1}−𝐺_{8}𝐻_{1})+(𝐺_{2}𝐺_{4}𝐺_{7}𝐻_{2}𝐻_{4}+𝐺_{2}𝐺_{7}𝐺_{8}𝐻_{1}𝐻_{2}+𝐺_{1}𝐺_{2}𝐺_{4}𝐺_{7}𝐺_{6}𝐻_{3}𝐻_{4})+0", "slide_id": "t03-s091", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s091-0560", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s091", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s092-0561", "expression": "Δ_{1}", "slide_id": "t03-s092", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s092-0562", "expression": "Δ_{1}=1", "slide_id": "t03-s092", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s092-0563", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s092", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s092-0564", "expression": "𝐺𝑎𝑖𝑛 𝑁_{1}=𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐺_{6}", "slide_id": "t03-s092", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s092-0565", "expression": "Δ_{1}=1 Δ_{1}=1", "slide_id": "t03-s092", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s092-0566", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s092", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s092-0567", "expression": "𝐺𝑎𝑖𝑛 𝑁_{1}=𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐺_{6}𝐺𝑎𝑖𝑛 𝑁_{1}=𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{5}𝐺_{6}", "slide_id": "t03-s092", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s093-0568", "expression": "Δ_{2}", "slide_id": "t03-s093", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s093-0569", "expression": "𝐿_{6}=−𝐺_{4}𝐻_{4}", "slide_id": "t03-s093", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s093-0570", "expression": "Δ_{2}=1−𝐿_{6}=1+𝐺_{4}𝐻_{4}", "slide_id": "t03-s093", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s093-0571", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s093", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s093-0572", "expression": "𝐺𝑎𝑖𝑛 𝑁_{2}=𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}", "slide_id": "t03-s093", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s093-0573", "expression": "Loop 𝐿_{6}=−𝐺_{4}𝐻_{4} does not touch path 2", "slide_id": "t03-s093", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s093-0574", "expression": "Δ_{2}=1−𝐿_{6}=1+𝐺_{4}𝐻_{4}Δ_{2}=1−𝐿_{6}=1+𝐺_{4}𝐻_{4}", "slide_id": "t03-s093", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s093-0575", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s093", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s093-0576", "expression": "𝐺𝑎𝑖𝑛 𝑁_{2}=𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}𝐺𝑎𝑖𝑛 𝑁_{2}=𝐺_{1}𝐺_{2}𝐺_{7}𝐺_{6}", "slide_id": "t03-s093", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s094-0577", "expression": "Δ_{3}", "slide_id": "t03-s094", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s094-0578", "expression": "Δ_{3}=1", "slide_id": "t03-s094", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s094-0579", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s094", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s094-0580", "expression": "𝐺𝑎𝑖𝑛 𝑁_{3}=𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{8}", "slide_id": "t03-s094", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s094-0581", "expression": "Δ_{3}=1 Δ_{3}=1", "slide_id": "t03-s094", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s094-0582", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s094", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s094-0583", "expression": "𝐺𝑎𝑖𝑛 𝑁_{3}=𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{8}𝐺𝑎𝑖𝑛 𝑁_{3}=𝐺_{1}𝐺_{2}𝐺_{3}𝐺_{4}𝐺_{8}", "slide_id": "t03-s094", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s095-0584", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s095", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s095-0585", "expression": "Δ_{𝑖}", "slide_id": "t03-s095", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s095-0586", "expression": "Δ", "slide_id": "t03-s095", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s095-0587", "expression": "𝑇(𝑠)", "slide_id": "t03-s095", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s095-0588", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s095", "topic": 3, "title_context": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)"}
+{"id": "f-t03-s096-0589", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(𝑃_{1}(𝑠)Δ_{1}+𝑃_{2}(𝑠)Δ_{2}+𝑃_{3}(𝑠)Δ_{3})/(Δ(𝑠))", "slide_id": "t03-s096", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s096-0590", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s096", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s096-0591", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(𝑃_{1}(𝑠)Δ_{1}+𝑃_{2}(𝑠)Δ_{2}+𝑃_{3}(𝑠)Δ_{3})/(Δ(𝑠))𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(𝑃_{1}(𝑠)Δ_{1}+𝑃_{2}(𝑠)Δ_{2}+𝑃_{3}(𝑠)Δ_{3})/(Δ(𝑠))", "slide_id": "t03-s096", "topic": 3, "title_context": "Example 3:"}
+{"id": "f-t03-s096-0592", "expression": "𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)𝑇(𝑠)=(𝑌(𝑠))/(𝑅(𝑠))=(∑_{𝑖=1}^{𝑁}(𝑃_{𝑖}Δ_{𝑖}))/(Δ)", "slide_id": "t03-s096", "topic": 3, "title_context": "Example 3:"}

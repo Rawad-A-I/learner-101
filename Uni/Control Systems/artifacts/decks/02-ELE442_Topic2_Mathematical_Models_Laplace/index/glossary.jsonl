@@ -1,0 +1,17 @@
+{"term_guess": "Mathematical Models", "definition": "Dynamic behaviour is described by Ordinary Differential Equations", "slide_id": "t02-s002", "topic": 2}
+{"term_guess": "Linearity and Time-Invariance", "definition": "What is a linear system?", "slide_id": "t02-s014", "topic": 2}
+{"term_guess": "Are the following systems linear?", "definition": "The system is not linear", "slide_id": "t02-s018", "topic": 2}
+{"term_guess": "Linearity and Time-Invariance", "definition": "What is a time-invariant system?", "slide_id": "t02-s019", "topic": 2}
+{"term_guess": "Linearity and Time-Invariance", "definition": "The relationship between the excitation function 𝑥(𝑡) and the output function 𝑦(𝑡) is constant with respect to time.", "slide_id": "t02-s019", "topic": 2}
+{"term_guess": "Are the following systems time-invariant?", "definition": "The system is time-invariant", "slide_id": "t02-s020", "topic": 2}
+{"term_guess": "Are the following systems time-invariant?", "definition": "The system is not time-invariant", "slide_id": "t02-s021", "topic": 2}
+{"term_guess": "In reality most systems are non-linear or linear in a given range.", "definition": "Nevertheless, linearity is an approximation, which greatly simplifies the analysis of systems.", "slide_id": "t02-s022", "topic": 2}
+{"term_guess": "In reality most systems are non-linear or linear in a given range.", "definition": "In such conditions, it is possible to linearize the system.", "slide_id": "t02-s022", "topic": 2}
+{"term_guess": "Linear Approximation of Physical Systems", "definition": "This linear approximation is only valid for a limited range.", "slide_id": "t02-s023", "topic": 2}
+{"term_guess": "Linear Approximation of Physical Systems", "definition": "Consider a system whose input is 𝑥 and output is 𝑦.", "slide_id": "t02-s024", "topic": 2}
+{"term_guess": "Example – Pendulum oscillator model", "definition": "Approx. is reasonably accurate for", "slide_id": "t02-s029", "topic": 2}
+{"term_guess": "(untitled slide 30)", "definition": "If the dependent variable 𝑦(𝑡) depends upon several excitation variables, 𝑥_{1}(𝑡), 𝑥_{2}(𝑡), … , 𝑥_{𝑛}(𝑡), then the functional relationship is written as", "slide_id": "t02-s030", "topic": 2}
+{"term_guess": "(untitled slide 30)", "definition": "The Taylor series expansion about the operating point 𝑥_{1_{0}}, 𝑥_{2_{0}}, … , 𝑥_{𝑛_{0}} is", "slide_id": "t02-s030", "topic": 2}
+{"term_guess": "Laplace Transform", "definition": "Definition: For a function 𝑓(𝑡)   (𝑓(𝑡)=0 𝑓𝑜𝑟 𝑡<0)", "slide_id": "t02-s032", "topic": 2}
+{"term_guess": "Laplace Transform", "definition": "𝐹(𝑠) is the Laplace Transform of 𝑓(𝑡)", "slide_id": "t02-s032", "topic": 2}
+{"term_guess": "Converting a real variable (usually time t) to a complex variable (usually compl", "definition": "Definition: For a function 𝑓(𝑡)   (𝑓(𝑡)=0 𝑓𝑜𝑟 𝑡<0)", "slide_id": "t02-s033", "topic": 2}

@@ -1,0 +1,6 @@
+name: "Topic 1 diagram"
+file: "Topic 1 diagram.json"
+savedAt: "2026-09-20T20:42:15.784451+00:00"
+shapeCount: 127
+format: visual_mind_agent_draw
+reload: POST http://127.0.0.1:5173/api/agent-draw with .agentDrawPayload

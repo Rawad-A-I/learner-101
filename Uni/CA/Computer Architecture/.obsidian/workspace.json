@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "7e644e2257eba475",
+    "type": "split",
+    "children": [
+      {
+        "id": "99446e19159512f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d49696a236f8192",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "686dd7301391e2b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "6543839886a5442e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57c54687b0cee7a2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6ad3485f6640894e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5d058cd7920ec9c3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1312d7324f5fee48",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff2f96965fb2f079",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f2d68d5403c8f3f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "91b9252ade3e04a0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "dbd98ff53fa9765b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e156792fb83ff0b1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "23dc2b94bb4117b0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "b4a8eb4e318754a7",
+            "type": "leaf",
+            "state": {
+              "type": "agent-client-chat-view",
+              "state": {},
+              "icon": "bot-message-square",
+              "title": "New session"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 526.2999877929688
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "agent-client:Open agent client": false
+    }
+  },
+  "active": "9d49696a236f8192",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/ALU and Control Unit.md",
+    "Specialised Hardware Interfaces.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Chapter 1 Mind-map.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/Memory Buffer Register MBR.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Chapter 1 - Basic Concepts & Computer Evolution (1).pdf",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/Field Programmable Gate Arrays.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/Dual Core Implementation.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/Diagnostic Port Access.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/Advanced Vector Instruction Sets.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/Infrastructure as a Service.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/Platform as a Service.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/Software as a Service.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/Cloud Service Models.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/Internet Service Delivery.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/Giant Datacenter Servers.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/Warehouse Scale Computers.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/Cloud Computing Infrastructure.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/Von Neumann Architecture.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/Very Large Scale Integration.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/Vacuum Tube Technology.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/Universal Automatic Computer.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/UNIVAC Two Enhancements.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/UNIVAC Systems.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/Transistors and Microelectronics.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/Transistor Doubling Rate.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph/System Interconnection Bus.md",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Graph",
+    "Chapter 3 - Top Level View of Function and Interconnnection/Graph",
+    "Chapter 2 - Performance Issues/Graph",
+    "Chapter 3 - Top Level View of Function and Interconnnection/Chapter 3 - Top Level View of Function and Interconnnection.pdf",
+    "Chapter 2 - Performance Issues/Chapter 2 - Performance Issues (1).pdf",
+    "Chapter 3 - Top Level View of Function and Interconnnection/Chapter 3 Mind-Map.json",
+    "Chapter 3 - Top Level View of Function and Interconnnection/Chapter 3 Mindmap.json",
+    "Chapter 2 - Performance Issues/Chapter 2 Mindmap.json",
+    "Chapter 1 - Basic Concepts & Computer Evolution/Computing Mindmap.json"
+  ]
+}

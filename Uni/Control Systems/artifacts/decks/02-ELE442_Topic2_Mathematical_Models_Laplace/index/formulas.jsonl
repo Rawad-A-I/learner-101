@@ -1,0 +1,340 @@
+{"id": "f-t02-s005-0001", "expression": "𝐹=𝑀𝑎", "slide_id": "t02-s005", "topic": 2, "title_context": "Differential Equations of Physical Systems"}
+{"id": "f-t02-s005-0002", "expression": "∑_{}^{}(𝐹)=𝑀𝑦", "slide_id": "t02-s005", "topic": 2, "title_context": "Differential Equations of Physical Systems"}
+{"id": "f-t02-s005-0003", "expression": "−𝑘𝑦(𝑡)−𝑏𝑦(𝑡)+𝐹_{𝑒𝑥𝑡𝑒𝑟𝑛𝑎𝑙}=𝑀𝑦(𝑡)", "slide_id": "t02-s005", "topic": 2, "title_context": "Differential Equations of Physical Systems"}
+{"id": "f-t02-s005-0004", "expression": "𝑀(𝑑^{2}𝑦(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦(𝑡))/(𝑑𝑡)+𝑘𝑦(𝑡)=𝑟(𝑡)", "slide_id": "t02-s005", "topic": 2, "title_context": "Differential Equations of Physical Systems"}
+{"id": "f-t02-s005-0005", "expression": "𝑅𝐻𝑆≠0", "slide_id": "t02-s005", "topic": 2, "title_context": "Differential Equations of Physical Systems"}
+{"id": "f-t02-s006-0006", "expression": "𝑀(𝑑^{2}𝑦(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦(𝑡))/(𝑑𝑡)+𝑘𝑦(𝑡)=𝑟(𝑡)", "slide_id": "t02-s006", "topic": 2, "title_context": "Differential Equations of Physical Systems"}
+{"id": "f-t02-s006-0007", "expression": "(𝑣(𝑡))/(𝑅)+𝐶(𝑑𝑣(𝑡))/(𝑑𝑡)+(1)/(𝐿)∫_{0}^{𝑡}(𝑣(𝑡)𝑑(𝑡))=𝑟(𝑡)", "slide_id": "t02-s006", "topic": 2, "title_context": "Differential Equations of Physical Systems"}
+{"id": "f-t02-s006-0008", "expression": "𝑀(𝑑^{2}𝑦(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦(𝑡))/(𝑑𝑡)+𝑘𝑦(𝑡)=𝑟(𝑡) (𝑣(𝑡))/(𝑅)+𝐶(𝑑𝑣(𝑡))/(𝑑𝑡)+(1)/(𝐿)∫_{0}^{𝑡}(𝑣(𝑡)𝑑(𝑡))=𝑟(𝑡)", "slide_id": "t02-s006", "topic": 2, "title_context": "Differential Equations of Physical Systems"}
+{"id": "f-t02-s007-0009", "expression": "𝑀(𝑑^{2}𝑦(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦(𝑡))/(𝑑𝑡)+𝑘𝑦(𝑡)=𝑟(𝑡)", "slide_id": "t02-s007", "topic": 2, "title_context": "Differential Equations of Physical Systems"}
+{"id": "f-t02-s007-0010", "expression": "𝑦(𝑡)", "slide_id": "t02-s007", "topic": 2, "title_context": "Differential Equations of Physical Systems"}
+{"id": "f-t02-s007-0011", "expression": "𝑦(𝑡)=𝑦_{𝑐}(𝑡)+𝑦_{𝑝}(𝑡)", "slide_id": "t02-s007", "topic": 2, "title_context": "Differential Equations of Physical Systems"}
+{"id": "f-t02-s007-0012", "expression": "𝑦_{𝑐}(𝑡)", "slide_id": "t02-s007", "topic": 2, "title_context": "Differential Equations of Physical Systems"}
+{"id": "f-t02-s007-0013", "expression": "𝑀(𝑑^{2}𝑦_{𝑐}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑐}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑐}(𝑡)=0", "slide_id": "t02-s007", "topic": 2, "title_context": "Differential Equations of Physical Systems"}
+{"id": "f-t02-s007-0014", "expression": "𝑦_{𝑝}(𝑡)", "slide_id": "t02-s007", "topic": 2, "title_context": "Differential Equations of Physical Systems"}
+{"id": "f-t02-s007-0015", "expression": "𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)", "slide_id": "t02-s007", "topic": 2, "title_context": "Differential Equations of Physical Systems"}
+{"id": "f-t02-s007-0016", "expression": "in the form 𝑦(𝑡)=𝑦_{𝑐}(𝑡)+𝑦_{𝑝}(𝑡)", "slide_id": "t02-s007", "topic": 2, "title_context": "Differential Equations of Physical Systems"}
+{"id": "f-t02-s007-0017", "expression": "𝑦_{𝑐}(𝑡) is the complementary solution to 𝑀(𝑑^{2}𝑦_{𝑐}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑐}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑐}(𝑡)=0", "slide_id": "t02-s007", "topic": 2, "title_context": "Differential Equations of Physical Systems"}
+{"id": "f-t02-s007-0018", "expression": "𝑦_{𝑝}(𝑡) is the particular solution to 𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)", "slide_id": "t02-s007", "topic": 2, "title_context": "Differential Equations of Physical Systems"}
+{"id": "f-t02-s008-0019", "expression": "𝑒^{𝜆𝑡}≠0", "slide_id": "t02-s008", "topic": 2, "title_context": "𝑒^{𝜆𝑡}≠0 𝑒^{𝜆𝑡}≠0"}
+{"id": "f-t02-s008-0020", "expression": "𝑀(𝑑^{2}𝑦_{𝑐}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑐}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑐}(𝑡)=0", "slide_id": "t02-s008", "topic": 2, "title_context": "𝑒^{𝜆𝑡}≠0 𝑒^{𝜆𝑡}≠0"}
+{"id": "f-t02-s008-0021", "expression": "𝑦_{𝑐}(𝑡)=𝑒^{𝜆𝑡}", "slide_id": "t02-s008", "topic": 2, "title_context": "𝑒^{𝜆𝑡}≠0 𝑒^{𝜆𝑡}≠0"}
+{"id": "f-t02-s008-0022", "expression": "(𝑑𝑦_{𝑐})/(𝑑𝑡)=𝜆𝑒^{𝜆𝑡} (𝑑^{2}𝑦_{𝑐})/(𝑑𝑡^{2})=𝜆^{2}𝑒^{𝜆𝑡}", "slide_id": "t02-s008", "topic": 2, "title_context": "𝑒^{𝜆𝑡}≠0 𝑒^{𝜆𝑡}≠0"}
+{"id": "f-t02-s008-0023", "expression": "𝑀𝜆^{2}𝑒^{𝜆𝑡}+𝑏𝜆𝑒^{𝜆𝑡}+𝑘𝑒^{𝜆𝑡}=0", "slide_id": "t02-s008", "topic": 2, "title_context": "𝑒^{𝜆𝑡}≠0 𝑒^{𝜆𝑡}≠0"}
+{"id": "f-t02-s008-0024", "expression": "𝑀𝜆^{2}+𝑏𝜆+𝑘=0", "slide_id": "t02-s008", "topic": 2, "title_context": "𝑒^{𝜆𝑡}≠0 𝑒^{𝜆𝑡}≠0"}
+{"id": "f-t02-s008-0025", "expression": "𝜆_{1} & 𝜆_{2}", "slide_id": "t02-s008", "topic": 2, "title_context": "𝑒^{𝜆𝑡}≠0 𝑒^{𝜆𝑡}≠0"}
+{"id": "f-t02-s008-0026", "expression": "1. 𝑀(𝑑^{2}𝑦_{𝑐}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑐}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑐}(𝑡)=0", "slide_id": "t02-s008", "topic": 2, "title_context": "𝑒^{𝜆𝑡}≠0 𝑒^{𝜆𝑡}≠0"}
+{"id": "f-t02-s008-0027", "expression": "Make an educated guess 𝑦_{𝑐}(𝑡)=𝑒^{𝜆𝑡}", "slide_id": "t02-s008", "topic": 2, "title_context": "𝑒^{𝜆𝑡}≠0 𝑒^{𝜆𝑡}≠0"}
+{"id": "f-t02-s008-0028", "expression": "(𝑑𝑦_{𝑐})/(𝑑𝑡)=𝜆𝑒^{𝜆𝑡}            (𝑑^{2}𝑦_{𝑐})/(𝑑𝑡^{2})=𝜆^{2}𝑒^{𝜆𝑡}(𝑑𝑦_{𝑐})/(𝑑𝑡)=𝜆𝑒^{𝜆𝑡}            (𝑑^{2}𝑦_{𝑐})/(𝑑𝑡^{2})=𝜆^{2}𝑒^{𝜆𝑡}", "slide_id": "t02-s008", "topic": 2, "title_context": "𝑒^{𝜆𝑡}≠0 𝑒^{𝜆𝑡}≠0"}
+{"id": "f-t02-s008-0029", "expression": "𝑀𝜆^{2}𝑒^{𝜆𝑡}+𝑏𝜆𝑒^{𝜆𝑡}+𝑘𝑒^{𝜆𝑡}=0 𝑀𝜆^{2}𝑒^{𝜆𝑡}+𝑏𝜆𝑒^{𝜆𝑡}+𝑘𝑒^{𝜆𝑡}=0", "slide_id": "t02-s008", "topic": 2, "title_context": "𝑒^{𝜆𝑡}≠0 𝑒^{𝜆𝑡}≠0"}
+{"id": "f-t02-s008-0030", "expression": "𝑀𝜆^{2}+𝑏𝜆+𝑘=0 𝑀𝜆^{2}+𝑏𝜆+𝑘=0", "slide_id": "t02-s008", "topic": 2, "title_context": "𝑒^{𝜆𝑡}≠0 𝑒^{𝜆𝑡}≠0"}
+{"id": "f-t02-s009-0031", "expression": "𝜆_{1} & 𝜆_{2}", "slide_id": "t02-s009", "topic": 2, "title_context": "If 𝜆_{1} & 𝜆_{2} are real and 𝜆_{1}≠𝜆_{2}"}
+{"id": "f-t02-s009-0032", "expression": "𝜆_{1}≠𝜆_{2}", "slide_id": "t02-s009", "topic": 2, "title_context": "If 𝜆_{1} & 𝜆_{2} are real and 𝜆_{1}≠𝜆_{2}"}
+{"id": "f-t02-s009-0033", "expression": "𝑦_{𝑐}(𝑡)=𝐴𝑒^{𝜆_{1}𝑡}+𝐵𝑒^{𝜆_{2}𝑡}", "slide_id": "t02-s009", "topic": 2, "title_context": "If 𝜆_{1} & 𝜆_{2} are real and 𝜆_{1}≠𝜆_{2}"}
+{"id": "f-t02-s009-0034", "expression": "𝐴", "slide_id": "t02-s009", "topic": 2, "title_context": "If 𝜆_{1} & 𝜆_{2} are real and 𝜆_{1}≠𝜆_{2}"}
+{"id": "f-t02-s009-0035", "expression": "𝐵", "slide_id": "t02-s009", "topic": 2, "title_context": "If 𝜆_{1} & 𝜆_{2} are real and 𝜆_{1}≠𝜆_{2}"}
+{"id": "f-t02-s009-0036", "expression": "𝜆_{1}=𝜆_{2}", "slide_id": "t02-s009", "topic": 2, "title_context": "If 𝜆_{1} & 𝜆_{2} are real and 𝜆_{1}≠𝜆_{2}"}
+{"id": "f-t02-s009-0037", "expression": "𝑦_{𝑐}(𝑡)=(𝐴+𝐵)𝑒^{𝜆_{1}𝑡}", "slide_id": "t02-s009", "topic": 2, "title_context": "If 𝜆_{1} & 𝜆_{2} are real and 𝜆_{1}≠𝜆_{2}"}
+{"id": "f-t02-s009-0038", "expression": "𝜆_{1}=𝑟+𝑖𝑠 𝜆_{2}=𝑟−𝑖𝑠", "slide_id": "t02-s009", "topic": 2, "title_context": "If 𝜆_{1} & 𝜆_{2} are real and 𝜆_{1}≠𝜆_{2}"}
+{"id": "f-t02-s009-0039", "expression": "𝑦_{𝑐}(𝑡)=𝑒^{𝑟𝑡}(𝐴cos((𝑠𝑡))+𝐵sin((𝑠𝑡)))", "slide_id": "t02-s009", "topic": 2, "title_context": "If 𝜆_{1} & 𝜆_{2} are real and 𝜆_{1}≠𝜆_{2}"}
+{"id": "f-t02-s009-0040", "expression": "𝑦_{𝑐}(𝑡)=𝐴𝑒^{𝜆_{1}𝑡}+𝐵𝑒^{𝜆_{2}𝑡} (𝐴 and 𝐵 are constants)", "slide_id": "t02-s009", "topic": 2, "title_context": "If 𝜆_{1} & 𝜆_{2} are real and 𝜆_{1}≠𝜆_{2}"}
+{"id": "f-t02-s009-0041", "expression": "If 𝜆_{1}=𝜆_{2}", "slide_id": "t02-s009", "topic": 2, "title_context": "If 𝜆_{1} & 𝜆_{2} are real and 𝜆_{1}≠𝜆_{2}"}
+{"id": "f-t02-s009-0042", "expression": "𝜆_{1}=𝑟+𝑖𝑠           𝜆_{2}=𝑟−𝑖𝑠", "slide_id": "t02-s009", "topic": 2, "title_context": "If 𝜆_{1} & 𝜆_{2} are real and 𝜆_{1}≠𝜆_{2}"}
+{"id": "f-t02-s010-0043", "expression": "𝑀(𝑑^{2}𝑦_{𝑐}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑐}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑐}(𝑡)=0", "slide_id": "t02-s010", "topic": 2, "title_context": "1. 𝑀(𝑑^{2}𝑦_{𝑐}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑐}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑐}(𝑡)=0"}
+{"id": "f-t02-s010-0044", "expression": "𝑀=1, 𝑏=2, 𝑘=5", "slide_id": "t02-s010", "topic": 2, "title_context": "1. 𝑀(𝑑^{2}𝑦_{𝑐}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑐}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑐}(𝑡)=0"}
+{"id": "f-t02-s010-0045", "expression": "(𝑑𝑦_{𝑐})/(𝑑𝑡)=𝜆𝑒^{𝜆𝑡} (𝑑^{2}𝑦_{𝑐})/(𝑑𝑡^{2})=𝜆^{2}𝑒^{𝜆𝑡}", "slide_id": "t02-s010", "topic": 2, "title_context": "1. 𝑀(𝑑^{2}𝑦_{𝑐}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑐}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑐}(𝑡)=0"}
+{"id": "f-t02-s010-0046", "expression": "𝜆^{2}𝑒^{𝜆𝑡}+2𝜆𝑒^{𝜆𝑡}+5𝑒^{𝜆𝑡}=0", "slide_id": "t02-s010", "topic": 2, "title_context": "1. 𝑀(𝑑^{2}𝑦_{𝑐}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑐}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑐}(𝑡)=0"}
+{"id": "f-t02-s010-0047", "expression": "𝜆^{2}+2𝜆+5=0", "slide_id": "t02-s010", "topic": 2, "title_context": "1. 𝑀(𝑑^{2}𝑦_{𝑐}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑐}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑐}(𝑡)=0"}
+{"id": "f-t02-s010-0048", "expression": "𝑒^{𝜆𝑡}≠0", "slide_id": "t02-s010", "topic": 2, "title_context": "1. 𝑀(𝑑^{2}𝑦_{𝑐}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑐}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑐}(𝑡)=0"}
+{"id": "f-t02-s010-0049", "expression": "𝜆_{1,2}=(−2±sqrt(4−20))/(2)=−1±2𝑖", "slide_id": "t02-s010", "topic": 2, "title_context": "1. 𝑀(𝑑^{2}𝑦_{𝑐}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑐}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑐}(𝑡)=0"}
+{"id": "f-t02-s010-0050", "expression": "𝑦_{𝑐}(𝑡)=𝑒^{−𝑡}(𝐴cos(2𝑡)+𝐵sin(2𝑡))", "slide_id": "t02-s010", "topic": 2, "title_context": "1. 𝑀(𝑑^{2}𝑦_{𝑐}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑐}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑐}(𝑡)=0"}
+{"id": "f-t02-s010-0051", "expression": "𝑦_{𝑝}(𝑡)", "slide_id": "t02-s010", "topic": 2, "title_context": "1. 𝑀(𝑑^{2}𝑦_{𝑐}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑐}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑐}(𝑡)=0"}
+{"id": "f-t02-s010-0052", "expression": "1. 𝑀(𝑑^{2}𝑦_{𝑐}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑐}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑐}(𝑡)=0", "slide_id": "t02-s010", "topic": 2, "title_context": "1. 𝑀(𝑑^{2}𝑦_{𝑐}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑐}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑐}(𝑡)=0"}
+{"id": "f-t02-s010-0053", "expression": "𝑀=1,    𝑏=2,    𝑘=5 𝑀=1,    𝑏=2,    𝑘=5", "slide_id": "t02-s010", "topic": 2, "title_context": "1. 𝑀(𝑑^{2}𝑦_{𝑐}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑐}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑐}(𝑡)=0"}
+{"id": "f-t02-s010-0054", "expression": "(𝑑𝑦_{𝑐})/(𝑑𝑡)=𝜆𝑒^{𝜆𝑡}            (𝑑^{2}𝑦_{𝑐})/(𝑑𝑡^{2})=𝜆^{2}𝑒^{𝜆𝑡}", "slide_id": "t02-s010", "topic": 2, "title_context": "1. 𝑀(𝑑^{2}𝑦_{𝑐}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑐}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑐}(𝑡)=0"}
+{"id": "f-t02-s010-0055", "expression": "𝑦_{𝑐}(𝑡)=𝑒^{−𝑡}(𝐴cos(2𝑡)+𝐵sin(2𝑡))𝑦_{𝑐}(𝑡)=𝑒^{−𝑡}(𝐴cos(2𝑡)+𝐵sin(2𝑡))", "slide_id": "t02-s010", "topic": 2, "title_context": "1. 𝑀(𝑑^{2}𝑦_{𝑐}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑐}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑐}(𝑡)=0"}
+{"id": "f-t02-s011-0056", "expression": "𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)", "slide_id": "t02-s011", "topic": 2, "title_context": "2. 𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s011-0057", "expression": "𝑀=1, 𝑏=2, 𝑘=5, 𝑟(𝑡)=5𝑡^{2}+12", "slide_id": "t02-s011", "topic": 2, "title_context": "2. 𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s011-0058", "expression": "𝑦_{𝑝}(𝑡)=𝑃𝑡^{2}+𝑄𝑡+𝐿", "slide_id": "t02-s011", "topic": 2, "title_context": "2. 𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s011-0059", "expression": "𝑃", "slide_id": "t02-s011", "topic": 2, "title_context": "2. 𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s011-0060", "expression": "𝑄", "slide_id": "t02-s011", "topic": 2, "title_context": "2. 𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s011-0061", "expression": "(𝑑𝑦_{𝑝})/(𝑑𝑡)=2𝑃𝑡+𝑄 (𝑑^{2}𝑦_{𝑝})/(𝑑𝑡^{2})=2𝑃", "slide_id": "t02-s011", "topic": 2, "title_context": "2. 𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s011-0062", "expression": "2𝑃+4𝑃𝑡+2𝑄+5𝑃𝑡^{2}+5𝑄𝑡+5𝐿=5𝑡^{2}+12", "slide_id": "t02-s011", "topic": 2, "title_context": "2. 𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s011-0063", "expression": "𝑃=1 𝑄=−(4)/(5) 𝐿=(58)/(25)", "slide_id": "t02-s011", "topic": 2, "title_context": "2. 𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s011-0064", "expression": "𝑦_{𝑝}(𝑡)=𝑡^{2}−(4)/(5)𝑡+(58)/(25)", "slide_id": "t02-s011", "topic": 2, "title_context": "2. 𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s011-0065", "expression": "(2𝑃+2𝑄+5𝐿=12 ; 4𝑃+5𝑄=0 ; 5𝑃=5)", "slide_id": "t02-s011", "topic": 2, "title_context": "2. 𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s011-0066", "expression": "2. 𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)", "slide_id": "t02-s011", "topic": 2, "title_context": "2. 𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s011-0067", "expression": "𝑀=1,    𝑏=2,    𝑘=5,    𝑟(𝑡)=5𝑡^{2}+12 𝑀=1,    𝑏=2,    𝑘=5,    𝑟(𝑡)=5𝑡^{2}+12", "slide_id": "t02-s011", "topic": 2, "title_context": "2. 𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s011-0068", "expression": "We choose 𝑦_{𝑝}(𝑡)=𝑃𝑡^{2}+𝑄𝑡+𝐿 (𝑃, 𝑄 and L are constants)", "slide_id": "t02-s011", "topic": 2, "title_context": "2. 𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s011-0069", "expression": "(𝑑𝑦_{𝑝})/(𝑑𝑡)=2𝑃𝑡+𝑄            (𝑑^{2}𝑦_{𝑝})/(𝑑𝑡^{2})=2𝑃", "slide_id": "t02-s011", "topic": 2, "title_context": "2. 𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s011-0070", "expression": "Equating coefficients  𝑃=1        𝑄=−(4)/(5)        𝐿=(58)/(25)", "slide_id": "t02-s011", "topic": 2, "title_context": "2. 𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s011-0071", "expression": "𝑦_{𝑝}(𝑡)=𝑡^{2}−(4)/(5)𝑡+(58)/(25)𝑦_{𝑝}(𝑡)=𝑡^{2}−(4)/(5)𝑡+(58)/(25)", "slide_id": "t02-s011", "topic": 2, "title_context": "2. 𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s011-0072", "expression": "(2𝑃+2𝑄+5𝐿=12 ; 4𝑃+5𝑄=0 ; 5𝑃=5)(2𝑃+2𝑄+5𝐿=12 ; 4𝑃+5𝑄=0 ; 5𝑃=5)", "slide_id": "t02-s011", "topic": 2, "title_context": "2. 𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s012-0073", "expression": "𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)", "slide_id": "t02-s012", "topic": 2, "title_context": "𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s012-0074", "expression": "𝑦(𝑡)=𝑦_{𝑐}(𝑡)+𝑦_{𝑝}(𝑡)", "slide_id": "t02-s012", "topic": 2, "title_context": "𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s012-0075", "expression": "𝑦(𝑡)=𝑒^{−𝑡}(𝐴cos(2𝑡)+𝐵sin(2𝑡))+𝑡^{2}−(4)/(5)𝑡+(58)/(25)", "slide_id": "t02-s012", "topic": 2, "title_context": "𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s012-0076", "expression": "𝑦(𝑡)=𝑦_{𝑐}(𝑡)+𝑦_{𝑝}(𝑡)𝑦(𝑡)=𝑦_{𝑐}(𝑡)+𝑦_{𝑝}(𝑡)", "slide_id": "t02-s012", "topic": 2, "title_context": "𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s012-0077", "expression": "𝑦(𝑡)=𝑒^{−𝑡}(𝐴cos(2𝑡)+𝐵sin(2𝑡))+𝑡^{2}−(4)/(5)𝑡+(58)/(25)𝑦(𝑡)=𝑒^{−𝑡}(𝐴cos(2𝑡)+𝐵sin(2𝑡))+𝑡^{2}−(4)/(5)𝑡+(58)/(25)", "slide_id": "t02-s012", "topic": 2, "title_context": "𝑀(𝑑^{2}𝑦_{𝑝}(𝑡))/(𝑑𝑡^{2})+𝑏(𝑑𝑦_{𝑝}(𝑡))/(𝑑𝑡)+𝑘𝑦_{𝑝}(𝑡)=𝑟(𝑡)"}
+{"id": "f-t02-s014-0078", "expression": "𝑥(𝑡)", "slide_id": "t02-s014", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s014-0079", "expression": "𝑦(𝑡)", "slide_id": "t02-s014", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s015-0080", "expression": "𝑥(𝑡)", "slide_id": "t02-s015", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s015-0081", "expression": "𝑦(𝑡)", "slide_id": "t02-s015", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s015-0082", "expression": "𝑥_{1}(𝑡)", "slide_id": "t02-s015", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s015-0083", "expression": "𝑦_{1}(𝑡)", "slide_id": "t02-s015", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s015-0084", "expression": "𝑥_{2}(𝑡)", "slide_id": "t02-s015", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s015-0085", "expression": "𝑦_{2}(𝑡)", "slide_id": "t02-s015", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s015-0086", "expression": "𝑥_{1}(𝑡)+𝑥_{2}(𝑡)", "slide_id": "t02-s015", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s015-0087", "expression": "𝑦_{1}(𝑡)+𝑦_{2}(𝑡)", "slide_id": "t02-s015", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s015-0088", "expression": "𝑦(𝑥_{1}+𝑥_{2})=𝑦(𝑥_{1})+𝑦(𝑥_{2})", "slide_id": "t02-s015", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s016-0089", "expression": "𝑥(𝑡)", "slide_id": "t02-s016", "topic": 2, "title_context": "Excitation 𝑥(𝑡)  Response 𝑦(𝑥(𝑡))"}
+{"id": "f-t02-s016-0090", "expression": "𝑦(𝑥(𝑡))", "slide_id": "t02-s016", "topic": 2, "title_context": "Excitation 𝑥(𝑡)  Response 𝑦(𝑥(𝑡))"}
+{"id": "f-t02-s016-0091", "expression": "𝑦(𝑡)", "slide_id": "t02-s016", "topic": 2, "title_context": "Excitation 𝑥(𝑡)  Response 𝑦(𝑥(𝑡))"}
+{"id": "f-t02-s016-0092", "expression": "𝛽𝑥(𝑡)", "slide_id": "t02-s016", "topic": 2, "title_context": "Excitation 𝑥(𝑡)  Response 𝑦(𝑥(𝑡))"}
+{"id": "f-t02-s016-0093", "expression": "𝛽𝑦(𝑡)", "slide_id": "t02-s016", "topic": 2, "title_context": "Excitation 𝑥(𝑡)  Response 𝑦(𝑥(𝑡))"}
+{"id": "f-t02-s016-0094", "expression": "𝑦(𝛽𝑥(𝑡))=𝛽𝑦(𝑥(𝑡))", "slide_id": "t02-s016", "topic": 2, "title_context": "Excitation 𝑥(𝑡)  Response 𝑦(𝑥(𝑡))"}
+{"id": "f-t02-s017-0095", "expression": "𝑦(𝑡)=2 𝑥(𝑡)+10", "slide_id": "t02-s017", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s017-0096", "expression": "𝑦_{1}(𝑡)=2 𝑥_{1}(𝑡)+10 𝑦_{2}(𝑡)=2 𝑥_{2}(𝑡)+10", "slide_id": "t02-s017", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s017-0097", "expression": "𝑦(𝑥_{1}+𝑥_{2})=2(𝑥_{1}+𝑥_{2})+10", "slide_id": "t02-s017", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s017-0098", "expression": "𝑦_{1}(𝑡)+𝑦_{2}(𝑡)=2(𝑥_{1}+𝑥_{2})+20", "slide_id": "t02-s017", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s017-0099", "expression": "𝑦(𝑥_{1}+𝑥_{2})≠𝑦_{1}(𝑡)+𝑦_{2}(𝑡)", "slide_id": "t02-s017", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s017-0100", "expression": "System 1: 𝑦(𝑡)=2 𝑥(𝑡)+10", "slide_id": "t02-s017", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s017-0101", "expression": "𝑦_{1}(𝑡)=2 𝑥_{1}(𝑡)+10              𝑦_{2}(𝑡)=2 𝑥_{2}(𝑡)+10 𝑦_{1}(𝑡)=2 𝑥_{1}(𝑡)+10              𝑦_{2}(𝑡)=2 𝑥_{2}(𝑡)+10", "slide_id": "t02-s017", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s018-0102", "expression": "𝑦(𝑡)=𝑥^{2}(𝑡)", "slide_id": "t02-s018", "topic": 2, "title_context": "Are the following systems linear?"}
+{"id": "f-t02-s018-0103", "expression": "𝑦(𝛽𝑥)=(𝛽𝑥)^{2} 𝛽𝑦(𝑥)=𝛽𝑥^{2}", "slide_id": "t02-s018", "topic": 2, "title_context": "Are the following systems linear?"}
+{"id": "f-t02-s018-0104", "expression": "𝑦(𝛽𝑥)≠𝛽𝑦(𝑥)", "slide_id": "t02-s018", "topic": 2, "title_context": "Are the following systems linear?"}
+{"id": "f-t02-s018-0105", "expression": "System 2: 𝑦(𝑡)=𝑥^{2}(𝑡)", "slide_id": "t02-s018", "topic": 2, "title_context": "Are the following systems linear?"}
+{"id": "f-t02-s018-0106", "expression": "𝑦(𝛽𝑥)=(𝛽𝑥)^{2}                             𝛽𝑦(𝑥)=𝛽𝑥^{2}𝑦(𝛽𝑥)=(𝛽𝑥)^{2}                             𝛽𝑦(𝑥)=𝛽𝑥^{2}", "slide_id": "t02-s018", "topic": 2, "title_context": "Are the following systems linear?"}
+{"id": "f-t02-s019-0107", "expression": "𝑥(𝑡)", "slide_id": "t02-s019", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s019-0108", "expression": "𝑦(𝑡)", "slide_id": "t02-s019", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s019-0109", "expression": "𝑥_{𝑑}(𝑡)=𝑥(𝑡+𝛿)", "slide_id": "t02-s019", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s019-0110", "expression": "𝑦_{1}(𝑡)", "slide_id": "t02-s019", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s019-0111", "expression": "𝑦_{2}(𝑡)=𝑦(𝑡+𝛿)", "slide_id": "t02-s019", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s019-0112", "expression": "𝑦_{1}(𝑡)=𝑦_{2}(𝑡)", "slide_id": "t02-s019", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s019-0113", "expression": "𝑥(𝑡)  𝑦(𝑡) & 𝑥_{𝑑}(𝑡)=𝑥(𝑡+𝛿)  𝑦_{1}(𝑡) & 𝑦_{2}(𝑡)=𝑦(𝑡+𝛿)", "slide_id": "t02-s019", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s019-0114", "expression": "If 𝑦_{1}(𝑡)=𝑦_{2}(𝑡)", "slide_id": "t02-s019", "topic": 2, "title_context": "Linearity and Time-Invariance"}
+{"id": "f-t02-s020-0115", "expression": "𝑦(𝑡)=10𝑥(𝑡)", "slide_id": "t02-s020", "topic": 2, "title_context": "Are the following systems time-invariant?"}
+{"id": "f-t02-s020-0116", "expression": "𝑦_{1}(𝑡)=10𝑥_{𝑑}(𝑡)=10𝑥(𝑡+𝛿) 𝑦_{2}(𝑡)=𝑦(𝑡+𝛿)=10𝑥(𝑡+𝛿)", "slide_id": "t02-s020", "topic": 2, "title_context": "Are the following systems time-invariant?"}
+{"id": "f-t02-s020-0117", "expression": "𝑦_{1}(𝑡)=𝑦_{2}(𝑡)", "slide_id": "t02-s020", "topic": 2, "title_context": "Are the following systems time-invariant?"}
+{"id": "f-t02-s020-0118", "expression": "System 1: 𝑦(𝑡)=10𝑥(𝑡)", "slide_id": "t02-s020", "topic": 2, "title_context": "Are the following systems time-invariant?"}
+{"id": "f-t02-s020-0119", "expression": "𝑦_{1}(𝑡)=10𝑥_{𝑑}(𝑡)=10𝑥(𝑡+𝛿)                    𝑦_{2}(𝑡)=𝑦(𝑡+𝛿)=10𝑥(𝑡+𝛿)𝑦_{1}(𝑡)=10𝑥_{𝑑}(𝑡)=10𝑥(𝑡+𝛿)                    𝑦_{2}(𝑡)=𝑦(𝑡+𝛿)=10𝑥(𝑡+𝛿)", "slide_id": "t02-s020", "topic": 2, "title_context": "Are the following systems time-invariant?"}
+{"id": "f-t02-s021-0120", "expression": "𝑦(𝑡)=𝑡∙𝑥(𝑡)", "slide_id": "t02-s021", "topic": 2, "title_context": "Are the following systems time-invariant?"}
+{"id": "f-t02-s021-0121", "expression": "𝑦_{1}(𝑡)=𝑡∙𝑥_{𝑑}(𝑡)=𝑡∙𝑥(𝑡+𝛿) 𝑦_{2}(𝑡)=𝑦(𝑡+𝛿)=(𝑡+𝛿)∙𝑥(𝑡+𝛿)", "slide_id": "t02-s021", "topic": 2, "title_context": "Are the following systems time-invariant?"}
+{"id": "f-t02-s021-0122", "expression": "𝑦_{1}(𝑡)≠𝑦_{2}(𝑡)", "slide_id": "t02-s021", "topic": 2, "title_context": "Are the following systems time-invariant?"}
+{"id": "f-t02-s021-0123", "expression": "System 2: 𝑦(𝑡)=𝑡∙𝑥(𝑡)", "slide_id": "t02-s021", "topic": 2, "title_context": "Are the following systems time-invariant?"}
+{"id": "f-t02-s021-0124", "expression": "𝑦_{1}(𝑡)=𝑡∙𝑥_{𝑑}(𝑡)=𝑡∙𝑥(𝑡+𝛿)           𝑦_{2}(𝑡)=𝑦(𝑡+𝛿)=(𝑡+𝛿)∙𝑥(𝑡+𝛿)𝑦_{1}(𝑡)=𝑡∙𝑥_{𝑑}(𝑡)=𝑡∙𝑥(𝑡+𝛿)           𝑦_{2}(𝑡)=𝑦(𝑡+𝛿)=(𝑡+𝛿)∙𝑥(𝑡+𝛿)", "slide_id": "t02-s021", "topic": 2, "title_context": "Are the following systems time-invariant?"}
+{"id": "f-t02-s024-0125", "expression": "𝑥", "slide_id": "t02-s024", "topic": 2, "title_context": "Linear Approximation of Physical Systems"}
+{"id": "f-t02-s024-0126", "expression": "𝑦", "slide_id": "t02-s024", "topic": 2, "title_context": "Linear Approximation of Physical Systems"}
+{"id": "f-t02-s024-0127", "expression": "𝑦(𝑡)=𝑔(𝑥(𝑡))", "slide_id": "t02-s024", "topic": 2, "title_context": "Linear Approximation of Physical Systems"}
+{"id": "f-t02-s024-0128", "expression": "𝑥_{0}", "slide_id": "t02-s024", "topic": 2, "title_context": "Linear Approximation of Physical Systems"}
+{"id": "f-t02-s024-0129", "expression": "𝑦_{0}", "slide_id": "t02-s024", "topic": 2, "title_context": "Linear Approximation of Physical Systems"}
+{"id": "f-t02-s024-0130", "expression": "𝑦(𝑡)=𝑔(𝑥(𝑡))=𝑔(𝑥_{0})+((𝑑𝑔)/(𝑑𝑥))_{𝑥(𝑡)=𝑥_{0}}((𝑥(𝑡)−𝑥_{0}))/(1!)+((𝑑^{2}𝑔)/(𝑑𝑥^{2}))_{𝑥(𝑡)=𝑥_{0}}((𝑥(𝑡)−𝑥_{0})^{2})/(2!)+…", "slide_id": "t02-s024", "topic": 2, "title_context": "Linear Approximation of Physical Systems"}
+{"id": "f-t02-s024-0131", "expression": "𝑦(𝑡)=𝑔(𝑥(𝑡))𝑦(𝑡)=𝑔(𝑥(𝑡))", "slide_id": "t02-s024", "topic": 2, "title_context": "Linear Approximation of Physical Systems"}
+{"id": "f-t02-s024-0132", "expression": "𝑦(𝑡)=𝑔(𝑥(𝑡))=𝑔(𝑥_{0})+((𝑑𝑔)/(𝑑𝑥))_{𝑥(𝑡)=𝑥_{0}}((𝑥(𝑡)−𝑥_{0}))/(1!)+((𝑑^{2}𝑔)/(𝑑𝑥^{2}))_{𝑥(𝑡)=𝑥_{0}}((𝑥(𝑡)−𝑥_{0})^{2})/(2!)+…𝑦(𝑡)=𝑔(𝑥(𝑡))=𝑔(𝑥_{0})+((𝑑𝑔)/(𝑑𝑥))_{𝑥(𝑡)=𝑥_{0}}((𝑥(𝑡)−𝑥_{0}))/(1!)+((𝑑^{2}𝑔)/(𝑑𝑥^{2}))_{𝑥(𝑡)=𝑥_{0}}((𝑥(𝑡)−𝑥_{0})^{2})/(2!)+…", "slide_id": "t02-s024", "topic": 2, "title_context": "Linear Approximation of Physical Systems"}
+{"id": "f-t02-s025-0133", "expression": "𝑥_{0}", "slide_id": "t02-s025", "topic": 2, "title_context": "Operating around the equilibrium point 𝑥_{0}, we can get rid of the higher order part of the Taylor Series Expansion."}
+{"id": "f-t02-s025-0134", "expression": "𝑦(𝑡)=𝑔(𝑥(𝑡))=𝑔(𝑥_{0})+((𝑑𝑔)/(𝑑𝑥))_{𝑥(𝑡)=𝑥_{0}}((𝑥(𝑡)−𝑥_{0}))/(1!)", "slide_id": "t02-s025", "topic": 2, "title_context": "Operating around the equilibrium point 𝑥_{0}, we can get rid of the higher order part of the Taylor Series Expansion."}
+{"id": "f-t02-s025-0135", "expression": "𝑦(𝑡)=𝑔(𝑥(𝑡))=𝑔(𝑥_{0})+((𝑑𝑔)/(𝑑𝑥))_{𝑥(𝑡)=𝑥_{0}}((𝑥(𝑡)−𝑥_{0}))/(1!)𝑦(𝑡)=𝑔(𝑥(𝑡))=𝑔(𝑥_{0})+((𝑑𝑔)/(𝑑𝑥))_{𝑥(𝑡)=𝑥_{0}}((𝑥(𝑡)−𝑥_{0}))/(1!)", "slide_id": "t02-s025", "topic": 2, "title_context": "Operating around the equilibrium point 𝑥_{0}, we can get rid of the higher order part of the Taylor Series Expansion."}
+{"id": "f-t02-s026-0136", "expression": "𝑇(𝑡)=𝑀𝑔𝐿sin(𝜃(𝑡))", "slide_id": "t02-s026", "topic": 2, "title_context": "Example – Pendulum oscillator model"}
+{"id": "f-t02-s026-0137", "expression": "𝜃_{0}=0", "slide_id": "t02-s026", "topic": 2, "title_context": "Example – Pendulum oscillator model"}
+{"id": "f-t02-s026-0138", "expression": "𝑇(𝑡)=𝑀𝑔𝐿sin(𝜃(𝑡))𝑇(𝑡)=𝑀𝑔𝐿sin(𝜃(𝑡))", "slide_id": "t02-s026", "topic": 2, "title_context": "Example – Pendulum oscillator model"}
+{"id": "f-t02-s026-0139", "expression": "Equilibrium point: 𝜃_{0}=0", "slide_id": "t02-s026", "topic": 2, "title_context": "Example – Pendulum oscillator model"}
+{"id": "f-t02-s027-0140", "expression": "𝑇(𝑡)=𝑀𝑔𝐿sin(𝜃(𝑡))", "slide_id": "t02-s027", "topic": 2, "title_context": "Example – Pendulum oscillator model"}
+{"id": "f-t02-s027-0141", "expression": "𝑇(𝑡)≈𝑇_{0}+(𝑀𝑔𝐿(𝜕sin(𝜃))/(𝜕𝜃))_{𝜃(𝑡)=𝜃_{0}}(𝜃(𝑡)−𝜃_{0})", "slide_id": "t02-s027", "topic": 2, "title_context": "Example – Pendulum oscillator model"}
+{"id": "f-t02-s027-0142", "expression": "𝑇(𝑡)=𝑀𝑔𝐿sin(𝜃(𝑡))𝑇(𝑡)=𝑀𝑔𝐿sin(𝜃(𝑡))", "slide_id": "t02-s027", "topic": 2, "title_context": "Example – Pendulum oscillator model"}
+{"id": "f-t02-s028-0143", "expression": "𝑇(𝑡)≈𝑇_{0}+(𝑀𝑔𝐿(𝜕sin(𝜃))/(𝜕𝜃))_{𝜃(𝑡)=𝜃_{0}}(𝜃(𝑡)−𝜃_{0})", "slide_id": "t02-s028", "topic": 2, "title_context": "Example – Pendulum oscillator model"}
+{"id": "f-t02-s028-0144", "expression": "𝑇_{0}=0", "slide_id": "t02-s028", "topic": 2, "title_context": "Example – Pendulum oscillator model"}
+{"id": "f-t02-s028-0145", "expression": "𝑇(𝑡)≈𝑀𝑔𝐿 𝜃(𝑡)", "slide_id": "t02-s028", "topic": 2, "title_context": "Example – Pendulum oscillator model"}
+{"id": "f-t02-s028-0146", "expression": "𝑇(𝑡)≈𝑇_{0}+(𝑀𝑔𝐿(𝜕sin(𝜃))/(𝜕𝜃))_{𝜃(𝑡)=𝜃_{0}}(𝜃(𝑡)−𝜃_{0})𝑇(𝑡)≈𝑇_{0}+(𝑀𝑔𝐿(𝜕sin(𝜃))/(𝜕𝜃))_{𝜃(𝑡)=𝜃_{0}}(𝜃(𝑡)−𝜃_{0})", "slide_id": "t02-s028", "topic": 2, "title_context": "Example – Pendulum oscillator model"}
+{"id": "f-t02-s028-0147", "expression": "But 𝑇_{0}=0", "slide_id": "t02-s028", "topic": 2, "title_context": "Example – Pendulum oscillator model"}
+{"id": "f-t02-s028-0148", "expression": "𝑇(𝑡)≈𝑀𝑔𝐿 𝜃(𝑡)𝑇(𝑡)≈𝑀𝑔𝐿 𝜃(𝑡)", "slide_id": "t02-s028", "topic": 2, "title_context": "Example – Pendulum oscillator model"}
+{"id": "f-t02-s029-0149", "expression": "𝑇(𝑡)≈𝑀𝑔𝐿 𝜃(𝑡)", "slide_id": "t02-s029", "topic": 2, "title_context": "Example – Pendulum oscillator model"}
+{"id": "f-t02-s029-0150", "expression": "−(𝜋)/(4)≤𝜃≤(𝜋)/(4)", "slide_id": "t02-s029", "topic": 2, "title_context": "Example – Pendulum oscillator model"}
+{"id": "f-t02-s029-0151", "expression": "𝑇(𝑡)≈𝑀𝑔𝐿 𝜃(𝑡)", "slide_id": "t02-s029", "topic": 2, "title_context": "Example – Pendulum oscillator model"}
+{"id": "f-t02-s030-0152", "expression": "𝑦(𝑡)", "slide_id": "t02-s030", "topic": 2, "title_context": "(untitled slide 30)"}
+{"id": "f-t02-s030-0153", "expression": "𝑥_{1}(𝑡), 𝑥_{2}(𝑡), … , 𝑥_{𝑛}(𝑡)", "slide_id": "t02-s030", "topic": 2, "title_context": "(untitled slide 30)"}
+{"id": "f-t02-s030-0154", "expression": "𝑦(𝑡)=𝑔(𝑥_{1}(𝑡), 𝑥_{2}(𝑡), … , 𝑥_{𝑛}(𝑡))", "slide_id": "t02-s030", "topic": 2, "title_context": "(untitled slide 30)"}
+{"id": "f-t02-s030-0155", "expression": "𝑥_{1_{0}}, 𝑥_{2_{0}}, … , 𝑥_{𝑛_{0}}", "slide_id": "t02-s030", "topic": 2, "title_context": "(untitled slide 30)"}
+{"id": "f-t02-s030-0156", "expression": "𝑦(𝑡)=𝑔(𝑥_{1_{0}}, 𝑥_{2_{0}}, … , 𝑥_{𝑛_{0}})+((𝜕𝑔)/(𝜕𝑥_{1}))_{𝑥(𝑡)=𝑥_{0}}(𝑥_{1}(𝑡)−𝑥_{1_{0}})+((𝜕𝑔)/(𝜕𝑥_{2}))_{𝑥(𝑡)=𝑥_{0}}(𝑥_{2}(𝑡)−𝑥_{2_{0}})+…", "slide_id": "t02-s030", "topic": 2, "title_context": "(untitled slide 30)"}
+{"id": "f-t02-s030-0157", "expression": "+((𝜕𝑔)/(𝜕𝑥_{𝑛}))_{𝑥(𝑡)=𝑥_{0}}(𝑥_{𝑛}(𝑡)−𝑥_{𝑛_{0}})", "slide_id": "t02-s030", "topic": 2, "title_context": "(untitled slide 30)"}
+{"id": "f-t02-s030-0158", "expression": "𝑦(𝑡)=𝑔(𝑥_{1}(𝑡), 𝑥_{2}(𝑡), … , 𝑥_{𝑛}(𝑡))", "slide_id": "t02-s030", "topic": 2, "title_context": "(untitled slide 30)"}
+{"id": "f-t02-s030-0159", "expression": "𝑦(𝑡)=𝑔(𝑥_{1_{0}}, 𝑥_{2_{0}}, … , 𝑥_{𝑛_{0}})+((𝜕𝑔)/(𝜕𝑥_{1}))_{𝑥(𝑡)=𝑥_{0}}(𝑥_{1}(𝑡)−𝑥_{1_{0}})+((𝜕𝑔)/(𝜕𝑥_{2}))_{𝑥(𝑡)=𝑥_{0}}(𝑥_{2}(𝑡)−𝑥_{2_{0}})+…+((𝜕𝑔)/(𝜕𝑥_{𝑛}))_{𝑥(𝑡)=𝑥_{0}}(𝑥_{𝑛}(𝑡)−𝑥_{𝑛_{0}})𝑦(𝑡)=𝑔(𝑥_{1_{0}}, 𝑥_{2_{0}}, … , 𝑥_{𝑛_{0}})+((𝜕𝑔)/(𝜕𝑥_{1}))_{𝑥(𝑡)=𝑥_{0}}(𝑥_{1}(𝑡)−𝑥_{1_{0}})+((𝜕𝑔)/(𝜕𝑥_{2}))_{𝑥(𝑡)=𝑥_{0}}(𝑥_{2}(𝑡)−𝑥_{2_{0}})+…+((𝜕𝑔)/(𝜕𝑥_{𝑛}))_{𝑥(𝑡)=𝑥_{0}}(𝑥_{𝑛}(𝑡)−𝑥_{𝑛_{0}})", "slide_id": "t02-s030", "topic": 2, "title_context": "(untitled slide 30)"}
+{"id": "f-t02-s032-0160", "expression": "𝑓(𝑡) (𝑓(𝑡)=0 𝑓𝑜𝑟 𝑡<0)", "slide_id": "t02-s032", "topic": 2, "title_context": "Laplace Transform"}
+{"id": "f-t02-s032-0161", "expression": "ℒ", "slide_id": "t02-s032", "topic": 2, "title_context": "Laplace Transform"}
+{"id": "f-t02-s032-0162", "expression": "ℒ^{−1}", "slide_id": "t02-s032", "topic": 2, "title_context": "Laplace Transform"}
+{"id": "f-t02-s032-0163", "expression": "𝐹(𝑠)=ℒ(𝑓(𝑡))≔∫_{0}^{∞}(𝑓(𝑡)𝑒^{−𝑠𝑡}𝑑𝑡)", "slide_id": "t02-s032", "topic": 2, "title_context": "Laplace Transform"}
+{"id": "f-t02-s032-0164", "expression": "𝐹(𝑠)", "slide_id": "t02-s032", "topic": 2, "title_context": "Laplace Transform"}
+{"id": "f-t02-s032-0165", "expression": "𝑓(𝑡)", "slide_id": "t02-s032", "topic": 2, "title_context": "Laplace Transform"}
+{"id": "f-t02-s032-0166", "expression": "Definition: For a function 𝑓(𝑡)   (𝑓(𝑡)=0 𝑓𝑜𝑟 𝑡<0)", "slide_id": "t02-s032", "topic": 2, "title_context": "Laplace Transform"}
+{"id": "f-t02-s032-0167", "expression": "ℒ ℒ", "slide_id": "t02-s032", "topic": 2, "title_context": "Laplace Transform"}
+{"id": "f-t02-s032-0168", "expression": "𝐹(𝑠)=ℒ(𝑓(𝑡))≔∫_{0}^{∞}(𝑓(𝑡)𝑒^{−𝑠𝑡}𝑑𝑡)𝐹(𝑠)=ℒ(𝑓(𝑡))≔∫_{0}^{∞}(𝑓(𝑡)𝑒^{−𝑠𝑡}𝑑𝑡)", "slide_id": "t02-s032", "topic": 2, "title_context": "Laplace Transform"}
+{"id": "f-t02-s033-0169", "expression": "𝑓(𝑡) (𝑓(𝑡)=0 𝑓𝑜𝑟 𝑡<0)", "slide_id": "t02-s033", "topic": 2, "title_context": "Converting a real variable (usually time t) to a complex variable (usually complex frequency s)"}
+{"id": "f-t02-s033-0170", "expression": "ℒ^{−1}(𝐹(𝑠))=(1)/(2𝜋𝑗)∫_{𝜎−𝑗∞}^{𝜎+𝑗∞}(𝐹(𝑠)𝑒^{+𝑠𝑡}𝑑𝑠)", "slide_id": "t02-s033", "topic": 2, "title_context": "Converting a real variable (usually time t) to a complex variable (usually complex frequency s)"}
+{"id": "f-t02-s033-0171", "expression": "ℒ", "slide_id": "t02-s033", "topic": 2, "title_context": "Converting a real variable (usually time t) to a complex variable (usually complex frequency s)"}
+{"id": "f-t02-s033-0172", "expression": "ℒ^{−1}", "slide_id": "t02-s033", "topic": 2, "title_context": "Converting a real variable (usually time t) to a complex variable (usually complex frequency s)"}
+{"id": "f-t02-s033-0173", "expression": "Definition: For a function 𝑓(𝑡)   (𝑓(𝑡)=0 𝑓𝑜𝑟 𝑡<0)", "slide_id": "t02-s033", "topic": 2, "title_context": "Converting a real variable (usually time t) to a complex variable (usually complex frequency s)"}
+{"id": "f-t02-s033-0174", "expression": "ℒ^{−1}(𝐹(𝑠))=(1)/(2𝜋𝑗)∫_{𝜎−𝑗∞}^{𝜎+𝑗∞}(𝐹(𝑠)𝑒^{+𝑠𝑡}𝑑𝑠)ℒ^{−1}(𝐹(𝑠))=(1)/(2𝜋𝑗)∫_{𝜎−𝑗∞}^{𝜎+𝑗∞}(𝐹(𝑠)𝑒^{+𝑠𝑡}𝑑𝑠)", "slide_id": "t02-s033", "topic": 2, "title_context": "Converting a real variable (usually time t) to a complex variable (usually complex frequency s)"}
+{"id": "f-t02-s033-0175", "expression": "ℒ ℒ", "slide_id": "t02-s033", "topic": 2, "title_context": "Converting a real variable (usually time t) to a complex variable (usually complex frequency s)"}
+{"id": "f-t02-s034-0176", "expression": "𝑓(𝑡)=10𝑢(𝑡)=(10, 𝑡≥0 ; &0, 𝑡<0)", "slide_id": "t02-s034", "topic": 2, "title_context": "Step function:"}
+{"id": "f-t02-s034-0177", "expression": "𝐹(𝑠)=∫_{0}^{∞}(𝑓(𝑡)𝑒^{−𝑠𝑡}𝑑𝑡)=∫_{0}^{∞}(10𝑒^{−𝑠𝑡}𝑑𝑡)=10∫_{0}^{∞}(𝑒^{−𝑠𝑡}𝑑𝑡)", "slide_id": "t02-s034", "topic": 2, "title_context": "Step function:"}
+{"id": "f-t02-s034-0178", "expression": "=10(−(1)/(𝑠)(𝑒^{−𝑠𝑡})_{0}^{∞})=10(0−(−(1)/(𝑠)))=(10)/(𝑠)", "slide_id": "t02-s034", "topic": 2, "title_context": "Step function:"}
+{"id": "f-t02-s034-0179", "expression": "ℒ(𝑢(𝑡))=(1)/(𝑠)", "slide_id": "t02-s034", "topic": 2, "title_context": "Step function:"}
+{"id": "f-t02-s034-0180", "expression": "𝑓(𝑡)=10𝑢(𝑡)=(10,  𝑡≥0 ; &0,  𝑡<0)", "slide_id": "t02-s034", "topic": 2, "title_context": "Step function:"}
+{"id": "f-t02-s034-0181", "expression": "𝐹(𝑠)=∫_{0}^{∞}(𝑓(𝑡)𝑒^{−𝑠𝑡}𝑑𝑡)=∫_{0}^{∞}(10𝑒^{−𝑠𝑡}𝑑𝑡)=10∫_{0}^{∞}(𝑒^{−𝑠𝑡}𝑑𝑡)=10(−(1)/(𝑠)(𝑒^{−𝑠𝑡})_{0}^{∞})=10(0−(−(1)/(𝑠)))=(10)/(𝑠)𝐹(𝑠)=∫_{0}^{∞}(𝑓(𝑡)𝑒^{−𝑠𝑡}𝑑𝑡)=∫_{0}^{∞}(10𝑒^{−𝑠𝑡}𝑑𝑡)=10∫_{0}^{∞}(𝑒^{−𝑠𝑡}𝑑𝑡)=10(−(1)/(𝑠)(𝑒^{−𝑠𝑡})_{0}^{∞})=10(0−(−(1)/(𝑠)))=(10)/(𝑠)", "slide_id": "t02-s034", "topic": 2, "title_context": "Step function:"}
+{"id": "f-t02-s034-0182", "expression": "ℒ(𝑢(𝑡))=(1)/(𝑠)ℒ(𝑢(𝑡))=(1)/(𝑠)", "slide_id": "t02-s034", "topic": 2, "title_context": "Step function:"}
+{"id": "f-t02-s038-0183", "expression": "ℒ(𝛼_{1}𝑓_{1}(𝑡)+𝛼_{2}𝑓_{2}(𝑡))=𝛼_{1}ℒ(𝑓_{1}(𝑡))+𝛼_{2}ℒ(𝑓_{2}(𝑡))=𝛼_{1}𝐹_{1}(𝑠)+𝛼_{2}𝐹_{2}(𝑠)", "slide_id": "t02-s038", "topic": 2, "title_context": "Linearity"}
+{"id": "f-t02-s038-0184", "expression": "ℒ(𝛼_{1}𝑓_{1}(𝑡)+𝛼_{2}𝑓_{2}(𝑡))=∫_{0}^{∞}((𝛼_{1}𝑓_{1}(𝑡)+𝛼_{2}𝑓_{2}(𝑡)))𝑒^{−𝑠𝑡}𝑑𝑡", "slide_id": "t02-s038", "topic": 2, "title_context": "Linearity"}
+{"id": "f-t02-s038-0185", "expression": "=𝛼_{1}∫_{0}^{∞}(𝑓_{1}(𝑡)𝑒^{−𝑠𝑡}𝑑𝑡)+𝛼_{2}∫_{0}^{∞}(𝑓_{2}(𝑡)𝑒^{−𝑠𝑡}𝑑𝑡)", "slide_id": "t02-s038", "topic": 2, "title_context": "Linearity"}
+{"id": "f-t02-s038-0186", "expression": "=𝛼_{1}𝐹_{1}(𝑠)+𝛼_{2}𝐹_{2}(𝑠)", "slide_id": "t02-s038", "topic": 2, "title_context": "Linearity"}
+{"id": "f-t02-s038-0187", "expression": "ℒ(𝛼_{1}𝑓_{1}(𝑡)+𝛼_{2}𝑓_{2}(𝑡))=𝛼_{1}ℒ(𝑓_{1}(𝑡))+𝛼_{2}ℒ(𝑓_{2}(𝑡))=𝛼_{1}𝐹_{1}(𝑠)+𝛼_{2}𝐹_{2}(𝑠)ℒ(𝛼_{1}𝑓_{1}(𝑡)+𝛼_{2}𝑓_{2}(𝑡))=𝛼_{1}ℒ(𝑓_{1}(𝑡))+𝛼_{2}ℒ(𝑓_{2}(𝑡))=𝛼_{1}𝐹_{1}(𝑠)+𝛼_{2}𝐹_{2}(𝑠)", "slide_id": "t02-s038", "topic": 2, "title_context": "Linearity"}
+{"id": "f-t02-s038-0188", "expression": "ℒ(𝛼_{1}𝑓_{1}(𝑡)+𝛼_{2}𝑓_{2}(𝑡))=∫_{0}^{∞}((𝛼_{1}𝑓_{1}(𝑡)+𝛼_{2}𝑓_{2}(𝑡)))𝑒^{−𝑠𝑡}𝑑𝑡 ℒ(𝛼_{1}𝑓_{1}(𝑡)+𝛼_{2}𝑓_{2}(𝑡))=∫_{0}^{∞}((𝛼_{1}𝑓_{1}(𝑡)+𝛼_{2}𝑓_{2}(𝑡)))𝑒^{−𝑠𝑡}𝑑𝑡", "slide_id": "t02-s038", "topic": 2, "title_context": "Linearity"}
+{"id": "f-t02-s039-0189", "expression": "ℒ(𝛼_{1}𝑓_{1}(𝑡)+𝛼_{2}𝑓_{2}(𝑡))=𝛼_{1}ℒ(𝑓_{1}(𝑡))+𝛼_{2}ℒ(𝑓_{2}(𝑡))=𝛼_{1}𝐹_{1}(𝑠)+𝛼_{2}𝐹_{2}(𝑠)", "slide_id": "t02-s039", "topic": 2, "title_context": "Linearity"}
+{"id": "f-t02-s039-0190", "expression": "ℒ(4𝑢(𝑡)+5𝑒^{−2𝑡})", "slide_id": "t02-s039", "topic": 2, "title_context": "Linearity"}
+{"id": "f-t02-s039-0191", "expression": "=4ℒ(𝑢(𝑡))+5ℒ(𝑒^{−2𝑡})", "slide_id": "t02-s039", "topic": 2, "title_context": "Linearity"}
+{"id": "f-t02-s039-0192", "expression": "=(4)/(𝑠)+(5)/(𝑠+2)", "slide_id": "t02-s039", "topic": 2, "title_context": "Linearity"}
+{"id": "f-t02-s039-0193", "expression": "ℒ(𝛼_{1}𝑓_{1}(𝑡)+𝛼_{2}𝑓_{2}(𝑡))=𝛼_{1}ℒ(𝑓_{1}(𝑡))+𝛼_{2}ℒ(𝑓_{2}(𝑡))=𝛼_{1}𝐹_{1}(𝑠)+𝛼_{2}𝐹_{2}(𝑠)ℒ(𝛼_{1}𝑓_{1}(𝑡)+𝛼_{2}𝑓_{2}(𝑡))=𝛼_{1}ℒ(𝑓_{1}(𝑡))+𝛼_{2}ℒ(𝑓_{2}(𝑡))=𝛼_{1}𝐹_{1}(𝑠)+𝛼_{2}𝐹_{2}(𝑠)", "slide_id": "t02-s039", "topic": 2, "title_context": "Linearity"}
+{"id": "f-t02-s039-0194", "expression": "Example: ℒ(4𝑢(𝑡)+5𝑒^{−2𝑡})", "slide_id": "t02-s039", "topic": 2, "title_context": "Linearity"}
+{"id": "f-t02-s039-0195", "expression": "=4ℒ(𝑢(𝑡))+5ℒ(𝑒^{−2𝑡})=4ℒ(𝑢(𝑡))+5ℒ(𝑒^{−2𝑡})", "slide_id": "t02-s039", "topic": 2, "title_context": "Linearity"}
+{"id": "f-t02-s039-0196", "expression": "=(4)/(𝑠)+(5)/(𝑠+2)=(4)/(𝑠)+(5)/(𝑠+2)", "slide_id": "t02-s039", "topic": 2, "title_context": "Linearity"}
+{"id": "f-t02-s040-0197", "expression": "ℒ(𝑓′(𝑡))=𝑠𝐹(𝑠)−𝑓(0)", "slide_id": "t02-s040", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s040-0198", "expression": "ℒ(𝑓′(𝑡))=∫_{0}^{∞}(𝑓′(𝑡))𝑒^{−𝑠𝑡}𝑑𝑡", "slide_id": "t02-s040", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s040-0199", "expression": "∫_{0}^{∞}(𝑢(𝑑𝑣)/(𝑑𝑡))𝑑𝑡=𝑢𝑣−∫_{0}^{∞}(𝑣(𝑑𝑢)/(𝑑𝑡)𝑑𝑡)", "slide_id": "t02-s040", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s040-0200", "expression": "ℒ(𝑓^{𝑘}(𝑡))=𝑠^{𝑘}𝐹(𝑠)−𝑠^{𝑘−1}𝑓(0)−𝑠^{𝑘−2}𝑓^{′}(0)−…−𝑓^{𝑘−1}(0)", "slide_id": "t02-s040", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s040-0201", "expression": "(𝑑𝑣)/(𝑑𝑡)", "slide_id": "t02-s040", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s040-0202", "expression": "𝑢", "slide_id": "t02-s040", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s040-0203", "expression": "ℒ(𝑓′(𝑡))=∫_{0}^{∞}(𝑓′(𝑡))𝑒^{−𝑠𝑡}𝑑𝑡 ℒ(𝑓′(𝑡))=∫_{0}^{∞}(𝑓′(𝑡))𝑒^{−𝑠𝑡}𝑑𝑡", "slide_id": "t02-s040", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s040-0204", "expression": "Hint: Integration by parts  ∫_{0}^{∞}(𝑢(𝑑𝑣)/(𝑑𝑡))𝑑𝑡=𝑢𝑣−∫_{0}^{∞}(𝑣(𝑑𝑢)/(𝑑𝑡)𝑑𝑡)", "slide_id": "t02-s040", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s040-0205", "expression": "ℒ(𝑓^{𝑘}(𝑡))=𝑠^{𝑘}𝐹(𝑠)−𝑠^{𝑘−1}𝑓(0)−𝑠^{𝑘−2}𝑓^{′}(0)−…−𝑓^{𝑘−1}(0)ℒ(𝑓^{𝑘}(𝑡))=𝑠^{𝑘}𝐹(𝑠)−𝑠^{𝑘−1}𝑓(0)−𝑠^{𝑘−2}𝑓^{′}(0)−…−𝑓^{𝑘−1}(0)", "slide_id": "t02-s040", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s041-0206", "expression": "ℒ(𝑓′(𝑡))=𝑠𝐹(𝑠)−𝑓(0)", "slide_id": "t02-s041", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s041-0207", "expression": "ℒ(𝑓^{𝑘}(𝑡))=𝑠^{𝑘}𝐹(𝑠)−𝑠^{𝑘−1}𝑓(0)−𝑠^{𝑘−2}𝑓^{′}(0)−…−𝑓^{𝑘−1}(0)", "slide_id": "t02-s041", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s041-0208", "expression": "ℒ(𝑓′(𝑡))=∫_{0}^{∞}(𝑓′(𝑡))𝑒^{−𝑠𝑡}𝑑𝑡=(𝑓(𝑡)𝑒^{−𝑠𝑡})_{0}^{∞}+𝑠∫_{0}^{∞}(𝑓(𝑡)𝑒^{−𝑠𝑡}𝑑𝑡)", "slide_id": "t02-s041", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s041-0209", "expression": "(𝑑𝑣)/(𝑑𝑡)", "slide_id": "t02-s041", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s041-0210", "expression": "𝑢", "slide_id": "t02-s041", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s041-0211", "expression": "ℒ(𝑓′(𝑡))=𝑠𝐹(𝑠)−𝑓(0) ℒ(𝑓^{𝑘}(𝑡))=𝑠^{𝑘}𝐹(𝑠)−𝑠^{𝑘−1}𝑓(0)−𝑠^{𝑘−2}𝑓^{′}(0)−…−𝑓^{𝑘−1}(0)", "slide_id": "t02-s041", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s041-0212", "expression": "ℒ(𝑓′(𝑡))=∫_{0}^{∞}(𝑓′(𝑡))𝑒^{−𝑠𝑡}𝑑𝑡=(𝑓(𝑡)𝑒^{−𝑠𝑡})_{0}^{∞}+𝑠∫_{0}^{∞}(𝑓(𝑡)𝑒^{−𝑠𝑡}𝑑𝑡)ℒ(𝑓′(𝑡))=∫_{0}^{∞}(𝑓′(𝑡))𝑒^{−𝑠𝑡}𝑑𝑡=(𝑓(𝑡)𝑒^{−𝑠𝑡})_{0}^{∞}+𝑠∫_{0}^{∞}(𝑓(𝑡)𝑒^{−𝑠𝑡}𝑑𝑡)", "slide_id": "t02-s041", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s041-0213", "expression": "ℒ(𝑓′(𝑡))=𝑠𝐹(𝑠)−𝑓(0)ℒ(𝑓′(𝑡))=𝑠𝐹(𝑠)−𝑓(0)", "slide_id": "t02-s041", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s042-0214", "expression": "ℒ(𝑓′(𝑡))=𝑠𝐹(𝑠)−𝑓(0)", "slide_id": "t02-s042", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s042-0215", "expression": "ℒ(𝑓^{𝑘}(𝑡))=𝑠^{𝑘}𝐹(𝑠)−𝑠^{𝑘−1}𝑓(0)−𝑠^{𝑘−2}𝑓^{′}(0)−…−𝑓^{𝑘−1}(0)", "slide_id": "t02-s042", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s042-0216", "expression": "ℒ((𝑑(sin((2𝑡))))/(𝑑𝑡))", "slide_id": "t02-s042", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s042-0217", "expression": "=𝑠(2)/(𝑠^{2}+4)", "slide_id": "t02-s042", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s042-0218", "expression": "−sin(0=(2𝑠)/(𝑠^{2}+4))", "slide_id": "t02-s042", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s042-0219", "expression": "ℒ(𝑓′(𝑡))=𝑠𝐹(𝑠)−𝑓(0) ℒ(𝑓^{𝑘}(𝑡))=𝑠^{𝑘}𝐹(𝑠)−𝑠^{𝑘−1}𝑓(0)−𝑠^{𝑘−2}𝑓^{′}(0)−…−𝑓^{𝑘−1}(0)", "slide_id": "t02-s042", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s042-0220", "expression": "Example: ℒ((𝑑(sin((2𝑡))))/(𝑑𝑡))", "slide_id": "t02-s042", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s042-0221", "expression": "=𝑠(2)/(𝑠^{2}+4)=𝑠(2)/(𝑠^{2}+4)", "slide_id": "t02-s042", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s042-0222", "expression": "−sin(0=(2𝑠)/(𝑠^{2}+4))−sin(0=(2𝑠)/(𝑠^{2}+4))", "slide_id": "t02-s042", "topic": 2, "title_context": "Differentiation"}
+{"id": "f-t02-s043-0223", "expression": "ℒ(∫_{0}^{𝑡}(𝑓(𝜏)𝑑𝜏))=(𝐹(𝑠))/(𝑠)", "slide_id": "t02-s043", "topic": 2, "title_context": "Integration"}
+{"id": "f-t02-s043-0224", "expression": "ℒ(∫_{0}^{𝑡}(𝑓(𝜏)𝑑𝜏))=∫_{0}^{∞}((∫_{0}^{𝑡}(𝑓(𝜏)𝑑𝜏)))𝑒^{−𝑠𝑡}𝑑𝑡", "slide_id": "t02-s043", "topic": 2, "title_context": "Integration"}
+{"id": "f-t02-s043-0225", "expression": "=(−(1)/(𝑠)(∫_{0}^{𝑡}(𝑓(𝜏)𝑑𝜏))𝑒^{−𝑠𝑡})_{0}^{∞}+(1)/(𝑠)∫_{0}^{∞}(𝑓(𝑡)𝑒^{−𝑠𝑡}𝑑𝑡)", "slide_id": "t02-s043", "topic": 2, "title_context": "Integration"}
+{"id": "f-t02-s043-0226", "expression": "(𝑑𝑣)/(𝑑𝑡)", "slide_id": "t02-s043", "topic": 2, "title_context": "Integration"}
+{"id": "f-t02-s043-0227", "expression": "𝑢", "slide_id": "t02-s043", "topic": 2, "title_context": "Integration"}
+{"id": "f-t02-s043-0228", "expression": "=(𝐹(𝑠))/(𝑠)", "slide_id": "t02-s043", "topic": 2, "title_context": "Integration"}
+{"id": "f-t02-s043-0229", "expression": "ℒ(∫_{0}^{𝑡}(𝑓(𝜏)𝑑𝜏))=(𝐹(𝑠))/(𝑠)ℒ(∫_{0}^{𝑡}(𝑓(𝜏)𝑑𝜏))=(𝐹(𝑠))/(𝑠)", "slide_id": "t02-s043", "topic": 2, "title_context": "Integration"}
+{"id": "f-t02-s043-0230", "expression": "ℒ(∫_{0}^{𝑡}(𝑓(𝜏)𝑑𝜏))=∫_{0}^{∞}((∫_{0}^{𝑡}(𝑓(𝜏)𝑑𝜏)))𝑒^{−𝑠𝑡}𝑑𝑡 ℒ(∫_{0}^{𝑡}(𝑓(𝜏)𝑑𝜏))=∫_{0}^{∞}((∫_{0}^{𝑡}(𝑓(𝜏)𝑑𝜏)))𝑒^{−𝑠𝑡}𝑑𝑡", "slide_id": "t02-s043", "topic": 2, "title_context": "Integration"}
+{"id": "f-t02-s043-0231", "expression": "=(−(1)/(𝑠)(∫_{0}^{𝑡}(𝑓(𝜏)𝑑𝜏))𝑒^{−𝑠𝑡})_{0}^{∞}+(1)/(𝑠)∫_{0}^{∞}(𝑓(𝑡)𝑒^{−𝑠𝑡}𝑑𝑡)=(−(1)/(𝑠)(∫_{0}^{𝑡}(𝑓(𝜏)𝑑𝜏))𝑒^{−𝑠𝑡})_{0}^{∞}+(1)/(𝑠)∫_{0}^{∞}(𝑓(𝑡)𝑒^{−𝑠𝑡}𝑑𝑡)", "slide_id": "t02-s043", "topic": 2, "title_context": "Integration"}
+{"id": "f-t02-s043-0232", "expression": "=(𝐹(𝑠))/(𝑠)=(𝐹(𝑠))/(𝑠)", "slide_id": "t02-s043", "topic": 2, "title_context": "Integration"}
+{"id": "f-t02-s044-0233", "expression": "(𝑑)/(𝑑𝑡)", "slide_id": "t02-s044", "topic": 2, "title_context": "Time Domain (t)"}
+{"id": "f-t02-s044-0234", "expression": "𝑠", "slide_id": "t02-s044", "topic": 2, "title_context": "Time Domain (t)"}
+{"id": "f-t02-s044-0235", "expression": "∫_{0}^{𝑡}(𝑑𝑡)", "slide_id": "t02-s044", "topic": 2, "title_context": "Time Domain (t)"}
+{"id": "f-t02-s044-0236", "expression": "(1)/(𝑠)", "slide_id": "t02-s044", "topic": 2, "title_context": "Time Domain (t)"}
+{"id": "f-t02-s044-0237", "expression": "∫_{0}^{𝑡}(𝑑𝑡)∫_{0}^{𝑡}(𝑑𝑡)", "slide_id": "t02-s044", "topic": 2, "title_context": "Time Domain (t)"}
+{"id": "f-t02-s045-0238", "expression": "2(𝑑^{2}𝑦(𝑡))/(𝑑𝑡^{2})+6(𝑑𝑦(𝑡))/(𝑑𝑡)+4𝑦(𝑡)=𝑟(𝑡)", "slide_id": "t02-s045", "topic": 2, "title_context": "Solving ODEs using Laplace Transform"}
+{"id": "f-t02-s045-0239", "expression": "2(𝑠^{2}𝑌(𝑠)−𝑠𝑦(0)−((𝑑𝑦)/(𝑑𝑡))_{𝑡=0})+6(𝑠𝑌(𝑠)−𝑦(0))+4𝑌(𝑠)=𝑅(𝑠)", "slide_id": "t02-s045", "topic": 2, "title_context": "Solving ODEs using Laplace Transform"}
+{"id": "f-t02-s045-0240", "expression": "𝑟(𝑡)=0 𝑎𝑛𝑑 𝑦(0)=𝑦_{0} 𝑎𝑛𝑑 ((𝑑𝑦)/(𝑑𝑡))_{𝑡=0}=0", "slide_id": "t02-s045", "topic": 2, "title_context": "Solving ODEs using Laplace Transform"}
+{"id": "f-t02-s045-0241", "expression": "2𝑠^{2}𝑌(𝑠)−2𝑠𝑦_{0}+6𝑠𝑌(𝑠)−6𝑦_{0}+4𝑌(𝑠)=0", "slide_id": "t02-s045", "topic": 2, "title_context": "Solving ODEs using Laplace Transform"}
+{"id": "f-t02-s045-0242", "expression": "𝑌(𝑠)", "slide_id": "t02-s045", "topic": 2, "title_context": "Solving ODEs using Laplace Transform"}
+{"id": "f-t02-s045-0243", "expression": "𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))", "slide_id": "t02-s045", "topic": 2, "title_context": "Solving ODEs using Laplace Transform"}
+{"id": "f-t02-s045-0244", "expression": "2(𝑑^{2}𝑦(𝑡))/(𝑑𝑡^{2})+6(𝑑𝑦(𝑡))/(𝑑𝑡)+4𝑦(𝑡)=𝑟(𝑡)2(𝑑^{2}𝑦(𝑡))/(𝑑𝑡^{2})+6(𝑑𝑦(𝑡))/(𝑑𝑡)+4𝑦(𝑡)=𝑟(𝑡)", "slide_id": "t02-s045", "topic": 2, "title_context": "Solving ODEs using Laplace Transform"}
+{"id": "f-t02-s045-0245", "expression": "2(𝑠^{2}𝑌(𝑠)−𝑠𝑦(0)−((𝑑𝑦)/(𝑑𝑡))_{𝑡=0})+6(𝑠𝑌(𝑠)−𝑦(0))+4𝑌(𝑠)=𝑅(𝑠)2(𝑠^{2}𝑌(𝑠)−𝑠𝑦(0)−((𝑑𝑦)/(𝑑𝑡))_{𝑡=0})+6(𝑠𝑌(𝑠)−𝑦(0))+4𝑌(𝑠)=𝑅(𝑠)", "slide_id": "t02-s045", "topic": 2, "title_context": "Solving ODEs using Laplace Transform"}
+{"id": "f-t02-s045-0246", "expression": "When 𝑟(𝑡)=0  𝑎𝑛𝑑  𝑦(0)=𝑦_{0}  𝑎𝑛𝑑  ((𝑑𝑦)/(𝑑𝑡))_{𝑡=0}=0", "slide_id": "t02-s045", "topic": 2, "title_context": "Solving ODEs using Laplace Transform"}
+{"id": "f-t02-s045-0247", "expression": "We have 2𝑠^{2}𝑌(𝑠)−2𝑠𝑦_{0}+6𝑠𝑌(𝑠)−6𝑦_{0}+4𝑌(𝑠)=0", "slide_id": "t02-s045", "topic": 2, "title_context": "Solving ODEs using Laplace Transform"}
+{"id": "f-t02-s045-0248", "expression": "Solving for 𝑌(𝑠): 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))", "slide_id": "t02-s045", "topic": 2, "title_context": "Solving ODEs using Laplace Transform"}
+{"id": "f-t02-s046-0249", "expression": "𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=((𝑠+3)𝑦_{0})/(𝑠^{2}+3𝑠+2)", "slide_id": "t02-s046", "topic": 2, "title_context": "𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=((𝑠+3)𝑦_{0})/(𝑠^{2}+3𝑠+2)𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=((𝑠+3)𝑦_{0})/(𝑠^{2}+3𝑠+2)"}
+{"id": "f-t02-s046-0250", "expression": "𝑠=−3", "slide_id": "t02-s046", "topic": 2, "title_context": "𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=((𝑠+3)𝑦_{0})/(𝑠^{2}+3𝑠+2)𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=((𝑠+3)𝑦_{0})/(𝑠^{2}+3𝑠+2)"}
+{"id": "f-t02-s046-0251", "expression": "𝑠=−1 𝑎𝑛𝑑 𝑠=−2", "slide_id": "t02-s046", "topic": 2, "title_context": "𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=((𝑠+3)𝑦_{0})/(𝑠^{2}+3𝑠+2)𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=((𝑠+3)𝑦_{0})/(𝑠^{2}+3𝑠+2)"}
+{"id": "f-t02-s046-0252", "expression": "𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=((𝑠+3)𝑦_{0})/(𝑠^{2}+3𝑠+2)𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=((𝑠+3)𝑦_{0})/(𝑠^{2}+3𝑠+2)", "slide_id": "t02-s046", "topic": 2, "title_context": "𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=((𝑠+3)𝑦_{0})/(𝑠^{2}+3𝑠+2)𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=((𝑠+3)𝑦_{0})/(𝑠^{2}+3𝑠+2)"}
+{"id": "f-t02-s046-0253", "expression": "Zero: 𝑠=−3", "slide_id": "t02-s046", "topic": 2, "title_context": "𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=((𝑠+3)𝑦_{0})/(𝑠^{2}+3𝑠+2)𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=((𝑠+3)𝑦_{0})/(𝑠^{2}+3𝑠+2)"}
+{"id": "f-t02-s046-0254", "expression": "Poles: 𝑠=−1  𝑎𝑛𝑑  𝑠=−2", "slide_id": "t02-s046", "topic": 2, "title_context": "𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=((𝑠+3)𝑦_{0})/(𝑠^{2}+3𝑠+2)𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=((𝑠+3)𝑦_{0})/(𝑠^{2}+3𝑠+2)"}
+{"id": "f-t02-s047-0255", "expression": "𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2)", "slide_id": "t02-s047", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2)"}
+{"id": "f-t02-s047-0256", "expression": "𝑦_{0}=1", "slide_id": "t02-s047", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2)"}
+{"id": "f-t02-s047-0257", "expression": "𝑌(𝑠)=(𝑘_{1}𝑠+2𝑘_{1}+𝑘_{2}𝑠+𝑘_{2})/((𝑠+1)(𝑠+2))=((𝑠+3))/((𝑠+1)(𝑠+2))", "slide_id": "t02-s047", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2)"}
+{"id": "f-t02-s047-0258", "expression": "𝑘_{1}𝑠+2𝑘_{1}+𝑘_{2}𝑠+𝑘_{2}=𝑠+3", "slide_id": "t02-s047", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2)"}
+{"id": "f-t02-s047-0259", "expression": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2)", "slide_id": "t02-s047", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2)"}
+{"id": "f-t02-s047-0260", "expression": "Let 𝑦_{0}=1", "slide_id": "t02-s047", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2)"}
+{"id": "f-t02-s047-0261", "expression": "𝑌(𝑠)=(𝑘_{1}𝑠+2𝑘_{1}+𝑘_{2}𝑠+𝑘_{2})/((𝑠+1)(𝑠+2))=((𝑠+3))/((𝑠+1)(𝑠+2))𝑌(𝑠)=(𝑘_{1}𝑠+2𝑘_{1}+𝑘_{2}𝑠+𝑘_{2})/((𝑠+1)(𝑠+2))=((𝑠+3))/((𝑠+1)(𝑠+2))", "slide_id": "t02-s047", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2)"}
+{"id": "f-t02-s047-0262", "expression": "𝑘_{1}𝑠+2𝑘_{1}+𝑘_{2}𝑠+𝑘_{2}=𝑠+3 𝑘_{1}𝑠+2𝑘_{1}+𝑘_{2}𝑠+𝑘_{2}=𝑠+3", "slide_id": "t02-s047", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2)"}
+{"id": "f-t02-s048-0263", "expression": "𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2)", "slide_id": "t02-s048", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s048-0264", "expression": "𝑦_{0}=1", "slide_id": "t02-s048", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s048-0265", "expression": "𝑘_{1}𝑠+2𝑘_{1}+𝑘_{2}𝑠+𝑘_{2}=𝑠+3", "slide_id": "t02-s048", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s048-0266", "expression": "(𝑘_{1}+𝑘_{2}=1 ; 2𝑘_{1}+𝑘_{2}=3)", "slide_id": "t02-s048", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s048-0267", "expression": "(𝑘_{1}=2 ; 𝑘_{2}=−1)", "slide_id": "t02-s048", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s048-0268", "expression": "𝑌(𝑠)=(2)/(𝑠+1)+(−1)/(𝑠+2)", "slide_id": "t02-s048", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s048-0269", "expression": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1", "slide_id": "t02-s048", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s048-0270", "expression": "𝑘_{1}𝑠+2𝑘_{1}+𝑘_{2}𝑠+𝑘_{2}=𝑠+3  (𝑘_{1}+𝑘_{2}=1 ; 2𝑘_{1}+𝑘_{2}=3)  (𝑘_{1}=2 ; 𝑘_{2}=−1)", "slide_id": "t02-s048", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s048-0271", "expression": "𝑌(𝑠)=(2)/(𝑠+1)+(−1)/(𝑠+2)𝑌(𝑠)=(2)/(𝑠+1)+(−1)/(𝑠+2)", "slide_id": "t02-s048", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s049-0272", "expression": "𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2)", "slide_id": "t02-s049", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s049-0273", "expression": "𝑦_{0}=1", "slide_id": "t02-s049", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s049-0274", "expression": "𝑘_{1}𝑠+2𝑘_{1}+𝑘_{2}𝑠+𝑘_{2}=𝑠+3", "slide_id": "t02-s049", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s049-0275", "expression": "(𝑘_{1}+𝑘_{2}=1 ; 2𝑘_{1}+𝑘_{2}=3)", "slide_id": "t02-s049", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s049-0276", "expression": "(𝑘_{1}=2 ; 𝑘_{2}=−1)", "slide_id": "t02-s049", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s049-0277", "expression": "𝑦(𝑡)=ℒ^{−1}((2)/(𝑠+1))+ℒ^{−1}((−1)/(𝑠+2))", "slide_id": "t02-s049", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s049-0278", "expression": "𝑌(𝑠)=(2)/(𝑠+1)+(−1)/(𝑠+2)", "slide_id": "t02-s049", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s049-0279", "expression": "𝑦(𝑡)=2𝑒^{−𝑡}−1𝑒^{−2𝑡}", "slide_id": "t02-s049", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s049-0280", "expression": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1", "slide_id": "t02-s049", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s049-0281", "expression": "𝑘_{1}𝑠+2𝑘_{1}+𝑘_{2}𝑠+𝑘_{2}=𝑠+3  (𝑘_{1}+𝑘_{2}=1 ; 2𝑘_{1}+𝑘_{2}=3)  (𝑘_{1}=2 ; 𝑘_{2}=−1)", "slide_id": "t02-s049", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s049-0282", "expression": "𝑦(𝑡)=ℒ^{−1}((2)/(𝑠+1))+ℒ^{−1}((−1)/(𝑠+2))𝑦(𝑡)=ℒ^{−1}((2)/(𝑠+1))+ℒ^{−1}((−1)/(𝑠+2))", "slide_id": "t02-s049", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s049-0283", "expression": "𝑌(𝑠)=(2)/(𝑠+1)+(−1)/(𝑠+2)𝑌(𝑠)=(2)/(𝑠+1)+(−1)/(𝑠+2)", "slide_id": "t02-s049", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s049-0284", "expression": "𝑦(𝑡)=2𝑒^{−𝑡}−1𝑒^{−2𝑡}𝑦(𝑡)=2𝑒^{−𝑡}−1𝑒^{−2𝑡}", "slide_id": "t02-s049", "topic": 2, "title_context": "Back to solving: 𝑌(𝑠)=((𝑠+3)𝑦_{0})/((𝑠+1)(𝑠+2))=(𝑘_{1})/(𝑠+1)+(𝑘_{2})/(𝑠+2) Let 𝑦_{0}=1"}
+{"id": "f-t02-s050-0285", "expression": "lim𝑡→∞(𝑓(𝑡))=lim𝑠→0(𝑠𝐹(𝑠))", "slide_id": "t02-s050", "topic": 2, "title_context": "Solving ODEs using Laplace Transform"}
+{"id": "f-t02-s050-0286", "expression": "𝑠𝐹(𝑠)", "slide_id": "t02-s050", "topic": 2, "title_context": "Solving ODEs using Laplace Transform"}
+{"id": "f-t02-s050-0287", "expression": "𝑌(𝑠)=((𝑠+3))/((𝑠+1)(𝑠+2)) → 𝑦(𝑡)=2𝑒^{−𝑡}−1𝑒^{−2𝑡}", "slide_id": "t02-s050", "topic": 2, "title_context": "Solving ODEs using Laplace Transform"}
+{"id": "f-t02-s050-0288", "expression": "𝑠=−1 & 𝑠=−2", "slide_id": "t02-s050", "topic": 2, "title_context": "Solving ODEs using Laplace Transform"}
+{"id": "f-t02-s050-0289", "expression": "lim𝑡→∞(𝑦(𝑡))=lim𝑠→0(𝑠𝑌(𝑠))=0", "slide_id": "t02-s050", "topic": 2, "title_context": "Solving ODEs using Laplace Transform"}
+{"id": "f-t02-s050-0290", "expression": "lim𝑡→∞(𝑓(𝑡))=lim𝑠→0(𝑠𝐹(𝑠)) applicable if all the poles of 𝑠𝐹(𝑠) are in the left half plane (LHP)", "slide_id": "t02-s050", "topic": 2, "title_context": "Solving ODEs using Laplace Transform"}
+{"id": "f-t02-s050-0291", "expression": "𝑌(𝑠)=((𝑠+3))/((𝑠+1)(𝑠+2))   →   𝑦(𝑡)=2𝑒^{−𝑡}−1𝑒^{−2𝑡}𝑌(𝑠)=((𝑠+3))/((𝑠+1)(𝑠+2))   →   𝑦(𝑡)=2𝑒^{−𝑡}−1𝑒^{−2𝑡}", "slide_id": "t02-s050", "topic": 2, "title_context": "Solving ODEs using Laplace Transform"}
+{"id": "f-t02-s050-0292", "expression": "Poles: 𝑠=−1 & 𝑠=−2 (LHP)", "slide_id": "t02-s050", "topic": 2, "title_context": "Solving ODEs using Laplace Transform"}
+{"id": "f-t02-s050-0293", "expression": "lim𝑡→∞(𝑦(𝑡))=lim𝑠→0(𝑠𝑌(𝑠))=0 lim𝑡→∞(𝑦(𝑡))=lim𝑠→0(𝑠𝑌(𝑠))=0", "slide_id": "t02-s050", "topic": 2, "title_context": "Solving ODEs using Laplace Transform"}
+{"id": "f-t02-s051-0294", "expression": "ℒ", "slide_id": "t02-s051", "topic": 2, "title_context": "ODE"}
+{"id": "f-t02-s051-0295", "expression": "ℒ^{−1}", "slide_id": "t02-s051", "topic": 2, "title_context": "ODE"}
+{"id": "f-t02-s051-0296", "expression": "ℒ ℒ", "slide_id": "t02-s051", "topic": 2, "title_context": "ODE"}
+{"id": "f-t02-s051-0297", "expression": "ℒ^{−1}ℒ^{−1}", "slide_id": "t02-s051", "topic": 2, "title_context": "ODE"}
+{"id": "f-t02-s052-0298", "expression": "𝑦^{′′}(𝑡)−𝑦(𝑡)=𝑡, 𝑦(0)=1, 𝑦^{′}(0)=1", "slide_id": "t02-s052", "topic": 2, "title_context": "ODE with Initial Conditions:"}
+{"id": "f-t02-s052-0299", "expression": "ℒ(𝑓^{𝑘}(𝑡))=𝑠^{𝑘}𝐹(𝑠)−𝑠^{𝑘−1}𝑓(0)−𝑠^{𝑘−2}𝑓^{′}(0)−…−𝑓^{𝑘−1}(0)", "slide_id": "t02-s052", "topic": 2, "title_context": "ODE with Initial Conditions:"}
+{"id": "f-t02-s052-0300", "expression": "𝑠^{2}𝑌(𝑠)−𝑠−1−𝑌(𝑠)=(1!)/(𝑠^{1+1})=(1)/(𝑠^{2})", "slide_id": "t02-s052", "topic": 2, "title_context": "ODE with Initial Conditions:"}
+{"id": "f-t02-s052-0301", "expression": "(𝑠^{2}−1)𝑌(𝑠)−(𝑠+1)=(1)/(𝑠^{2})", "slide_id": "t02-s052", "topic": 2, "title_context": "ODE with Initial Conditions:"}
+{"id": "f-t02-s052-0302", "expression": "𝑌(𝑠)=(1)/(𝑠^{2}(𝑠^{2}−1))+(𝑠+1)/(𝑠^{2}−1)=(1+𝑠^{3}+𝑠^{2})/(𝑠^{2}(𝑠^{2}−1))=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))", "slide_id": "t02-s052", "topic": 2, "title_context": "ODE with Initial Conditions:"}
+{"id": "f-t02-s052-0303", "expression": "𝑦^{′′}(𝑡)−𝑦(𝑡)=𝑡,    𝑦(0)=1,   𝑦^{′}(0)=1 𝑦^{′′}(𝑡)−𝑦(𝑡)=𝑡,    𝑦(0)=1,   𝑦^{′}(0)=1", "slide_id": "t02-s052", "topic": 2, "title_context": "ODE with Initial Conditions:"}
+{"id": "f-t02-s052-0304", "expression": "ℒ(𝑓^{𝑘}(𝑡))=𝑠^{𝑘}𝐹(𝑠)−𝑠^{𝑘−1}𝑓(0)−𝑠^{𝑘−2}𝑓^{′}(0)−…−𝑓^{𝑘−1}(0)ℒ(𝑓^{𝑘}(𝑡))=𝑠^{𝑘}𝐹(𝑠)−𝑠^{𝑘−1}𝑓(0)−𝑠^{𝑘−2}𝑓^{′}(0)−…−𝑓^{𝑘−1}(0)", "slide_id": "t02-s052", "topic": 2, "title_context": "ODE with Initial Conditions:"}
+{"id": "f-t02-s052-0305", "expression": "𝑠^{2}𝑌(𝑠)−𝑠−1−𝑌(𝑠)=(1!)/(𝑠^{1+1})=(1)/(𝑠^{2})𝑠^{2}𝑌(𝑠)−𝑠−1−𝑌(𝑠)=(1!)/(𝑠^{1+1})=(1)/(𝑠^{2})", "slide_id": "t02-s052", "topic": 2, "title_context": "ODE with Initial Conditions:"}
+{"id": "f-t02-s052-0306", "expression": "(𝑠^{2}−1)𝑌(𝑠)−(𝑠+1)=(1)/(𝑠^{2})(𝑠^{2}−1)𝑌(𝑠)−(𝑠+1)=(1)/(𝑠^{2})", "slide_id": "t02-s052", "topic": 2, "title_context": "ODE with Initial Conditions:"}
+{"id": "f-t02-s052-0307", "expression": "𝑌(𝑠)=(1)/(𝑠^{2}(𝑠^{2}−1))+(𝑠+1)/(𝑠^{2}−1)=(1+𝑠^{3}+𝑠^{2})/(𝑠^{2}(𝑠^{2}−1))=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(1)/(𝑠^{2}(𝑠^{2}−1))+(𝑠+1)/(𝑠^{2}−1)=(1+𝑠^{3}+𝑠^{2})/(𝑠^{2}(𝑠^{2}−1))=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))", "slide_id": "t02-s052", "topic": 2, "title_context": "ODE with Initial Conditions:"}
+{"id": "f-t02-s053-0308", "expression": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))", "slide_id": "t02-s053", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s053-0309", "expression": "(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))=(𝐴)/(𝑠)+(𝐵)/(𝑠^{2})+(𝐶)/(𝑠−1)+(𝐷)/(𝑠+1)", "slide_id": "t02-s053", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s053-0310", "expression": "𝑠^{3}+𝑠^{2}+1=(𝐴𝑠^{2}(𝑠−1)(𝑠+1))/(𝑠)+(𝐵𝑠^{2}(𝑠−1)(𝑠+1))/(𝑠^{2})+(𝐶𝑠^{2}(𝑠−1)(𝑠+1))/(𝑠−1)+(𝐷𝑠^{2}(𝑠−1)(𝑠+1))/(𝑠+1)", "slide_id": "t02-s053", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s053-0311", "expression": "𝑠^{3}+𝑠^{2}+1=𝐴𝑠(𝑠−1)(𝑠+1)+𝐵(𝑠−1)(𝑠+1)+𝐶𝑠^{2}(𝑠+1)+𝐷𝑠^{2}(𝑠−1)", "slide_id": "t02-s053", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s053-0312", "expression": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))", "slide_id": "t02-s053", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s053-0313", "expression": "(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))=(𝐴)/(𝑠)+(𝐵)/(𝑠^{2})+(𝐶)/(𝑠−1)+(𝐷)/(𝑠+1)(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))=(𝐴)/(𝑠)+(𝐵)/(𝑠^{2})+(𝐶)/(𝑠−1)+(𝐷)/(𝑠+1)", "slide_id": "t02-s053", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s053-0314", "expression": "𝑠^{3}+𝑠^{2}+1=(𝐴𝑠^{2}(𝑠−1)(𝑠+1))/(𝑠)+(𝐵𝑠^{2}(𝑠−1)(𝑠+1))/(𝑠^{2})+(𝐶𝑠^{2}(𝑠−1)(𝑠+1))/(𝑠−1)+(𝐷𝑠^{2}(𝑠−1)(𝑠+1))/(𝑠+1)𝑠^{3}+𝑠^{2}+1=(𝐴𝑠^{2}(𝑠−1)(𝑠+1))/(𝑠)+(𝐵𝑠^{2}(𝑠−1)(𝑠+1))/(𝑠^{2})+(𝐶𝑠^{2}(𝑠−1)(𝑠+1))/(𝑠−1)+(𝐷𝑠^{2}(𝑠−1)(𝑠+1))/(𝑠+1)", "slide_id": "t02-s053", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s053-0315", "expression": "𝑠^{3}+𝑠^{2}+1=𝐴𝑠(𝑠−1)(𝑠+1)+𝐵(𝑠−1)(𝑠+1)+𝐶𝑠^{2}(𝑠+1)+𝐷𝑠^{2}(𝑠−1)𝑠^{3}+𝑠^{2}+1=𝐴𝑠(𝑠−1)(𝑠+1)+𝐵(𝑠−1)(𝑠+1)+𝐶𝑠^{2}(𝑠+1)+𝐷𝑠^{2}(𝑠−1)", "slide_id": "t02-s053", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s054-0316", "expression": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))", "slide_id": "t02-s054", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s054-0317", "expression": "(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))=(𝐴)/(𝑠)+(𝐵)/(𝑠^{2})+(𝐶)/(𝑠−1)+(𝐷)/(𝑠+1)", "slide_id": "t02-s054", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s054-0318", "expression": "𝑠^{3}+𝑠^{2}+1=𝐴𝑠(𝑠−1)(𝑠+1)+𝐵(𝑠−1)(𝑠+1)+𝐶𝑠^{2}(𝑠+1)+𝐷𝑠^{2}(𝑠−1)", "slide_id": "t02-s054", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s054-0319", "expression": "(𝑟𝑜𝑜𝑡 0:−𝐵=1 ; 𝑟𝑜𝑜𝑡 1: 𝐶=(3)/(2) ; 𝑟𝑜𝑜𝑡 −1: 𝐷=−(1)/(2))", "slide_id": "t02-s054", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s054-0320", "expression": "𝐵=−1, 𝐶=(3)/(2), 𝐷=−(1)/(2)", "slide_id": "t02-s054", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s054-0321", "expression": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))", "slide_id": "t02-s054", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s054-0322", "expression": "(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))=(𝐴)/(𝑠)+(𝐵)/(𝑠^{2})+(𝐶)/(𝑠−1)+(𝐷)/(𝑠+1)(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))=(𝐴)/(𝑠)+(𝐵)/(𝑠^{2})+(𝐶)/(𝑠−1)+(𝐷)/(𝑠+1)", "slide_id": "t02-s054", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s054-0323", "expression": "𝑠^{3}+𝑠^{2}+1=𝐴𝑠(𝑠−1)(𝑠+1)+𝐵(𝑠−1)(𝑠+1)+𝐶𝑠^{2}(𝑠+1)+𝐷𝑠^{2}(𝑠−1)𝑠^{3}+𝑠^{2}+1=𝐴𝑠(𝑠−1)(𝑠+1)+𝐵(𝑠−1)(𝑠+1)+𝐶𝑠^{2}(𝑠+1)+𝐷𝑠^{2}(𝑠−1)", "slide_id": "t02-s054", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s054-0324", "expression": "(𝑟𝑜𝑜𝑡 0:−𝐵=1 ; 𝑟𝑜𝑜𝑡 1:    𝐶=(3)/(2) ; 𝑟𝑜𝑜𝑡 −1:   𝐷=−(1)/(2))  𝐵=−1,  𝐶=(3)/(2),   𝐷=−(1)/(2)", "slide_id": "t02-s054", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s055-0325", "expression": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))", "slide_id": "t02-s055", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s055-0326", "expression": "(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))=(𝐴)/(𝑠)+(𝐵)/(𝑠^{2})+(𝐶)/(𝑠−1)+(𝐷)/(𝑠+1)", "slide_id": "t02-s055", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s055-0327", "expression": "𝑠^{3}+𝑠^{2}+1=𝐴𝑠(𝑠−1)(𝑠+1)+𝐵(𝑠−1)(𝑠+1)+𝐶𝑠^{2}(𝑠+1)+𝐷𝑠^{2}(𝑠−1)", "slide_id": "t02-s055", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s055-0328", "expression": "𝑠^{3}+𝑠^{2}+1=𝐴𝑠(𝑠−1)(𝑠+1)−1(𝑠−1)(𝑠+1)+(3)/(2)𝑠^{2}(𝑠+1)−(1)/(2)𝑠^{2}(𝑠−1)", "slide_id": "t02-s055", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s055-0329", "expression": "𝑠^{3}+𝑠^{2}+1=𝐴𝑠^{3}−𝐴𝑠−𝑠^{2}+1+(3)/(2)𝑠^{3}+(3)/(2)𝑠^{2}−(1)/(2)𝑠^{3}+(1)/(2)𝑠^{2}", "slide_id": "t02-s055", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s055-0330", "expression": "𝐴=0", "slide_id": "t02-s055", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s055-0331", "expression": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))", "slide_id": "t02-s055", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s055-0332", "expression": "(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))=(𝐴)/(𝑠)+(𝐵)/(𝑠^{2})+(𝐶)/(𝑠−1)+(𝐷)/(𝑠+1)(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))=(𝐴)/(𝑠)+(𝐵)/(𝑠^{2})+(𝐶)/(𝑠−1)+(𝐷)/(𝑠+1)", "slide_id": "t02-s055", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s055-0333", "expression": "𝑠^{3}+𝑠^{2}+1=𝐴𝑠(𝑠−1)(𝑠+1)+𝐵(𝑠−1)(𝑠+1)+𝐶𝑠^{2}(𝑠+1)+𝐷𝑠^{2}(𝑠−1)𝑠^{3}+𝑠^{2}+1=𝐴𝑠(𝑠−1)(𝑠+1)+𝐵(𝑠−1)(𝑠+1)+𝐶𝑠^{2}(𝑠+1)+𝐷𝑠^{2}(𝑠−1)", "slide_id": "t02-s055", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s055-0334", "expression": "𝑠^{3}+𝑠^{2}+1=𝐴𝑠(𝑠−1)(𝑠+1)−1(𝑠−1)(𝑠+1)+(3)/(2)𝑠^{2}(𝑠+1)−(1)/(2)𝑠^{2}(𝑠−1)𝑠^{3}+𝑠^{2}+1=𝐴𝑠(𝑠−1)(𝑠+1)−1(𝑠−1)(𝑠+1)+(3)/(2)𝑠^{2}(𝑠+1)−(1)/(2)𝑠^{2}(𝑠−1)", "slide_id": "t02-s055", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s055-0335", "expression": "𝑠^{3}+𝑠^{2}+1=𝐴𝑠^{3}−𝐴𝑠−𝑠^{2}+1+(3)/(2)𝑠^{3}+(3)/(2)𝑠^{2}−(1)/(2)𝑠^{3}+(1)/(2)𝑠^{2}𝑠^{3}+𝑠^{2}+1=𝐴𝑠^{3}−𝐴𝑠−𝑠^{2}+1+(3)/(2)𝑠^{3}+(3)/(2)𝑠^{2}−(1)/(2)𝑠^{3}+(1)/(2)𝑠^{2}", "slide_id": "t02-s055", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s055-0336", "expression": "𝐴=0 𝐴=0", "slide_id": "t02-s055", "topic": 2, "title_context": "𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))𝑌(𝑠)=(𝑠^{3}+𝑠^{2}+1)/(𝑠^{2}(𝑠−1)(𝑠+1))"}
+{"id": "f-t02-s056-0337", "expression": "𝑌(𝑠)=(0)/(𝑠)+(−1)/(𝑠^{2})+((3)/(2))/(𝑠−1)+(−(1)/(2))/(𝑠+1)", "slide_id": "t02-s056", "topic": 2, "title_context": "𝑌(𝑠)=(0)/(𝑠)+(−1)/(𝑠^{2})+((3)/(2))/(𝑠−1)+(−(1)/(2))/(𝑠+1)𝑌(𝑠)=(0)/(𝑠)+(−1)/(𝑠^{2})+((3)/(2))/(𝑠−1)+(−(1)/(2))/(𝑠+1)"}
+{"id": "f-t02-s056-0338", "expression": "𝑦(𝑡)=−𝑡+(3)/(2)𝑒^{𝑡}−(1)/(2)𝑒^{−𝑡}", "slide_id": "t02-s056", "topic": 2, "title_context": "𝑌(𝑠)=(0)/(𝑠)+(−1)/(𝑠^{2})+((3)/(2))/(𝑠−1)+(−(1)/(2))/(𝑠+1)𝑌(𝑠)=(0)/(𝑠)+(−1)/(𝑠^{2})+((3)/(2))/(𝑠−1)+(−(1)/(2))/(𝑠+1)"}
+{"id": "f-t02-s056-0339", "expression": "𝑌(𝑠)=(0)/(𝑠)+(−1)/(𝑠^{2})+((3)/(2))/(𝑠−1)+(−(1)/(2))/(𝑠+1)𝑌(𝑠)=(0)/(𝑠)+(−1)/(𝑠^{2})+((3)/(2))/(𝑠−1)+(−(1)/(2))/(𝑠+1)", "slide_id": "t02-s056", "topic": 2, "title_context": "𝑌(𝑠)=(0)/(𝑠)+(−1)/(𝑠^{2})+((3)/(2))/(𝑠−1)+(−(1)/(2))/(𝑠+1)𝑌(𝑠)=(0)/(𝑠)+(−1)/(𝑠^{2})+((3)/(2))/(𝑠−1)+(−(1)/(2))/(𝑠+1)"}
+{"id": "f-t02-s056-0340", "expression": "𝑦(𝑡)=−𝑡+(3)/(2)𝑒^{𝑡}−(1)/(2)𝑒^{−𝑡}𝑦(𝑡)=−𝑡+(3)/(2)𝑒^{𝑡}−(1)/(2)𝑒^{−𝑡}", "slide_id": "t02-s056", "topic": 2, "title_context": "𝑌(𝑠)=(0)/(𝑠)+(−1)/(𝑠^{2})+((3)/(2))/(𝑠−1)+(−(1)/(2))/(𝑠+1)𝑌(𝑠)=(0)/(𝑠)+(−1)/(𝑠^{2})+((3)/(2))/(𝑠−1)+(−(1)/(2))/(𝑠+1)"}

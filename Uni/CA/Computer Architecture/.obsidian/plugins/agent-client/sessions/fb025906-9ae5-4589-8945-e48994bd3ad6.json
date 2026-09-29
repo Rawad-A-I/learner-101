@@ -1,0 +1,817 @@
+{
+  "version": 1,
+  "sessionId": "fb025906-9ae5-4589-8945-e48994bd3ad6",
+  "agentId": "claude-code-acp",
+  "cwd": "C:\\Users\\rawad\\Desktop\\Learning\\Learning Hub\\Uni\\CA\\Computer Architecture",
+  "title": "please move these into the vault",
+  "createdAt": "2026-09-26T11:35:17.447Z",
+  "updatedAt": "2026-09-26T11:47:28.144Z",
+  "messages": [
+    {
+      "id": "cf32b868-d55b-4f41-8201-9654dfaec778",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "please move these into the vault",
+          "autoMentionContext": {
+            "noteName": "Chapter 2 - Performance Issues",
+            "notePath": "Chapter 2 - Performance Issues.md"
+          }
+        },
+        {
+          "type": "resource_link",
+          "uri": "file:///C:/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/Chapter 2 - Performance Issues (1).pdf",
+          "name": "Chapter 2 - Performance Issues (1).pdf",
+          "mimeType": "application/pdf",
+          "size": 883757
+        },
+        {
+          "type": "resource_link",
+          "uri": "file:///C:/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/Chapter 3 - Top Level View of Function and Interconnnection.pdf",
+          "name": "Chapter 3 - Top Level View of Function and Interconnnection.pdf",
+          "mimeType": "application/pdf",
+          "size": 1722013
+        },
+        {
+          "type": "resource_link",
+          "uri": "file:///C:/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/Chapter 1 - Basic Concepts & Computer Evolution (1).pdf",
+          "name": "Chapter 1 - Basic Concepts & Computer Evolution (1).pdf",
+          "mimeType": "application/pdf",
+          "size": 1197323
+        }
+      ],
+      "timestamp": "2026-09-26T11:34:55.170Z"
+    },
+    {
+      "id": "3d39577e-c7cf-4845-bc07-32cc19684b3c",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01X3i5dFboMza4ouLGNYabpJ",
+          "title": "cd \"/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA\" && ls -la . \"Computer Architecture\" | head -50",
+          "status": "completed",
+          "kind": "execute",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "```console\n.:\ntotal 3744\ndrwxr-xr-x 1 rawad 197609       0 Sep 26 13:48 ./\ndrwxr-xr-x 1 rawad 197609       0 Sep 20 23:47 ../\ndrwxr-xr-x 1 rawad 197609       0 Sep 20 23:48 .openvisio/\n-rw-r--r-- 1 rawad 197609 1197323 Sep 20 23:48 Chapter 1 - Basic Concepts & Computer Evolution (1).pdf\n-rw-r--r-- 1 rawad 197609  883757 Sep 20 23:48 Chapter 2 - Performance Issues (1).pdf\n-rw-r--r-- 1 rawad 197609 1722013 Sep 20 23:48 Chapter 3 - Top Level View of Function and Interconnnection.pdf\ndrwxr-xr-x 1 rawad 197609       0 Sep 26 14:34 Computer Architecture/\n-rw-r--r-- 1 rawad 197609   12101 Sep 20 23:52 _extract_all.py\ndrwxr-xr-x 1 rawad 197609       0 Sep 20 23:52 artifacts/\n\nComputer Architecture:\ntotal 12\ndrwxr-xr-x 1 rawad 197609 0 Sep 26 14:34 ./\ndrwxr-xr-x 1 rawad 197609 0 Sep 26 13:48 ../\ndrwxr-xr-x 1 rawad 197609 0 Sep 26 13:53 .obsidian/\ndrwxr-xr-x 1 rawad 197609 0 Sep 26 14:00 .openvisio/\n\nShell cwd was reset to C:\\Users\\rawad\\Desktop\\Learning\\Learning Hub\\Uni\\CA\\Computer Architecture\n```"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "command": "cd \"/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA\" && ls -la . \"Computer Architecture\" | head -50"
+          },
+          "rawOutput": ".:\ntotal 3744\ndrwxr-xr-x 1 rawad 197609       0 Sep 26 13:48 ./\ndrwxr-xr-x 1 rawad 197609       0 Sep 20 23:47 ../\ndrwxr-xr-x 1 rawad 197609       0 Sep 20 23:48 .openvisio/\n-rw-r--r-- 1 rawad 197609 1197323 Sep 20 23:48 Chapter 1 - Basic Concepts & Computer Evolution (1).pdf\n-rw-r--r-- 1 rawad 197609  883757 Sep 20 23:48 Chapter 2 - Performance Issues (1).pdf\n-rw-r--r-- 1 rawad 197609 1722013 Sep 20 23:48 Chapter 3 - Top Level View of Function and Interconnnection.pdf\ndrwxr-xr-x 1 rawad 197609       0 Sep 26 14:34 Computer Architecture/\n-rw-r--r-- 1 rawad 197609   12101 Sep 20 23:52 _extract_all.py\ndrwxr-xr-x 1 rawad 197609       0 Sep 20 23:52 artifacts/\n\nComputer Architecture:\ntotal 12\ndrwxr-xr-x 1 rawad 197609 0 Sep 26 14:34 ./\ndrwxr-xr-x 1 rawad 197609 0 Sep 26 13:48 ../\ndrwxr-xr-x 1 rawad 197609 0 Sep 26 13:53 .obsidian/\ndrwxr-xr-x 1 rawad 197609 0 Sep 26 14:00 .openvisio/\nShell cwd was reset to C:\\Users\\rawad\\Desktop\\Learning\\Learning Hub\\Uni\\CA\\Computer Architecture"
+        }
+      ],
+      "timestamp": "2026-09-26T11:35:09.362Z"
+    },
+    {
+      "id": "4d0dc13e-cea6-4a7a-89fa-6ec745daea14",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01DK8wQfg2xWxJmPQosP3hjc",
+          "title": "cd \"/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA\" && mv Chapter*.pdf \"Computer Architecture/\" && ls \"Computer Architecture\"",
+          "status": "completed",
+          "kind": "execute",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "```console\nChapter 1 - Basic Concepts & Computer Evolution (1).pdf\nChapter 2 - Performance Issues (1).pdf\nChapter 3 - Top Level View of Function and Interconnnection.pdf\n\nShell cwd was reset to C:\\Users\\rawad\\Desktop\\Learning\\Learning Hub\\Uni\\CA\\Computer Architecture\n```"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "command": "cd \"/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA\" && mv Chapter*.pdf \"Computer Architecture/\" && ls \"Computer Architecture\""
+          },
+          "rawOutput": "Chapter 1 - Basic Concepts & Computer Evolution (1).pdf\nChapter 2 - Performance Issues (1).pdf\nChapter 3 - Top Level View of Function and Interconnnection.pdf\nShell cwd was reset to C:\\Users\\rawad\\Desktop\\Learning\\Learning Hub\\Uni\\CA\\Computer Architecture"
+        },
+        {
+          "type": "text",
+          "text": "All three PDFs are now in the vault root, `Computer Architecture/`. I kept the original filenames, including the \"(1)\" suffixes and the \"Interconnnection\" typo. Say if you want them renamed or put in an attachments folder."
+        }
+      ],
+      "timestamp": "2026-09-26T11:35:14.973Z"
+    },
+    {
+      "id": "68cfd4ec-4570-4399-ac53-63c12f6dba01",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "we will be working on these with the help of notebooklm mcp , first please place ach of these into its own folder"
+        }
+      ],
+      "timestamp": "2026-09-26T11:36:05.136Z"
+    },
+    {
+      "id": "c18cd943-6dd1-42e5-89ae-f4338dd37271",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01WibYUzNT9vzZRvNxfwPHVj",
+          "title": "cd \"/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/Computer Architecture\" && for f in Chapter*.pdf; do d=\"${f% (1).pdf}\"; d=\"${d%.pdf}\"; mkdir -p \"$d\" && mv \"$f\" \"$d/\"; done && find . -path ./.obsidian -prune -o -path ./.openvisio -prune -o -type f -print",
+          "status": "completed",
+          "kind": "execute",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "```console\n./Chapter 1 - Basic Concepts & Computer Evolution/Chapter 1 - Basic Concepts & Computer Evolution (1).pdf\n./Chapter 2 - Performance Issues/Chapter 2 - Performance Issues (1).pdf\n./Chapter 3 - Top Level View of Function and Interconnnection/Chapter 3 - Top Level View of Function and Interconnnection.pdf\n```"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "command": "cd \"/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/Computer Architecture\" && for f in Chapter*.pdf; do d=\"${f% (1).pdf}\"; d=\"${d%.pdf}\"; mkdir -p \"$d\" && mv \"$f\" \"$d/\"; done && find . -path ./.obsidian -prune -o -path ./.openvisio -prune -o -type f -print"
+          },
+          "rawOutput": "./Chapter 1 - Basic Concepts & Computer Evolution/Chapter 1 - Basic Concepts & Computer Evolution (1).pdf\n./Chapter 2 - Performance Issues/Chapter 2 - Performance Issues (1).pdf\n./Chapter 3 - Top Level View of Function and Interconnnection/Chapter 3 - Top Level View of Function and Interconnnection.pdf"
+        },
+        {
+          "type": "text",
+          "text": "Each PDF now sits in its own chapter folder in the vault:\n\n- `Chapter 1 - Basic Concepts & Computer Evolution/`\n- `Chapter 2 - Performance Issues/`\n- `Chapter 3 - Top Level View of Function and Interconnnection/`\n\nThe folder names are the chapter titles without the \"(1)\" suffix. The PDF filenames are unchanged."
+        }
+      ],
+      "timestamp": "2026-09-26T11:36:07.077Z"
+    },
+    {
+      "id": "d019eaf5-3950-401b-9b37-66d59e912424",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "great now pull up from nlm each chapter artificat an organise it in the correct folder"
+        }
+      ],
+      "timestamp": "2026-09-26T11:38:06.395Z"
+    },
+    {
+      "id": "03419546-a92d-483e-8d44-b92d4992807a",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01CCyomTNx3y1BP5wEqFLjDz",
+          "title": "ToolSearch",
+          "status": "completed",
+          "kind": "other",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "Tool: mcp__gemini-notebook-mcp__notebook_list"
+              }
+            },
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "Tool: mcp__gemini-notebook-mcp__download_all_artifacts"
+              }
+            },
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "Tool: mcp__gemini-notebook-mcp__studio_status"
+              }
+            },
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "Tool: mcp__gemini-notebook-mcp__notebook_get"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "query": "select:mcp__gemini-notebook-mcp__notebook_list,mcp__gemini-notebook-mcp__download_all_artifacts,mcp__gemini-notebook-mcp__studio_status,mcp__gemini-notebook-mcp__notebook_get",
+            "max_results": 5
+          },
+          "rawOutput": [
+            {
+              "type": "tool_reference",
+              "tool_name": "mcp__gemini-notebook-mcp__notebook_list"
+            },
+            {
+              "type": "tool_reference",
+              "tool_name": "mcp__gemini-notebook-mcp__download_all_artifacts"
+            },
+            {
+              "type": "tool_reference",
+              "tool_name": "mcp__gemini-notebook-mcp__studio_status"
+            },
+            {
+              "type": "tool_reference",
+              "tool_name": "mcp__gemini-notebook-mcp__notebook_get"
+            }
+          ]
+        }
+      ],
+      "timestamp": "2026-09-26T11:38:07.135Z"
+    },
+    {
+      "id": "1e31771c-389b-4659-8f40-1e0676a675a6",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01BpnErgy3WdkR7LMnkSTXn8",
+          "title": "ls -R \"/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/artifacts\" | head -60",
+          "status": "completed",
+          "kind": "execute",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "```console\n/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/artifacts:\nREADME.md\n_extraction_summary.json\nchapter-01-basic-concepts-computer-evolution/\nchapter-02-performance-issues/\nchapter-03-top-level-view-function-interconnection/\n\n/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/artifacts/chapter-01-basic-concepts-computer-evolution:\nCHAPTER.md\nCHAPTER.txt\nchapter.json\nimages/\noutline.json\nslides/\n\n/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/artifacts/chapter-01-basic-concepts-computer-evolution/images:\nslide-01-img-01.png\nslide-07-img-01.png\nslide-10-img-01.png\nslide-12-img-01.png\nslide-13-img-01.png\nslide-14-img-01.png\nslide-15-img-01.png\nslide-16-img-01.png\nslide-17-img-01.png\nslide-17-img-02.png\nslide-18-img-01.png\nslide-20-img-01.png\nslide-20-img-02.png\nslide-22-img-01.png\nslide-27-img-01.png\nslide-28-img-01.png\nslide-30-img-01.png\nslide-40-img-01.png\nslide-41-img-01.png\n\n/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/artifacts/chapter-01-basic-concepts-computer-evolution/slides:\nslide-01.md\nslide-02.md\nslide-03.md\nslide-04.md\nslide-05.md\nslide-06.md\nslide-07.md\nslide-08.md\nslide-09.md\nslide-10.md\nslide-11.md\nslide-12.md\nslide-13.md\nslide-14.md\nslide-15.md\nslide-16.md\nslide-17.md\nslide-18.md\nslide-19.md\nslide-20.md\nslide-21.md\nslide-22.md\nslide-23.md\n```"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "command": "ls -R \"/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/artifacts\" | head -60"
+          },
+          "rawOutput": "/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/artifacts:\nREADME.md\n_extraction_summary.json\nchapter-01-basic-concepts-computer-evolution/\nchapter-02-performance-issues/\nchapter-03-top-level-view-function-interconnection/\n\n/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/artifacts/chapter-01-basic-concepts-computer-evolution:\nCHAPTER.md\nCHAPTER.txt\nchapter.json\nimages/\noutline.json\nslides/\n\n/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/artifacts/chapter-01-basic-concepts-computer-evolution/images:\nslide-01-img-01.png\nslide-07-img-01.png\nslide-10-img-01.png\nslide-12-img-01.png\nslide-13-img-01.png\nslide-14-img-01.png\nslide-15-img-01.png\nslide-16-img-01.png\nslide-17-img-01.png\nslide-17-img-02.png\nslide-18-img-01.png\nslide-20-img-01.png\nslide-20-img-02.png\nslide-22-img-01.png\nslide-27-img-01.png\nslide-28-img-01.png\nslide-30-img-01.png\nslide-40-img-01.png\nslide-41-img-01.png\n\n/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/artifacts/chapter-01-basic-concepts-computer-evolution/slides:\nslide-01.md\nslide-02.md\nslide-03.md\nslide-04.md\nslide-05.md\nslide-06.md\nslide-07.md\nslide-08.md\nslide-09.md\nslide-10.md\nslide-11.md\nslide-12.md\nslide-13.md\nslide-14.md\nslide-15.md\nslide-16.md\nslide-17.md\nslide-18.md\nslide-19.md\nslide-20.md\nslide-21.md\nslide-22.md\nslide-23.md"
+        }
+      ],
+      "timestamp": "2026-09-26T11:38:08.013Z"
+    },
+    {
+      "id": "824b20e5-1c9c-400d-a9e3-62419f9ad091",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01HLEiD8WiZP8db49yANyoat",
+          "title": "mcp__gemini-notebook-mcp__notebook_list",
+          "status": "completed",
+          "kind": "other",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "{\"status\":\"success\",\"notebooks\":[{\"id\":\"1bcc1494-6979-49ac-960a-62197ef379da\",\"title\":\"Computer Architecture\",\"source_count\":6,\"url\":\"https://notebooklm.google.com/notebook/1bcc1494-6979-49ac-960a-62197ef379da\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-09-01T11:19:57Z\",\"modified_at\":\"2026-09-26T11:24:47Z\",\"emoji\":\"💻\"},{\"id\":\"450952dd-c68c-4a2e-97db-661d63d8ab05\",\"title\":\"Control Systems\",\"source_count\":3,\"url\":\"https://notebooklm.google.com/notebook/450952dd-c68c-4a2e-97db-661d63d8ab05\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-09-01T11:20:33Z\",\"modified_at\":\"2026-09-25T09:01:28Z\",\"emoji\":\"📈\"},{\"id\":\"87b0e629-36d2-4137-9193-37117f5c2185\",\"title\":\"POS end to end Architecture\",\"source_count\":4,\"url\":\"https://notebooklm.google.com/notebook/87b0e629-36d2-4137-9193-37117f5c2185\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-09-23T08:13:03Z\",\"modified_at\":\"2026-09-23T09:41:30Z\",\"emoji\":\"🏗️\"},{\"id\":\"c99557d9-53d7-47ed-bdf1-3f4c94fcb2d8\",\"title\":\"Organizational Behavior\",\"source_count\":6,\"url\":\"https://notebooklm.google.com/notebook/c99557d9-53d7-47ed-bdf1-3f4c94fcb2d8\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-09-03T08:08:23Z\",\"modified_at\":\"2026-09-22T07:50:30Z\",\"emoji\":\"🏢\"},{\"id\":\"9b655652-dc31-4a5d-b3fc-2859d1eea54b\",\"title\":\"Operating System\",\"source_count\":2,\"url\":\"https://notebooklm.google.com/notebook/9b655652-dc31-4a5d-b3fc-2859d1eea54b\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-09-01T11:18:14Z\",\"modified_at\":\"2026-09-10T11:04:05Z\",\"emoji\":\"💻\"},{\"id\":\"c2e5476b-9123-4ca5-8d97-204e2789eff8\",\"title\":\"Digital Systems Lab\",\"source_count\":4,\"url\":\"https://notebooklm.google.com/notebook/c2e5476b-9123-4ca5-8d97-204e2789eff8\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-09-01T11:21:04Z\",\"modified_at\":\"2026-09-09T15:39:36Z\",\"emoji\":\"💻\"},{\"id\":\"ae24511f-2294-416e-93d5-e3fcb9329537\",\"title\":\"Introduction to Marketing\",\"source_count\":1,\"url\":\"https://notebooklm.google.com/notebook/ae24511f-2294-416e-93d5-e3fcb9329537\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-09-01T11:21:27Z\",\"modified_at\":\"2026-09-03T09:37:12Z\",\"emoji\":\"📈\"},{\"id\":\"7364a034-200e-4e8f-af87-fea9b1e358a3\",\"title\":\"Control Systems Lab\",\"source_count\":0,\"url\":\"https://notebooklm.google.com/notebook/7364a034-200e-4e8f-af87-fea9b1e358a3\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-09-01T11:20:45Z\",\"modified_at\":\"2026-09-01T11:20:45Z\",\"emoji\":\"\"},{\"id\":\"7bae8385-66dc-4269-a92f-5860434cfe93\",\"title\":\"Capstone 1\",\"source_count\":0,\"url\":\"https://notebooklm.google.com/notebook/7bae8385-66dc-4269-a92f-5860434cfe93\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-09-01T11:20:17Z\",\"modified_at\":\"2026-09-01T11:20:17Z\",\"emoji\":\"\"},{\"id\":\"76e2154c-4573-46f3-bdeb-e4c6eb232fa7\",\"title\":\"Deep Learning\",\"source_count\":17,\"url\":\"https://notebooklm.google.com/notebook/76e2154c-4573-46f3-bdeb-e4c6eb232fa7\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-05-09T13:12:18Z\",\"modified_at\":\"2026-05-11T08:01:55Z\",\"emoji\":\"⏳\"},{\"id\":\"e449a666-6127-4125-9e46-753449540b4e\",\"title\":\"Software Abs Final\",\"source_count\":14,\"url\":\"https://notebooklm.google.com/notebook/e449a666-6127-4125-9e46-753449540b4e\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-05-08T08:31:36Z\",\"modified_at\":\"2026-05-09T09:32:14Z\",\"emoji\":\"📝\"},{\"id\":\"3f3d4b24-9fc1-4466-9a8c-bee060258304\",\"title\":\"Software Final\",\"source_count\":28,\"url\":\"https://notebooklm.google.com/notebook/3f3d4b24-9fc1-4466-9a8c-bee060258304\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-05-06T20:54:26Z\",\"modified_at\":\"2026-05-08T08:31:22Z\",\"emoji\":\"📝\"},{\"id\":\"03826b33-1206-4757-9a77-e9013dbc4551\",\"title\":\"Macro Fina\",\"source_count\":1,\"url\":\"https://notebooklm.google.com/notebook/03826b33-1206-4757-9a77-e9013dbc4551\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-05-07T14:53:51Z\",\"modified_at\":\"2026-05-08T04:30:09Z\",\"emoji\":\"📉\"},{\"id\":\"9ea1a9ad-5832-4e71-87c1-2e8cd76e864b\",\"title\":\"Macro Economics Final\",\"source_count\":37,\"url\":\"https://notebooklm.google.com/notebook/9ea1a9ad-5832-4e71-87c1-2e8cd76e864b\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-05-06T21:21:52Z\",\"modified_at\":\"2026-05-07T15:19:24Z\",\"emoji\":\"🎓\"}],\"count\":14,\"owned_count\":14,\"shared_count\":0,\"shared_by_me_count\":0}"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "max_results": 100
+          },
+          "rawOutput": "{\"status\":\"success\",\"notebooks\":[{\"id\":\"1bcc1494-6979-49ac-960a-62197ef379da\",\"title\":\"Computer Architecture\",\"source_count\":6,\"url\":\"https://notebooklm.google.com/notebook/1bcc1494-6979-49ac-960a-62197ef379da\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-09-01T11:19:57Z\",\"modified_at\":\"2026-09-26T11:24:47Z\",\"emoji\":\"💻\"},{\"id\":\"450952dd-c68c-4a2e-97db-661d63d8ab05\",\"title\":\"Control Systems\",\"source_count\":3,\"url\":\"https://notebooklm.google.com/notebook/450952dd-c68c-4a2e-97db-661d63d8ab05\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-09-01T11:20:33Z\",\"modified_at\":\"2026-09-25T09:01:28Z\",\"emoji\":\"📈\"},{\"id\":\"87b0e629-36d2-4137-9193-37117f5c2185\",\"title\":\"POS end to end Architecture\",\"source_count\":4,\"url\":\"https://notebooklm.google.com/notebook/87b0e629-36d2-4137-9193-37117f5c2185\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-09-23T08:13:03Z\",\"modified_at\":\"2026-09-23T09:41:30Z\",\"emoji\":\"🏗️\"},{\"id\":\"c99557d9-53d7-47ed-bdf1-3f4c94fcb2d8\",\"title\":\"Organizational Behavior\",\"source_count\":6,\"url\":\"https://notebooklm.google.com/notebook/c99557d9-53d7-47ed-bdf1-3f4c94fcb2d8\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-09-03T08:08:23Z\",\"modified_at\":\"2026-09-22T07:50:30Z\",\"emoji\":\"🏢\"},{\"id\":\"9b655652-dc31-4a5d-b3fc-2859d1eea54b\",\"title\":\"Operating System\",\"source_count\":2,\"url\":\"https://notebooklm.google.com/notebook/9b655652-dc31-4a5d-b3fc-2859d1eea54b\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-09-01T11:18:14Z\",\"modified_at\":\"2026-09-10T11:04:05Z\",\"emoji\":\"💻\"},{\"id\":\"c2e5476b-9123-4ca5-8d97-204e2789eff8\",\"title\":\"Digital Systems Lab\",\"source_count\":4,\"url\":\"https://notebooklm.google.com/notebook/c2e5476b-9123-4ca5-8d97-204e2789eff8\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-09-01T11:21:04Z\",\"modified_at\":\"2026-09-09T15:39:36Z\",\"emoji\":\"💻\"},{\"id\":\"ae24511f-2294-416e-93d5-e3fcb9329537\",\"title\":\"Introduction to Marketing\",\"source_count\":1,\"url\":\"https://notebooklm.google.com/notebook/ae24511f-2294-416e-93d5-e3fcb9329537\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-09-01T11:21:27Z\",\"modified_at\":\"2026-09-03T09:37:12Z\",\"emoji\":\"📈\"},{\"id\":\"7364a034-200e-4e8f-af87-fea9b1e358a3\",\"title\":\"Control Systems Lab\",\"source_count\":0,\"url\":\"https://notebooklm.google.com/notebook/7364a034-200e-4e8f-af87-fea9b1e358a3\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-09-01T11:20:45Z\",\"modified_at\":\"2026-09-01T11:20:45Z\",\"emoji\":\"\"},{\"id\":\"7bae8385-66dc-4269-a92f-5860434cfe93\",\"title\":\"Capstone 1\",\"source_count\":0,\"url\":\"https://notebooklm.google.com/notebook/7bae8385-66dc-4269-a92f-5860434cfe93\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-09-01T11:20:17Z\",\"modified_at\":\"2026-09-01T11:20:17Z\",\"emoji\":\"\"},{\"id\":\"76e2154c-4573-46f3-bdeb-e4c6eb232fa7\",\"title\":\"Deep Learning\",\"source_count\":17,\"url\":\"https://notebooklm.google.com/notebook/76e2154c-4573-46f3-bdeb-e4c6eb232fa7\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-05-09T13:12:18Z\",\"modified_at\":\"2026-05-11T08:01:55Z\",\"emoji\":\"⏳\"},{\"id\":\"e449a666-6127-4125-9e46-753449540b4e\",\"title\":\"Software Abs Final\",\"source_count\":14,\"url\":\"https://notebooklm.google.com/notebook/e449a666-6127-4125-9e46-753449540b4e\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-05-08T08:31:36Z\",\"modified_at\":\"2026-05-09T09:32:14Z\",\"emoji\":\"📝\"},{\"id\":\"3f3d4b24-9fc1-4466-9a8c-bee060258304\",\"title\":\"Software Final\",\"source_count\":28,\"url\":\"https://notebooklm.google.com/notebook/3f3d4b24-9fc1-4466-9a8c-bee060258304\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-05-06T20:54:26Z\",\"modified_at\":\"2026-05-08T08:31:22Z\",\"emoji\":\"📝\"},{\"id\":\"03826b33-1206-4757-9a77-e9013dbc4551\",\"title\":\"Macro Fina\",\"source_count\":1,\"url\":\"https://notebooklm.google.com/notebook/03826b33-1206-4757-9a77-e9013dbc4551\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-05-07T14:53:51Z\",\"modified_at\":\"2026-05-08T04:30:09Z\",\"emoji\":\"📉\"},{\"id\":\"9ea1a9ad-5832-4e71-87c1-2e8cd76e864b\",\"title\":\"Macro Economics Final\",\"source_count\":37,\"url\":\"https://notebooklm.google.com/notebook/9ea1a9ad-5832-4e71-87c1-2e8cd76e864b\",\"ownership\":\"owned\",\"is_shared\":false,\"created_at\":\"2026-05-06T21:21:52Z\",\"modified_at\":\"2026-05-07T15:19:24Z\",\"emoji\":\"🎓\"}],\"count\":14,\"owned_count\":14,\"shared_count\":0,\"shared_by_me_count\":0}"
+        }
+      ],
+      "timestamp": "2026-09-26T11:38:11.191Z"
+    },
+    {
+      "id": "6511fb0e-4853-4e11-9cac-93ada5e875d3",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01P4QY1WMY9HXqNLxB1iFdXh",
+          "title": "mcp__gemini-notebook-mcp__studio_status",
+          "status": "completed",
+          "kind": "other",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "{\"status\":\"success\",\"notebook_id\":\"1bcc1494-6979-49ac-960a-62197ef379da\",\"summary\":{\"total\":5,\"completed\":5,\"in_progress\":0},\"artifacts\":[{\"type\":\"mind_map\",\"title\":\"Chapter 3 Mind-Map\",\"status\":\"completed\",\"download_filename\":null,\"mime_type\":null,\"error_reason\":null,\"created_at\":\"2026-09-26T10:47:23Z\",\"custom_instructions\":\"I want the topcis presented to be per slide refrence and chronological please. meaning present the topics in slide order\",\"visual_style_prompt\":null,\"audio_url\":null,\"video_url\":null,\"infographic_url\":null,\"slide_deck_url\":null,\"report_content\":null,\"report_prompt\":null,\"report_language\":null,\"element_count\":null,\"flashcard_count\":null,\"duration_seconds\":null,\"source_ids\":[\"a3e93bb8-78e0-4166-ac4d-7be013680601\"],\"artifact_id\":\"5f77b1dc-0f06-491e-8eb7-a8f944e54c04\"},{\"type\":\"mind_map\",\"title\":\"Chapter 1 Mindmap\",\"status\":\"completed\",\"download_filename\":null,\"mime_type\":null,\"error_reason\":null,\"created_at\":\"2026-09-26T09:55:27Z\",\"custom_instructions\":\"I would like you to create a mindmap of concepts and subconxepts based on the slides and I would like to see the slide coverga on the actual mindmap spanning the whole chapter\",\"visual_style_prompt\":null,\"audio_url\":null,\"video_url\":null,\"infographic_url\":null,\"slide_deck_url\":null,\"report_content\":null,\"report_prompt\":null,\"report_language\":null,\"element_count\":null,\"flashcard_count\":null,\"duration_seconds\":null,\"source_ids\":[\"7b896fb7-cb38-49aa-ae8f-e3c246146642\"],\"artifact_id\":\"0d2cf111-6a8c-4d82-9c0c-b61a3fb5b25c\"},{\"type\":\"video\",\"title\":\"The PCIe Architecture\",\"status\":\"completed\",\"download_filename\":null,\"mime_type\":null,\"error_reason\":null,\"created_at\":\"2026-09-24T20:34:18Z\",\"custom_instructions\":\"I'd like you to target only the PCIe layer included in the slides\",\"visual_style_prompt\":null,\"audio_url\":null,\"video_url\":\"https://lh3.googleusercontent.com/notebooklm/AKYWMX-bCFFFUpJ6YUoeqQPG3As4jnpYlBl3VVQdxLLaslvtzaH6fujf9Mj0eXrm5w2p7C4EOG9ngSiWEHIyKemL6vgj__PSNFVDz0_YY6kjXWYxJ7z-Np8X01VzdRf8lcJrUqlZnyZ6v5yWD8jX1HV2RtpGBIgs=m22-dv\",\"infographic_url\":null,\"slide_deck_url\":null,\"report_content\":null,\"report_prompt\":null,\"report_language\":null,\"element_count\":null,\"flashcard_count\":null,\"duration_seconds\":null,\"source_ids\":[\"935c7560-a42a-4f1a-8c90-03f13b46b61a\"],\"artifact_id\":\"a616ec81-656e-4d2d-89ca-f3ce2e4fde0b\"},{\"type\":\"mind_map\",\"title\":\"Computing Mindmap\",\"status\":\"completed\",\"download_filename\":null,\"mime_type\":null,\"error_reason\":null,\"created_at\":\"2026-09-09T12:24:56Z\",\"custom_instructions\":\"main concepts and subconcepts discussed\",\"visual_style_prompt\":null,\"audio_url\":null,\"video_url\":null,\"infographic_url\":null,\"slide_deck_url\":null,\"report_content\":null,\"report_prompt\":null,\"report_language\":null,\"element_count\":null,\"flashcard_count\":null,\"duration_seconds\":null,\"source_ids\":[\"7b896fb7-cb38-49aa-ae8f-e3c246146642\",\"e3ed4ddf-9bd5-45cb-aeda-78c50bb93c71\"],\"artifact_id\":\"c1aa11b9-05c2-4973-ab7f-0375d1e5af87\"},{\"type\":\"quiz\",\"title\":\"Chapter 1 Practice Quiz\",\"status\":\"completed\",\"download_filename\":null,\"mime_type\":null,\"error_reason\":null,\"created_at\":\"2026-09-09T12:19:26Z\",\"custom_instructions\":\"Chapter 1: Basic Concepts & Computer Evolution — Architecture vs. Organization, Structure & Function, ENIAC, von Neumann / IAS Machine, Moore's Law, x86/ARM Evolution\",\"visual_style_prompt\":null,\"audio_url\":null,\"video_url\":null,\"infographic_url\":null,\"slide_deck_url\":null,\"report_content\":null,\"report_prompt\":null,\"report_language\":null,\"element_count\":null,\"flashcard_count\":9,\"duration_seconds\":null,\"source_ids\":[\"7b896fb7-cb38-49aa-ae8f-e3c246146642\",\"e3ed4ddf-9bd5-45cb-aeda-78c50bb93c71\"],\"artifact_id\":\"55de9ece-6f5c-4e99-abaf-1373530e8282\"}],\"pagination\":{\"returned\":5,\"offset\":0,\"limit\":100,\"has_more\":false},\"notebook_url\":\"https://notebooklm.google.com/notebook/1bcc1494-6979-49ac-960a-62197ef379da\"}"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "notebook_id": "1bcc1494-6979-49ac-960a-62197ef379da",
+            "limit": 100,
+            "include_details": true
+          },
+          "rawOutput": "{\"status\":\"success\",\"notebook_id\":\"1bcc1494-6979-49ac-960a-62197ef379da\",\"summary\":{\"total\":5,\"completed\":5,\"in_progress\":0},\"artifacts\":[{\"type\":\"mind_map\",\"title\":\"Chapter 3 Mind-Map\",\"status\":\"completed\",\"download_filename\":null,\"mime_type\":null,\"error_reason\":null,\"created_at\":\"2026-09-26T10:47:23Z\",\"custom_instructions\":\"I want the topcis presented to be per slide refrence and chronological please. meaning present the topics in slide order\",\"visual_style_prompt\":null,\"audio_url\":null,\"video_url\":null,\"infographic_url\":null,\"slide_deck_url\":null,\"report_content\":null,\"report_prompt\":null,\"report_language\":null,\"element_count\":null,\"flashcard_count\":null,\"duration_seconds\":null,\"source_ids\":[\"a3e93bb8-78e0-4166-ac4d-7be013680601\"],\"artifact_id\":\"5f77b1dc-0f06-491e-8eb7-a8f944e54c04\"},{\"type\":\"mind_map\",\"title\":\"Chapter 1 Mindmap\",\"status\":\"completed\",\"download_filename\":null,\"mime_type\":null,\"error_reason\":null,\"created_at\":\"2026-09-26T09:55:27Z\",\"custom_instructions\":\"I would like you to create a mindmap of concepts and subconxepts based on the slides and I would like to see the slide coverga on the actual mindmap spanning the whole chapter\",\"visual_style_prompt\":null,\"audio_url\":null,\"video_url\":null,\"infographic_url\":null,\"slide_deck_url\":null,\"report_content\":null,\"report_prompt\":null,\"report_language\":null,\"element_count\":null,\"flashcard_count\":null,\"duration_seconds\":null,\"source_ids\":[\"7b896fb7-cb38-49aa-ae8f-e3c246146642\"],\"artifact_id\":\"0d2cf111-6a8c-4d82-9c0c-b61a3fb5b25c\"},{\"type\":\"video\",\"title\":\"The PCIe Architecture\",\"status\":\"completed\",\"download_filename\":null,\"mime_type\":null,\"error_reason\":null,\"created_at\":\"2026-09-24T20:34:18Z\",\"custom_instructions\":\"I'd like you to target only the PCIe layer included in the slides\",\"visual_style_prompt\":null,\"audio_url\":null,\"video_url\":\"https://lh3.googleusercontent.com/notebooklm/AKYWMX-bCFFFUpJ6YUoeqQPG3As4jnpYlBl3VVQdxLLaslvtzaH6fujf9Mj0eXrm5w2p7C4EOG9ngSiWEHIyKemL6vgj__PSNFVDz0_YY6kjXWYxJ7z-Np8X01VzdRf8lcJrUqlZnyZ6v5yWD8jX1HV2RtpGBIgs=m22-dv\",\"infographic_url\":null,\"slide_deck_url\":null,\"report_content\":null,\"report_prompt\":null,\"report_language\":null,\"element_count\":null,\"flashcard_count\":null,\"duration_seconds\":null,\"source_ids\":[\"935c7560-a42a-4f1a-8c90-03f13b46b61a\"],\"artifact_id\":\"a616ec81-656e-4d2d-89ca-f3ce2e4fde0b\"},{\"type\":\"mind_map\",\"title\":\"Computing Mindmap\",\"status\":\"completed\",\"download_filename\":null,\"mime_type\":null,\"error_reason\":null,\"created_at\":\"2026-09-09T12:24:56Z\",\"custom_instructions\":\"main concepts and subconcepts discussed\",\"visual_style_prompt\":null,\"audio_url\":null,\"video_url\":null,\"infographic_url\":null,\"slide_deck_url\":null,\"report_content\":null,\"report_prompt\":null,\"report_language\":null,\"element_count\":null,\"flashcard_count\":null,\"duration_seconds\":null,\"source_ids\":[\"7b896fb7-cb38-49aa-ae8f-e3c246146642\",\"e3ed4ddf-9bd5-45cb-aeda-78c50bb93c71\"],\"artifact_id\":\"c1aa11b9-05c2-4973-ab7f-0375d1e5af87\"},{\"type\":\"quiz\",\"title\":\"Chapter 1 Practice Quiz\",\"status\":\"completed\",\"download_filename\":null,\"mime_type\":null,\"error_reason\":null,\"created_at\":\"2026-09-09T12:19:26Z\",\"custom_instructions\":\"Chapter 1: Basic Concepts & Computer Evolution — Architecture vs. Organization, Structure & Function, ENIAC, von Neumann / IAS Machine, Moore's Law, x86/ARM Evolution\",\"visual_style_prompt\":null,\"audio_url\":null,\"video_url\":null,\"infographic_url\":null,\"slide_deck_url\":null,\"report_content\":null,\"report_prompt\":null,\"report_language\":null,\"element_count\":null,\"flashcard_count\":9,\"duration_seconds\":null,\"source_ids\":[\"7b896fb7-cb38-49aa-ae8f-e3c246146642\",\"e3ed4ddf-9bd5-45cb-aeda-78c50bb93c71\"],\"artifact_id\":\"55de9ece-6f5c-4e99-abaf-1373530e8282\"}],\"pagination\":{\"returned\":5,\"offset\":0,\"limit\":100,\"has_more\":false},\"notebook_url\":\"https://notebooklm.google.com/notebook/1bcc1494-6979-49ac-960a-62197ef379da\"}"
+        }
+      ],
+      "timestamp": "2026-09-26T11:38:13.705Z"
+    },
+    {
+      "id": "e7446306-6889-48a0-b680-9f93038b73a8",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01CXuvhzgzK788BMYshQz4rZ",
+          "title": "mcp__gemini-notebook-mcp__notebook_get",
+          "status": "completed",
+          "kind": "other",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "{\"status\":\"success\",\"notebook\":{\"id\":\"1bcc1494-6979-49ac-960a-62197ef379da\",\"title\":\"Computer Architecture\",\"source_count\":6,\"url\":\"https://notebooklm.google.com/notebook/1bcc1494-6979-49ac-960a-62197ef379da\"},\"sources\":[{\"id\":\"7b896fb7-cb38-49aa-ae8f-e3c246146642\",\"title\":\"Chapter 1 - Basic Concepts & Computer Evolution.pdf\"},{\"id\":\"6319baa2-4a56-4f81-b3e4-c4e01cebbf5b\",\"title\":\"Chapter 2 - Performance Issues.pdf\"},{\"id\":\"a3e93bb8-78e0-4166-ac4d-7be013680601\",\"title\":\"Chapter 3 - Top Level View of Function and Interconnnection.pdf\"},{\"id\":\"a8ab8d7a-6f87-4d7e-b7ba-be9905e85df6\",\"title\":\"Exercise from chapter 1 and Chapter 2 incla class notes slides 1 to 7\"},{\"id\":\"e3ed4ddf-9bd5-45cb-aeda-78c50bb93c71\",\"title\":\"Session 31/08\"},{\"id\":\"935c7560-a42a-4f1a-8c90-03f13b46b61a\",\"title\":\"The PCIe Architecture\"}]}"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "notebook_id": "1bcc1494-6979-49ac-960a-62197ef379da"
+          },
+          "rawOutput": "{\"status\":\"success\",\"notebook\":{\"id\":\"1bcc1494-6979-49ac-960a-62197ef379da\",\"title\":\"Computer Architecture\",\"source_count\":6,\"url\":\"https://notebooklm.google.com/notebook/1bcc1494-6979-49ac-960a-62197ef379da\"},\"sources\":[{\"id\":\"7b896fb7-cb38-49aa-ae8f-e3c246146642\",\"title\":\"Chapter 1 - Basic Concepts & Computer Evolution.pdf\"},{\"id\":\"6319baa2-4a56-4f81-b3e4-c4e01cebbf5b\",\"title\":\"Chapter 2 - Performance Issues.pdf\"},{\"id\":\"a3e93bb8-78e0-4166-ac4d-7be013680601\",\"title\":\"Chapter 3 - Top Level View of Function and Interconnnection.pdf\"},{\"id\":\"a8ab8d7a-6f87-4d7e-b7ba-be9905e85df6\",\"title\":\"Exercise from chapter 1 and Chapter 2 incla class notes slides 1 to 7\"},{\"id\":\"e3ed4ddf-9bd5-45cb-aeda-78c50bb93c71\",\"title\":\"Session 31/08\"},{\"id\":\"935c7560-a42a-4f1a-8c90-03f13b46b61a\",\"title\":\"The PCIe Architecture\"}]}"
+        }
+      ],
+      "timestamp": "2026-09-26T11:38:17.200Z"
+    },
+    {
+      "id": "1f33b4c5-ba16-45e6-9428-b9bdec1de766",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01NRyq2py4nYtk6VX8gNzqmz",
+          "title": "mcp__gemini-notebook-mcp__download_all_artifacts",
+          "status": "completed",
+          "kind": "other",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "{\"status\":\"partial\",\"notebook_id\":\"1bcc1494-6979-49ac-960a-62197ef379da\",\"notebook_title\":\"Computer Architecture\",\"output_dir\":\"C:\\\\Users\\\\rawad\\\\Downloads\\\\gemini-notebook\\\\Computer Architecture\",\"items\":[{\"artifact_id\":\"5f77b1dc-0f06-491e-8eb7-a8f944e54c04\",\"artifact_type\":\"mind_map\",\"title\":\"Chapter 3 Mind-Map\",\"path\":\"C:\\\\Users\\\\rawad\\\\Downloads\\\\gemini-notebook\\\\Computer Architecture\\\\Chapter 3 Mind-Map.json\",\"success\":true,\"error\":null},{\"artifact_id\":\"0d2cf111-6a8c-4d82-9c0c-b61a3fb5b25c\",\"artifact_type\":\"mind_map\",\"title\":\"Chapter 1 Mindmap\",\"path\":\"C:\\\\Users\\\\rawad\\\\Downloads\\\\gemini-notebook\\\\Computer Architecture\\\\Chapter 1 Mindmap.json\",\"success\":true,\"error\":null},{\"artifact_id\":\"a616ec81-656e-4d2d-89ca-f3ce2e4fde0b\",\"artifact_type\":\"video\",\"title\":\"The PCIe Architecture\",\"path\":\"C:\\\\Users\\\\rawad\\\\Downloads\\\\gemini-notebook\\\\Computer Architecture\\\\The PCIe Architecture.mp4\",\"success\":false,\"error\":\"Download failed for video.\"},{\"artifact_id\":\"c1aa11b9-05c2-4973-ab7f-0375d1e5af87\",\"artifact_type\":\"mind_map\",\"title\":\"Computing Mindmap\",\"path\":\"C:\\\\Users\\\\rawad\\\\Downloads\\\\gemini-notebook\\\\Computer Architecture\\\\Computing Mindmap.json\",\"success\":true,\"error\":null},{\"artifact_id\":\"55de9ece-6f5c-4e99-abaf-1373530e8282\",\"artifact_type\":\"quiz\",\"title\":\"Chapter 1 Practice Quiz\",\"path\":\"C:\\\\Users\\\\rawad\\\\Downloads\\\\gemini-notebook\\\\Computer Architecture\\\\Chapter 1 Practice Quiz.md\",\"success\":true,\"error\":null}],\"skipped\":[],\"total_artifacts\":5,\"downloaded\":4,\"failed\":1}"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "notebook_id": "1bcc1494-6979-49ac-960a-62197ef379da",
+            "output_format": "markdown"
+          },
+          "rawOutput": "{\"status\":\"partial\",\"notebook_id\":\"1bcc1494-6979-49ac-960a-62197ef379da\",\"notebook_title\":\"Computer Architecture\",\"output_dir\":\"C:\\\\Users\\\\rawad\\\\Downloads\\\\gemini-notebook\\\\Computer Architecture\",\"items\":[{\"artifact_id\":\"5f77b1dc-0f06-491e-8eb7-a8f944e54c04\",\"artifact_type\":\"mind_map\",\"title\":\"Chapter 3 Mind-Map\",\"path\":\"C:\\\\Users\\\\rawad\\\\Downloads\\\\gemini-notebook\\\\Computer Architecture\\\\Chapter 3 Mind-Map.json\",\"success\":true,\"error\":null},{\"artifact_id\":\"0d2cf111-6a8c-4d82-9c0c-b61a3fb5b25c\",\"artifact_type\":\"mind_map\",\"title\":\"Chapter 1 Mindmap\",\"path\":\"C:\\\\Users\\\\rawad\\\\Downloads\\\\gemini-notebook\\\\Computer Architecture\\\\Chapter 1 Mindmap.json\",\"success\":true,\"error\":null},{\"artifact_id\":\"a616ec81-656e-4d2d-89ca-f3ce2e4fde0b\",\"artifact_type\":\"video\",\"title\":\"The PCIe Architecture\",\"path\":\"C:\\\\Users\\\\rawad\\\\Downloads\\\\gemini-notebook\\\\Computer Architecture\\\\The PCIe Architecture.mp4\",\"success\":false,\"error\":\"Download failed for video.\"},{\"artifact_id\":\"c1aa11b9-05c2-4973-ab7f-0375d1e5af87\",\"artifact_type\":\"mind_map\",\"title\":\"Computing Mindmap\",\"path\":\"C:\\\\Users\\\\rawad\\\\Downloads\\\\gemini-notebook\\\\Computer Architecture\\\\Computing Mindmap.json\",\"success\":true,\"error\":null},{\"artifact_id\":\"55de9ece-6f5c-4e99-abaf-1373530e8282\",\"artifact_type\":\"quiz\",\"title\":\"Chapter 1 Practice Quiz\",\"path\":\"C:\\\\Users\\\\rawad\\\\Downloads\\\\gemini-notebook\\\\Computer Architecture\\\\Chapter 1 Practice Quiz.md\",\"success\":true,\"error\":null}],\"skipped\":[],\"total_artifacts\":5,\"downloaded\":4,\"failed\":1}"
+        },
+        {
+          "type": "text",
+          "text": "Downloaded 4 of 5 artifacts; the PCIe video failed. Retrying it once, then moving the files into the chapter folders."
+        }
+      ],
+      "timestamp": "2026-09-26T11:38:53.040Z"
+    },
+    {
+      "id": "336dd515-2dd0-4c3b-9dab-1e2863c6bc06",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01Uz6LSuxFXdWvmMbj4g9tub",
+          "title": "ToolSearch",
+          "status": "completed",
+          "kind": "other",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "Tool: mcp__gemini-notebook-mcp__download_artifact"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "query": "select:mcp__gemini-notebook-mcp__download_artifact",
+            "max_results": 1
+          },
+          "rawOutput": [
+            {
+              "type": "tool_reference",
+              "tool_name": "mcp__gemini-notebook-mcp__download_artifact"
+            }
+          ]
+        }
+      ],
+      "timestamp": "2026-09-26T11:39:31.420Z"
+    },
+    {
+      "id": "5a1c144b-88ef-424f-bdc3-0b64652ab0d1",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01C9WPtUYdyoTbkvtSE22zJ5",
+          "title": "mcp__gemini-notebook-mcp__download_artifact",
+          "status": "completed",
+          "kind": "other",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "{\"status\":\"error\",\"error\":\"Download failed for video.\"}"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "notebook_id": "1bcc1494-6979-49ac-960a-62197ef379da",
+            "artifact_type": "video",
+            "artifact_id": "a616ec81-656e-4d2d-89ca-f3ce2e4fde0b",
+            "output_path": "Computer Architecture/The PCIe Architecture.mp4",
+            "wait": true
+          },
+          "rawOutput": "{\"status\":\"error\",\"error\":\"Download failed for video.\"}"
+        }
+      ],
+      "timestamp": "2026-09-26T11:39:32.772Z"
+    },
+    {
+      "id": "fa66e37f-51d4-447a-b694-8de414877007",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01UCDD84U7JqCXWvgLrMCHy8",
+          "title": "cd /tmp && curl -sL -o pcie.mp4 -w \"%{http_code} %{size_download} %{content_type}\\n\" \"https://lh3.googleusercontent.com/notebooklm/AKYWMX-bCFFFUpJ6YUoeqQPG3As4jnpYlBl3VVQdxLLaslvtzaH6fujf9Mj0eXrm5w2p7C4EOG9ngSiWEHIyKemL6vgj__PSNFVDz0_YY6kjXWYxJ7z-Np8X01VzdRf8lcJrUqlZnyZ6v5yWD8jX1HV2RtpGBIgs=m22-dv\"; ls -la pcie.mp4; file pcie.mp4",
+          "status": "completed",
+          "kind": "execute",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "```console\n200 917035 text/html; charset=utf-8\r\n-rw-r--r-- 1 rawad 197609 917035 Sep 26 14:40 pcie.mp4\npcie.mp4: HTML document, ASCII text, with very long lines (65536), with no line terminators\n\nShell cwd was reset to C:\\Users\\rawad\\Desktop\\Learning\\Learning Hub\\Uni\\CA\\Computer Architecture\n```"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "command": "cd /tmp && curl -sL -o pcie.mp4 -w \"%{http_code} %{size_download} %{content_type}\\n\" \"https://lh3.googleusercontent.com/notebooklm/AKYWMX-bCFFFUpJ6YUoeqQPG3As4jnpYlBl3VVQdxLLaslvtzaH6fujf9Mj0eXrm5w2p7C4EOG9ngSiWEHIyKemL6vgj__PSNFVDz0_YY6kjXWYxJ7z-Np8X01VzdRf8lcJrUqlZnyZ6v5yWD8jX1HV2RtpGBIgs=m22-dv\"; ls -la pcie.mp4; file pcie.mp4"
+          },
+          "rawOutput": "200 917035 text/html; charset=utf-8\r\n-rw-r--r-- 1 rawad 197609 917035 Sep 26 14:40 pcie.mp4\npcie.mp4: HTML document, ASCII text, with very long lines (65536), with no line terminators\nShell cwd was reset to C:\\Users\\rawad\\Desktop\\Learning\\Learning Hub\\Uni\\CA\\Computer Architecture"
+        }
+      ],
+      "timestamp": "2026-09-26T11:40:34.411Z"
+    },
+    {
+      "id": "43ca75c7-044f-4385-8f86-60958893769c",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "nevermind that. i want you to use nlm mcp to generate a mind map for each chapter using the promt \"I would like you to create a mindmap of concepts and subconxepts based on the slides and I would like to see the slide coverga on the actual mindmap spanning the whole chapter\""
+        }
+      ],
+      "timestamp": "2026-09-26T11:45:07.568Z"
+    },
+    {
+      "id": "9a976de5-97a5-4126-9428-4ad61f2a1aea",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_011CyACGbMkAbKvBtwnaHHzM",
+          "title": "rm -f /tmp/pcie.mp4",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "locations": [],
+          "rawInput": {
+            "command": "rm -f /tmp/pcie.mp4"
+          },
+          "rawOutput": "(Bash completed with no output)"
+        }
+      ],
+      "timestamp": "2026-09-26T11:46:12.999Z"
+    },
+    {
+      "id": "2d0dfda7-4dab-4f8a-94fb-e1400b174e13",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01R4HqFVmQkFypoVPkZwcbD8",
+          "title": "ToolSearch",
+          "status": "completed",
+          "kind": "other",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "Tool: mcp__gemini-notebook-mcp__studio_create"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "query": "select:mcp__gemini-notebook-mcp__studio_create",
+            "max_results": 1
+          },
+          "rawOutput": [
+            {
+              "type": "tool_reference",
+              "tool_name": "mcp__gemini-notebook-mcp__studio_create"
+            }
+          ]
+        }
+      ],
+      "timestamp": "2026-09-26T11:46:12.999Z"
+    },
+    {
+      "id": "bf246aa1-c380-406a-ae5a-3ce9e8c787b6",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01PXQsFbFnKyoy6eDbef1kFx",
+          "title": "mcp__gemini-notebook-mcp__studio_create",
+          "status": "completed",
+          "kind": "other",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "{\"artifact_type\":\"mind_map\",\"artifact_id\":\"b9e5e7c9-7cbb-413e-954f-75269853103b\",\"title\":\"Computer System Performance\",\"root_name\":\"Performance Issues\",\"children_count\":7,\"mind_map_json\":\"{\\n  \\\"name\\\": \\\"Performance Issues\\\",\\n  \\\"children\\\": [\\n    {\\n      \\\"name\\\": \\\"Designing for Performance\\\",\\n      \\\"children\\\": [\\n        { \\\"name\\\": \\\"Cost Reduction\\\" },\\n        { \\\"name\\\": \\\"Capacity Growth\\\" },\\n        { \\\"name\\\": \\\"New Applications\\\",\\n          \\\"children\\\": [\\n            { \\\"name\\\": \\\"Automobiles\\\" },\\n            { \\\"name\\\": \\\"Cell phones\\\" },\\n            { \\\"name\\\": \\\"Human genome project\\\" },\\n            { \\\"name\\\": \\\"Search engines\\\" }\\n          ]\\n        }\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"Speedup Techniques\\\",\\n      \\\"children\\\": [\\n        { \\\"name\\\": \\\"Pipelining\\\" },\\n        { \\\"name\\\": \\\"Branch prediction\\\" },\\n        { \\\"name\\\": \\\"Superscalar execution\\\" },\\n        { \\\"name\\\": \\\"Speculative execution\\\" },\\n        { \\\"name\\\": \\\"On board cache\\\" }\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"Performance Mismatch & Solutions\\\",\\n      \\\"children\\\": [\\n        { \\\"name\\\": \\\"Processor vs Memory Speed Gap\\\" },\\n        { \\\"name\\\": \\\"Wider DRAM\\\" },\\n        { \\\"name\\\": \\\"Cache on chip\\\" },\\n        { \\\"name\\\": \\\"High speed buses\\\" }\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"Chip Improvements & Constraints\\\",\\n      \\\"children\\\": [\\n        { \\\"name\\\": \\\"Shrinking logic gates\\\" },\\n        { \\\"name\\\": \\\"Increasing clock rate\\\" },\\n        { \\\"name\\\": \\\"Power & RC delay problems\\\" },\\n        { \\\"name\\\": \\\"Parallelism\\\",\\n          \\\"children\\\": [\\n            { \\\"name\\\": \\\"Multicore\\\" },\\n            { \\\"name\\\": \\\"MIC (Many Integrated Cores)\\\" },\\n            { \\\"name\\\": \\\"GPGPU\\\" }\\n          ]\\n        }\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"Measuring Performance\\\",\\n      \\\"children\\\": [\\n        { \\\"name\\\": \\\"Response Time / Execution Time\\\" },\\n        { \\\"name\\\": \\\"Throughput\\\" },\\n        { \\\"name\\\": \\\"CPU Time\\\",\\n          \\\"children\\\": [\\n            { \\\"name\\\": \\\"Instruction Count\\\" },\\n            { \\\"name\\\": \\\"CPI (Clock cycles Per Instruction)\\\" },\\n            { \\\"name\\\": \\\"Clock Cycle Time\\\" }\\n          ]\\n        },\\n        { \\\"name\\\": \\\"MIPS & MFLOPS\\\" }\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"Amdahl's Law\\\",\\n      \\\"children\\\": [\\n        { \\\"name\\\": \\\"Limits of improvement\\\" },\\n        { \\\"name\\\": \\\"Speedup calculation\\\" },\\n        { \\\"name\\\": \\\"Parallel vs Sequential components\\\" }\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"Benchmarks\\\",\\n      \\\"children\\\": [\\n        { \\\"name\\\": \\\"SPEC (System Performance Evaluation Corporation)\\\" },\\n        { \\\"name\\\": \\\"SPEC CPU2017\\\",\\n          \\\"children\\\": [\\n            { \\\"name\\\": \\\"Integer Benchmarks\\\" },\\n            { \\\"name\\\": \\\"Floating Point Benchmarks\\\" }\\n          ]\\n        }\\n      ]\\n    }\\n  ]\\n}\",\"message\":\"Mind map created successfully.\",\"status\":\"success\",\"notebook_url\":\"https://notebooklm.google.com/notebook/1bcc1494-6979-49ac-960a-62197ef379da\"}"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "notebook_id": "1bcc1494-6979-49ac-960a-62197ef379da",
+            "artifact_type": "mind_map",
+            "title": "Chapter 2 Mindmap",
+            "source_ids": [
+              "6319baa2-4a56-4f81-b3e4-c4e01cebbf5b"
+            ],
+            "custom_prompt": "I would like you to create a mindmap of concepts and subconxepts based on the slides and I would like to see the slide coverga on the actual mindmap spanning the whole chapter",
+            "confirm": true
+          },
+          "rawOutput": "{\"artifact_type\":\"mind_map\",\"artifact_id\":\"b9e5e7c9-7cbb-413e-954f-75269853103b\",\"title\":\"Computer System Performance\",\"root_name\":\"Performance Issues\",\"children_count\":7,\"mind_map_json\":\"{\\n  \\\"name\\\": \\\"Performance Issues\\\",\\n  \\\"children\\\": [\\n    {\\n      \\\"name\\\": \\\"Designing for Performance\\\",\\n      \\\"children\\\": [\\n        { \\\"name\\\": \\\"Cost Reduction\\\" },\\n        { \\\"name\\\": \\\"Capacity Growth\\\" },\\n        { \\\"name\\\": \\\"New Applications\\\",\\n          \\\"children\\\": [\\n            { \\\"name\\\": \\\"Automobiles\\\" },\\n            { \\\"name\\\": \\\"Cell phones\\\" },\\n            { \\\"name\\\": \\\"Human genome project\\\" },\\n            { \\\"name\\\": \\\"Search engines\\\" }\\n          ]\\n        }\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"Speedup Techniques\\\",\\n      \\\"children\\\": [\\n        { \\\"name\\\": \\\"Pipelining\\\" },\\n        { \\\"name\\\": \\\"Branch prediction\\\" },\\n        { \\\"name\\\": \\\"Superscalar execution\\\" },\\n        { \\\"name\\\": \\\"Speculative execution\\\" },\\n        { \\\"name\\\": \\\"On board cache\\\" }\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"Performance Mismatch & Solutions\\\",\\n      \\\"children\\\": [\\n        { \\\"name\\\": \\\"Processor vs Memory Speed Gap\\\" },\\n        { \\\"name\\\": \\\"Wider DRAM\\\" },\\n        { \\\"name\\\": \\\"Cache on chip\\\" },\\n        { \\\"name\\\": \\\"High speed buses\\\" }\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"Chip Improvements & Constraints\\\",\\n      \\\"children\\\": [\\n        { \\\"name\\\": \\\"Shrinking logic gates\\\" },\\n        { \\\"name\\\": \\\"Increasing clock rate\\\" },\\n        { \\\"name\\\": \\\"Power & RC delay problems\\\" },\\n        { \\\"name\\\": \\\"Parallelism\\\",\\n          \\\"children\\\": [\\n            { \\\"name\\\": \\\"Multicore\\\" },\\n            { \\\"name\\\": \\\"MIC (Many Integrated Cores)\\\" },\\n            { \\\"name\\\": \\\"GPGPU\\\" }\\n          ]\\n        }\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"Measuring Performance\\\",\\n      \\\"children\\\": [\\n        { \\\"name\\\": \\\"Response Time / Execution Time\\\" },\\n        { \\\"name\\\": \\\"Throughput\\\" },\\n        { \\\"name\\\": \\\"CPU Time\\\",\\n          \\\"children\\\": [\\n            { \\\"name\\\": \\\"Instruction Count\\\" },\\n            { \\\"name\\\": \\\"CPI (Clock cycles Per Instruction)\\\" },\\n            { \\\"name\\\": \\\"Clock Cycle Time\\\" }\\n          ]\\n        },\\n        { \\\"name\\\": \\\"MIPS & MFLOPS\\\" }\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"Amdahl's Law\\\",\\n      \\\"children\\\": [\\n        { \\\"name\\\": \\\"Limits of improvement\\\" },\\n        { \\\"name\\\": \\\"Speedup calculation\\\" },\\n        { \\\"name\\\": \\\"Parallel vs Sequential components\\\" }\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"Benchmarks\\\",\\n      \\\"children\\\": [\\n        { \\\"name\\\": \\\"SPEC (System Performance Evaluation Corporation)\\\" },\\n        { \\\"name\\\": \\\"SPEC CPU2017\\\",\\n          \\\"children\\\": [\\n            { \\\"name\\\": \\\"Integer Benchmarks\\\" },\\n            { \\\"name\\\": \\\"Floating Point Benchmarks\\\" }\\n          ]\\n        }\\n      ]\\n    }\\n  ]\\n}\",\"message\":\"Mind map created successfully.\",\"status\":\"success\",\"notebook_url\":\"https://notebooklm.google.com/notebook/1bcc1494-6979-49ac-960a-62197ef379da\"}"
+        }
+      ],
+      "timestamp": "2026-09-26T11:46:12.999Z"
+    },
+    {
+      "id": "d2cac88d-9b63-47fd-9d38-2e7094aee44f",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01REewXfqCs4dexYjpouytq6",
+          "title": "mcp__gemini-notebook-mcp__studio_create",
+          "status": "completed",
+          "kind": "other",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "{\"artifact_type\":\"mind_map\",\"artifact_id\":\"83c47575-c2f0-48d4-b106-52498fb4b4a3\",\"title\":\"Computer Architecture Logic\",\"root_name\":\"Top-Level View of Computer Function and Interconnection\",\"children_count\":5,\"mind_map_json\":\"{\\n\\\"name\\\": \\\"Top-Level View of Computer Function and Interconnection\\\",\\n\\\"children\\\": [\\n{\\n\\\"name\\\": \\\"Computer Components\\\",\\n\\\"children\\\": [\\n{\\n\\\"name\\\": \\\"CPU\\\",\\n\\\"children\\\": [\\n{ \\\"name\\\": \\\"Control Unit\\\" },\\n{ \\\"name\\\": \\\"Arithmetic and Logic Unit (ALU)\\\" },\\n{ \\\"name\\\": \\\"Registers (PC, IR, MAR, MBR, AC)\\\" }\\n]\\n},\\n{ \\\"name\\\": \\\"Main Memory\\\" },\\n{ \\\"name\\\": \\\"I/O Module\\\" },\\n{ \\\"name\\\": \\\"System Bus\\\" }\\n]\\n},\\n{\\n\\\"name\\\": \\\"Instruction Cycle\\\",\\n\\\"children\\\": [\\n{\\n\\\"name\\\": \\\"Fetch Cycle\\\",\\n\\\"children\\\": [\\n{ \\\"name\\\": \\\"PC holds address\\\" },\\n{ \\\"name\\\": \\\"Load instruction to IR\\\" },\\n{ \\\"name\\\": \\\"Increment PC\\\" }\\n]\\n},\\n{\\n\\\"name\\\": \\\"Execute Cycle\\\",\\n\\\"children\\\": [\\n{ \\\"name\\\": \\\"Data transfer\\\" },\\n{ \\\"name\\\": \\\"Data processing\\\" },\\n{ \\\"name\\\": \\\"Control alteration\\\" }\\n]\\n},\\n{ \\\"name\\\": \\\"Interrupt Cycle\\\" }\\n]\\n},\\n{\\n\\\"name\\\": \\\"Interrupts\\\",\\n\\\"children\\\": [\\n{\\n\\\"name\\\": \\\"Classes\\\",\\n\\\"children\\\": [\\n{ \\\"name\\\": \\\"Program (Overflow/Div zero)\\\" },\\n{ \\\"name\\\": \\\"Timer\\\" },\\n{ \\\"name\\\": \\\"I/O\\\" },\\n{ \\\"name\\\": \\\"Hardware failure\\\" }\\n]\\n},\\n{\\n\\\"name\\\": \\\"Handling\\\",\\n\\\"children\\\": [\\n{ \\\"name\\\": \\\"Save context\\\" },\\n{ \\\"name\\\": \\\"Interrupt handler routine\\\" },\\n{ \\\"name\\\": \\\"Restore context\\\" }\\n]\\n},\\n{\\n\\\"name\\\": \\\"Multiple Interrupts\\\",\\n\\\"children\\\": [\\n{ \\\"name\\\": \\\"Sequential (Disabled)\\\" },\\n{ \\\"name\\\": \\\"Nested (Priorities)\\\" }\\n]\\n}\\n]\\n},\\n{\\n\\\"name\\\": \\\"Interconnection Structures\\\",\\n\\\"children\\\": [\\n{\\n\\\"name\\\": \\\"Bus Interconnection\\\",\\n\\\"children\\\": [\\n{ \\\"name\\\": \\\"Data Bus (Width/Performance)\\\" },\\n{ \\\"name\\\": \\\"Address Bus (Memory Capacity)\\\" },\\n{ \\\"name\\\": \\\"Control Bus (Timing/Signals)\\\" },\\n{ \\\"name\\\": \\\"Arbitration (Centralized/Distributed)\\\" },\\n{ \\\"name\\\": \\\"Timing (Synchronous/Asynchronous)\\\" }\\n]\\n},\\n{\\n\\\"name\\\": \\\"Point-to-Point (QPI)\\\",\\n\\\"children\\\": [\\n{ \\\"name\\\": \\\"Lower latency\\\" },\\n{ \\\"name\\\": \\\"Layered protocol\\\" },\\n{ \\\"name\\\": \\\"Packetized data\\\" },\\n{ \\\"name\\\": \\\"Phits and Flits\\\" }\\n]\\n},\\n{\\n\\\"name\\\": \\\"PCI Express (PCIe)\\\",\\n\\\"children\\\": [\\n{ \\\"name\\\": \\\"Transaction Layer (TLPs)\\\" },\\n{ \\\"name\\\": \\\"Data Link Layer (DLLPs)\\\" },\\n{ \\\"name\\\": \\\"Physical Layer (Lanes)\\\" }\\n]\\n}\\n]\\n},\\n{\\n\\\"name\\\": \\\"I/O Functions\\\",\\n\\\"children\\\": [\\n{ \\\"name\\\": \\\"Direct Memory Access (DMA)\\\" },\\n{ \\\"name\\\": \\\"Programmed I/O\\\" },\\n{ \\\"name\\\": \\\"Interrupt-driven I/O\\\" }\\n]\\n}\\n]\\n}\",\"message\":\"Mind map created successfully.\",\"status\":\"success\",\"notebook_url\":\"https://notebooklm.google.com/notebook/1bcc1494-6979-49ac-960a-62197ef379da\"}"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "notebook_id": "1bcc1494-6979-49ac-960a-62197ef379da",
+            "artifact_type": "mind_map",
+            "title": "Chapter 3 Mindmap",
+            "source_ids": [
+              "a3e93bb8-78e0-4166-ac4d-7be013680601"
+            ],
+            "custom_prompt": "I would like you to create a mindmap of concepts and subconxepts based on the slides and I would like to see the slide coverga on the actual mindmap spanning the whole chapter",
+            "confirm": true
+          },
+          "rawOutput": "{\"artifact_type\":\"mind_map\",\"artifact_id\":\"83c47575-c2f0-48d4-b106-52498fb4b4a3\",\"title\":\"Computer Architecture Logic\",\"root_name\":\"Top-Level View of Computer Function and Interconnection\",\"children_count\":5,\"mind_map_json\":\"{\\n\\\"name\\\": \\\"Top-Level View of Computer Function and Interconnection\\\",\\n\\\"children\\\": [\\n{\\n\\\"name\\\": \\\"Computer Components\\\",\\n\\\"children\\\": [\\n{\\n\\\"name\\\": \\\"CPU\\\",\\n\\\"children\\\": [\\n{ \\\"name\\\": \\\"Control Unit\\\" },\\n{ \\\"name\\\": \\\"Arithmetic and Logic Unit (ALU)\\\" },\\n{ \\\"name\\\": \\\"Registers (PC, IR, MAR, MBR, AC)\\\" }\\n]\\n},\\n{ \\\"name\\\": \\\"Main Memory\\\" },\\n{ \\\"name\\\": \\\"I/O Module\\\" },\\n{ \\\"name\\\": \\\"System Bus\\\" }\\n]\\n},\\n{\\n\\\"name\\\": \\\"Instruction Cycle\\\",\\n\\\"children\\\": [\\n{\\n\\\"name\\\": \\\"Fetch Cycle\\\",\\n\\\"children\\\": [\\n{ \\\"name\\\": \\\"PC holds address\\\" },\\n{ \\\"name\\\": \\\"Load instruction to IR\\\" },\\n{ \\\"name\\\": \\\"Increment PC\\\" }\\n]\\n},\\n{\\n\\\"name\\\": \\\"Execute Cycle\\\",\\n\\\"children\\\": [\\n{ \\\"name\\\": \\\"Data transfer\\\" },\\n{ \\\"name\\\": \\\"Data processing\\\" },\\n{ \\\"name\\\": \\\"Control alteration\\\" }\\n]\\n},\\n{ \\\"name\\\": \\\"Interrupt Cycle\\\" }\\n]\\n},\\n{\\n\\\"name\\\": \\\"Interrupts\\\",\\n\\\"children\\\": [\\n{\\n\\\"name\\\": \\\"Classes\\\",\\n\\\"children\\\": [\\n{ \\\"name\\\": \\\"Program (Overflow/Div zero)\\\" },\\n{ \\\"name\\\": \\\"Timer\\\" },\\n{ \\\"name\\\": \\\"I/O\\\" },\\n{ \\\"name\\\": \\\"Hardware failure\\\" }\\n]\\n},\\n{\\n\\\"name\\\": \\\"Handling\\\",\\n\\\"children\\\": [\\n{ \\\"name\\\": \\\"Save context\\\" },\\n{ \\\"name\\\": \\\"Interrupt handler routine\\\" },\\n{ \\\"name\\\": \\\"Restore context\\\" }\\n]\\n},\\n{\\n\\\"name\\\": \\\"Multiple Interrupts\\\",\\n\\\"children\\\": [\\n{ \\\"name\\\": \\\"Sequential (Disabled)\\\" },\\n{ \\\"name\\\": \\\"Nested (Priorities)\\\" }\\n]\\n}\\n]\\n},\\n{\\n\\\"name\\\": \\\"Interconnection Structures\\\",\\n\\\"children\\\": [\\n{\\n\\\"name\\\": \\\"Bus Interconnection\\\",\\n\\\"children\\\": [\\n{ \\\"name\\\": \\\"Data Bus (Width/Performance)\\\" },\\n{ \\\"name\\\": \\\"Address Bus (Memory Capacity)\\\" },\\n{ \\\"name\\\": \\\"Control Bus (Timing/Signals)\\\" },\\n{ \\\"name\\\": \\\"Arbitration (Centralized/Distributed)\\\" },\\n{ \\\"name\\\": \\\"Timing (Synchronous/Asynchronous)\\\" }\\n]\\n},\\n{\\n\\\"name\\\": \\\"Point-to-Point (QPI)\\\",\\n\\\"children\\\": [\\n{ \\\"name\\\": \\\"Lower latency\\\" },\\n{ \\\"name\\\": \\\"Layered protocol\\\" },\\n{ \\\"name\\\": \\\"Packetized data\\\" },\\n{ \\\"name\\\": \\\"Phits and Flits\\\" }\\n]\\n},\\n{\\n\\\"name\\\": \\\"PCI Express (PCIe)\\\",\\n\\\"children\\\": [\\n{ \\\"name\\\": \\\"Transaction Layer (TLPs)\\\" },\\n{ \\\"name\\\": \\\"Data Link Layer (DLLPs)\\\" },\\n{ \\\"name\\\": \\\"Physical Layer (Lanes)\\\" }\\n]\\n}\\n]\\n},\\n{\\n\\\"name\\\": \\\"I/O Functions\\\",\\n\\\"children\\\": [\\n{ \\\"name\\\": \\\"Direct Memory Access (DMA)\\\" },\\n{ \\\"name\\\": \\\"Programmed I/O\\\" },\\n{ \\\"name\\\": \\\"Interrupt-driven I/O\\\" }\\n]\\n}\\n]\\n}\",\"message\":\"Mind map created successfully.\",\"status\":\"success\",\"notebook_url\":\"https://notebooklm.google.com/notebook/1bcc1494-6979-49ac-960a-62197ef379da\"}"
+        }
+      ],
+      "timestamp": "2026-09-26T11:46:12.999Z"
+    },
+    {
+      "id": "e9b23dad-3fba-4841-935c-41e1d7d1d477",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01NnBtpKMbJE5ky4Xcy4vEJj",
+          "title": "mcp__gemini-notebook-mcp__download_artifact",
+          "status": "completed",
+          "kind": "other",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "{\"status\":\"success\",\"artifact_type\":\"mind_map\",\"path\":\"C:\\\\Users\\\\rawad\\\\Downloads\\\\gemini-notebook\\\\Computer Architecture\\\\Chapter 2 Mindmap.json\"}"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "notebook_id": "1bcc1494-6979-49ac-960a-62197ef379da",
+            "artifact_type": "mind_map",
+            "artifact_id": "b9e5e7c9-7cbb-413e-954f-75269853103b",
+            "output_path": "Computer Architecture/Chapter 2 Mindmap.json"
+          },
+          "rawOutput": "{\"status\":\"success\",\"artifact_type\":\"mind_map\",\"path\":\"C:\\\\Users\\\\rawad\\\\Downloads\\\\gemini-notebook\\\\Computer Architecture\\\\Chapter 2 Mindmap.json\"}"
+        }
+      ],
+      "timestamp": "2026-09-26T11:46:12.999Z"
+    },
+    {
+      "id": "8afe7570-2956-4fbd-8fd8-f008fa7bc525",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01UaopYNLU7sGG4dHSHnecDR",
+          "title": "mcp__gemini-notebook-mcp__download_artifact",
+          "status": "completed",
+          "kind": "other",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "{\"status\":\"success\",\"artifact_type\":\"mind_map\",\"path\":\"C:\\\\Users\\\\rawad\\\\Downloads\\\\gemini-notebook\\\\Computer Architecture\\\\Chapter 3 Mindmap.json\"}"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "notebook_id": "1bcc1494-6979-49ac-960a-62197ef379da",
+            "artifact_type": "mind_map",
+            "artifact_id": "83c47575-c2f0-48d4-b106-52498fb4b4a3",
+            "output_path": "Computer Architecture/Chapter 3 Mindmap.json"
+          },
+          "rawOutput": "{\"status\":\"success\",\"artifact_type\":\"mind_map\",\"path\":\"C:\\\\Users\\\\rawad\\\\Downloads\\\\gemini-notebook\\\\Computer Architecture\\\\Chapter 3 Mindmap.json\"}"
+        },
+        {
+          "type": "text",
+          "text": "Now filing them into the chapter folders."
+        }
+      ],
+      "timestamp": "2026-09-26T11:46:12.999Z"
+    },
+    {
+      "id": "ec9971fa-500b-4f39-b12d-1be6afaea691",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_019Wmw2hCv2iCLjt7J59RQfV",
+          "title": "S=\"/c/Users/rawad/Downloads/gemini-notebook/Computer Architecture\"; V=\"/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/Computer Architecture\"\nC1=\"$V/Chapter 1 - Basic Concepts & Computer Evolution\"; C2=\"$V/Chapter 2 - Performance Issues\"; C3=\"$V/Chapter 3 - Top Level View of Function and Interconnnection\"\ncp \"$S/Chapter 1 Mindmap.json\" \"$S/Chapter 1 Practice Quiz.md\" \"$S/Computing Mindmap.json\" \"$C1/\"\ncp \"$S/Chapter 2 Mindmap.json\" \"$C2/\"\ncp \"$S/Chapter 3 Mindmap.json\" \"$S/Chapter 3 Mind-Map.json\" \"$C3/\"\ncd \"$V\" && find . -path ./.obsidian -prune -o -path ./.openvisio -prune -o -type f -print",
+          "status": "completed",
+          "kind": "execute",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "```console\n./Chapter 1 - Basic Concepts & Computer Evolution/Chapter 1 - Basic Concepts & Computer Evolution (1).pdf\n./Chapter 1 - Basic Concepts & Computer Evolution/Chapter 1 Mindmap.json\n./Chapter 1 - Basic Concepts & Computer Evolution/Chapter 1 Practice Quiz.md\n./Chapter 1 - Basic Concepts & Computer Evolution/Computing Mindmap.json\n./Chapter 2 - Performance Issues/Chapter 2 - Performance Issues (1).pdf\n./Chapter 2 - Performance Issues/Chapter 2 Mindmap.json\n./Chapter 3 - Top Level View of Function and Interconnnection/Chapter 3 - Top Level View of Function and Interconnnection.pdf\n./Chapter 3 - Top Level View of Function and Interconnnection/Chapter 3 Mind-Map.json\n./Chapter 3 - Top Level View of Function and Interconnnection/Chapter 3 Mindmap.json\n```"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "command": "S=\"/c/Users/rawad/Downloads/gemini-notebook/Computer Architecture\"; V=\"/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/Computer Architecture\"\nC1=\"$V/Chapter 1 - Basic Concepts & Computer Evolution\"; C2=\"$V/Chapter 2 - Performance Issues\"; C3=\"$V/Chapter 3 - Top Level View of Function and Interconnnection\"\ncp \"$S/Chapter 1 Mindmap.json\" \"$S/Chapter 1 Practice Quiz.md\" \"$S/Computing Mindmap.json\" \"$C1/\"\ncp \"$S/Chapter 2 Mindmap.json\" \"$C2/\"\ncp \"$S/Chapter 3 Mindmap.json\" \"$S/Chapter 3 Mind-Map.json\" \"$C3/\"\ncd \"$V\" && find . -path ./.obsidian -prune -o -path ./.openvisio -prune -o -type f -print"
+          },
+          "rawOutput": "./Chapter 1 - Basic Concepts & Computer Evolution/Chapter 1 - Basic Concepts & Computer Evolution (1).pdf\n./Chapter 1 - Basic Concepts & Computer Evolution/Chapter 1 Mindmap.json\n./Chapter 1 - Basic Concepts & Computer Evolution/Chapter 1 Practice Quiz.md\n./Chapter 1 - Basic Concepts & Computer Evolution/Computing Mindmap.json\n./Chapter 2 - Performance Issues/Chapter 2 - Performance Issues (1).pdf\n./Chapter 2 - Performance Issues/Chapter 2 Mindmap.json\n./Chapter 3 - Top Level View of Function and Interconnnection/Chapter 3 - Top Level View of Function and Interconnnection.pdf\n./Chapter 3 - Top Level View of Function and Interconnnection/Chapter 3 Mind-Map.json\n./Chapter 3 - Top Level View of Function and Interconnnection/Chapter 3 Mindmap.json"
+        },
+        {
+          "type": "text",
+          "text": "I generated new mind maps for Chapters 2 and 3, and filed them plus the existing Chapter 1 artifacts into the chapter folders. The generated maps are `.json` files and don't show up as anything visual in Obsidian.\n\n- **Chapter 1:** I didn't regenerate it, because \"Chapter 1 Mindmap\" already exists in NotebookLM from that exact prompt. I also filed the Chapter 1 Practice Quiz (`.md`) and \"Computing Mindmap\", which draws on the Chapter 1 slides and the Session 31/08 notes.\n- **Chapter 2:** \"Chapter 2 Mindmap\" is new. It has 7 branches: Designing for Performance, Speedup Techniques, Performance Mismatch, Chip Improvements, Measuring Performance, Amdahl's Law and Benchmarks.\n- **Chapter 3:** \"Chapter 3 Mindmap\" is new. It has 5 branches: Computer Components, Instruction Cycle, Interrupts, Interconnection Structures and I/O Functions. The older \"Chapter 3 Mind-Map\" (the slide-order version) is filed there too.\n\nThe prompt asks for slide coverage on the map, but neither new map shows slide numbers. NotebookLM's mind map output is just node names, so it ignored that part. If you want slide references, I can use the report or slide-deck route, or annotate the JSON myself from the PDFs.\n\nThe PCIe Architecture video (Chapter 3) failed to download. NotebookLM's video URL returns an HTML page instead of an mp4, so it needs a manual download from the notebook."
+        }
+      ],
+      "timestamp": "2026-09-26T11:46:12.999Z"
+    },
+    {
+      "id": "97b7f151-a18b-47e6-8f0a-46e2edf48154",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "i cant see the artificats in the folders"
+        }
+      ],
+      "timestamp": "2026-09-26T11:47:17.498Z"
+    },
+    {
+      "id": "984a6eef-6ed5-4147-8153-2183b22c55c3",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_019o6pzyFc69wx8kSsoXUaS5",
+          "title": "cd \"/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/Computer Architecture\"; ls -la Chapter*/ ; cat .obsidian/app.json 2>/dev/null; head -c 600 \"Chapter 1 - Basic Concepts & Computer Evolution/Chapter 1 Mindmap.json\"",
+          "status": "completed",
+          "kind": "execute",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "```console\nChapter 1 - Basic Concepts & Computer Evolution/:\ntotal 1208\ndrwxr-xr-x 1 rawad 197609       0 Sep 26 14:45 ./\ndrwxr-xr-x 1 rawad 197609       0 Sep 26 14:36 ../\n-rw-r--r-- 1 rawad 197609 1197323 Sep 20 23:48 Chapter 1 - Basic Concepts & Computer Evolution (1).pdf\n-rw-r--r-- 1 rawad 197609   12157 Sep 26 14:45 Chapter 1 Mindmap.json\n-rw-r--r-- 1 rawad 197609    4802 Sep 26 14:45 Chapter 1 Practice Quiz.md\n-rw-r--r-- 1 rawad 197609    5745 Sep 26 14:45 Computing Mindmap.json\n\nChapter 2 - Performance Issues/:\ntotal 872\ndrwxr-xr-x 1 rawad 197609      0 Sep 26 14:45 ./\ndrwxr-xr-x 1 rawad 197609      0 Sep 26 14:36 ../\n-rw-r--r-- 1 rawad 197609 883757 Sep 20 23:48 Chapter 2 - Performance Issues (1).pdf\n-rw-r--r-- 1 rawad 197609   3284 Sep 26 14:45 Chapter 2 Mindmap.json\n\nChapter 3 - Top Level View of Function and Interconnnection/:\ntotal 1704\ndrwxr-xr-x 1 rawad 197609       0 Sep 26 14:45 ./\ndrwxr-xr-x 1 rawad 197609       0 Sep 26 14:36 ../\n-rw-r--r-- 1 rawad 197609 1722013 Sep 20 23:48 Chapter 3 - Top Level View of Function and Interconnnection.pdf\n-rw-r--r-- 1 rawad 197609    6752 Sep 26 14:45 Chapter 3 Mind-Map.json\n-rw-r--r-- 1 rawad 197609    4088 Sep 26 14:45 Chapter 3 Mindmap.json\n{}{\r\n  \"name\": \"Computer Organisation and Architecture\",\r\n  \"children\": [\r\n    {\r\n      \"name\": \"Basic Concepts and Structure\",\r\n      \"children\": [\r\n        {\r\n          \"name\": \"Architecture and Organisation\",\r\n          \"children\": [\r\n            {\r\n              \"name\": \"System Architecture Attributes\",\r\n              \"children\": [\r\n                {\r\n                  \"name\": \"Instruction Set Architecture\"\r\n                },\r\n                {\r\n                  \"name\": \"Addressing Techniques\"\r\n                },\r\n                {\r\n                  \"name\": \"Data Representation Bits\"\n```"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "command": "cd \"/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/Computer Architecture\"; ls -la Chapter*/ ; cat .obsidian/app.json 2>/dev/null; head -c 600 \"Chapter 1 - Basic Concepts & Computer Evolution/Chapter 1 Mindmap.json\""
+          },
+          "rawOutput": "Chapter 1 - Basic Concepts & Computer Evolution/:\ntotal 1208\ndrwxr-xr-x 1 rawad 197609       0 Sep 26 14:45 ./\ndrwxr-xr-x 1 rawad 197609       0 Sep 26 14:36 ../\n-rw-r--r-- 1 rawad 197609 1197323 Sep 20 23:48 Chapter 1 - Basic Concepts & Computer Evolution (1).pdf\n-rw-r--r-- 1 rawad 197609   12157 Sep 26 14:45 Chapter 1 Mindmap.json\n-rw-r--r-- 1 rawad 197609    4802 Sep 26 14:45 Chapter 1 Practice Quiz.md\n-rw-r--r-- 1 rawad 197609    5745 Sep 26 14:45 Computing Mindmap.json\n\nChapter 2 - Performance Issues/:\ntotal 872\ndrwxr-xr-x 1 rawad 197609      0 Sep 26 14:45 ./\ndrwxr-xr-x 1 rawad 197609      0 Sep 26 14:36 ../\n-rw-r--r-- 1 rawad 197609 883757 Sep 20 23:48 Chapter 2 - Performance Issues (1).pdf\n-rw-r--r-- 1 rawad 197609   3284 Sep 26 14:45 Chapter 2 Mindmap.json\n\nChapter 3 - Top Level View of Function and Interconnnection/:\ntotal 1704\ndrwxr-xr-x 1 rawad 197609       0 Sep 26 14:45 ./\ndrwxr-xr-x 1 rawad 197609       0 Sep 26 14:36 ../\n-rw-r--r-- 1 rawad 197609 1722013 Sep 20 23:48 Chapter 3 - Top Level View of Function and Interconnnection.pdf\n-rw-r--r-- 1 rawad 197609    6752 Sep 26 14:45 Chapter 3 Mind-Map.json\n-rw-r--r-- 1 rawad 197609    4088 Sep 26 14:45 Chapter 3 Mindmap.json\n{}{\r\n  \"name\": \"Computer Organisation and Architecture\",\r\n  \"children\": [\r\n    {\r\n      \"name\": \"Basic Concepts and Structure\",\r\n      \"children\": [\r\n        {\r\n          \"name\": \"Architecture and Organisation\",\r\n          \"children\": [\r\n            {\r\n              \"name\": \"System Architecture Attributes\",\r\n              \"children\": [\r\n                {\r\n                  \"name\": \"Instruction Set Architecture\"\r\n                },\r\n                {\r\n                  \"name\": \"Addressing Techniques\"\r\n                },\r\n                {\r\n                  \"name\": \"Data Representation Bits\""
+        }
+      ],
+      "timestamp": "2026-09-26T11:47:20.008Z"
+    },
+    {
+      "id": "a69e031b-9bbd-4249-9573-10160bc8a191",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01P18hiJ7KHzhTDJx24krVtq",
+          "title": "cd \"/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/Computer Architecture\" && python - <<'EOF'\nimport json,glob\ndef walk(n,d,out):\n    out.append(\"  \"*d+\"- \"+n[\"name\"])\n    for c in n.get(\"children\",[]): walk(c,d+1,out)\nfor f in glob.glob(\"Chapter*/*.json\"):\n    out=[]; walk(json.load(open(f,encoding=\"utf-8\")),0,out)\n    open(f[:-5]+\".md\",\"w\",encoding=\"utf-8\").write(\"\\n\".join(out)+\"\\n\")\n    print(f[:-5]+\".md\")\nEOF",
+          "status": "completed",
+          "kind": "execute",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "```console\nChapter 1 - Basic Concepts & Computer Evolution\\Chapter 1 Mindmap.md\r\nChapter 1 - Basic Concepts & Computer Evolution\\Computing Mindmap.md\r\nChapter 2 - Performance Issues\\Chapter 2 Mindmap.md\r\nChapter 3 - Top Level View of Function and Interconnnection\\Chapter 3 Mind-Map.md\r\nChapter 3 - Top Level View of Function and Interconnnection\\Chapter 3 Mindmap.md\n```"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "command": "cd \"/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/Computer Architecture\" && python - <<'EOF'\nimport json,glob\ndef walk(n,d,out):\n    out.append(\"  \"*d+\"- \"+n[\"name\"])\n    for c in n.get(\"children\",[]): walk(c,d+1,out)\nfor f in glob.glob(\"Chapter*/*.json\"):\n    out=[]; walk(json.load(open(f,encoding=\"utf-8\")),0,out)\n    open(f[:-5]+\".md\",\"w\",encoding=\"utf-8\").write(\"\\n\".join(out)+\"\\n\")\n    print(f[:-5]+\".md\")\nEOF"
+          },
+          "rawOutput": "Chapter 1 - Basic Concepts & Computer Evolution\\Chapter 1 Mindmap.md\r\nChapter 1 - Basic Concepts & Computer Evolution\\Computing Mindmap.md\r\nChapter 2 - Performance Issues\\Chapter 2 Mindmap.md\r\nChapter 3 - Top Level View of Function and Interconnnection\\Chapter 3 Mind-Map.md\r\nChapter 3 - Top Level View of Function and Interconnnection\\Chapter 3 Mindmap.md"
+        },
+        {
+          "type": "text",
+          "text": "The files were on disk, but Obsidian doesn't list `.json` files, so the mind maps were invisible. I've converted each one to a `.md` note with the same name, written as a nested bullet outline. You should now see:\n\n- **Chapter 1:** `Chapter 1 Mindmap.md`, `Computing Mindmap.md` and `Chapter 1 Practice Quiz.md`\n- **Chapter 2:** `Chapter 2 Mindmap.md`\n- **Chapter 3:** `Chapter 3 Mindmap.md` and `Chapter 3 Mind-Map.md`\n\nThe original `.json` files are still there, just hidden. If the quiz or anything else still doesn't show, reload the vault with Ctrl+P, then \"Reload app without saving\". Those files were copied in while Obsidian was already open."
+        }
+      ],
+      "timestamp": "2026-09-26T11:47:23.167Z"
+    },
+    {
+      "id": "3abf6917-6e21-408b-8872-334dee53e679",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "delete this artificat \"Chapter 3 Mindmap\""
+        }
+      ],
+      "timestamp": "2026-09-26T11:49:22.773Z"
+    },
+    {
+      "id": "fd00e368-9177-486d-a2ac-c2dbf8bda8b7",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01XFQPZf2GUNraX4Zv2QAFGn",
+          "title": "cd \"/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/Computer Architecture/Chapter 3 - Top Level View of Function and Interconnnection\" && rm \"Chapter 3 Mindmap.md\" \"Chapter 3 Mindmap.json\" && ls",
+          "status": "completed",
+          "kind": "execute",
+          "content": [
+            {
+              "type": "content",
+              "content": {
+                "type": "text",
+                "text": "```console\nChapter 3 - Top Level View of Function and Interconnnection.pdf\nChapter 3 Mind-Map.json\nChapter 3 Mind-Map.md\n```"
+              }
+            }
+          ],
+          "locations": [],
+          "rawInput": {
+            "command": "cd \"/c/Users/rawad/Desktop/Learning/Learning Hub/Uni/CA/Computer Architecture/Chapter 3 - Top Level View of Function and Interconnnection\" && rm \"Chapter 3 Mindmap.md\" \"Chapter 3 Mindmap.json\" && ls"
+          },
+          "rawOutput": "Chapter 3 - Top Level View of Function and Interconnnection.pdf\nChapter 3 Mind-Map.json\nChapter 3 Mind-Map.md"
+        },
+        {
+          "type": "text",
+          "text": "I deleted `Chapter 3 Mindmap.md` and its `.json` from the Chapter 3 folder. The older `Chapter 3 Mind-Map` (the slide-order version) is still there.\n\nThe copy in NotebookLM itself is untouched. Say so if you want that one deleted too."
+        }
+      ],
+      "timestamp": "2026-09-26T11:49:25.652Z"
+    }
+  ],
+  "savedAt": "2026-09-26T11:49:28.328Z"
+}

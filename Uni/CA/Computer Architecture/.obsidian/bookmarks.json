@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "type": "graph",
+      "title": "Chapter 1 graph",
+      "options": {
+        "search": "path:\"Chapter 1 - Basic Concepts & Computer Evolution/Graph\"",
+        "showOrphans": false
+      }
+    }
+  ]
+}

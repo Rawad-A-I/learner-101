@@ -1,0 +1,26 @@
+[
+  {
+    "chapter": 1,
+    "title": "Basic Concepts & Computer Evolution",
+    "slug": "chapter-01-basic-concepts-computer-evolution",
+    "pages": 43,
+    "images": 19,
+    "dir": "artifacts\\chapter-01-basic-concepts-computer-evolution"
+  },
+  {
+    "chapter": 2,
+    "title": "Performance Issues",
+    "slug": "chapter-02-performance-issues",
+    "pages": 38,
+    "images": 23,
+    "dir": "artifacts\\chapter-02-performance-issues"
+  },
+  {
+    "chapter": 3,
+    "title": "A Top-Level View of Computer Function and Interconnection",
+    "slug": "chapter-03-top-level-view-function-interconnection",
+    "pages": 58,
+    "images": 36,
+    "dir": "artifacts\\chapter-03-top-level-view-function-interconnection"
+  }
+]

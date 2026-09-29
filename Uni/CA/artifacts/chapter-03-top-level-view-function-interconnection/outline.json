@@ -1,0 +1,234 @@
+[
+  {
+    "slide": 1,
+    "heading": "A Top-Level View of Computer Function"
+  },
+  {
+    "slide": 2,
+    "heading": "Program Concept"
+  },
+  {
+    "slide": 3,
+    "heading": "What is a Program?"
+  },
+  {
+    "slide": 4,
+    "heading": "Function of Control Unit"
+  },
+  {
+    "slide": 5,
+    "heading": "Components"
+  },
+  {
+    "slide": 6,
+    "heading": "Computer Components - Top Level View"
+  },
+  {
+    "slide": 7,
+    "heading": "Instruction Cycle"
+  },
+  {
+    "slide": 8,
+    "heading": "Characteristics of a Hypothetical Machine"
+  },
+  {
+    "slide": 9,
+    "heading": "Example of Program Execution"
+  },
+  {
+    "slide": 10,
+    "heading": "Instruction Cycle - State Diagram"
+  },
+  {
+    "slide": 11,
+    "heading": "Multiple Memory Access"
+  },
+  {
+    "slide": 12,
+    "heading": "Interrupts"
+  },
+  {
+    "slide": 13,
+    "heading": "Classes of Interrupts"
+  },
+  {
+    "slide": 14,
+    "heading": "Transfer of Control via Interrupts"
+  },
+  {
+    "slide": 15,
+    "heading": "Program"
+  },
+  {
+    "slide": 16,
+    "heading": "Interrupt Cycle"
+  },
+  {
+    "slide": 17,
+    "heading": "Instruction Cycle with Interrupts"
+  },
+  {
+    "slide": 18,
+    "heading": "Program Timing - Short I/O Wait"
+  },
+  {
+    "slide": 19,
+    "heading": "Program Timing - Long I/O Wait"
+  },
+  {
+    "slide": 20,
+    "heading": "Instruction Cycle (with Interrupts) - State Diagram"
+  },
+  {
+    "slide": 21,
+    "heading": "Multiple Interrupts"
+  },
+  {
+    "slide": 22,
+    "heading": "Multiple Interrupts"
+  },
+  {
+    "slide": 23,
+    "heading": "Time Sequence of Multiple Interrupts"
+  },
+  {
+    "slide": 24,
+    "heading": "I/O Function"
+  },
+  {
+    "slide": 25,
+    "heading": "Connecting"
+  },
+  {
+    "slide": 26,
+    "heading": "Memory Connection"
+  },
+  {
+    "slide": 27,
+    "heading": "Input / Output Connection"
+  },
+  {
+    "slide": 28,
+    "heading": "CPU Connection"
+  },
+  {
+    "slide": 29,
+    "heading": "What is a Bus?"
+  },
+  {
+    "slide": 30,
+    "heading": "Bus Interconnection Scheme"
+  },
+  {
+    "slide": 31,
+    "heading": "Data Bus"
+  },
+  {
+    "slide": 32,
+    "heading": "Address Bus"
+  },
+  {
+    "slide": 33,
+    "heading": "Control Bus"
+  },
+  {
+    "slide": 34,
+    "heading": "Problem 3.3"
+  },
+  {
+    "slide": 35,
+    "heading": "Problem 3.4"
+  },
+  {
+    "slide": 36,
+    "heading": "Single Bus Problems"
+  },
+  {
+    "slide": 37,
+    "heading": "Traditional Bus Architecture"
+  },
+  {
+    "slide": 38,
+    "heading": "High Performance Bus Architecture"
+  },
+  {
+    "slide": 39,
+    "heading": "Bus Types"
+  },
+  {
+    "slide": 40,
+    "heading": "Bus Arbitration"
+  },
+  {
+    "slide": 41,
+    "heading": "Timing"
+  },
+  {
+    "slide": 42,
+    "heading": "Synchronous Timing Diagram"
+  },
+  {
+    "slide": 43,
+    "heading": "Asynchronous Timing - Read Diagram"
+  },
+  {
+    "slide": 44,
+    "heading": "Asynchronous Timing - Write Diagram"
+  },
+  {
+    "slide": 45,
+    "heading": "Problem 3.11*"
+  },
+  {
+    "slide": 46,
+    "heading": "Point-to-Point Interconnect"
+  },
+  {
+    "slide": 47,
+    "heading": "Quick Path Interconnect (QPI)"
+  },
+  {
+    "slide": 48,
+    "heading": "Multicore Configuration using QPI"
+  },
+  {
+    "slide": 49,
+    "heading": "QPI Layers"
+  },
+  {
+    "slide": 50,
+    "heading": "Physical Interface"
+  },
+  {
+    "slide": 51,
+    "heading": "QPI Physical Layer Lanes"
+  },
+  {
+    "slide": 52,
+    "heading": "QPI Link Layer"
+  },
+  {
+    "slide": 53,
+    "heading": "QPI Routing and Protocol Layers"
+  },
+  {
+    "slide": 54,
+    "heading": "Peripheral Component Interconnect (PCI)"
+  },
+  {
+    "slide": 55,
+    "heading": "Typical Configuration using PCIe"
+  },
+  {
+    "slide": 56,
+    "heading": "PCIe Layers"
+  },
+  {
+    "slide": 57,
+    "heading": "PCIe Physical Layer"
+  },
+  {
+    "slide": 58,
+    "heading": "PCIe Layers"
+  }
+]

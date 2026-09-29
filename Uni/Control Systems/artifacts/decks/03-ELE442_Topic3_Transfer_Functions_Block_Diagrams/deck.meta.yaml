@@ -1,0 +1,21 @@
+topic: 3
+slug: "03-ELE442_Topic3_Transfer_Functions_Block_Diagrams"
+title: "Transfer Functions & Block Diagrams"
+source_file: "ELE442_Topic3_Transfer_Functions_and_Block_Diagrams (1).pptx"
+artifact_path: "decks/03-ELE442_Topic3_Transfer_Functions_Block_Diagrams"
+source_sha256: "8c517e1a59e54d853d30ea5e8acc95e6ad2abc52de9748afca6837fdbf57eb63"
+source_bytes: 9928599
+slide_count: 96
+notes_count: 90
+media_count: 285
+unique_media_files: 158
+extracted_at: "2026-09-19T18:24:32.759618+00:00"
+completeness:
+  empty_text_slides:
+
+  figure_only_slides:
+
+  notes_without_slide_match:
+
+  slides_with_notes_count: 90
+  slides_without_notes_count: 6

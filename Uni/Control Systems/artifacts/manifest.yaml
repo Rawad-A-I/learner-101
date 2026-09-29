@@ -1,0 +1,65 @@
+course: "ELE 442 — Control Systems"
+extracted_at: "2026-09-19T18:24:32.799868+00:00"
+layout: "one folder per PowerPoint under artifacts/decks/"
+artifact_root: "artifacts"
+schema:
+  per_deck_files:
+    - "deck.meta.yaml"
+    - "slides.jsonl"
+    - "notes.jsonl"
+    - "knowledge.md"
+    - "completeness.md"
+    - "index/concepts.jsonl"
+    - "index/formulas.jsonl"
+    - "index/glossary.jsonl"
+    - "media/"
+  slides_jsonl:
+    - "id"
+    - "topic"
+    - "slide"
+    - "title"
+    - "bullets"
+    - "body_text"
+    - "tables"
+    - "equations_raw"
+    - "omml_equations"
+    - "media_refs"
+    - "notes_id"
+    - "tags"
+    - "source"
+decks:
+  -
+    topic: 1
+    slug: "01-ELE442_Topic1_Introduction"
+    title: "Introduction"
+    source_file: "ELE442_Topic1_Introduction.pptx"
+    artifact_path: "decks/01-ELE442_Topic1_Introduction"
+    sha256: "c9bb13db91e04bb5fbebf8761ce62f877fb87af8c5ba1512d818dc93da5d812e"
+    slides: 13
+    notes: 1
+    media_refs: 13
+  -
+    topic: 2
+    slug: "02-ELE442_Topic2_Mathematical_Models_Laplace"
+    title: "Mathematical Models & Laplace Transform"
+    source_file: "ELE442_Topic2_Mathematical_Models_Laplace_Transform (2).pptx"
+    artifact_path: "decks/02-ELE442_Topic2_Mathematical_Models_Laplace"
+    sha256: "8385093946447499bcca59d4b508657d51cfeea7645510678df0bd8d764b42bc"
+    slides: 56
+    notes: 11
+    media_refs: 115
+  -
+    topic: 3
+    slug: "03-ELE442_Topic3_Transfer_Functions_Block_Diagrams"
+    title: "Transfer Functions & Block Diagrams"
+    source_file: "ELE442_Topic3_Transfer_Functions_and_Block_Diagrams (1).pptx"
+    artifact_path: "decks/03-ELE442_Topic3_Transfer_Functions_Block_Diagrams"
+    sha256: "8c517e1a59e54d853d30ea5e8acc95e6ad2abc52de9748afca6837fdbf57eb63"
+    slides: 96
+    notes: 90
+    media_refs: 285
+totals:
+  decks: 3
+  slides: 165
+  notes: 102
+  media_refs: 413

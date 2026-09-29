@@ -1,0 +1,581 @@
+{
+  "chapter": 1,
+  "title": "Basic Concepts & Computer Evolution",
+  "slug": "chapter-01-basic-concepts-computer-evolution",
+  "source_pdf": "Chapter 1 - Basic Concepts & Computer Evolution (1).pdf",
+  "page_count": 43,
+  "slides": [
+    {
+      "page": 1,
+      "title": "Basic Concepts & Computer Evolution",
+      "text": "Basic Concepts & Computer Evolution\nChapter 1\nBased on:\nWilliam Stallings\nComputer Organization and Architecture, 11th Global Edition\nProfessor Charbel Fares\ncharbel.fares@lau.edu.lb",
+      "body_markdown": "- Chapter 1\n\n**Based on:**\n- William Stallings\n- Computer Organization and Architecture, 11th Global Edition\n- Professor Charbel Fares\n- charbel.fares@lau.edu.lb",
+      "images": [
+        {
+          "file": "images/slide-01-img-01.png",
+          "width": 497,
+          "height": 217
+        }
+      ],
+      "slide_file": "slides/slide-01.md"
+    },
+    {
+      "page": 2,
+      "title": "Architecture and Organization",
+      "text": "2\nArchitecture and Organization\n-\nOrganization refers to how features are\nimplemented.\n-\nControl\nsignals,\ninterfaces,\nmemory\ntechnology\n-\nExample: is there a hardware\nmultiply\nunit or is multiplication done by repeated\naddition?\n-\nArchitecture refers to those attributes of a\nsystem visible to the programmer.\n-\nInstruction set, number of bits used for data\nrepresentation,\nI/O\nmechanisms,\naddressing techniques\n-\nExample: is there a multiply instruction?\nArchitecture\nOrganization",
+      "body_markdown": "- Organization refers to how features are\n- implemented.\n- Control\n- signals,\n- interfaces,\n- memory\n- technology\n- Example: is there a hardware\n- multiply\n- unit or is multiplication done by repeated\n- addition?\n- Architecture refers to those attributes of a\n- system visible to the programmer.\n- Instruction set, number of bits used for data\n- representation,\n- I/O\n- mechanisms,\n- addressing techniques\n- Example: is there a multiply instruction?\n- Architecture\n- Organization",
+      "images": [],
+      "slide_file": "slides/slide-02.md"
+    },
+    {
+      "page": 3,
+      "title": "Architecture and Organization",
+      "text": "3\nArchitecture and Organization\n-\nMany computer manufacturers offer a family of computer models, all with the same architecture\nbut with differences in organization.\n-The different models in the family have different price and performance characteristics.\n-A particular architecture may span many years and encompass a number of different\ncomputer models, its organization changing with changing technology.\n-\nThe IBM System/370 family share the same basic architecture.\n-\nThis gives code compatibility (at least backwards).\n-\nOrganization differs between different versions.",
+      "body_markdown": "- Many computer manufacturers offer a family of computer models, all with the same architecture\n- but with differences in organization.\n- The different models in the family have different price and performance characteristics.\n- A particular architecture may span many years and encompass a number of different\n- computer models, its organization changing with changing technology.\n- The IBM System/370 family share the same basic architecture.\n- This gives code compatibility (at least backwards).\n- Organization differs between different versions.",
+      "images": [],
+      "slide_file": "slides/slide-03.md"
+    },
+    {
+      "page": 4,
+      "title": "Instruction Set Architecture (ISA)",
+      "text": "4\nInstruction Set Architecture (ISA)\n-\nOne of the most important abstractions is the interface between the hardware and the lowest-\nlevel software\n-instruction set architecture, or simply architecture, of a computer\n-\nThe instruction set architecture includes anything programmers need to know to make a binary\nmachine language program work correctly, including instructions, registers, memory access, I/O\ndevices, ...\n-\nIt allows computer designers to talk about functions independently from the hardware that\nperforms them.\n-For e.g. we can talk about the functions of a digital clock (keeping time, displaying the time,\nsetting the alarm) independently from the clock hardware (quartz crystal, LED displays, plastic\nbuttons)",
+      "body_markdown": "- One of the most important abstractions is the interface between the hardware and the lowest-\n- level software\n- instruction set architecture, or simply architecture, of a computer\n- The instruction set architecture includes anything programmers need to know to make a binary\n- machine language program work correctly, including instructions, registers, memory access, I/O\n- devices, ...\n- It allows computer designers to talk about functions independently from the hardware that\n- performs them.\n- For e.g. we can talk about the functions of a digital clock (keeping time, displaying the time,\n- setting the alarm) independently from the clock hardware (quartz crystal, LED displays, plastic\n- buttons)",
+      "images": [],
+      "slide_file": "slides/slide-04.md"
+    },
+    {
+      "page": 5,
+      "title": "Structure and Function",
+      "text": "5\nStructure and Function\n-\nStructure is the way in which components relate to each other.\n-\nFunction is the operation of individual components as part of the structure.",
+      "body_markdown": "- Structure is the way in which components relate to each other.\n- Function is the operation of individual components as part of the structure.",
+      "images": [],
+      "slide_file": "slides/slide-05.md"
+    },
+    {
+      "page": 6,
+      "title": "Function",
+      "text": "6\nFunction\n-\nBasic functions that a computer can perform:\n-Data processing\n-Data storage\n-Data movement\n-Control",
+      "body_markdown": "**Basic functions that a computer can perform:**\n- Data processing\n- Data storage\n- Data movement\n- Control",
+      "images": [],
+      "slide_file": "slides/slide-06.md"
+    },
+    {
+      "page": 7,
+      "title": "Structure",
+      "text": "7\nStructure\n- Top Level -\nSimple Single\nProcessor",
+      "body_markdown": "- Top Level -\n- Simple Single\n- Processor",
+      "images": [
+        {
+          "file": "images/slide-07-img-01.png",
+          "width": 534,
+          "height": 633
+        }
+      ],
+      "slide_file": "slides/slide-07.md"
+    },
+    {
+      "page": 8,
+      "title": "Computer Components",
+      "text": "8\nComputer Components\n-\nFour main structural components:\n-Central processing unit (CPU): controls the operation of the computer and performs its data\nprocessing functions; often simply referred to as processor\n-Main memory: stores data\n-I/O: moves data between the computer and its external environment\n-System interconnection: some mechanism that provides for communication among CPU,\nmain memory, and I/O",
+      "body_markdown": "**Four main structural components:**\n- Central processing unit (CPU): controls the operation of the computer and performs its data\n- processing functions; often simply referred to as processor\n- Main memory: stores data\n- I/O: moves data between the computer and its external environment\n- System interconnection: some mechanism that provides for communication among CPU,\n- main memory, and I/O",
+      "images": [],
+      "slide_file": "slides/slide-08.md"
+    },
+    {
+      "page": 9,
+      "title": "CPU Components",
+      "text": "9\nCPU Components\n-\nMajor structural components:\n-Control unit: controls the operation of the CPU and hence the computer\n-Arithmetic and logic unit (ALU): performs the computer's data processing functions\n-Registers: provide storage internal to the CPU\n-CPU interconnection: some mechanism that provides for communication among the control\nunit, ALU, and registers",
+      "body_markdown": "**Major structural components:**\n- Control unit: controls the operation of the CPU and hence the computer\n- Arithmetic and logic unit (ALU): performs the computer's data processing functions\n- Registers: provide storage internal to the CPU\n- CPU interconnection: some mechanism that provides for communication among the control\n- unit, ALU, and registers",
+      "images": [],
+      "slide_file": "slides/slide-09.md"
+    },
+    {
+      "page": 10,
+      "title": "Multicore Computer Structure",
+      "text": "10\nMulticore Computer Structure\n-\nContemporary computers have multiple processors.\n-\nWhen these processors reside on a single chip\n-Multicore computer\n-Each processing unit (control unit, ALU, registers, cache) is a core.",
+      "body_markdown": "- Contemporary computers have multiple processors.\n- When these processors reside on a single chip\n- Multicore computer\n- Each processing unit (control unit, ALU, registers, cache) is a core.",
+      "images": [
+        {
+          "file": "images/slide-10-img-01.png",
+          "width": 558,
+          "height": 632
+        }
+      ],
+      "slide_file": "slides/slide-10.md"
+    },
+    {
+      "page": 11,
+      "title": "ENIAC - Background",
+      "text": "11\nENIAC - Background\n-\nElectronic Numerical Integrator And Computer\n-\nWorld's first general purpose electronic digital computer\n-\nEckert and Mauchly\n-\nUniversity of Pennsylvania\n-\nTrajectory tables for weapons\n-\nStarted 1943\n-\nFinished 1946\n-Too late for war effort\n-Perform a series of complex calculations to determine feasibility of the hydrogen bomb\n-\nUsed until 1955",
+      "body_markdown": "- Electronic Numerical Integrator And Computer\n- World's first general purpose electronic digital computer\n- Eckert and Mauchly\n- University of Pennsylvania\n- Trajectory tables for weapons\n- Started 1943\n- Finished 1946\n- Too late for war effort\n- Perform a series of complex calculations to determine feasibility of the hydrogen bomb\n- Used until 1955",
+      "images": [],
+      "slide_file": "slides/slide-11.md"
+    },
+    {
+      "page": 12,
+      "title": "Two early programmers (Gloria Ruth Gordon [Bolotsky] and Esther Gerston) at work on the ENIAC",
+      "text": "12\nTwo early programmers (Gloria Ruth Gordon [Bolotsky] and Esther Gerston) at work on the ENIAC\nUS Army photo from the archives of the ARL Library (US Army Research Laboratory)",
+      "body_markdown": "- US Army photo from the archives of the ARL Library (US Army Research Laboratory)",
+      "images": [
+        {
+          "file": "images/slide-12-img-01.png",
+          "width": 1127,
+          "height": 482
+        }
+      ],
+      "slide_file": "slides/slide-12.md"
+    },
+    {
+      "page": 13,
+      "title": "ENIAC - Details",
+      "text": "13\nENIAC - Details\n-\nDecimal (not binary)\n-\n20 accumulators of 10 digits\n-\nProgrammed manually by switches\n-\n18,000 vacuum tubes\n-\n30 tons\n-\n1500 square feet\n-\n140 kW power consumption\n-\n5,000 additions per second\nGlenn A. Beck (background) and Betty Snyder (foreground)\nprogram ENIAC in BRL building 328\n(U.S. Army photo, c. 1947-1955)\nImage from Wikepedia",
+      "body_markdown": "- Decimal (not binary)\n- 20 accumulators of 10 digits\n- Programmed manually by switches\n- 18,000 vacuum tubes\n- 30 tons\n- 1500 square feet\n- 140 kW power consumption\n- 5,000 additions per second\n- Glenn A. Beck (background) and Betty Snyder (foreground)\n- program ENIAC in BRL building 328\n- (U.S. Army photo, c. 1947-1955)\n- Image from Wikepedia",
+      "images": [
+        {
+          "file": "images/slide-13-img-01.png",
+          "width": 335,
+          "height": 256
+        }
+      ],
+      "slide_file": "slides/slide-13.md"
+    },
+    {
+      "page": 14,
+      "title": "Von Neumann / Turing",
+      "text": "14\nVon Neumann / Turing\n-\nStored program concept\n-Main memory storing programs and data\n-\nALU operating on binary data\n-\nControl unit interpreting instructions from memory and executing\n-\nInput and output equipment operated by control unit\n-\nPrinceton Institute for Advanced Studies\n-IAS in 1946\n-\nCompleted 1952\nStructure of von Neumann Machine",
+      "body_markdown": "- Stored program concept\n- Main memory storing programs and data\n- ALU operating on binary data\n- Control unit interpreting instructions from memory and executing\n- Input and output equipment operated by control unit\n- Princeton Institute for Advanced Studies\n- IAS in 1946\n- Completed 1952\n- Structure of von Neumann Machine",
+      "images": [
+        {
+          "file": "images/slide-14-img-01.png",
+          "width": 494,
+          "height": 367
+        }
+      ],
+      "slide_file": "slides/slide-14.md"
+    },
+    {
+      "page": 15,
+      "title": "IAS - Details",
+      "text": "15\nIAS - Details\n-\nMemory consists of 4096 x 40 bit words\n-Binary numbers\n-2 x 20 bit instructions\n-\nMemory formats",
+      "body_markdown": "- Memory consists of 4096 x 40 bit words\n- Binary numbers\n- 2 x 20 bit instructions\n- Memory formats",
+      "images": [
+        {
+          "file": "images/slide-15-img-01.png",
+          "width": 796,
+          "height": 390
+        }
+      ],
+      "slide_file": "slides/slide-15.md"
+    },
+    {
+      "page": 16,
+      "title": "IAS - Details",
+      "text": "16\nIAS - Details\nSet of registers (storage in CPU):\n-Memory buffer register (MBR): Contains a word to\nbe stored in memory or sent to the I/O unit, or is used\nto receive a word from memory or from the I/O unit.\n-Memory address register (MAR): Specifies the\naddress in memory of the word to be written from or\nread into the MBR.\n-Instruction register (IR): Contains the 8-bit opcode\ninstruction being executed.\n-Instruction buffer register (IBR): Holds temporarily\nthe righthand instruction from a word in memory.\n-Program counter (PC): Contains the address of the\nnext instruction pair to be fetched from memory.\n-Accumulator (AC) and multiplier quotient (MQ):\nHold\ntemporarily\noperands\nand\nresults\nof\nALU\noperations.",
+      "body_markdown": "**Set of registers (storage in CPU):**\n- Memory buffer register (MBR): Contains a word to\n- be stored in memory or sent to the I/O unit, or is used\n- to receive a word from memory or from the I/O unit.\n- Memory address register (MAR): Specifies the\n- address in memory of the word to be written from or\n- read into the MBR.\n- Instruction register (IR): Contains the 8-bit opcode\n- instruction being executed.\n- Instruction buffer register (IBR): Holds temporarily\n- the righthand instruction from a word in memory.\n- Program counter (PC): Contains the address of the\n- next instruction pair to be fetched from memory.\n- Accumulator (AC) and multiplier quotient (MQ):\n- Hold\n- temporarily\n- operands\n- and\n- results\n- of\n- ALU\n- operations.",
+      "images": [
+        {
+          "file": "images/slide-16-img-01.png",
+          "width": 546,
+          "height": 633
+        }
+      ],
+      "slide_file": "slides/slide-16.md"
+    },
+    {
+      "page": 17,
+      "title": "Example:",
+      "text": "17\nExample:\nLoad M(x)\nAdd M(y)\nStore M(z)",
+      "body_markdown": "- Load M(x)\n- Add M(y)\n- Store M(z)",
+      "images": [
+        {
+          "file": "images/slide-17-img-01.png",
+          "width": 422,
+          "height": 277
+        },
+        {
+          "file": "images/slide-17-img-02.png",
+          "width": 591,
+          "height": 747
+        }
+      ],
+      "slide_file": "slides/slide-17.md"
+    },
+    {
+      "page": 18,
+      "title": "IAS",
+      "text": "18\nIAS\nInstruction\nSet",
+      "body_markdown": "- Instruction\n- Set",
+      "images": [
+        {
+          "file": "images/slide-18-img-01.png",
+          "width": 694,
+          "height": 684
+        }
+      ],
+      "slide_file": "slides/slide-18.md"
+    },
+    {
+      "page": 19,
+      "title": "Problem 1.2",
+      "text": "19\nProblem 1.2\na)\nOn the IAS, what would the machine code instruction look like to store the contents of an\naccumulator to memory address 8?\nb)\nOn the IAS, what would the machine code instruction look like to add the contents of memory\naddress 16 to the accumulator?",
+      "body_markdown": "- a)\n- On the IAS, what would the machine code instruction look like to store the contents of an\n- accumulator to memory address 8?\n- b)\n- On the IAS, what would the machine code instruction look like to add the contents of memory\n- address 16 to the accumulator?",
+      "images": [],
+      "slide_file": "slides/slide-19.md"
+    },
+    {
+      "page": 20,
+      "title": "Solution",
+      "text": "20\nSolution\na)\nSTOR M(8)\nb)\nADD M(16)\nTransfer contents of accumulator to\nmemory location X\nAdd M(X) to AC; put result in AC\nRefer to slide 18 for IAS instruction set",
+      "body_markdown": "- a)\n- STOR M(8)\n- b)\n- ADD M(16)\n- Transfer contents of accumulator to\n- memory location X\n- Add M(X) to AC; put result in AC\n- Refer to slide 18 for IAS instruction set",
+      "images": [
+        {
+          "file": "images/slide-20-img-01.png",
+          "width": 510,
+          "height": 132
+        },
+        {
+          "file": "images/slide-20-img-02.png",
+          "width": 509,
+          "height": 139
+        }
+      ],
+      "slide_file": "slides/slide-20.md"
+    },
+    {
+      "page": 21,
+      "title": "Problem 1.4 (from previous book edition)",
+      "text": "21\nProblem 1.4 (from previous book edition)\n-\nGiven the memory contents of the IAS computer shown below, show the assembly language\ncode for the program starting at address 08A.\n-\nExplain what this program does.\nAddress\nContents\n08A\n010FA210FB\n08B\n010FA0F08D\n08C\n020FA210FB",
+      "body_markdown": "- Given the memory contents of the IAS computer shown below, show the assembly language\n- code for the program starting at address 08A.\n- Explain what this program does.\n- Address\n- Contents\n- 08A\n- 010FA210FB\n- 08B\n- 010FA0F08D\n- 08C\n- 020FA210FB",
+      "images": [],
+      "slide_file": "slides/slide-21.md"
+    },
+    {
+      "page": 22,
+      "title": "Solution",
+      "text": "22\nSolution\n-\nThe program will store the absolute value of the content at memory location 0FA into memory\nlocation 0FB.",
+      "body_markdown": "- The program will store the absolute value of the content at memory location 0FA into memory\n- location 0FB.",
+      "images": [
+        {
+          "file": "images/slide-22-img-01.png",
+          "width": 484,
+          "height": 358
+        }
+      ],
+      "slide_file": "slides/slide-22.md"
+    },
+    {
+      "page": 23,
+      "title": "Commercial Computers",
+      "text": "23\nCommercial Computers\n-\n1947 - Eckert-Mauchly Computer Corporation\n-\nUNIVAC I (Universal Automatic Computer)\n-\nUS Bureau of Census 1950 calculations\n-\nBecame part of Sperry-Rand Corporation\n-\nLate 1950s - UNIVAC II\n-Faster\n-More memory",
+      "body_markdown": "- 1947 - Eckert-Mauchly Computer Corporation\n- UNIVAC I (Universal Automatic Computer)\n- US Bureau of Census 1950 calculations\n- Became part of Sperry-Rand Corporation\n- Late 1950s - UNIVAC II\n- Faster\n- More memory",
+      "images": [],
+      "slide_file": "slides/slide-23.md"
+    },
+    {
+      "page": 24,
+      "title": "IBM",
+      "text": "24\nIBM\n-\nPunched card processing equipment\n-\n1953 - the 701\n-IBM's first stored program computer\n-Scientific calculations\n-\n1955 - the 702\n-Business applications\n-\nLead to 700/7000 series",
+      "body_markdown": "- Punched card processing equipment\n- 1953 - the 701\n- IBM's first stored program computer\n- Scientific calculations\n- 1955 - the 702\n- Business applications\n- Lead to 700/7000 series",
+      "images": [],
+      "slide_file": "slides/slide-24.md"
+    },
+    {
+      "page": 25,
+      "title": "Transistors",
+      "text": "25\nTransistors\n-\nA transistor is an on/off switch controlled by electricity\n-\nReplaced vacuum tubes\n-\nSmaller\n-\nCheaper\n-\nLess heat dissipation\n-\nSolid State device\n-\nMade from Silicon (sand)\n-\nInvented 1947 at Bell Labs\n-\nWilliam Shockley et al.",
+      "body_markdown": "- A transistor is an on/off switch controlled by electricity\n- Replaced vacuum tubes\n- Smaller\n- Cheaper\n- Less heat dissipation\n- Solid State device\n- Made from Silicon (sand)\n- Invented 1947 at Bell Labs\n- William Shockley et al.",
+      "images": [],
+      "slide_file": "slides/slide-25.md"
+    },
+    {
+      "page": 26,
+      "title": "Transistor Based Computers",
+      "text": "26\nTransistor Based Computers\n-\nSecond generation machines\n-\nNCR and RCA produced small transistor machines\n-\nIBM 7000\n-\nDEC (Digital Equipment Corporation) - 1957\n-Produced PDP - 1",
+      "body_markdown": "- Second generation machines\n- NCR and RCA produced small transistor machines\n- IBM 7000\n- DEC (Digital Equipment Corporation) - 1957\n- Produced PDP - 1",
+      "images": [],
+      "slide_file": "slides/slide-26.md"
+    },
+    {
+      "page": 27,
+      "title": "Microelectronics",
+      "text": "27\nMicroelectronics\n-\nLiterally - small electronics\n-\nA computer is made of gates, memory cells, and interconnections\n-\nThese can be manufactured on a semiconductor\n-\ne.g. silicon wafer",
+      "body_markdown": "- Literally - small electronics\n- A computer is made of gates, memory cells, and interconnections\n- These can be manufactured on a semiconductor\n- e.g. silicon wafer",
+      "images": [
+        {
+          "file": "images/slide-27-img-01.png",
+          "width": 582,
+          "height": 198
+        }
+      ],
+      "slide_file": "slides/slide-27.md"
+    },
+    {
+      "page": 28,
+      "title": "Generations of Computers",
+      "text": "28\nGenerations of Computers\nThe integrated circuit (IC) combined dozens to hundreds of transistors into a single chip.\nA VLSI circuit is just billions of combinations of conductors, insulators, and switches\nmanufactured in a single small package.",
+      "body_markdown": "- The integrated circuit (IC) combined dozens to hundreds of transistors into a single chip.\n- A VLSI circuit is just billions of combinations of conductors, insulators, and switches\n- manufactured in a single small package.",
+      "images": [
+        {
+          "file": "images/slide-28-img-01.png",
+          "width": 696,
+          "height": 204
+        }
+      ],
+      "slide_file": "slides/slide-28.md"
+    },
+    {
+      "page": 29,
+      "title": "Moore's Law",
+      "text": "29\nMoore's Law\n-\nIncreased density of components on chip\n-\nGordon Moore - co-founder of Intel\n-\nNumber of transistors on a chip will double every year\n-\nSince 1970's, development has slowed a little\n-Number of transistors doubles every 18 months\n-\nCost of chip has remained almost unchanged\n-\nHigher packing density means shorter electrical paths, giving higher performance\n-\nSmaller size gives increased flexibility\n-\nReduced power and cooling requirements\n-\nFewer interconnections increases reliability",
+      "body_markdown": "- Increased density of components on chip\n- Gordon Moore - co-founder of Intel\n- Number of transistors on a chip will double every year\n- Since 1970's, development has slowed a little\n- Number of transistors doubles every 18 months\n- Cost of chip has remained almost unchanged\n- Higher packing density means shorter electrical paths, giving higher performance\n- Smaller size gives increased flexibility\n- Reduced power and cooling requirements\n- Fewer interconnections increases reliability",
+      "images": [],
+      "slide_file": "slides/slide-29.md"
+    },
+    {
+      "page": 30,
+      "title": "Slide 30 (figure)",
+      "text": "30",
+      "body_markdown": "",
+      "images": [
+        {
+          "file": "images/slide-30-img-01.png",
+          "width": 1024,
+          "height": 740
+        }
+      ],
+      "slide_file": "slides/slide-30.md"
+    },
+    {
+      "page": 31,
+      "title": "IBM 360 Series",
+      "text": "31\nIBM 360 Series\n-\n1964\n-\nReplaced and not compatible with 7000 series\n-\nFirst planned 'family' of computers\n-Similar or identical instruction sets\n-Similar or identical OS\n-Increasing speed\n-Increasing number of I/O ports (more terminals)\n-Increasing memory size\n-Increasing cost\n-\nMultiplexed switch structure",
+      "body_markdown": "- 1964\n- Replaced and not compatible with 7000 series\n- First planned 'family' of computers\n- Similar or identical instruction sets\n- Similar or identical OS\n- Increasing speed\n- Increasing number of I/O ports (more terminals)\n- Increasing memory size\n- Increasing cost\n- Multiplexed switch structure",
+      "images": [],
+      "slide_file": "slides/slide-31.md"
+    },
+    {
+      "page": 32,
+      "title": "DEC PDP-8",
+      "text": "32\nDEC PDP-8\n-\n1964\n-\nFirst minicomputer\n-\nDid not need air conditioned room\n-\nSmall enough to sit on a lab bench\n-\nBus structure:\nConsole\ncontroller\nCPU\nMain\nMemory\nI/O\nModule\nI/O\nModule\nOMNIBUS\n-\nCost\n-$16,000\n-Compared to $100k+ for IBM 360\n-\nEmbedded applications and OEM",
+      "body_markdown": "- 1964\n- First minicomputer\n- Did not need air conditioned room\n- Small enough to sit on a lab bench\n\n**Bus structure:**\n- Console\n- controller\n- CPU\n- Main\n- Memory\n- I/O\n- Module\n- I/O\n- Module\n- OMNIBUS\n- Cost\n- $16,000\n- Compared to $100k+ for IBM 360\n- Embedded applications and OEM",
+      "images": [],
+      "slide_file": "slides/slide-32.md"
+    },
+    {
+      "page": 33,
+      "title": "Semiconductor Memory",
+      "text": "33\nSemiconductor Memory\n-\n1970\n-\nFairchild\n-\nSize of a single core\n-i.e. 1 bit of magnetic core storage\n-\nHolds 256 bits\n-\nMuch faster than core\n-\nCapacity approximately doubles each year",
+      "body_markdown": "- 1970\n- Fairchild\n- Size of a single core\n- i.e. 1 bit of magnetic core storage\n- Holds 256 bits\n- Much faster than core\n- Capacity approximately doubles each year",
+      "images": [],
+      "slide_file": "slides/slide-33.md"
+    },
+    {
+      "page": 34,
+      "title": "Intel",
+      "text": "34\nIntel\n-\n1971 - 4004\n-First microprocessor\n-All CPU components on a single chip\n-4 bit\n-\nFollowed in 1972 by 8008\n-8 bit\n-\nBoth designed for specific applications\n-\n1974 - 8080\n-Intel's first general purpose microprocessor",
+      "body_markdown": "- 1971 - 4004\n- First microprocessor\n- All CPU components on a single chip\n- 4 bit\n- Followed in 1972 by 8008\n- 8 bit\n- Both designed for specific applications\n- 1974 - 8080\n- Intel's first general purpose microprocessor",
+      "images": [],
+      "slide_file": "slides/slide-34.md"
+    },
+    {
+      "page": 35,
+      "title": "CISC vs RISC",
+      "text": "35\nCISC vs RISC\n-\nCISC: Complex Instruction Set Computers\n-E.g. Intel's x86\n-\nRISC: Reduced Instruction Set Computers\n-E.g. ARM architecture\n-\nConsider the high level statement: A = B + C\n-\nOn a typical CISC machine: add mem(A), mem(B), mem(C)\n-\nOn a typical RISC machine:\nload mem(B), reg(1)\nload mem(C), reg(2)\nadd reg(1), reg(1), reg(2)\nstore reg(1), mem(A)",
+      "body_markdown": "- CISC: Complex Instruction Set Computers\n- E.g. Intel's x86\n- RISC: Reduced Instruction Set Computers\n- E.g. ARM architecture\n- Consider the high level statement: A = B + C\n- On a typical CISC machine: add mem(A), mem(B), mem(C)\n\n**On a typical RISC machine:**\n- load mem(B), reg(1)\n- load mem(C), reg(2)\n- add reg(1), reg(1), reg(2)\n- store reg(1), mem(A)",
+      "images": [],
+      "slide_file": "slides/slide-35.md"
+    },
+    {
+      "page": 36,
+      "title": "Evolution of the Intel x86 Architecture",
+      "text": "36\nEvolution of the Intel x86 Architecture\n-\n8080:\n-first general-purpose microprocessor\n-8 bit data path\n-used in the first personal computer, the Altair.\n-\n8086:\n-far more powerful\n-16-bit machine\n-instruction cache, prefetch a few instructions\n-variant: the 8088: 8 bit external bus, used in first IBM PC\n-\n80286:\n-16-MByte memory addressable\n-up from 1 Mb\n-\n80386:\n-32 bit\n-support for multitasking",
+      "body_markdown": "**8080:**\n- first general-purpose microprocessor\n- 8 bit data path\n- used in the first personal computer, the Altair.\n\n**8086:**\n- far more powerful\n- 16-bit machine\n- instruction cache, prefetch a few instructions\n- variant: the 8088: 8 bit external bus, used in first IBM PC\n\n**80286:**\n- 16-MByte memory addressable\n- up from 1 Mb\n\n**80386:**\n- 32 bit\n- support for multitasking",
+      "images": [],
+      "slide_file": "slides/slide-36.md"
+    },
+    {
+      "page": 37,
+      "title": "Evolution of the Intel x86 Architecture",
+      "text": "37\nEvolution of the Intel x86 Architecture\n-\n80486:\n-sophisticated and powerful cache technology and instruction pipelining\n-built-in math coprocessor\n-\nPentium:\n-superscalar techniques\n-multiple instructions executed in parallel\n-\nPentium Pro:\n-increased superscalar\n-aggressive register renaming\n-branch prediction\n-data flow analysis\n-speculative execution",
+      "body_markdown": "**80486:**\n- sophisticated and powerful cache technology and instruction pipelining\n- built-in math coprocessor\n\n**Pentium:**\n- superscalar techniques\n- multiple instructions executed in parallel\n\n**Pentium Pro:**\n- increased superscalar\n- aggressive register renaming\n- branch prediction\n- data flow analysis\n- speculative execution",
+      "images": [],
+      "slide_file": "slides/slide-37.md"
+    },
+    {
+      "page": 38,
+      "title": "Evolution of the Intel x86 Architecture",
+      "text": "38\nEvolution of the Intel x86 Architecture\n-\nPentium II:\n-MMX technology\n-process video, audio, and graphics data efficiently\n-\nPentium III:\n-additional floating-point instructions to support 3D graphics software\n-\nPentium 4:\n-additional floating-point and multimedia enhancements\n-\nCore:\n-dual core: implementation of two processors on a single chip\n-\nCore 2:\n-64 bits\n-Core 2 Quad provides four cores on a single chip\n-more recent Core offerings have up to 10 cores per chip\n-Advanced Vector instruction sets of 256 and 512-bit instructions for vector data",
+      "body_markdown": "**Pentium II:**\n- MMX technology\n- process video, audio, and graphics data efficiently\n\n**Pentium III:**\n- additional floating-point instructions to support 3D graphics software\n\n**Pentium 4:**\n- additional floating-point and multimedia enhancements\n\n**Core:**\n- dual core: implementation of two processors on a single chip\n\n**Core 2:**\n- 64 bits\n- Core 2 Quad provides four cores on a single chip\n- more recent Core offerings have up to 10 cores per chip\n- Advanced Vector instruction sets of 256 and 512-bit instructions for vector data",
+      "images": [],
+      "slide_file": "slides/slide-38.md"
+    },
+    {
+      "page": 39,
+      "title": "Embedded Systems",
+      "text": "39\nEmbedded Systems\n-\nA computer inside another device used for running one predetermined application or collection of\nsoftware\n-the microprocessors found in your car, the computers in a television set, and the networks of\nprocessors that control a modern airplane or cargo ship\n-\nDesigned to run one application or one set of related applications that are normally integrated\nwith the hardware and delivered as a single system\n-\nConsider a music player: the processor need only be as fast as necessary to handle its limited\nfunction, and beyond that, minimizing cost and power are the most important objectives\n-\nHave lower tolerance for failure\n-Your new tv crashes\n-Computer in a plane or cargo ship crashes\n-\nDependability is achieved primarily through simplicity, emphasis is on doing one function as\nperfectly as possible",
+      "body_markdown": "- A computer inside another device used for running one predetermined application or collection of\n- software\n- the microprocessors found in your car, the computers in a television set, and the networks of\n- processors that control a modern airplane or cargo ship\n- Designed to run one application or one set of related applications that are normally integrated\n- with the hardware and delivered as a single system\n- Consider a music player: the processor need only be as fast as necessary to handle its limited\n- function, and beyond that, minimizing cost and power are the most important objectives\n- Have lower tolerance for failure\n- Your new tv crashes\n- Computer in a plane or cargo ship crashes\n- Dependability is achieved primarily through simplicity, emphasis is on doing one function as\n- perfectly as possible",
+      "images": [],
+      "slide_file": "slides/slide-39.md"
+    },
+    {
+      "page": 40,
+      "title": "Possible Organization of an Embedded System",
+      "text": "40\nPossible Organization of an Embedded System\nElements that differ from the typical desktop or laptop\ncomputer:\n-\nvariety of interfaces that enable the system to\nmeasure, manipulate, and interact with external\nenvironment\n-\nhuman interface may be as simple as a flashing\nlight or as complicated as real-time robotic vision\n-\ndiagnostic port may be used for diagnosing the\nsystem\nthat\nis\nbeing\ncontrolled-not\njust\nfor\ndiagnosing the computer\n-\nspecial-purpose\nfield\nprogrammable\n(FPGA),\napplication specific (ASIC), or even nondigital\nhardware may be used to increase performance or\nsafety",
+      "body_markdown": "- Elements that differ from the typical desktop or laptop\n\n**computer:**\n- variety of interfaces that enable the system to\n- measure, manipulate, and interact with external\n- environment\n- human interface may be as simple as a flashing\n- light or as complicated as real-time robotic vision\n- diagnostic port may be used for diagnosing the\n- system\n- that\n- is\n- being\n- controlled-not\n- just\n- for\n- diagnosing the computer\n- special-purpose\n- field\n- programmable\n- (FPGA),\n- application specific (ASIC), or even nondigital\n- hardware may be used to increase performance or\n- safety",
+      "images": [
+        {
+          "file": "images/slide-40-img-01.png",
+          "width": 389,
+          "height": 346
+        }
+      ],
+      "slide_file": "slides/slide-40.md"
+    },
+    {
+      "page": 41,
+      "title": "Microprocessors vs Microcontrollers",
+      "text": "41\nMicroprocessors vs Microcontrollers\n-\nEarly microprocessor chips included\nregisters, an ALU, and some sort of control\nunit.\n-\nContemporary microprocessor chips include\nmultiple cores and a substantial amount of\ncache memory.\n-\nA microcontroller is a single chip that\ncontains the processor, non-volatile memory\nfor the program (ROM), volatile memory for\ninput and output (RAM), a clock, and an I/O\ncontrol unit.\n-The processor portion of the\nmicrocontroller has a much lower silicon\narea than other microprocessors and\nmuch higher energy efficiency.\nTypical Microcontroller Chip Elements",
+      "body_markdown": "- Early microprocessor chips included\n- registers, an ALU, and some sort of control\n- unit.\n- Contemporary microprocessor chips include\n- multiple cores and a substantial amount of\n- cache memory.\n- A microcontroller is a single chip that\n- contains the processor, non-volatile memory\n- for the program (ROM), volatile memory for\n- input and output (RAM), a clock, and an I/O\n- control unit.\n- The processor portion of the\n- microcontroller has a much lower silicon\n- area than other microprocessors and\n- much higher energy efficiency.\n- Typical Microcontroller Chip Elements",
+      "images": [
+        {
+          "file": "images/slide-41-img-01.png",
+          "width": 747,
+          "height": 583
+        }
+      ],
+      "slide_file": "slides/slide-41.md"
+    },
+    {
+      "page": 42,
+      "title": "ARM Architecture",
+      "text": "42\nARM Architecture\n-\nRISC-based microprocessors and microcontrollers\n-\nUsed in embedded systems\n-\nCompany\ndoesn't\nmake\nprocessors\nbut\ninstead\ndesigns\nmicroprocessor\nand\nmulticore\narchitectures and licenses them to manufacturers\n-\nHigh-speed processors\n-\nSmall die size\n-\nLow power requirements\n-\nWidely used in PDAs and other handheld devices, including games and phones as well as a\nlarge variety of consumer products\n-\nInstruction Set Architecture: instructions are 32 bits long",
+      "body_markdown": "- RISC-based microprocessors and microcontrollers\n- Used in embedded systems\n- Company\n- doesn't\n- make\n- processors\n- but\n- instead\n- designs\n- microprocessor\n- and\n- multicore\n- architectures and licenses them to manufacturers\n- High-speed processors\n- Small die size\n- Low power requirements\n- Widely used in PDAs and other handheld devices, including games and phones as well as a\n- large variety of consumer products\n- Instruction Set Architecture: instructions are 32 bits long",
+      "images": [],
+      "slide_file": "slides/slide-42.md"
+    },
+    {
+      "page": 43,
+      "title": "Cloud Computing",
+      "text": "43\nCloud Computing\n-\nRefers to large collections of servers that provide services over the Internet\n-\nRelies upon giant datacenters known as Warehouse Scale Computers (WSCs)\n-\nCompanies like Amazon and Google build these WSCs containing 100,000 servers and then let\ncompanies rent portions of them so that they can provide software services to PMDs without\nhaving to build WSCs of their own\n-\nCloud services:\n-Software as a Service (SaaS) provides service to customers in the form of software\n-Platform as a Service (PaaS) provides service to customers in the form of a platform on\nwhich the customer's applications can run\n-Infrastructure as a Service (IaaS) provides processing, storage, networks,…",
+      "body_markdown": "- Refers to large collections of servers that provide services over the Internet\n- Relies upon giant datacenters known as Warehouse Scale Computers (WSCs)\n- Companies like Amazon and Google build these WSCs containing 100,000 servers and then let\n- companies rent portions of them so that they can provide software services to PMDs without\n- having to build WSCs of their own\n\n**Cloud services:**\n- Software as a Service (SaaS) provides service to customers in the form of software\n- Platform as a Service (PaaS) provides service to customers in the form of a platform on\n- which the customer's applications can run\n- Infrastructure as a Service (IaaS) provides processing, storage, networks,…",
+      "images": [],
+      "slide_file": "slides/slide-43.md"
+    }
+  ],
+  "images": [
+    {
+      "slide": 1,
+      "file": "images/slide-01-img-01.png",
+      "width": 497,
+      "height": 217
+    },
+    {
+      "slide": 7,
+      "file": "images/slide-07-img-01.png",
+      "width": 534,
+      "height": 633
+    },
+    {
+      "slide": 10,
+      "file": "images/slide-10-img-01.png",
+      "width": 558,
+      "height": 632
+    },
+    {
+      "slide": 12,
+      "file": "images/slide-12-img-01.png",
+      "width": 1127,
+      "height": 482
+    },
+    {
+      "slide": 13,
+      "file": "images/slide-13-img-01.png",
+      "width": 335,
+      "height": 256
+    },
+    {
+      "slide": 14,
+      "file": "images/slide-14-img-01.png",
+      "width": 494,
+      "height": 367
+    },
+    {
+      "slide": 15,
+      "file": "images/slide-15-img-01.png",
+      "width": 796,
+      "height": 390
+    },
+    {
+      "slide": 16,
+      "file": "images/slide-16-img-01.png",
+      "width": 546,
+      "height": 633
+    },
+    {
+      "slide": 17,
+      "file": "images/slide-17-img-01.png",
+      "width": 422,
+      "height": 277
+    },
+    {
+      "slide": 17,
+      "file": "images/slide-17-img-02.png",
+      "width": 591,
+      "height": 747
+    },
+    {
+      "slide": 18,
+      "file": "images/slide-18-img-01.png",
+      "width": 694,
+      "height": 684
+    },
+    {
+      "slide": 20,
+      "file": "images/slide-20-img-01.png",
+      "width": 510,
+      "height": 132
+    },
+    {
+      "slide": 20,
+      "file": "images/slide-20-img-02.png",
+      "width": 509,
+      "height": 139
+    },
+    {
+      "slide": 22,
+      "file": "images/slide-22-img-01.png",
+      "width": 484,
+      "height": 358
+    },
+    {
+      "slide": 27,
+      "file": "images/slide-27-img-01.png",
+      "width": 582,
+      "height": 198
+    },
+    {
+      "slide": 28,
+      "file": "images/slide-28-img-01.png",
+      "width": 696,
+      "height": 204
+    },
+    {
+      "slide": 30,
+      "file": "images/slide-30-img-01.png",
+      "width": 1024,
+      "height": 740
+    },
+    {
+      "slide": 40,
+      "file": "images/slide-40-img-01.png",
+      "width": 389,
+      "height": 346
+    },
+    {
+      "slide": 41,
+      "file": "images/slide-41-img-01.png",
+      "width": 747,
+      "height": 583
+    }
+  ]
+}

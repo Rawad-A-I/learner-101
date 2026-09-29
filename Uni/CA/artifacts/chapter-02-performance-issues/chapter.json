@@ -1,0 +1,582 @@
+{
+  "chapter": 2,
+  "title": "Performance Issues",
+  "slug": "chapter-02-performance-issues",
+  "source_pdf": "Chapter 2 - Performance Issues (1).pdf",
+  "page_count": 38,
+  "slides": [
+    {
+      "page": 1,
+      "title": "Performance Issues",
+      "text": "Performance Issues\nChapter 2\nBased on:\nWilliam Stallings\nComputer Organization and Architecture, 11th Global Edition\nPatterson and Hennessy\nComputer Organization and Design, 5th Edition",
+      "body_markdown": "- Chapter 2\n\n**Based on:**\n- William Stallings\n- Computer Organization and Architecture, 11th Global Edition\n- Patterson and Hennessy\n- Computer Organization and Design, 5th Edition",
+      "images": [
+        {
+          "file": "images/slide-01-img-01.png",
+          "width": 497,
+          "height": 217
+        }
+      ],
+      "slide_file": "slides/slide-01.md"
+    },
+    {
+      "page": 2,
+      "title": "Designing for Performance",
+      "text": "2\nDesigning for Performance\n-\nCost of computer systems continues to drop dramatically\n-\nPerformance and capacity continue to rise dramatically\n-\nLaptops today have the computing power of an IBM mainframe from 10 to 15 years ago\n-\nIn the last 30 years or so, there has been a number of new computers whose introductions\nappeared to revolutionize the computer industry\n-\nRace to innovate has led to unprecedented progress\n-\nHad the transportation industry grown at a similar rate to the computer industry, today we could\ntravel from New York to London in a second for a penny!",
+      "body_markdown": "- Cost of computer systems continues to drop dramatically\n- Performance and capacity continue to rise dramatically\n- Laptops today have the computing power of an IBM mainframe from 10 to 15 years ago\n- In the last 30 years or so, there has been a number of new computers whose introductions\n- appeared to revolutionize the computer industry\n- Race to innovate has led to unprecedented progress\n- Had the transportation industry grown at a similar rate to the computer industry, today we could\n- travel from New York to London in a second for a penny!",
+      "images": [],
+      "slide_file": "slides/slide-02.md"
+    },
+    {
+      "page": 3,
+      "title": "Some of the Applications Made Possible",
+      "text": "3\nSome of the Applications Made Possible\n-\nComputers in automobiles\n-Microprocessors improved dramatically in price and performance in the early 1980s\n-Until then, computer control of cars was ludicrous\n-Today, computers reduce pollution, improve fuel efficiency, increase safety\n-\nCell phones\n-More than half the planet have a mobile phone allowing person to person communication to\nanyone anywhere\n-\nHuman genome project\n-Cost of computer equipment to map and analyze DNA sequences was hundreds of millions of\ndollars 15 to 25 years ago\n-\nSearch engines\n-Content of the web has grown in size and value\n-Finding relevant information has become important\n-Digital presence",
+      "body_markdown": "- Computers in automobiles\n- Microprocessors improved dramatically in price and performance in the early 1980s\n- Until then, computer control of cars was ludicrous\n- Today, computers reduce pollution, improve fuel efficiency, increase safety\n- Cell phones\n- More than half the planet have a mobile phone allowing person to person communication to\n- anyone anywhere\n- Human genome project\n- Cost of computer equipment to map and analyze DNA sequences was hundreds of millions of\n- dollars 15 to 25 years ago\n- Search engines\n- Content of the web has grown in size and value\n- Finding relevant information has become important\n- Digital presence",
+      "images": [],
+      "slide_file": "slides/slide-03.md"
+    },
+    {
+      "page": 4,
+      "title": "Speeding it up",
+      "text": "4\nSpeeding it up\n-\nPipelining\n-\nOn board cache\n-\nBranch prediction\n-\nSuperscalar execution\n-\nData flow analysis\n-\nSpeculative execution",
+      "body_markdown": "- Pipelining\n- On board cache\n- Branch prediction\n- Superscalar execution\n- Data flow analysis\n- Speculative execution",
+      "images": [],
+      "slide_file": "slides/slide-04.md"
+    },
+    {
+      "page": 5,
+      "title": "Performance Mismatch",
+      "text": "5\nPerformance Mismatch\n-\nProcessor speed increased\n-\nMemory capacity increased\n-\nMemory speed lags behind processor speed",
+      "body_markdown": "- Processor speed increased\n- Memory capacity increased\n- Memory speed lags behind processor speed",
+      "images": [],
+      "slide_file": "slides/slide-05.md"
+    },
+    {
+      "page": 6,
+      "title": "Solutions",
+      "text": "6\nSolutions\n-\nIncrease number of bits retrieved at one time\n-Make DRAM 'wider' rather than 'deeper'\n-\nChange DRAM interface\n-Cache on DRAM chip\n-\nReduce frequency of memory accesses\n-More complex cache and cache on chip\n-\nIncrease interconnection bandwidth\n-High speed buses\n-Hierarchy of buses",
+      "body_markdown": "- Increase number of bits retrieved at one time\n- Make DRAM 'wider' rather than 'deeper'\n- Change DRAM interface\n- Cache on DRAM chip\n- Reduce frequency of memory accesses\n- More complex cache and cache on chip\n- Increase interconnection bandwidth\n- High speed buses\n- Hierarchy of buses",
+      "images": [],
+      "slide_file": "slides/slide-06.md"
+    },
+    {
+      "page": 7,
+      "title": "Improvements in Chip Organization and Architecture",
+      "text": "7\nImprovements in Chip Organization and Architecture\n-\nIncrease the hardware speed of the processor\n-Shrinking the size of the logic gates on the processor\n-More gates can be packed together more tightly\n-Propagation time for signals is reduced\n-Increasing the clock rate\n-Individual operations are executed more rapidly\n-\nIncrease the size and speed of caches\n-\nMake changes to the processor organization and architecture\n-Complex instruction execution logic to enable parallel execution",
+      "body_markdown": "- Increase the hardware speed of the processor\n- Shrinking the size of the logic gates on the processor\n- More gates can be packed together more tightly\n- Propagation time for signals is reduced\n- Increasing the clock rate\n- Individual operations are executed more rapidly\n- Increase the size and speed of caches\n- Make changes to the processor organization and architecture\n- Complex instruction execution logic to enable parallel execution",
+      "images": [],
+      "slide_file": "slides/slide-07.md"
+    },
+    {
+      "page": 8,
+      "title": "Problems with Clock Speed and Logic Density",
+      "text": "8\nProblems with Clock Speed and Logic Density\n-\nPower\n-\nRC delay\n-Components on chip ↓ in size\n-Wire interconnects become thinner → R ↑\n-Wires are closer together → C ↑\n-RC product ↑ → delay ↑\n-\nMemory latency and throughput",
+      "body_markdown": "- Power\n- RC delay\n- Components on chip ↓ in size\n- Wire interconnects become thinner → R ↑\n- Wires are closer together → C ↑\n- RC product ↑ → delay ↑\n- Memory latency and throughput",
+      "images": [],
+      "slide_file": "slides/slide-08.md"
+    },
+    {
+      "page": 9,
+      "title": "Multicore, MICs, GPGPUs",
+      "text": "9\nMulticore, MICs, GPGPUs\n-\nMulticore\n-Placing multiple processors on the same chip, with a large shared cache\n-Increases performance without increasing the clock rate\n-\nMany Integrated Cores (MIC)\n-Large number of cores\n-More than 50 cores per chip\n-\nGeneral Purpose Computing on Graphics Processing Units (GPGPUs)\n-Perform parallel operation on multiple sets of data",
+      "body_markdown": "- Multicore\n- Placing multiple processors on the same chip, with a large shared cache\n- Increases performance without increasing the clock rate\n- Many Integrated Cores (MIC)\n- Large number of cores\n- More than 50 cores per chip\n- General Purpose Computing on Graphics Processing Units (GPGPUs)\n- Perform parallel operation on multiple sets of data",
+      "images": [],
+      "slide_file": "slides/slide-09.md"
+    },
+    {
+      "page": 10,
+      "title": "Performance",
+      "text": "10\nPerformance\n-\nAccurately measuring and comparing different computers is critical to purchasers and therefore to\ndesigners.\n-\nWhen we say one computer has better performance than another, what do we mean?\n-\nIf you were running a program on two different desktop computers, you'd say that the faster\ncomputer is the one that gets the job done first.\n-As a pc user, you are interested in reducing response time-the time between the start and\ncompletion of a task-also referred to as execution time.\n-\nIf you were running a datacenter that had several servers running jobs submitted by many users,\nyou'd say that the faster computer is the one that completed the most jobs during a day.\n-Datacenter managers are often interested in increasing throughput -the total amount of\nwork done in a given time.",
+      "body_markdown": "- Accurately measuring and comparing different computers is critical to purchasers and therefore to\n- designers.\n- When we say one computer has better performance than another, what do we mean?\n- If you were running a program on two different desktop computers, you'd say that the faster\n- computer is the one that gets the job done first.\n- As a pc user, you are interested in reducing response time-the time between the start and\n- completion of a task-also referred to as execution time.\n- If you were running a datacenter that had several servers running jobs submitted by many users,\n- you'd say that the faster computer is the one that completed the most jobs during a day.\n- Datacenter managers are often interested in increasing throughput -the total amount of\n- work done in a given time.",
+      "images": [],
+      "slide_file": "slides/slide-10.md"
+    },
+    {
+      "page": 11,
+      "title": "Performance and Execution Time",
+      "text": "11\nPerformance and Execution Time\n-\nTo maximize performance, we want to minimize execution time for some task.\n-\nFor two computers X and Y, if the performance of X is greater than the performance of Y:\n-\nThe execution time on Y is longer than that on X, if X is faster than Y.",
+      "body_markdown": "- To maximize performance, we want to minimize execution time for some task.\n- For two computers X and Y, if the performance of X is greater than the performance of Y:\n- The execution time on Y is longer than that on X, if X is faster than Y.",
+      "images": [
+        {
+          "file": "images/slide-11-img-01.png",
+          "width": 360,
+          "height": 71
+        },
+        {
+          "file": "images/slide-11-img-02.png",
+          "width": 394,
+          "height": 154
+        }
+      ],
+      "slide_file": "slides/slide-11.md"
+    },
+    {
+      "page": 12,
+      "title": "Performance and Execution Time",
+      "text": "12\nPerformance and Execution Time\n-\nIn discussing a computer design, we often want to relate the performance of two different\ncomputers quantitatively. We will use the phrase \"X is n times faster than Y\" or equivalently \"X is n\ntimes as fast as Y\" to mean:\n-\nIf X is n times as fast as Y, then the execution time on Y is n times as long as it is on X:\n-\nWe usually say \"improve performance\" or \"improve execution time\" when we mean \"increase\nperformance\" and \"decrease execution time.\"",
+      "body_markdown": "- In discussing a computer design, we often want to relate the performance of two different\n- computers quantitatively. We will use the phrase \"X is n times faster than Y\" or equivalently \"X is n\n\n**times as fast as Y\" to mean:**\n- If X is n times as fast as Y, then the execution time on Y is n times as long as it is on X:\n- We usually say \"improve performance\" or \"improve execution time\" when we mean \"increase\n- performance\" and \"decrease execution time.\"",
+      "images": [
+        {
+          "file": "images/slide-12-img-01.png",
+          "width": 238,
+          "height": 78
+        },
+        {
+          "file": "images/slide-12-img-02.png",
+          "width": 427,
+          "height": 92
+        }
+      ],
+      "slide_file": "slides/slide-12.md"
+    },
+    {
+      "page": 13,
+      "title": "Relative Performance",
+      "text": "13\nRelative Performance\n-\nIf computer A runs a program in 10 seconds and computer B runs the same program in 15\nseconds, how much faster is A than B?\n-\nWe know that A is n times as fast as B if:\n-\nThe performance ratio is 15 / 10 = 1.5\nA is therefore 1.5 times as fast as B\n-\nWe could also say that computer B is 1.5 times slower than computer A, since\nmeans that",
+      "body_markdown": "- If computer A runs a program in 10 seconds and computer B runs the same program in 15\n- seconds, how much faster is A than B?\n\n**We know that A is n times as fast as B if:**\n- The performance ratio is 15 / 10 = 1.5\n- A is therefore 1.5 times as fast as B\n- We could also say that computer B is 1.5 times slower than computer A, since\n- means that",
+      "images": [
+        {
+          "file": "images/slide-13-img-01.png",
+          "width": 431,
+          "height": 82
+        },
+        {
+          "file": "images/slide-13-img-02.png",
+          "width": 229,
+          "height": 79
+        },
+        {
+          "file": "images/slide-13-img-03.png",
+          "width": 352,
+          "height": 65
+        }
+      ],
+      "slide_file": "slides/slide-13.md"
+    },
+    {
+      "page": 14,
+      "title": "Measuring Performance",
+      "text": "14\nMeasuring Performance\n-\nProgram execution time is measured in seconds per program.\n-\nTime can be defined in different ways, depending on what we count.\n-wall clock time, response time, or elapsed time\n-total time to complete a task, including disk accesses, memory accesses, I/O activities, OS\noverhead\n-\nA processor may work on several programs simultaneously.\n-\nCPU execution time or CPU time is the time the CPU spends computing for this task and does\nnot include time spent waiting for I/O or running other programs.",
+      "body_markdown": "- Program execution time is measured in seconds per program.\n- Time can be defined in different ways, depending on what we count.\n- wall clock time, response time, or elapsed time\n- total time to complete a task, including disk accesses, memory accesses, I/O activities, OS\n- overhead\n- A processor may work on several programs simultaneously.\n- CPU execution time or CPU time is the time the CPU spends computing for this task and does\n- not include time spent waiting for I/O or running other programs.",
+      "images": [],
+      "slide_file": "slides/slide-14.md"
+    },
+    {
+      "page": 15,
+      "title": "Clock Cycles",
+      "text": "15\nClock Cycles\n-\nAlmost all computers are constructed using a clock that determines when events take place in the\nhardware.\n-\nThese discrete time intervals are called clock cycles.\n-\nWe refer to the length of a clock period both as the time for a complete clock cycle (e.g. 250\npicoseconds) and as the clock rate (e.g., 4 gigahertz), which is the inverse of the clock period.",
+      "body_markdown": "- Almost all computers are constructed using a clock that determines when events take place in the\n- hardware.\n- These discrete time intervals are called clock cycles.\n- We refer to the length of a clock period both as the time for a complete clock cycle (e.g. 250\n- picoseconds) and as the clock rate (e.g., 4 gigahertz), which is the inverse of the clock period.",
+      "images": [],
+      "slide_file": "slides/slide-15.md"
+    },
+    {
+      "page": 16,
+      "title": "CPU Time",
+      "text": "16\nCPU Time\n-\nCPU time:\n-\nSince clock rate and clock cycle time are inverses:\n-\nPerformance improved by:\n-Reducing number of clock cycles\n-Increasing clock rate",
+      "body_markdown": "**CPU time:**\n\n**Since clock rate and clock cycle time are inverses:**\n\n**Performance improved by:**\n- Reducing number of clock cycles\n- Increasing clock rate",
+      "images": [
+        {
+          "file": "images/slide-16-img-01.png",
+          "width": 632,
+          "height": 73
+        },
+        {
+          "file": "images/slide-16-img-02.png",
+          "width": 573,
+          "height": 76
+        }
+      ],
+      "slide_file": "slides/slide-16.md"
+    },
+    {
+      "page": 17,
+      "title": "Improving Performance",
+      "text": "17\nImproving Performance\nOur favorite program runs in 10 seconds on computer A, which has a 2 GHz clock.\nWe are trying to help a computer designer build a computer, B, which will run this program in 6\nseconds.\nThe designer has determined that a substantial increase in the clock rate is possible, but this\nincrease will affect the rest of the CPU design, causing computer B to require 1.2 times as many\nclock cycles as computer A for this program.\nWhat clock rate should we tell the designer to target?",
+      "body_markdown": "- Our favorite program runs in 10 seconds on computer A, which has a 2 GHz clock.\n- We are trying to help a computer designer build a computer, B, which will run this program in 6\n- seconds.\n- The designer has determined that a substantial increase in the clock rate is possible, but this\n- increase will affect the rest of the CPU design, causing computer B to require 1.2 times as many\n- clock cycles as computer A for this program.\n- What clock rate should we tell the designer to target?",
+      "images": [],
+      "slide_file": "slides/slide-17.md"
+    },
+    {
+      "page": 18,
+      "title": "Solution",
+      "text": "18\nSolution",
+      "body_markdown": "",
+      "images": [
+        {
+          "file": "images/slide-18-img-01.png",
+          "width": 733,
+          "height": 247
+        },
+        {
+          "file": "images/slide-18-img-03.png",
+          "width": 733,
+          "height": 297
+        }
+      ],
+      "slide_file": "slides/slide-18.md"
+    },
+    {
+      "page": 19,
+      "title": "Instruction Performance",
+      "text": "19\nInstruction Performance\n-\nSince the computer has to execute the instructions to run the program, the execution time must\ndepend on the number of instructions in a program.\n-\nExecution time equals the number of instructions executed multiplied by the average time per\ninstruction.\n-\nThe number of clock cycles:\n-\nClock cycles per instruction (CPI) is the average number of clock cycles each instruction takes\nto execute.\n-\nSince different instructions may take different amounts of time depending on what they do, CPI is\nan average of all the instructions executed in the program.",
+      "body_markdown": "- Since the computer has to execute the instructions to run the program, the execution time must\n- depend on the number of instructions in a program.\n- Execution time equals the number of instructions executed multiplied by the average time per\n- instruction.\n\n**The number of clock cycles:**\n- Clock cycles per instruction (CPI) is the average number of clock cycles each instruction takes\n- to execute.\n- Since different instructions may take different amounts of time depending on what they do, CPI is\n- an average of all the instructions executed in the program.",
+      "images": [
+        {
+          "file": "images/slide-19-img-01.png",
+          "width": 690,
+          "height": 60
+        }
+      ],
+      "slide_file": "slides/slide-19.md"
+    },
+    {
+      "page": 20,
+      "title": "Example",
+      "text": "20\nExample\nSuppose we have two implementations of the same instruction set architecture.\nComputer A has a clock cycle time of 250 ps and a CPI of 2.0 for some program, and computer B\nhas a clock cycle time of 500 ps and a CPI of 1.2 for the same program.\nWhich computer is faster for this program and by how much?",
+      "body_markdown": "- Suppose we have two implementations of the same instruction set architecture.\n- Computer A has a clock cycle time of 250 ps and a CPI of 2.0 for some program, and computer B\n- has a clock cycle time of 500 ps and a CPI of 1.2 for the same program.\n- Which computer is faster for this program and by how much?",
+      "images": [],
+      "slide_file": "slides/slide-20.md"
+    },
+    {
+      "page": 21,
+      "title": "Solution",
+      "text": "21\nSolution",
+      "body_markdown": "",
+      "images": [
+        {
+          "file": "images/slide-21-img-02.png",
+          "width": 801,
+          "height": 524
+        },
+        {
+          "file": "images/slide-21-img-03.png",
+          "width": 567,
+          "height": 41
+        },
+        {
+          "file": "images/slide-21-img-04.png",
+          "width": 201,
+          "height": 48
+        }
+      ],
+      "slide_file": "slides/slide-21.md"
+    },
+    {
+      "page": 22,
+      "title": "CPU Performance Equation",
+      "text": "22\nCPU Performance Equation\n-\nWe can write this basic performance equation in terms of instruction count, CPI, and clock\ncycle time\n𝐶𝑃𝑈𝑡𝑖𝑚𝑒= 𝑖𝑛𝑠𝑡𝑟𝑢𝑐𝑡𝑖𝑜𝑛𝑐𝑜𝑢𝑛𝑡× 𝐶𝑃𝐼× 𝑐𝑙𝑜𝑐𝑘𝑐𝑦𝑐𝑙𝑒𝑡𝑖𝑚𝑒\n-\nSince the clock rate is the inverse of the clock cycle time:\n𝐶𝑃𝑈𝑡𝑖𝑚𝑒= 𝑖𝑛𝑠𝑡𝑟𝑢𝑐𝑡𝑖𝑜𝑛𝑐𝑜𝑢𝑛𝑡× 𝐶𝑃𝐼\n𝑐𝑙𝑜𝑐𝑘𝑟𝑎𝑡𝑒",
+      "body_markdown": "- We can write this basic performance equation in terms of instruction count, CPI, and clock\n- cycle time\n- 𝐶𝑃𝑈𝑡𝑖𝑚𝑒= 𝑖𝑛𝑠𝑡𝑟𝑢𝑐𝑡𝑖𝑜𝑛𝑐𝑜𝑢𝑛𝑡× 𝐶𝑃𝐼× 𝑐𝑙𝑜𝑐𝑘𝑐𝑦𝑐𝑙𝑒𝑡𝑖𝑚𝑒\n\n**Since the clock rate is the inverse of the clock cycle time:**\n- 𝐶𝑃𝑈𝑡𝑖𝑚𝑒= 𝑖𝑛𝑠𝑡𝑟𝑢𝑐𝑡𝑖𝑜𝑛𝑐𝑜𝑢𝑛𝑡× 𝐶𝑃𝐼\n- 𝑐𝑙𝑜𝑐𝑘𝑟𝑎𝑡𝑒",
+      "images": [
+        {
+          "file": "images/slide-22-img-01.png",
+          "width": 573,
+          "height": 76
+        },
+        {
+          "file": "images/slide-22-img-02.png",
+          "width": 690,
+          "height": 60
+        }
+      ],
+      "slide_file": "slides/slide-22.md"
+    },
+    {
+      "page": 23,
+      "title": "CPI in More Detail",
+      "text": "23\nCPI in More Detail\n-\nIf different instruction classes take different numbers of cycles\n-\nWeighted average CPI\n\n=\n\n=\nn\n1\ni\ni\ni\n)\nCount\nn\nInstructio\n(CPI\nCycles\nClock\n\n=\n\n\n\n\n\n\n\n=\n=\nn\n1\ni\ni\ni\nCount\nn\nInstructio\nCount\nn\nInstructio\nCPI\nCount\nn\nInstructio\nCycles\nClock\nCPI",
+      "body_markdown": "- If different instruction classes take different numbers of cycles\n- Weighted average CPI\n- \n- =\n- \n- =\n- n\n- i\n- i\n- i\n- )\n- Count\n- n\n- Instructio\n- (CPI\n- Cycles\n- Clock\n- \n- =\n- \n- \n- \n- \n- \n- \n- \n- =\n- =\n- n\n- i\n- i\n- i\n- Count\n- n\n- Instructio\n- Count\n- n\n- Instructio\n- CPI\n- Count\n- n\n- Instructio\n- Cycles\n- Clock\n- CPI",
+      "images": [
+        {
+          "file": "images/slide-23-img-01.png",
+          "width": 690,
+          "height": 60
+        }
+      ],
+      "slide_file": "slides/slide-23.md"
+    },
+    {
+      "page": 24,
+      "title": "Comparing Code Segments",
+      "text": "24\nComparing Code Segments\nA compiler designer is trying to decide between two code sequences for a particular computer. The\nhardware designers have supplied the following facts:\nFor a particular high-level language statement, the compiler writer is considering two code\nsequences that require the following instruction counts:\nWhich code sequence executes the\nmost instructions?\nWhich will be faster? What is the CPI for each sequence?\nCPI for each instruction class\nA\nB\nC\nCPI\n1\n2\n3\nCode sequence\nInstruction counts for each instruction class\nA\nB\nC\n1\n2\n1\n2\n2\n4\n1\n1",
+      "body_markdown": "- A compiler designer is trying to decide between two code sequences for a particular computer. The\n\n**hardware designers have supplied the following facts:**\n- For a particular high-level language statement, the compiler writer is considering two code\n\n**sequences that require the following instruction counts:**\n- Which code sequence executes the\n- most instructions?\n- Which will be faster? What is the CPI for each sequence?\n- CPI for each instruction class\n- A\n- B\n- C\n- CPI\n- Code sequence\n- Instruction counts for each instruction class\n- A\n- B\n- C",
+      "images": [],
+      "slide_file": "slides/slide-24.md"
+    },
+    {
+      "page": 25,
+      "title": "Solution",
+      "text": "25\nSolution",
+      "body_markdown": "",
+      "images": [
+        {
+          "file": "images/slide-25-img-01.png",
+          "width": 773,
+          "height": 684
+        }
+      ],
+      "slide_file": "slides/slide-25.md"
+    },
+    {
+      "page": 26,
+      "title": "The Big Picture",
+      "text": "26\nThe Big Picture\n-\nBasic measurements at different levels and what is being measured in each case\n-\nThese factors are combined to yield execution time measured in seconds per program\n𝑇𝑖𝑚𝑒= 𝑠𝑒𝑐𝑜𝑛𝑑𝑠\n𝑝𝑟𝑜𝑔𝑟𝑎𝑚= 𝑖𝑛𝑠𝑡𝑟𝑢𝑐𝑡𝑖𝑜𝑛𝑠\n𝑝𝑟𝑜𝑔𝑟𝑎𝑚\n× 𝑐𝑙𝑜𝑐𝑘𝑐𝑦𝑐𝑙𝑒𝑠\n𝑖𝑛𝑠𝑡𝑟𝑢𝑐𝑡𝑖𝑜𝑛×\n𝑠𝑒𝑐𝑜𝑛𝑑𝑠\n𝑐𝑙𝑜𝑐𝑘𝑐𝑦𝑐𝑙𝑒\nComponents of performance\nUnits of measure\nHow they're measured\nCPU execution time for a\nprogram\nSeconds for the program\nrunning the program\nInstruction count\nInstructions executed for the program sw tools, simulator, hw counters\nClock cycles per instruction\n(CPI)\nAvg number of clock cycles per\ninstruction\nhw counters\nClock cycle time\nSeconds per clock cycle\ndocumentation",
+      "body_markdown": "- Basic measurements at different levels and what is being measured in each case\n- These factors are combined to yield execution time measured in seconds per program\n- 𝑇𝑖𝑚𝑒= 𝑠𝑒𝑐𝑜𝑛𝑑𝑠\n- 𝑝𝑟𝑜𝑔𝑟𝑎𝑚= 𝑖𝑛𝑠𝑡𝑟𝑢𝑐𝑡𝑖𝑜𝑛𝑠\n- 𝑝𝑟𝑜𝑔𝑟𝑎𝑚\n- × 𝑐𝑙𝑜𝑐𝑘𝑐𝑦𝑐𝑙𝑒𝑠\n- 𝑖𝑛𝑠𝑡𝑟𝑢𝑐𝑡𝑖𝑜𝑛×\n- 𝑠𝑒𝑐𝑜𝑛𝑑𝑠\n- 𝑐𝑙𝑜𝑐𝑘𝑐𝑦𝑐𝑙𝑒\n- Components of performance\n- Units of measure\n- How they're measured\n- CPU execution time for a\n- program\n- Seconds for the program\n- running the program\n- Instruction count\n- Instructions executed for the program sw tools, simulator, hw counters\n- Clock cycles per instruction\n- (CPI)\n- Avg number of clock cycles per\n- instruction\n- hw counters\n- Clock cycle time\n- Seconds per clock cycle\n- documentation",
+      "images": [],
+      "slide_file": "slides/slide-26.md"
+    },
+    {
+      "page": 27,
+      "title": "MIPS and MFLOPs",
+      "text": "27\nMIPS and MFLOPs\n-\nMIPS\n-millions of instructions per second\n-instruction execution rate\n-expressed in terms of the clock rate and CPI :\n𝑀𝐼𝑃𝑆𝑟𝑎𝑡𝑒=\n𝑖𝑛𝑠𝑡𝑟𝑢𝑐𝑡𝑖𝑜𝑛𝑐𝑜𝑢𝑛𝑡\n𝑒𝑥𝑒𝑐𝑢𝑡𝑖𝑜𝑛𝑡𝑖𝑚𝑒× 106 = 𝑐𝑙𝑜𝑐𝑘𝑟𝑎𝑡𝑒\n𝐶𝑃𝐼× 106\n-\nMFLOPS\n-millions of floating-point operations per second\n-performance measure that deals only with FP instructions\n-common in many scientific and game applications\n-expressed as\n𝑀𝐹𝐿𝑂𝑃𝑠𝑟𝑎𝑡𝑒= 𝑛𝑢𝑚𝑏𝑒𝑟𝑜𝑓𝑒𝑥𝑒𝑐𝑢𝑡𝑒𝑑𝐹𝑃𝑜𝑝𝑒𝑟𝑎𝑡𝑖𝑜𝑛𝑠𝑖𝑛𝑎𝑝𝑟𝑜𝑔𝑟𝑎𝑚\n𝑒𝑥𝑒𝑐𝑢𝑡𝑖𝑜𝑛𝑡𝑖𝑚𝑒× 106\nPitfall: Using a subset\nof the performance\nequation as a\nperformance metric.\nExecution time is the\nonly valid and\nunimpeachable\nmeasure of\nperformance.",
+      "body_markdown": "- MIPS\n- millions of instructions per second\n- instruction execution rate\n- expressed in terms of the clock rate and CPI :\n- 𝑀𝐼𝑃𝑆𝑟𝑎𝑡𝑒=\n- 𝑖𝑛𝑠𝑡𝑟𝑢𝑐𝑡𝑖𝑜𝑛𝑐𝑜𝑢𝑛𝑡\n- 𝑒𝑥𝑒𝑐𝑢𝑡𝑖𝑜𝑛𝑡𝑖𝑚𝑒× 106 = 𝑐𝑙𝑜𝑐𝑘𝑟𝑎𝑡𝑒\n- 𝐶𝑃𝐼× 106\n- MFLOPS\n- millions of floating-point operations per second\n- performance measure that deals only with FP instructions\n- common in many scientific and game applications\n- expressed as\n- 𝑀𝐹𝐿𝑂𝑃𝑠𝑟𝑎𝑡𝑒= 𝑛𝑢𝑚𝑏𝑒𝑟𝑜𝑓𝑒𝑥𝑒𝑐𝑢𝑡𝑒𝑑𝐹𝑃𝑜𝑝𝑒𝑟𝑎𝑡𝑖𝑜𝑛𝑠𝑖𝑛𝑎𝑝𝑟𝑜𝑔𝑟𝑎𝑚\n- 𝑒𝑥𝑒𝑐𝑢𝑡𝑖𝑜𝑛𝑡𝑖𝑚𝑒× 106\n- Pitfall: Using a subset\n- of the performance\n- equation as a\n- performance metric.\n- Execution time is the\n- only valid and\n- unimpeachable\n- measure of\n- performance.",
+      "images": [],
+      "slide_file": "slides/slide-27.md"
+    },
+    {
+      "page": 28,
+      "title": "MIPS Example",
+      "text": "28\nMIPS Example\nConsider the execution of a program that results in the execution of 2 million instructions on a 400-\nMHz processor.\nThe program consists of four major types of instructions.\nThe instruction mix and the CPI for each instruction type are given below based on the result of a\nprogram trace experiment:\nThe average CPI = 0.6 + (2 x 0.18) + (4 x 0.12) + (8 x 0.1) = 2.24\nThe corresponding MIPS rate is (400 x 106)/(2.24 x 106) ≈178\nInstruction type\nCPI\nInstruction mix (%)\nArithmetic and logic\n1\n60\nLoad/store with cache hit\n2\n18\nBranch\n4\n12\nMemory reference with cache miss\n8\n10",
+      "body_markdown": "- Consider the execution of a program that results in the execution of 2 million instructions on a 400-\n- MHz processor.\n- The program consists of four major types of instructions.\n- The instruction mix and the CPI for each instruction type are given below based on the result of a\n\n**program trace experiment:**\n- The average CPI = 0.6 + (2 x 0.18) + (4 x 0.12) + (8 x 0.1) = 2.24\n- The corresponding MIPS rate is (400 x 106)/(2.24 x 106) ≈178\n- Instruction type\n- CPI\n- Instruction mix (%)\n- Arithmetic and logic\n- Load/store with cache hit\n- Branch\n- Memory reference with cache miss",
+      "images": [],
+      "slide_file": "slides/slide-28.md"
+    },
+    {
+      "page": 29,
+      "title": "Amdahl's Law",
+      "text": "29\nAmdahl's Law\n-\nAssume\nwe\nwant\nto\nparallelize\nan\napplication\n-\nWe would expect that doubling the number\nof\nprocessing\nunits\nshould\nhalve\nthe\nparallel execution time.\n-\nWe would expect that the speedup from\nparallelization would be a linear function of\nthe number of processing units.\n-\nLet P be a sequential program processing\nfiles from disk:\n-P1 scans the directory of the disk, creates\na list of file names, and hands the list over\nto P2\n-P2 passes each file to the processing unit\nfor processing\n-\nNote: P1 cannot be sped up by adding new\nprocessing units, because scanning the disk\ndirectory is a sequential process. P2 can be\nsped up.\n-\nSuppose the sequential execution of P takes\n100 s\n-the non-parallelizable P1 runs 20 s\n-the parallelizable P2 runs 80 s\nMotivation\nExample",
+      "body_markdown": "- Assume\n- we\n- want\n- to\n- parallelize\n- an\n- application\n- We would expect that doubling the number\n- of\n- processing\n- units\n- should\n- halve\n- the\n- parallel execution time.\n- We would expect that the speedup from\n- parallelization would be a linear function of\n- the number of processing units.\n- Let P be a sequential program processing\n\n**files from disk:**\n- P1 scans the directory of the disk, creates\n- a list of file names, and hands the list over\n- to P2\n- P2 passes each file to the processing unit\n- for processing\n- Note: P1 cannot be sped up by adding new\n- processing units, because scanning the disk\n- directory is a sequential process. P2 can be\n- sped up.\n- Suppose the sequential execution of P takes\n- 100 s\n- the non-parallelizable P1 runs 20 s\n- the parallelizable P2 runs 80 s\n- Motivation\n- Example",
+      "images": [
+        {
+          "file": "images/slide-29-img-01.png",
+          "width": 457,
+          "height": 162
+        }
+      ],
+      "slide_file": "slides/slide-29.md"
+    },
+    {
+      "page": 30,
+      "title": "Amdahl's Law",
+      "text": "30\nAmdahl's Law\n-\nThe execution time of the program after making the improvement is given by Amdahl's Law:\n-\nAmdahl's Law: A rule stating that the performance enhancement possible with a given\nimprovement is limited by the amount that the improved feature is used.\n-\nFor the previous example, suppose we parallelize over 2 processing units:\nExecution time after improvement = 80/2 + 20 = 60 s.\nExecution time after improvement\n+ execution time unaffected\n=\nexecution time affected by improvement\namount of improvement",
+      "body_markdown": "- The execution time of the program after making the improvement is given by Amdahl's Law:\n- Amdahl's Law: A rule stating that the performance enhancement possible with a given\n- improvement is limited by the amount that the improved feature is used.\n\n**For the previous example, suppose we parallelize over 2 processing units:**\n- Execution time after improvement = 80/2 + 20 = 60 s.\n- Execution time after improvement\n- + execution time unaffected\n- =\n- execution time affected by improvement\n- amount of improvement",
+      "images": [],
+      "slide_file": "slides/slide-30.md"
+    },
+    {
+      "page": 31,
+      "title": "Amdahl's Law - Example",
+      "text": "31\nAmdahl's Law - Example\nBy how much do I have to improve the speed of P2 if I want my program to run five times faster?\n𝑒𝑥𝑒𝑐𝑢𝑡𝑖𝑜𝑛𝑡𝑖𝑚𝑒𝑎𝑓𝑡𝑒𝑟𝑖𝑚𝑝𝑟𝑜𝑣𝑒𝑚𝑒𝑛𝑡= 80 𝑠𝑒𝑐\n𝑛\n+ (100 −80 𝑠𝑒𝑐)\nSince we want the performance to be five times faster, the new execution time should be 20 s\n20 𝑠𝑒𝑐= 80 𝑠𝑒𝑐\n𝑛\n+ 20 𝑠𝑒𝑐\nThere is no amount by which we can enhance to achieve a five-fold increase in performance.\nPerformance enhancement possible with a given improvement is limited by the amount that the\nimproved feature is used.\n0 = 80 𝑠𝑒𝑐\n𝑛",
+      "body_markdown": "- By how much do I have to improve the speed of P2 if I want my program to run five times faster?\n- 𝑒𝑥𝑒𝑐𝑢𝑡𝑖𝑜𝑛𝑡𝑖𝑚𝑒𝑎𝑓𝑡𝑒𝑟𝑖𝑚𝑝𝑟𝑜𝑣𝑒𝑚𝑒𝑛𝑡= 80 𝑠𝑒𝑐\n- 𝑛\n- + (100 −80 𝑠𝑒𝑐)\n- Since we want the performance to be five times faster, the new execution time should be 20 s\n- 20 𝑠𝑒𝑐= 80 𝑠𝑒𝑐\n- 𝑛\n- + 20 𝑠𝑒𝑐\n- There is no amount by which we can enhance to achieve a five-fold increase in performance.\n- Performance enhancement possible with a given improvement is limited by the amount that the\n- improved feature is used.\n- 0 = 80 𝑠𝑒𝑐\n- 𝑛",
+      "images": [],
+      "slide_file": "slides/slide-31.md"
+    },
+    {
+      "page": 32,
+      "title": "Amdahl's Law - Speedup",
+      "text": "32\nAmdahl's Law - Speedup\n-\nDeals with the potential speedup of a program using multiple processors compared to a single\nprocessor:\n𝑆𝑝𝑒𝑒𝑑𝑢𝑝=\n𝑇𝑖𝑚𝑒𝑡𝑜𝑒𝑥𝑒𝑐𝑢𝑡𝑒𝑝𝑟𝑜𝑔𝑟𝑎𝑚𝑜𝑛𝑎𝑠𝑖𝑛𝑔𝑙𝑒𝑝𝑟𝑜𝑐𝑒𝑠𝑠𝑜𝑟\n𝑇𝑖𝑚𝑒𝑡𝑜𝑒𝑥𝑒𝑐𝑢𝑡𝑒𝑝𝑟𝑜𝑔𝑟𝑎𝑚𝑜𝑛𝑁𝑝𝑎𝑟𝑎𝑙𝑙𝑒𝑙𝑝𝑟𝑜𝑐𝑒𝑠𝑠𝑜𝑟𝑠\n-\nLet T be the total execution time using a single processor, and f be the proportion of the program\nthat can take advantage of multiple cores and N be the number of cores:\n𝑆𝑝𝑒𝑒𝑑𝑢𝑝= 𝑇1 −𝑓+ 𝑇𝑓\n𝑇1 −𝑓+ 𝑇𝑓\n𝑁\n=\n1\n1 −𝑓+ 𝑓\n𝑁",
+      "body_markdown": "- Deals with the potential speedup of a program using multiple processors compared to a single\n\n**processor:**\n- 𝑆𝑝𝑒𝑒𝑑𝑢𝑝=\n- 𝑇𝑖𝑚𝑒𝑡𝑜𝑒𝑥𝑒𝑐𝑢𝑡𝑒𝑝𝑟𝑜𝑔𝑟𝑎𝑚𝑜𝑛𝑎𝑠𝑖𝑛𝑔𝑙𝑒𝑝𝑟𝑜𝑐𝑒𝑠𝑠𝑜𝑟\n- 𝑇𝑖𝑚𝑒𝑡𝑜𝑒𝑥𝑒𝑐𝑢𝑡𝑒𝑝𝑟𝑜𝑔𝑟𝑎𝑚𝑜𝑛𝑁𝑝𝑎𝑟𝑎𝑙𝑙𝑒𝑙𝑝𝑟𝑜𝑐𝑒𝑠𝑠𝑜𝑟𝑠\n- Let T be the total execution time using a single processor, and f be the proportion of the program\n\n**that can take advantage of multiple cores and N be the number of cores:**\n- 𝑆𝑝𝑒𝑒𝑑𝑢𝑝= 𝑇1 −𝑓+ 𝑇𝑓\n- 𝑇1 −𝑓+ 𝑇𝑓\n- 𝑁\n- =\n- 1 −𝑓+ 𝑓\n- 𝑁",
+      "images": [],
+      "slide_file": "slides/slide-32.md"
+    },
+    {
+      "page": 33,
+      "title": "Speedup Example",
+      "text": "33\nSpeedup Example\n-\nSuppose that a task makes extensive use of floating-point operations, with 40% of the time\nconsumed by floating-point operations.\n-\nWith a new hardware design, the floating-point module is sped up by a factor of K.\n-\nWhat is the overall speedup?\n𝑆𝑝𝑒𝑒𝑑𝑢𝑝=\n1\n0.6 + 0.4\n𝐾",
+      "body_markdown": "- Suppose that a task makes extensive use of floating-point operations, with 40% of the time\n- consumed by floating-point operations.\n- With a new hardware design, the floating-point module is sped up by a factor of K.\n- What is the overall speedup?\n- 𝑆𝑝𝑒𝑒𝑑𝑢𝑝=\n- 0.6 + 0.4\n- 𝐾",
+      "images": [],
+      "slide_file": "slides/slide-33.md"
+    },
+    {
+      "page": 34,
+      "title": "Benchmarks",
+      "text": "34\nBenchmarks\n-\nThere are many statistics that can influence a system's performance\n-\nWhat users care about is the overall performance running a particular type of program\n-\nBenchmarks are used to summarize the performance of a system running examples of actual\ncode\n-\nDesirable characteristics of a benchmark program:\n-It is written in a high-level language, making it portable across different machines\n-It is representative of a particular kind of programming style, such as systems programming,\nnumerical programming, or commercial programming\n-It can be measured easily\n-It has wide distribution",
+      "body_markdown": "- There are many statistics that can influence a system's performance\n- What users care about is the overall performance running a particular type of program\n- Benchmarks are used to summarize the performance of a system running examples of actual\n- code\n\n**Desirable characteristics of a benchmark program:**\n- It is written in a high-level language, making it portable across different machines\n- It is representative of a particular kind of programming style, such as systems programming,\n- numerical programming, or commercial programming\n- It can be measured easily\n- It has wide distribution",
+      "images": [],
+      "slide_file": "slides/slide-34.md"
+    },
+    {
+      "page": 35,
+      "title": "System Performance Evaluation Corporation (SPEC)",
+      "text": "35\nSystem Performance Evaluation Corporation (SPEC)\n-\nBenchmark suite\n-A collection of programs, defined in a high-level language\n-Together attempt to provide a representative test of a computer in a particular application or\nsystem programming area\n-\nSPEC\n-An industry consortium\n-Defines and maintains the best-known collection of benchmark suites aimed at evaluating\ncomputer systems\n-Performance measures are widely used for comparison and research purposes",
+      "body_markdown": "- Benchmark suite\n- A collection of programs, defined in a high-level language\n- Together attempt to provide a representative test of a computer in a particular application or\n- system programming area\n- SPEC\n- An industry consortium\n- Defines and maintains the best-known collection of benchmark suites aimed at evaluating\n- computer systems\n- Performance measures are widely used for comparison and research purposes",
+      "images": [],
+      "slide_file": "slides/slide-35.md"
+    },
+    {
+      "page": 36,
+      "title": "SPEC CPU2017 Benchmarks",
+      "text": "36\nSPEC CPU2017 Benchmarks\n-\nBest-known SPEC benchmark suite\n-\nIndustry standard suite for processor-intensive applications\n-\nAppropriate for measuring performance for applications that spend most of their time doing\ncomputation rather than I/O\n-\nDrawn from real-life applications, rather than using artificial loop programs or synthetic\nbenchmarks\n-\nConsists of 23 floating point programs and 20 integer programs written in C, C++, and Fortran\n-\nSuite contains over 11 million lines of code\n-\nSixth generation of processor-intensive suites from SPEC\n-fifth generation was CPU2006\n-CPU2017 designed to provide a contemporary set of benchmarks that reflect the dramatic\nchanges in workload and performance requirements in the 11 years since CPU2006",
+      "body_markdown": "- Best-known SPEC benchmark suite\n- Industry standard suite for processor-intensive applications\n- Appropriate for measuring performance for applications that spend most of their time doing\n- computation rather than I/O\n- Drawn from real-life applications, rather than using artificial loop programs or synthetic\n- benchmarks\n- Consists of 23 floating point programs and 20 integer programs written in C, C++, and Fortran\n- Suite contains over 11 million lines of code\n- Sixth generation of processor-intensive suites from SPEC\n- fifth generation was CPU2006\n- CPU2017 designed to provide a contemporary set of benchmarks that reflect the dramatic\n- changes in workload and performance requirements in the 11 years since CPU2006",
+      "images": [],
+      "slide_file": "slides/slide-36.md"
+    },
+    {
+      "page": 37,
+      "title": "SPEC CPU2017 Integer Benchmarks",
+      "text": "37\nSPEC CPU2017 Integer Benchmarks",
+      "body_markdown": "",
+      "images": [
+        {
+          "file": "images/slide-37-img-01.png",
+          "width": 693,
+          "height": 319
+        }
+      ],
+      "slide_file": "slides/slide-37.md"
+    },
+    {
+      "page": 38,
+      "title": "SPEC CPU2017 Floating Point Benchmarks",
+      "text": "38\nSPEC CPU2017 Floating Point Benchmarks",
+      "body_markdown": "",
+      "images": [
+        {
+          "file": "images/slide-38-img-01.png",
+          "width": 701,
+          "height": 397
+        }
+      ],
+      "slide_file": "slides/slide-38.md"
+    }
+  ],
+  "images": [
+    {
+      "slide": 1,
+      "file": "images/slide-01-img-01.png",
+      "width": 497,
+      "height": 217
+    },
+    {
+      "slide": 11,
+      "file": "images/slide-11-img-01.png",
+      "width": 360,
+      "height": 71
+    },
+    {
+      "slide": 11,
+      "file": "images/slide-11-img-02.png",
+      "width": 394,
+      "height": 154
+    },
+    {
+      "slide": 12,
+      "file": "images/slide-12-img-01.png",
+      "width": 238,
+      "height": 78
+    },
+    {
+      "slide": 12,
+      "file": "images/slide-12-img-02.png",
+      "width": 427,
+      "height": 92
+    },
+    {
+      "slide": 13,
+      "file": "images/slide-13-img-01.png",
+      "width": 431,
+      "height": 82
+    },
+    {
+      "slide": 13,
+      "file": "images/slide-13-img-02.png",
+      "width": 229,
+      "height": 79
+    },
+    {
+      "slide": 13,
+      "file": "images/slide-13-img-03.png",
+      "width": 352,
+      "height": 65
+    },
+    {
+      "slide": 16,
+      "file": "images/slide-16-img-01.png",
+      "width": 632,
+      "height": 73
+    },
+    {
+      "slide": 16,
+      "file": "images/slide-16-img-02.png",
+      "width": 573,
+      "height": 76
+    },
+    {
+      "slide": 18,
+      "file": "images/slide-18-img-01.png",
+      "width": 733,
+      "height": 247
+    },
+    {
+      "slide": 18,
+      "file": "images/slide-18-img-03.png",
+      "width": 733,
+      "height": 297
+    },
+    {
+      "slide": 19,
+      "file": "images/slide-19-img-01.png",
+      "width": 690,
+      "height": 60
+    },
+    {
+      "slide": 21,
+      "file": "images/slide-21-img-02.png",
+      "width": 801,
+      "height": 524
+    },
+    {
+      "slide": 21,
+      "file": "images/slide-21-img-03.png",
+      "width": 567,
+      "height": 41
+    },
+    {
+      "slide": 21,
+      "file": "images/slide-21-img-04.png",
+      "width": 201,
+      "height": 48
+    },
+    {
+      "slide": 22,
+      "file": "images/slide-22-img-01.png",
+      "width": 573,
+      "height": 76
+    },
+    {
+      "slide": 22,
+      "file": "images/slide-22-img-02.png",
+      "width": 690,
+      "height": 60
+    },
+    {
+      "slide": 23,
+      "file": "images/slide-23-img-01.png",
+      "width": 690,
+      "height": 60
+    },
+    {
+      "slide": 25,
+      "file": "images/slide-25-img-01.png",
+      "width": 773,
+      "height": 684
+    },
+    {
+      "slide": 29,
+      "file": "images/slide-29-img-01.png",
+      "width": 457,
+      "height": 162
+    },
+    {
+      "slide": 37,
+      "file": "images/slide-37-img-01.png",
+      "width": 693,
+      "height": 319
+    },
+    {
+      "slide": 38,
+      "file": "images/slide-38-img-01.png",
+      "width": 701,
+      "height": 397
+    }
+  ]
+}
